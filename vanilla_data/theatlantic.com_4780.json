@@ -1,0 +1,3122 @@
+{
+  "initialUrl": "http://theatlantic.com/",
+  "finalUrl": "https://www.theatlantic.com/",
+  "timeout": false,
+  "testStarted": 1709502719849,
+  "testFinished": 1709502744093,
+  "data": {
+    "requests": [
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/hntrie.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 28060,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"Er8vVKiCQn/QLsrtE4b7i/p31bY=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "0c2d598dcfb869d73fdd210d8d4de6be01bf963fd68493aff38412a4558a6543",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-net-filtering.js"
+        ],
+        "time": 0.08541099994909018
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-ext-filtering-db.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6022,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"jqRZdGl0d4KQTEg9Iimy9jCMWE0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "fed5ab181ee1c6857ee8c7e6ef251dba74d361e7cc291b076199e2fedaca50cc",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/html-filtering.js"
+        ],
+        "time": 0.08646899997256696
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/lib/regexanalyzer/regex.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 71968,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"Zc4zMrbKNl4jIVUdCsA8BAi5Qk8=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "de0a7a04bd5349dd3ffb91fb54d66fc5ccbd930f8c4bdb41ddac4dd03e18aacb",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-filtering-parser.js"
+        ],
+        "time": 0.10103300004266202
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/lib/csstree/css-tree.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 167973,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"4WxGcJjJUcwPUMlunC7RvGLWaI4=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "ecc4507fac946cbe442962e11bb058195dbe72545cce42f34338a83726ec56e0",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-filtering-parser.js"
+        ],
+        "time": 0.1050299999769777
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16-off.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 552,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"UjtU7CjAmAcHX4DBL09uSijcYkg=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "7ea99590d4b3f5ffbd7610f8ae42a72803a0f809200f595b943d5a622eb8d9bd",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.18638500000815839
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32-off.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1114,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"nkCRpu+nneDbhSqRHQsS4ngvo0I=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "3c8bf856b1fed942ab11cfc92aeda135adcc25c7012528f4b95cc6cb0e74a2cb",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.18619500007480383
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 420,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"9uZWEEQawXEa9JeFZdVDxheK738=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "5bc0b6c5d00309f9dae2be3fb505fda1ccdfa5c4d2994e167c8fb473bf95a777",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.1881329999305308
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1278,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"e74+CjUkVkdX//K9KytM4jGb4Sg=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "2fd0f85a569e98791d39884b54e706d105e5db0dfc60a319a40e09d48fc9b878",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.18585200002416968
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 570,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"SCCY3xHCtdMdB9jfy1lKOHd91yw=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "75cfccc844e135a85d7508a5892f72bac16b510919e4d4d5801ded7b1901a5cd",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background-ext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js"
+        ],
+        "time": 0.22522499994374812
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1089,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"RmlX4Eb0Vf+9Lga44dPV6pw/juM=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "230dc98bf942ad4be6016cbff229ae0605f2f02401e406ef0d649e7b1cca37ae",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background-ext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js"
+        ],
+        "time": 0.2235180001007393
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_64-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4406,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"VxvYv0EN5oLKTZD+GqhZRU48+qM=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "d52e425f9820d4c3e27e3ba658b7d21b14e3fbda7dd43febeea5a6021809060c",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background-ext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js"
+        ],
+        "time": 0.22502099990379065
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/badlists.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 4136,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"eOiMDeKtL1q/V6TIuAFaDCVjfWY=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "109822a6b68367e225fd701e53be3419800b95c7d4becd50bf8a2d49ba22424f",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.41167999990284443
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/resources/scriptlets.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 125820,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"CgwgzxiUJT5q+w9lH7Se+5ZMoIc=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "82d47ba987d73c40c4e7363b9ab5dba77ed1527a26d77909e3cedc27a5cd3439",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.5170940000098199
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/1x1.gif?secret=3o0adz",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 43,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"72D+/UKGYStX5er87ISTvvrF5tQ=\"",
+          "content-type": "image/gif"
+        },
+        "responseBodyHash": "6b3da89922d333d106b84fefeebd7b16bfebf4cfbd7bef37fa10a47c471ae64c",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.501393000013195
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/2x2.png?secret=ujtkyi",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 68,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"esKRo0fVKvgNoUzOaCbJcHcCR5c=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "53b14a22cd3dc973d6cb1a381d01fafafc4da1632bacbf15f7fac0014fbe70c0",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.500887000001967
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/3x2.png?secret=7s0tpi",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 68,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"FE1vXRwHfZli324eMoQlsnugEho=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "c6ea854b737a88835e1c7349bcfa0730f55e19de7acf0f54f9d6ea817fcd2f20",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.5020979999098927
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/32x32.png?secret=x5up3c",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 83,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"67CnMiH92/CeXXcyr+80HclqFxI=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "173650f1d19d59786ce8dd44c64cd8fb4471552c2e247fb774bec92726a7ee6b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.500116000068374
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/amazon_ads.js?secret=hlip5q",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2296,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"By+IDkPL9F/5lkH5nXfR93EB23k=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "41901805f575d9d06608682999cf588b12c318face2ed04e8566ec8cbec4c610",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.5015259999781847
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/doubleclick_instream_ad_status.js?secret=3lxq8s",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 29,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"s8ZaX7h28RDv/PN40yMhb1rRBto=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "eed0dc1fdb5d97ed188ae16fd5e1024a5bb744af47340346be2146300a6c54b9",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.4959629999939352
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/empty?secret=b3jwvd",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"w1USgRq36N3lrsNJbzqv38xCsUk=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.4963870000792667
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/fingerprint2.js?secret=skzdex",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1810,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"PePG6yN3ZEGZMHdAk3DkU2BtUIM=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "7db8892256cdf45ad5ca5748e136e0c241b53b38c5adaa744a42ca139f05ffb3",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.5372409999836236
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/fingerprint3.js?secret=b1m9d9",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1492,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"CetrBFm7a360yitCLL/02QWkJT8=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "6fd5703f2bdd85932f18adc99f30d8736d2bf5f09b1dde6c129f4616259fc827",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.501894999993965
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_analytics.js?secret=ur9glb",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3695,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"wTqkQ1ryNce63XhVKrXix8otYW0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "6b4621868cac589a603fe1263aad242f67262ef971bdacaccc1a515cd0488466",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.5016639999812469
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_ga.js?secret=6u7rmn",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 4810,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"FSty3AHCXVujktdhdSOgAswTJwI=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "f0546767675ac7eff724521236be831e8753a7b8c15aa1c792d8121cb5311094",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.5116820000112057
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/googlesyndication_adsbygoogle.js?secret=8o5a8q",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3603,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"27D7TdoFnKSaDAxhDXZtyWlUA+0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "ba81dafd9a59c99b9d9e914ecbd5545c36d73d55b5ecb4d698ee3c49b02101c2",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.5157209999160841
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/googletagservices_gpt.js?secret=k8pdo5",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 5102,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"76KRjaFvvOrwsb8JSDs4Q2jTlbo=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "3ad0442f766373b8fed1f1ba2dcd6d6cbf948b68641956135a8f552472e3e6b6",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.520312000066042
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/nobab.js?secret=lfyo8e",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2976,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"fWIMOUaEIaNtkbrEiIKDhn8PTGY=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "1bc47b0e9b642cfcf2496977df36babdb263f13d0cfd64b286eb5c4c84cc319c",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.4634399999631569
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/nobab2.js?secret=sjs1pf",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1503,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"vy1qEErrRXmXVNnibZFXADJr2NA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "3ee47f99116088a94e1c280d3cd6216a75513a9109a3876ed7926897ec7cfc96",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.463279000017792
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noeval.js?secret=goq9j6",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1169,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"Zm3NrZrHm1RQ8sEDNdlqPrq/x5I=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "3cdd6f7412af4317374860533434959652db9e61633bdcae4755ad9039732bc6",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.4725730000063777
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noeval-silent.js?secret=mywait",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1046,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"uAxLt+FExKqnQoCEOy79k/qsAoI=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "bcb710ed7e64295cc8fe98b8611978e0801ffdce65107d1cb9c318339a5644d6",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.4702650000108406
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/nofab.js?secret=3suosw",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2604,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"8C4cfBueT2MD3BS5m6yoQgPFyj0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "dd7684145ffe90180075aa4d98a7a457cbdc6b73295bea17c55bf230332cf056",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.4680710000684485
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop-0.1s.mp3?secret=5brnu4",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 813,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"2+x2uGBtVFxzOfC/ga3FuCo0a10=\"",
+          "content-type": "audio/mpeg"
+        },
+        "responseBodyHash": "3b31d6fd84b91ed8fafa0dc7d7f6dbded7fc8a9b51289991138a07d33bb7a99b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.46987299993634224
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop-1s.mp4?secret=am7irz",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3753,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"phhjpBwH2UsBHfAauKoOtl6zzkY=\"",
+          "content-type": "video/mp4"
+        },
+        "responseBodyHash": "5fffd48ffc18ad96d910ea2d84da417974177c3c0cc12fa0ca364c6f864ea641",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.4703160000499338
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop.css?secret=cfh14k",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 6,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"KSIg5lBIqQJSknb8PjMzOeEIjSU=\"",
+          "content-type": "text/css"
+        },
+        "responseBodyHash": "cccc5e8a9a7ad608a04f242530345694bd7150bd73315513284142b6a39ba4b7",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.47109200002159923
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop.js?secret=t6sncm",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 38,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"OpoFl8Qm9JGwy6bvidLZuEeJc50=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "5592bfa25de75c18ef0116cbb9990c122178b1efe5e076f1c45049a09d935a25",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.46103800006676465
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop.txt?secret=xt0y1j",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"MEUVxJfRt7KHLk+5bpNePR0DHec=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.4612399999750778
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop-vmap1.0.xml?secret=3wvncs",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 86,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"o91xJuRB4zgK7iE97MmCHdnqlwI=\"",
+          "content-type": "text/xml"
+        },
+        "responseBodyHash": "fcc40f36d86c8f7146d4b2f0c1273cc46282c2c236303dabc172dfacfdf86508",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.45991699991282076
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/popads.js?secret=cswk96",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1601,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"I9T+DOFVlPUkYWimhhzIRMcfjvI=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "85700e488f782dde2eac664d8127399f7650832678188ecbde143e5482a0bf58",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.4544629999436438
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/popads-dummy.js?secret=g5fvci",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1082,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"WifQzgUPi4l7MnUILkJmjzMy6+I=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "7d9ea48fc2dbf1c680406d5335aa567f84967e91b10e823b7e2462ce531fa281",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.4555440000258386
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/prebid-ads.js?secret=ipnoft",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 990,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"zgpQ56ZBEYb7FmruMvEAtYO6iHM=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "4ef4348e32fffdfa739b160f77d0b96fc4c861c089cfae8458275e30436179b3",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.4538549999706447
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/easylist/easylist.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1561127,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"LtheFwWjs98NDuASTQh7tNDCpLI=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "fdd1f5fad30f0615b76861caec3b0385b5628839e1b0f30f08d253ae4d63ac5f",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 3.6344200000166893
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/easylist/easyprivacy.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 869277,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"w2nyAU5mv9ABOU6GFTURUHq4xgQ=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "a1ec9956461f447372f9c0f0658880e6d68f2137eb4caa206013027653c09e65",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.0512220000382513
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/pgl.yoyo.org/as/serverlist.txt",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FILE_NOT_FOUND",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.031934999977238476
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/badware.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 111016,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"AYIE/yEnpZPkbhaGZvQlS2EcDJ8=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "61339a487f716803a4d81ea2abef7603a30a1799fedd42626671a2cd8352ce60",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.41582300001755357
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/filters.min.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1244702,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"h1LFQV4RKbAD/Dr/crybn2Q5sRM=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "40edb5e5c62e3cc3e701fda60ca76362a0401be26b96fa7da827a91ec3676695",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.5653989999555051
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/privacy.min.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 25261,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"NVSCvkmHFfp2m7DKRdO/KxfEuKk=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "5e35527a7b50abc913a6bf2a4efa113a7ad3a29875679820be9f223e33e2c564",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.03383500000927597
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/quick-fixes.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 12961,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"afueNux30hW+NV4++qgmpXTa57Q=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "8da204883be6cef9a900cfeebace44bff5c1ab48f1f5b1e0934be478beed838b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.2557209999067709
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/unbreak.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 225327,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"RJFXfxbz9txDf2F9CzvtzGKrUGQ=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "0842f26631ba700715f6807ebed0b0686340385a51aef6ba56c44797f6e859f9",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.6647609999636188
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/urlhaus-filter/urlhaus-filter-online.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 62578,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"BTHdXv1lxAGsEi3GXDaj3ARryk8=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "64473d0333370e1aa9208bd5895394c4c977c3c9eccd2df53605aca3f5cf577d",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.29479499999433756
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/pgl.yoyo.org/as/serverlist",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 99702,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"cjJqLaDjMIABN/iLNntIhbyVrgY=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "e7564ecea385fef412bb736d9f715c9944ce043747c4421c6835e24cc93ace75",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.5710279999766499
+      },
+      {
+        "url": "http://theatlantic.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "151.101.2.133",
+        "responseHeaders": {
+          "connection": "close",
+          "content-length": "0",
+          "server": "Varnish",
+          "retry-after": "0",
+          "location": "https://www.theatlantic.com/",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:12 GMT",
+          "via": "1.1 varnish",
+          "x-served-by": "cache-chi-kigq8000175-CHI",
+          "x-cache": "HIT",
+          "x-cache-hits": "0",
+          "x-timer": "S1709502733.542999,VS0,VE0",
+          "set-cookie": "atltestbucketv1=0; Domain=.theatlantic.com; Path=/; Max-Age=7776000\nis_gdpr=0; Domain=.theatlantic.com; Path=/; Max-Age=3600\nkppid=7waljeb5xm1; Path=/; Max-Age=31536000; Domain=.theatlantic.com\natl_uuid=1bc67f55-7526-4b4c-afd8-0de7fe1f209b; Path=/; Expires=Tue, 19 Jan 2038 03:14:07 GMT; Domain=.theatlantic.com",
+          "vary": "Origin",
+          "x-is-gdpr": "0",
+          "state": "HIT-SYNTH",
+          "strict-transport-security": "max-age=300"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.theatlantic.com/",
+        "initiators": [],
+        "time": 3.79500799998641
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 570,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"SCCY3xHCtdMdB9jfy1lKOHd91yw=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "75cfccc844e135a85d7508a5892f72bac16b510919e4d4d5801ded7b1901a5cd",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "extensions::webRequestEvent"
+        ],
+        "time": 0.2927720000734553
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1089,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"RmlX4Eb0Vf+9Lga44dPV6pw/juM=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "230dc98bf942ad4be6016cbff229ae0605f2f02401e406ef0d649e7b1cca37ae",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "extensions::webRequestEvent"
+        ],
+        "time": 0.32281699997838587
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_64-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4406,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"VxvYv0EN5oLKTZD+GqhZRU48+qM=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "d52e425f9820d4c3e27e3ba658b7d21b14e3fbda7dd43febeea5a6021809060c",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "extensions::webRequestEvent"
+        ],
+        "time": 0.32367800001520663
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 420,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"9uZWEEQawXEa9JeFZdVDxheK738=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "5bc0b6c5d00309f9dae2be3fb505fda1ccdfa5c4d2994e167c8fb473bf95a777",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.05972200003452599
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1278,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"e74+CjUkVkdX//K9KytM4jGb4Sg=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "2fd0f85a569e98791d39884b54e706d105e5db0dfc60a319a40e09d48fc9b878",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.05406999995466322
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_64.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2655,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"z1HgbWDpu8W5XjdmapJcfSGuRjA=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "5fa6baa4bed8763bc19a8f6e6d169c0ba472d3f1913b6a093f65262ebd7c1c52",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.05364599998574704
+      },
+      {
+        "url": "https://www.theatlantic.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 80845,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "content-type": "text/html; charset=utf-8",
+          "cache-control": "s-maxage=180",
+          "etag": "W/\"17yap95wnk65qxl\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "none",
+          "date": "Sun, 03 Mar 2024 21:52:12 GMT",
+          "age": "76",
+          "x-served-by": "cache-iad-kjyo7100143-IAD, cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "198, 1",
+          "x-timer": "S1709502733.813079,VS0,VE20",
+          "set-cookie": "atltestbucketv1=0; Domain=.theatlantic.com; Path=/; Max-Age=7776000\nis_gdpr=0; Domain=.theatlantic.com; Path=/; Max-Age=3600",
+          "vary": "X-JWT-State, X-JWT-PaymeterAccess, X-JWT-AdFree, X-Socialbot, Accept-Encoding, x-is-gdpr,Origin",
+          "x-is-gdpr": "0",
+          "x-jwt-state": "Anonymous",
+          "state": "HIT-CLUSTER",
+          "strict-transport-security": "max-age=300",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "33ca8de97936ab4e685fad063617f97cb6466217e4decfb0d5b158e694602e7c",
+        "redirectedFrom": "http://theatlantic.com/",
+        "initiators": [],
+        "time": 0.20492099993862212
+      },
+      {
+        "url": "https://cdn.theatlantic.com/thumbor/vW7MxezRcvUzb9iCTAuDCBLAS4o=/0x0:4000x2250/624x351/media/img/mt/2024/03/h_15079487/original.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 39261,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "content-type": "image/avif",
+          "cache-control": "max-age=2592000,public",
+          "expires": "Tue, 02 Apr 2024 18:06:28 GMT",
+          "etag": "\"d7bf59b2b4386efb677f44321cba3004062ffab5\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:13 GMT",
+          "age": "13545",
+          "x-served-by": "cache-iad-kjyo7100132-IAD, cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "3, 1",
+          "x-timer": "S1709502734.712545,VS0,VE26",
+          "vary": "Accept,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "39036"
+        },
+        "responseBodyHash": "42735741687afcc50893c49fed4bf6aa4797dbceb92d49183335049dec377813",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 1.2313619999913499
+      },
+      {
+        "url": "https://static.chartbeat.com/js/chartbeat_mab.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 0.08719400002155453
+      },
+      {
+        "url": "https://cdn.theatlantic.com/_next/static/css/10317cb7f8d0a7ae.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 7555,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "x-amz-id-2": "FhdIlWTHJ4CZclR9WqA071w2kj8iJc7gUKyXnUfeUdompHZt5SwBaXY5KxmCGgxFPELj3kVCW1U=",
+          "x-amz-request-id": "S9W6QG60DYGD27G2",
+          "last-modified": "Wed, 31 Jan 2024 20:52:00 GMT",
+          "etag": "\"799333ad89e884831539163d8c3c54c8\"",
+          "cache-control": "max-age=31540000",
+          "content-type": "text/css",
+          "content-encoding": "br",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:13 GMT",
+          "age": "2768317",
+          "x-served-by": "cache-iad-kcgs7200045-IAD, cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "2, 70",
+          "x-timer": "S1709502734.710722,VS0,VE0",
+          "access-control-allow-origin": "*",
+          "vary": "Accept-Encoding,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "7221"
+        },
+        "responseBodyHash": "128d2d5360c3ac771a49c62f0655d5cffa596d5e16ee23e59ba9dae3c4361567",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 0.42340700002387166
+      },
+      {
+        "url": "https://cdn.theatlantic.com/_next/static/css/90611c1a786faefb.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 11150,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "x-amz-id-2": "GyiY7jLoDPzDjEbhT6FZcNsy+XSUi9j+/38RGh3CrExypw7uEWtJv9gy472rJpLaOAHfhK6J7cs=",
+          "x-amz-request-id": "BTXTDKM81YRYZCDT",
+          "last-modified": "Wed, 17 Jan 2024 20:40:59 GMT",
+          "etag": "\"196f1778eefd38e7d1658ab7eec9c3c4\"",
+          "cache-control": "max-age=31540000",
+          "content-type": "text/css",
+          "content-encoding": "br",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:13 GMT",
+          "age": "3978553",
+          "x-served-by": "cache-iad-kjyo7100119-IAD, cache-chi-kigq8000082-CHI",
+          "x-cache": "MISS, HIT",
+          "x-cache-hits": "0, 2",
+          "x-timer": "S1709502734.712233,VS0,VE0",
+          "access-control-allow-origin": "*",
+          "vary": "Accept-Encoding,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "10878"
+        },
+        "responseBodyHash": "5e26b87032d7e17dbeafc6f2eb3f3f8eeb568025767bb3513db6de0e5cbd4c21",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 0.4230890000471845
+      },
+      {
+        "url": "https://cdn.theatlantic.com/_next/static/chunks/webpack-07716beafa390aba.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3889,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "x-amz-id-2": "I+mMIGiCdjPVt90S2b9m4nLOTpYGjjIH3oqcfNM0EOdR2YNB8dZTS1Yrbo7Ak2DwTiC4IUi78LRslx373c+RTLw+jSL5USO7",
+          "x-amz-request-id": "NHW99C9KBE4ZJMTW",
+          "last-modified": "Thu, 29 Feb 2024 18:36:38 GMT",
+          "etag": "\"c77a89311df5e06390997732a98fffd9\"",
+          "cache-control": "max-age=31540000",
+          "content-type": "text/javascript",
+          "content-encoding": "br",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:13 GMT",
+          "age": "270819",
+          "x-served-by": "cache-iad-kcgs7200070-IAD, cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "1, 74",
+          "x-timer": "S1709502734.712213,VS0,VE0",
+          "vary": "Accept-Encoding,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "3579"
+        },
+        "responseBodyHash": "25426853208c535e414c840650ce527920020603c15c70bf035b3c53bcae077e",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 0.42097700003068894
+      },
+      {
+        "url": "https://cdn.theatlantic.com/_next/static/chunks/framework-2114f3935436c3d0.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 46974,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "x-amz-id-2": "CmDdewpL0IFwqClGU06TsXDPw6gE6DfONZrTZTKaG6sd8TeWiWEP8BNfaU9U7bQwNeB1zlFCrK8=",
+          "x-amz-request-id": "S08JBHYY8E02CY86",
+          "last-modified": "Thu, 11 Jan 2024 16:16:17 GMT",
+          "etag": "\"7d5004813f9bc95567ef4ec320b4279e\"",
+          "cache-control": "max-age=31540000",
+          "content-type": "text/javascript",
+          "content-encoding": "br",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:13 GMT",
+          "age": "4091745",
+          "x-served-by": "cache-iad-kjyo7100134-IAD, cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "7157, 70",
+          "x-timer": "S1709502734.712213,VS0,VE0",
+          "vary": "Accept-Encoding,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "46668"
+        },
+        "responseBodyHash": "2894dd119677ebcc2205fbfc8c90548d2b14f5580a74fac48486c393ac35da64",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 0.4316549999639392
+      },
+      {
+        "url": "https://cdn.theatlantic.com/_next/static/chunks/main-b7c6a1659f030104.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 40361,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "x-amz-id-2": "bBKeqKp9WRLd23/QxLy9dWjvC4ttPNVRQcrAquw97YjRbI+h2+T3HL23KDciiyQ61lYugIcA0Ao=",
+          "x-amz-request-id": "G0B9DZA515Z5JK2P",
+          "last-modified": "Wed, 17 Jan 2024 20:40:57 GMT",
+          "etag": "\"bb7874c96f2201de0ef1ca6ed4cf1b10\"",
+          "cache-control": "max-age=31540000",
+          "content-type": "text/javascript",
+          "content-encoding": "br",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:13 GMT",
+          "age": "3573873",
+          "x-served-by": "cache-iad-kcgs7200168-IAD, cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "15314, 155",
+          "x-timer": "S1709502734.711889,VS0,VE0",
+          "vary": "Accept-Encoding,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "40084"
+        },
+        "responseBodyHash": "99fe5f393d8d9a4fc0ea51834df89bb8e8a48751a8eea801165bffc05434960a",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 0.43319000001065433
+      },
+      {
+        "url": "https://cdn.theatlantic.com/_next/static/chunks/pages/_app-c69d585423e4eb54.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 76634,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "x-amz-id-2": "4Kerq76AKC5nbPiugTZNGtPJURB5qEsJGWxShY0LspbPxb7ZQCPHjc2Wt68b57RQOzo3BYaS98o=",
+          "x-amz-request-id": "M819EPAV3JS1P9PT",
+          "last-modified": "Thu, 29 Feb 2024 16:31:21 GMT",
+          "etag": "\"884faa291078faa1b60fa057a772d946\"",
+          "cache-control": "max-age=31540000",
+          "content-type": "text/javascript",
+          "content-encoding": "br",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:13 GMT",
+          "age": "278349",
+          "x-served-by": "cache-iad-kjyo7100178-IAD, cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "2, 166",
+          "x-timer": "S1709502734.711899,VS0,VE0",
+          "vary": "Accept-Encoding,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "76307"
+        },
+        "responseBodyHash": "dd406774d408bf86667a79c3ecba3f33066902592d30f9799ee35270e3d5d3bc",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 1.185020999982953
+      },
+      {
+        "url": "https://cdn.theatlantic.com/_next/static/chunks/6729-85e40cec85603df8.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 8076,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "x-amz-id-2": "Cnpa6WRh+sdvM4T7mCykgxhoTRGP7DJvnxKVXjbqYTashgPQjP0gLaA/AQdE6I7DBUhuNw2R+A8=",
+          "x-amz-request-id": "Q3GCW6BWP05N8CDZ",
+          "last-modified": "Tue, 23 Jan 2024 19:17:36 GMT",
+          "etag": "\"6cd4deadeb09489766882bca7cc0b564\"",
+          "cache-control": "max-age=31540000",
+          "content-type": "text/javascript",
+          "content-encoding": "br",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:13 GMT",
+          "age": "3418528",
+          "x-served-by": "cache-iad-kiad7000156-IAD, cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "4923, 72",
+          "x-timer": "S1709502734.711865,VS0,VE0",
+          "vary": "Accept-Encoding,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "7826"
+        },
+        "responseBodyHash": "8bce6e9b9891fb14544fea1ebe43e48ef6d61cd9a508a613d7e30b10033fa851",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 0.42126099998131394
+      },
+      {
+        "url": "https://cdn.theatlantic.com/_next/static/chunks/2746-8e2d3d2e5989050e.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 8381,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "x-amz-id-2": "b64yQ3kXLSaDWpqv8h56gN/RW/35dN5y1uU18yMcdq0g8nmoAXfdT1t/+BgOvu0vp+0efC+qlh4=",
+          "x-amz-request-id": "W9JGAGREWVZAZ5WD",
+          "last-modified": "Tue, 20 Feb 2024 21:53:34 GMT",
+          "etag": "\"7887629fb14ff2a255164f0f6b3d0ace\"",
+          "cache-control": "max-age=31540000",
+          "content-type": "text/javascript",
+          "content-encoding": "br",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:13 GMT",
+          "age": "832045",
+          "x-served-by": "cache-iad-kiad7000111-IAD, cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "4913, 113",
+          "x-timer": "S1709502734.711824,VS0,VE0",
+          "vary": "Accept-Encoding,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "8071"
+        },
+        "responseBodyHash": "719920b48f7bd8292390a017f834a50c5f0a7bb0056031ed0df4b62e6e29f5ba",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 0.42104899999685585
+      },
+      {
+        "url": "https://cdn.theatlantic.com/_next/static/chunks/3091-6473eb654e0602a1.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 17134,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "x-amz-id-2": "Dkv72nEgXltFBsJBNmJcWQgMDL6Vodajm9gWhJe5TCSmC4tpeFdg3YddkIxH8CiRrtxAbgv8JrM=",
+          "x-amz-request-id": "TV03B4W8A2Z4NE6G",
+          "last-modified": "Thu, 29 Feb 2024 18:36:36 GMT",
+          "etag": "\"d8d83268816ad79f73c355a852d548f1\"",
+          "cache-control": "max-age=31540000",
+          "content-type": "text/javascript",
+          "content-encoding": "br",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:13 GMT",
+          "age": "270813",
+          "x-served-by": "cache-iad-kiad7000167-IAD, cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "8, 4",
+          "x-timer": "S1709502734.711822,VS0,VE0",
+          "vary": "Accept-Encoding,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "16833"
+        },
+        "responseBodyHash": "430522aae352954fe4bf657e4ef01d630e837bba97504142ecc7565869325fd3",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 1.1710990000283346
+      },
+      {
+        "url": "https://cdn.theatlantic.com/_next/static/chunks/pages/index-475d71bf02e9d77f.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1022,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "x-amz-id-2": "I4APPb1hUqtvI4NylEDlNQV92E3jjwfT3/9v424AZMaOC0Bbv1Ne9VU3jBCVaRiUjLNGjwaJ7p4=",
+          "x-amz-request-id": "BJFX3SG9MPB51FTF",
+          "last-modified": "Tue, 20 Feb 2024 21:53:36 GMT",
+          "etag": "\"b2394c3d95b584cbba4c4d2b31e39928\"",
+          "cache-control": "max-age=31540000",
+          "content-type": "text/javascript",
+          "content-encoding": "br",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:13 GMT",
+          "age": "888736",
+          "x-served-by": "cache-iad-kcgs7200050-IAD, cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "2466, 2",
+          "x-timer": "S1709502734.711795,VS0,VE0",
+          "vary": "Accept-Encoding,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "766"
+        },
+        "responseBodyHash": "9195484378d5c9e8270e65f222f0e18677afe6d4d5ae2fa12871e9dacacff29c",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 0.41787200001999736
+      },
+      {
+        "url": "https://cdn.theatlantic.com/thumbor/R3iEclhIZVTU1o2xNJmSlPThPiU=/798x0:3498x2700/86x86/media/img/mt/2024/03/HR_MG1197960/original.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 11097,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "content-type": "image/avif",
+          "cache-control": "max-age=2592000,public",
+          "expires": "Tue, 02 Apr 2024 11:58:28 GMT",
+          "etag": "\"030bf0ae1320bc4fd62cfa091aa563d457c938df\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:13 GMT",
+          "age": "35625",
+          "x-served-by": "cache-iad-kiad7000106-IAD, cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "1, 1",
+          "x-timer": "S1709502734.744919,VS0,VE2",
+          "vary": "Accept,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "10901"
+        },
+        "responseBodyHash": "c212a0be327284ae29441622193926a821e857b0e3be7f5623b93b0496a38ee7",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 1.208981000003405
+      },
+      {
+        "url": "https://cdn.theatlantic.com/thumbor/fz-LaRSZcIrpL2ZjB3q4fHcp2v4=/904x0:3229x2325/86x86/media/img/mt/2024/02/the_atlantic_truth_decay_02_copy-1/original.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2250,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "content-type": "image/avif",
+          "cache-control": "max-age=2592000,public",
+          "expires": "Tue, 02 Apr 2024 13:29:12 GMT",
+          "etag": "\"cb29b6e931328b84e5003deee6c2340e5b2f6b1b\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:14 GMT",
+          "age": "30182",
+          "x-served-by": "cache-iad-kiad7000111-IAD, cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "10, 1",
+          "x-timer": "S1709502734.476696,VS0,VE1",
+          "vary": "Accept,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "2027"
+        },
+        "responseBodyHash": "e86188511807565ab9488f463afd89b93955d66b81fd27ceebffaed999c33468",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 1.5583479999331757
+      },
+      {
+        "url": "https://cdn.theatlantic.com/thumbor/RBfiiq252KypibnNFcXCwvU5oJ8=/1963x0:4494x2531/86x86/media/img/mt/2024/02/GettyImages_1988743036/original.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2741,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "content-type": "image/avif",
+          "cache-control": "max-age=2592000,public",
+          "expires": "Mon, 01 Apr 2024 11:58:30 GMT",
+          "etag": "\"94760429388eee7956a24b117d7ce804896353d2\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:14 GMT",
+          "age": "122024",
+          "x-served-by": "cache-iad-kiad7000037-IAD, cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "2, 1",
+          "x-timer": "S1709502734.487803,VS0,VE1",
+          "vary": "Accept,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "2565"
+        },
+        "responseBodyHash": "956adc3f0598d3cf092e98e94c61ae6f2a59f74374185713f8c5b0290de5dad2",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 1.5610579999629408
+      },
+      {
+        "url": "https://cdn.theatlantic.com/thumbor/G4vNNa8sdnSaszoacbD7kcJ0HdU=/1050x0:3750x2700/86x86/media/img/mt/2024/03/HR_h_27.RTRJY0T/original.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5637,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "content-type": "image/avif",
+          "cache-control": "max-age=2592000,public",
+          "expires": "Tue, 02 Apr 2024 13:29:12 GMT",
+          "etag": "\"2b7b5b94f4bd1ab33237f2da002c7bb7c6c101ef\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:14 GMT",
+          "age": "30182",
+          "x-served-by": "cache-iad-kjyo7100156-IAD, cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "9, 1",
+          "x-timer": "S1709502735.535519,VS0,VE1",
+          "vary": "Accept,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "5472"
+        },
+        "responseBodyHash": "b64765083fafd9a1e2f42fc2c4405738c6ad9ffa29affbad8b0514d9cb4be56a",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 1.5614340000320226
+      },
+      {
+        "url": "https://cdn.theatlantic.com/thumbor/rmzPu7Ubf_5SOQ0rwdQMi39qBk4=/2x67:2998x1757/296x167/media/img/mt/2024/03/GettyImages_2038468546/original.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9131,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "content-type": "image/avif",
+          "cache-control": "max-age=2592000,public",
+          "expires": "Tue, 02 Apr 2024 17:38:28 GMT",
+          "etag": "\"f0196cb71bb26d8f1b7ac81ab317ee921607c912\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:14 GMT",
+          "age": "15227",
+          "x-served-by": "cache-iad-kcgs7200143-IAD, cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "2, 1",
+          "x-timer": "S1709502735.828737,VS0,VE20",
+          "vary": "Accept,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "8957"
+        },
+        "responseBodyHash": "ef827ab2c918dd082d16418773604a206808b8bcc0f0e7ef035d2e630ad822f1",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 1.5610589999705553
+      },
+      {
+        "url": "https://cdn.theatlantic.com/thumbor/3GuIefBymmOvAN0H0m05BFgXbMA=/2x168:3254x2003/296x167/media/img/2024/02/RAdio_1/original.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 15310,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "content-type": "image/avif",
+          "cache-control": "max-age=2592000,public",
+          "expires": "Mon, 01 Apr 2024 13:22:46 GMT",
+          "etag": "\"e91e5f16402f5ca18b978c4ca162b511b920f21c\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:14 GMT",
+          "age": "116968",
+          "x-served-by": "cache-iad-kcgs7200047-IAD, cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "7, 1",
+          "x-timer": "S1709502735.883689,VS0,VE1",
+          "vary": "Accept,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "15136"
+        },
+        "responseBodyHash": "e3d459626668661cde358764ed2cf9448074afa678a2684e5521b80c289c2f3f",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 1.5692249999847263
+      },
+      {
+        "url": "https://cdn.theatlantic.com/thumbor/kfzURmCm-RnW2CGP6-hCTshIWvM=/4x251:4941x3036/296x167/media/img/mt/2019/08/GettyImages_102284522/original.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 12152,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "content-type": "image/avif",
+          "cache-control": "max-age=2592000,public",
+          "expires": "Mon, 01 Apr 2024 22:46:03 GMT",
+          "etag": "\"a46b89ef697e9db6f4eaef006a8e045a579a4e35\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:14 GMT",
+          "age": "83172",
+          "x-served-by": "cache-iad-kiad7000055-IAD, cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "5, 1",
+          "x-timer": "S1709502735.885525,VS0,VE2",
+          "vary": "Accept,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "11927"
+        },
+        "responseBodyHash": "9977e16ebc533b9c48dbb627bb815463585cf6c739e09d529c1e3d6b409dbf39",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 1.5345390000147745
+      },
+      {
+        "url": "https://cdn.theatlantic.com/thumbor/_bCuhMnz5m5DEKwgi6zhA1PS39A=/2x0:1023x576/296x167/media/img/mt/2020/01/Atlantic_convenience_prison/original.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 14372,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "content-type": "image/avif",
+          "cache-control": "max-age=2592000,public",
+          "expires": "Mon, 01 Apr 2024 22:46:03 GMT",
+          "etag": "\"7e0ce83b20d2e41743c7a61e07375007076bd125\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:14 GMT",
+          "age": "83172",
+          "x-served-by": "cache-iad-kcgs7200140-IAD, cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "5, 1",
+          "x-timer": "S1709502735.906845,VS0,VE1",
+          "vary": "Accept,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "14196"
+        },
+        "responseBodyHash": "07c31b82819febbb264a6da27c60e367fabfa9f00a4dba048b7db1ff6dee73d4",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 1.5359089999692515
+      },
+      {
+        "url": "https://cdn.theatlantic.com/thumbor/l10AVSPSurANA5KHeuk0oZd0gOk=/39x163:1961x1248/296x167/media/img/photo/2017/09/a-photo-trip-through-yellowstone-na/y01_WY09022006-1/original.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 21512,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "content-type": "image/avif",
+          "cache-control": "max-age=2592000,public",
+          "expires": "Sun, 31 Mar 2024 15:52:00 GMT",
+          "etag": "\"c9cf1e8a8051b117fee6a60955a9ab07a0806959\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:14 GMT",
+          "age": "194414",
+          "x-served-by": "cache-iad-kjyo7100109-IAD, cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "8, 1",
+          "x-timer": "S1709502735.906680,VS0,VE1",
+          "vary": "Accept,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "21277"
+        },
+        "responseBodyHash": "929fd2f822b874a326679209ad288ecce640b17b9d1a8bc639759ae6f8e9a7d6",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 1.5372719999868423
+      },
+      {
+        "url": "https://cdn.theatlantic.com/thumbor/VhATHh-8DnpYg87BufjywUfy5DI=/2x74:2865x1690/296x167/media/img/2015/06/jagger/original.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 18563,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "content-type": "image/avif",
+          "cache-control": "max-age=2592000,public",
+          "expires": "Sun, 31 Mar 2024 15:54:06 GMT",
+          "etag": "\"42c8184abd0c99ced756514d02f98741642af29c\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:14 GMT",
+          "age": "194289",
+          "x-served-by": "cache-iad-kiad7000022-IAD, cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "1, 1",
+          "x-timer": "S1709502735.906507,VS0,VE2",
+          "vary": "Accept,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "18386"
+        },
+        "responseBodyHash": "5a7629c4d420b03e94f1ca4dad5ec28d5e3d6758888cdb290d1a1149d01fa875",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 1.6567889999132603
+      },
+      {
+        "url": "https://cdn.theatlantic.com/_next/static/9f173e364c/_buildManifest.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2807,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "x-amz-id-2": "1G3t9sa4ECqnKbs4m0KXQcVAdbwZkt29CIKdxof9wtumbOWA6W1yZagjLxEpm2qxgEFTg5Vt4Tk=",
+          "x-amz-request-id": "NHWAA22BAPXCM8CG",
+          "last-modified": "Thu, 29 Feb 2024 18:36:35 GMT",
+          "etag": "\"f7a49c65b810787592eff4940eb04d2c\"",
+          "cache-control": "max-age=31540000",
+          "content-type": "text/javascript",
+          "content-encoding": "br",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:14 GMT",
+          "age": "270820",
+          "x-served-by": "cache-iad-kjyo7100160-IAD, cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "1, 78",
+          "x-timer": "S1709502735.906451,VS0,VE0",
+          "vary": "Accept-Encoding,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "2488"
+        },
+        "responseBodyHash": "072664b286921297db02c7ecb59b7371ba86da46c248cf2fc61be73e6c598686",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 1.4995010000420734
+      },
+      {
+        "url": "https://cdn.theatlantic.com/_next/static/9f173e364c/_ssgManifest.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 269,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "x-amz-id-2": "s6bCGQaMHfYBJVtcq6a8q/0EZwcrQilYHChk+BT2hpj8v5DQBzh7hOVAqQ6q5K5qbfXlogkp8Ew=",
+          "x-amz-request-id": "NHW0YNHW5C4TYBYE",
+          "last-modified": "Thu, 29 Feb 2024 18:36:35 GMT",
+          "etag": "\"e9b8c89f2db15110347cd5c90657f155\"",
+          "cache-control": "max-age=31540000",
+          "content-type": "text/javascript",
+          "content-encoding": "br",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:14 GMT",
+          "age": "270820",
+          "x-served-by": "cache-iad-kjyo7100041-IAD, cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "1, 169",
+          "x-timer": "S1709502735.906421,VS0,VE0",
+          "vary": "Accept-Encoding,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "52"
+        },
+        "responseBodyHash": "6f5b4aa00d2f8d6aed9935b471806bf7acef464d0c1d390260e5fe27f800c67e",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 1.4991650000447407
+      },
+      {
+        "url": "https://www.theatlantic.com/packages/fonts/graphik/Graphik-Semibold-Web.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 30311,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "x-amz-id-2": "8g4+UitqtTauQwmuUK1HirV4ESA4P4rbODWPzTtwHr3HoWhEA5Ja7HplUlakBrGGXSxr5jLyvss=",
+          "x-amz-request-id": "KB0AQ9RWQ4MG947K",
+          "last-modified": "Thu, 11 Aug 2022 01:17:26 GMT",
+          "etag": "W/\"27b172d762aaf733464257b1920b7ebe\"",
+          "cache-control": "max-age=2592000",
+          "content-type": "font/woff2",
+          "accept-ranges": "none",
+          "date": "Sun, 03 Mar 2024 21:52:16 GMT",
+          "via": "1.1 varnish",
+          "age": "919365",
+          "x-served-by": "cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT",
+          "x-cache-hits": "246",
+          "x-timer": "S1709502736.178084,VS0,VE0",
+          "set-cookie": "atltestbucketv1=0; Domain=.theatlantic.com; Path=/; Max-Age=7776000\nis_gdpr=0; Domain=.theatlantic.com; Path=/; Max-Age=3600",
+          "access-control-allow-origin": "https://www.theatlantic.com",
+          "vary": "x-is-gdpr,Origin, accept-encoding",
+          "x-is-gdpr": "0",
+          "x-jwt-state": "Anonymous",
+          "state": "HIT",
+          "strict-transport-security": "max-age=300",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "f87d905400315cf8429f67b988613934f65635566fc09be0f953539f5e88f317",
+        "initiators": [
+          "https://cdn.theatlantic.com/_next/static/css/10317cb7f8d0a7ae.css"
+        ],
+        "time": 1.2679940001107752
+      },
+      {
+        "url": "https://www.theatlantic.com/packages/fonts/graphik/Graphik-Regular-Web.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 27915,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "x-amz-id-2": "+ayPWgMtLWUgSdPle/t9XFMHJSfkwlB5sS3v+GM225Jy7mbpu3X6qDu3mKqxr815dXnSfVamRcs=",
+          "x-amz-request-id": "P9JJ7KKMTBSN7MXC",
+          "last-modified": "Thu, 11 Aug 2022 01:17:26 GMT",
+          "etag": "W/\"8f974ed96b4549401d0666214e8f3e84\"",
+          "cache-control": "max-age=2592000",
+          "content-type": "font/woff2",
+          "accept-ranges": "none",
+          "date": "Sun, 03 Mar 2024 21:52:16 GMT",
+          "via": "1.1 varnish",
+          "age": "400791",
+          "x-served-by": "cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT",
+          "x-cache-hits": "105",
+          "x-timer": "S1709502736.179817,VS0,VE0",
+          "set-cookie": "atltestbucketv1=0; Domain=.theatlantic.com; Path=/; Max-Age=7776000\nis_gdpr=0; Domain=.theatlantic.com; Path=/; Max-Age=3600",
+          "access-control-allow-origin": "https://www.theatlantic.com",
+          "vary": "x-is-gdpr,Origin, accept-encoding",
+          "x-is-gdpr": "0",
+          "x-jwt-state": "Anonymous",
+          "state": "HIT",
+          "strict-transport-security": "max-age=300",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "87b78eb974ff9190c0a848be2f8c1738f7c868d2c26dd2eb5231eb8ec59cf456",
+        "initiators": [
+          "https://cdn.theatlantic.com/_next/static/css/10317cb7f8d0a7ae.css"
+        ],
+        "time": 1.305676000076346
+      },
+      {
+        "url": "https://www.theatlantic.com/packages/fonts/logic/LogicMonospace-Medium.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 15354,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "x-amz-id-2": "OGRPVbswoRXjm+aZkT+DJnhceQWBadg/1/PNOWSCfFlW3muGAEoUiHlzpCLDHgn4fn0nowi7ewA=",
+          "x-amz-request-id": "7FF7C080QNXZN2E9",
+          "last-modified": "Thu, 11 Aug 2022 01:17:26 GMT",
+          "etag": "W/\"91415c09fccf4fd73ed0a2086e169054\"",
+          "cache-control": "max-age=2592000",
+          "content-type": "font/woff2",
+          "accept-ranges": "none",
+          "date": "Sun, 03 Mar 2024 21:52:16 GMT",
+          "via": "1.1 varnish",
+          "age": "537121",
+          "x-served-by": "cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT",
+          "x-cache-hits": "99",
+          "x-timer": "S1709502736.180174,VS0,VE0",
+          "set-cookie": "atltestbucketv1=0; Domain=.theatlantic.com; Path=/; Max-Age=7776000\nis_gdpr=0; Domain=.theatlantic.com; Path=/; Max-Age=3600",
+          "access-control-allow-origin": "https://www.theatlantic.com",
+          "vary": "x-is-gdpr,Origin, accept-encoding",
+          "x-is-gdpr": "0",
+          "x-jwt-state": "Anonymous",
+          "state": "HIT",
+          "strict-transport-security": "max-age=300",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "7986fd4eeb648dc3f88044bf0f8e9280c2283482464a2a3b394e26c34fd8850f",
+        "initiators": [
+          "https://cdn.theatlantic.com/_next/static/css/10317cb7f8d0a7ae.css"
+        ],
+        "time": 1.3079700000816956
+      },
+      {
+        "url": "https://www.theatlantic.com/packages/fonts/garamond/AGaramondPro-Regular.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 67133,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "x-amz-id-2": "utd+diOP3aL/cu2ZM7xFRu5N+RCqC57Nz8Tsjuy4VaN9Lu/horVIWSiNWL4/S/WWRLnxgNMcqRY=",
+          "x-amz-request-id": "E2DYS8JMGH6WEJFG",
+          "last-modified": "Thu, 11 Aug 2022 01:17:25 GMT",
+          "etag": "W/\"0ac2616071300590021ea72ff354678c\"",
+          "cache-control": "max-age=2592000",
+          "content-type": "font/woff2",
+          "accept-ranges": "none",
+          "date": "Sun, 03 Mar 2024 21:52:16 GMT",
+          "via": "1.1 varnish",
+          "age": "375129",
+          "x-served-by": "cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT",
+          "x-cache-hits": "102",
+          "x-timer": "S1709502736.180227,VS0,VE0",
+          "set-cookie": "atltestbucketv1=0; Domain=.theatlantic.com; Path=/; Max-Age=7776000\nis_gdpr=0; Domain=.theatlantic.com; Path=/; Max-Age=3600",
+          "access-control-allow-origin": "https://www.theatlantic.com",
+          "vary": "x-is-gdpr,Origin, accept-encoding",
+          "x-is-gdpr": "0",
+          "x-jwt-state": "Anonymous",
+          "state": "HIT",
+          "strict-transport-security": "max-age=300",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "a533d5e45190873a85473327fe44ef85290f7051ed5fb1a8b9d224f906b5d9c6",
+        "initiators": [
+          "https://cdn.theatlantic.com/_next/static/css/10317cb7f8d0a7ae.css"
+        ],
+        "time": 1.3452810000162572
+      },
+      {
+        "url": "https://www.theatlantic.com/packages/fonts/garamond/AGaramondPro-Italic.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 51136,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "x-amz-id-2": "vYIbov0/aypla/W2FWV3S34dsNptqTOnf+2Ipt1autTHsexDGLPL48kVT/+GdpMnZhQktXpw2ho=",
+          "x-amz-request-id": "9MXPD5E3PK52Y2F1",
+          "last-modified": "Thu, 11 Aug 2022 01:17:25 GMT",
+          "etag": "W/\"5430ee7fd1cd8d6593016b3b500dcb0e\"",
+          "cache-control": "max-age=2592000",
+          "content-type": "font/woff2",
+          "accept-ranges": "none",
+          "date": "Sun, 03 Mar 2024 21:52:16 GMT",
+          "via": "1.1 varnish",
+          "age": "825844",
+          "x-served-by": "cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT",
+          "x-cache-hits": "136",
+          "x-timer": "S1709502736.180765,VS0,VE0",
+          "set-cookie": "atltestbucketv1=0; Domain=.theatlantic.com; Path=/; Max-Age=7776000\nis_gdpr=0; Domain=.theatlantic.com; Path=/; Max-Age=3600",
+          "access-control-allow-origin": "https://www.theatlantic.com",
+          "vary": "x-is-gdpr,Origin, accept-encoding",
+          "x-is-gdpr": "0",
+          "x-jwt-state": "Anonymous",
+          "state": "HIT",
+          "strict-transport-security": "max-age=300",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "56788974abd6dd3613331f95ba4d843b87a2a3fdc44f32160cf59823e17f8bfe",
+        "initiators": [
+          "https://cdn.theatlantic.com/_next/static/css/10317cb7f8d0a7ae.css"
+        ],
+        "time": 1.3368329999502748
+      },
+      {
+        "url": "https://www.theatlantic.com/packages/fonts/atlantic/AtlanticCondensed-Regular.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 18482,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "x-amz-id-2": "mGJhI3ut7z3RL15WdN6ZeadcjO6vFAV4vdzWK6zaWr3sL8wiFx+hK9SkdAmtlZYBmOQ+PeBiVNM=",
+          "x-amz-request-id": "V69G9XYY8A04NXZK",
+          "last-modified": "Thu, 11 Aug 2022 01:17:23 GMT",
+          "etag": "W/\"c2fe67a387c55bcdf14ee06bade67fcd\"",
+          "cache-control": "max-age=2592000",
+          "content-type": "font/woff2",
+          "accept-ranges": "none",
+          "date": "Sun, 03 Mar 2024 21:52:16 GMT",
+          "via": "1.1 varnish",
+          "age": "727911",
+          "x-served-by": "cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT",
+          "x-cache-hits": "32",
+          "x-timer": "S1709502736.181376,VS0,VE0",
+          "set-cookie": "atltestbucketv1=0; Domain=.theatlantic.com; Path=/; Max-Age=7776000\nis_gdpr=0; Domain=.theatlantic.com; Path=/; Max-Age=3600",
+          "access-control-allow-origin": "https://www.theatlantic.com",
+          "vary": "x-is-gdpr,Origin, accept-encoding",
+          "x-is-gdpr": "0",
+          "x-jwt-state": "Anonymous",
+          "state": "HIT",
+          "strict-transport-security": "max-age=300",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "8f7c66c7c49ac399e8ce0a9ed86448794c13610beee05ee0d11046d35d47280b",
+        "initiators": [
+          "https://cdn.theatlantic.com/_next/static/css/10317cb7f8d0a7ae.css"
+        ],
+        "time": 1.33214300009422
+      },
+      {
+        "url": "https://www.theatlantic.com/packages/fonts/garamond/AGaramondPro-Semibold.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 52083,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "x-amz-id-2": "b6XkrSbSmgBl8vHr+JECaAwvVr9yTM/RjRwn9/0e9nVQktLf8gM6mj9iC5HG4NDIZU9xM5KnK1w=",
+          "x-amz-request-id": "GJS26S577RND2CCY",
+          "last-modified": "Thu, 11 Aug 2022 01:17:25 GMT",
+          "etag": "W/\"dc07ed7c4eeb4026bba86f949284d2c0\"",
+          "cache-control": "max-age=2592000",
+          "content-type": "font/woff2",
+          "accept-ranges": "none",
+          "date": "Sun, 03 Mar 2024 21:52:16 GMT",
+          "via": "1.1 varnish",
+          "age": "453463",
+          "x-served-by": "cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT",
+          "x-cache-hits": "7",
+          "x-timer": "S1709502736.181383,VS0,VE0",
+          "set-cookie": "atltestbucketv1=0; Domain=.theatlantic.com; Path=/; Max-Age=7776000\nis_gdpr=0; Domain=.theatlantic.com; Path=/; Max-Age=3600",
+          "access-control-allow-origin": "https://www.theatlantic.com",
+          "vary": "x-is-gdpr,Origin, accept-encoding",
+          "x-is-gdpr": "0",
+          "x-jwt-state": "Anonymous",
+          "state": "HIT",
+          "strict-transport-security": "max-age=300",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "8498b6b761339cba4d300126365c1cfe0a51502342a1bac251da029b5b82688b",
+        "initiators": [
+          "https://cdn.theatlantic.com/_next/static/css/10317cb7f8d0a7ae.css"
+        ],
+        "time": 1.3318489999510348
+      },
+      {
+        "url": "https://cdn.theatlantic.com/thumbor/Su7jP0e1Miw4w3ddZvLMbp6kOf0=/7x0:4793x2700/296x167/media/img/mt/2024/03/HR_1666104008-1/original.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 11563,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "content-type": "image/avif",
+          "cache-control": "max-age=2592000,public",
+          "expires": "Mon, 01 Apr 2024 14:46:10 GMT",
+          "etag": "\"864aaec6c2aeb16fb540cb33822a9869e2b1be75\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:15 GMT",
+          "age": "111965",
+          "x-served-by": "cache-iad-kiad7000074-IAD, cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "7, 1",
+          "x-timer": "S1709502735.462644,VS0,VE2",
+          "vary": "Accept,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "11361"
+        },
+        "responseBodyHash": "93ed12174a6f8c0f6fcdaa61210346d9f559105a8da5a37f02a847f450afc988",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 0.02683599991723895
+      },
+      {
+        "url": "https://cdn.theatlantic.com/thumbor/1WEqql3Pn_6k8x39ZSMjvMUbWD4=/3x0:1997x1125/296x167/media/img/mt/2024/02/KateConspiracy/original.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 14600,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "content-type": "image/avif",
+          "cache-control": "max-age=2592000,public",
+          "expires": "Sat, 30 Mar 2024 20:41:02 GMT",
+          "etag": "\"fa1286e3dd7102097b413d628d03336265135551\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:15 GMT",
+          "age": "263473",
+          "x-served-by": "cache-iad-kiad7000058-IAD, cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "3, 1",
+          "x-timer": "S1709502735.463767,VS0,VE1",
+          "vary": "Accept,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "14430"
+        },
+        "responseBodyHash": "1bd2673c2ff79dc2230318be39e6e78df701c1a174135de88401e18a1a66815a",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 0.026074999943375587
+      },
+      {
+        "url": "https://cdn.theatlantic.com/thumbor/Shs6srY2aJxllU0v2fw9U88kG9g=/7x0:4793x2700/296x167/media/img/mt/2024/03/HR_1000192956/original.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7978,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "content-type": "image/avif",
+          "cache-control": "max-age=2592000,public",
+          "expires": "Sun, 31 Mar 2024 19:15:27 GMT",
+          "etag": "\"df0abd9c1d210d5d4aea175111957466d9f4a635\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:15 GMT",
+          "age": "182208",
+          "x-served-by": "cache-iad-kcgs7200176-IAD, cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "1, 1",
+          "x-timer": "S1709502735.463883,VS0,VE2",
+          "vary": "Accept,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "7775"
+        },
+        "responseBodyHash": "85229d3a65903c042c068f8093bd49fbc0bfd5ed53098e34a0600c09332ffe35",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 0.025482999975793064
+      },
+      {
+        "url": "https://cdn.theatlantic.com/thumbor/B5ksAFai-8Z0vFeuhdKbAF5m9Sg=/7x0:4793x2700/296x167/media/img/mt/2024/03/HR_Problemista_UJTP_01919_R2/original.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 12822,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "content-type": "image/avif",
+          "cache-control": "max-age=2592000,public",
+          "expires": "Mon, 01 Apr 2024 22:42:21 GMT",
+          "etag": "\"d6b2cfc4ca106f560c7459d3f47faa3d72d2c58a\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:15 GMT",
+          "age": "83394",
+          "x-served-by": "cache-iad-kcgs7200081-IAD, cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "15, 1",
+          "x-timer": "S1709502735.472312,VS0,VE1",
+          "vary": "Accept,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "12620"
+        },
+        "responseBodyHash": "06652c819960c39a248fd263a5e7a98863cede126848552a048c276572029150",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 0.0285210000583902
+      },
+      {
+        "url": "https://cdn.theatlantic.com/thumbor/Xr94TkAdHJR_ki2kAlqOEoJj8o8=/7x0:4793x2700/296x167/media/img/mt/2024/02/HR_1032827506/original.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 10650,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "content-type": "image/avif",
+          "cache-control": "max-age=2592000,public",
+          "expires": "Sat, 30 Mar 2024 17:33:42 GMT",
+          "etag": "\"9d66fe0a4858e7b5a4fc8ba6d49fef56256035ad\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:15 GMT",
+          "age": "274713",
+          "x-served-by": "cache-iad-kcgs7200062-IAD, cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "4, 1",
+          "x-timer": "S1709502735.482403,VS0,VE3",
+          "vary": "Accept,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "10479"
+        },
+        "responseBodyHash": "341f24e5345e1d4c989be121f8e3a99f6fc40f696acf8a5df1837289dd37853f",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 0.03474399994593114
+      },
+      {
+        "url": "https://cdn.theatlantic.com/thumbor/pZKSERASdp_7jAbCiQ7hcC_3Lh4=/6x0:4161x2344/296x167/media/img/2024/02/0424_Poem/original.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 8607,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "content-type": "image/avif",
+          "cache-control": "max-age=2592000,public",
+          "expires": "Tue, 02 Apr 2024 13:29:12 GMT",
+          "etag": "\"338a10c969ed7b341231c7ec70ae09d94943f565\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:15 GMT",
+          "age": "30183",
+          "x-served-by": "cache-iad-kcgs7200121-IAD, cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "7, 1",
+          "x-timer": "S1709502735.487077,VS0,VE1",
+          "vary": "Accept,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "8408"
+        },
+        "responseBodyHash": "5f39063d7031629f42fff48e911de6c70cee1dc2c0878ee9ac4f668c8faf14b3",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 0.0435120000038296
+      },
+      {
+        "url": "https://cdn.theatlantic.com/thumbor/JMNEsZYbwelEpKRuaGZ5d2SSPUY=/3x0:1997x1125/296x167/media/img/mt/2024/03/dice/original.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1780,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "content-type": "image/avif",
+          "cache-control": "max-age=2592000,public",
+          "expires": "Tue, 02 Apr 2024 14:42:18 GMT",
+          "etag": "\"69f99f3927b08be001b6b0e47bd64a283123bc2b\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:15 GMT",
+          "age": "25796",
+          "x-served-by": "cache-iad-kjyo7100096-IAD, cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "4, 1",
+          "x-timer": "S1709502735.488167,VS0,VE2",
+          "vary": "Accept,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "1618"
+        },
+        "responseBodyHash": "aaa882b0390da8f78baa59de26360bc0e898db3b44b7f774cdb9a7c810da9fd4",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 0.04340399999637157
+      },
+      {
+        "url": "https://cdn.theatlantic.com/thumbor/tPLNK7U00fw-iMlu_nu_gnR0VXI=/4x0:2996x1688/296x167/media/img/mt/2024/02/HowToBuildALife178/original.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7763,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "content-type": "image/avif",
+          "cache-control": "max-age=2592000,public",
+          "expires": "Sat, 30 Mar 2024 14:17:16 GMT",
+          "etag": "\"1653e7059fe280ed23db2f55a1349f6252cd49ff\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:15 GMT",
+          "age": "286498",
+          "x-served-by": "cache-iad-kjyo7100116-IAD, cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "15, 1",
+          "x-timer": "S1709502735.488608,VS0,VE2",
+          "vary": "Accept,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "7561"
+        },
+        "responseBodyHash": "1d63a379bc86c18556f32250aa5a5bfdf82321b01a8d6dfbb93ff562e8d34842",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 0.04285700002219528
+      },
+      {
+        "url": "https://cdn.theatlantic.com/thumbor/lvrRhhaUp9rFu1LR6A0TziARSMg=/600x0:4636x2700/296x198/media/img/mt/2024/02/HR_home_TV_horizontal/original.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 22618,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "content-type": "image/avif",
+          "cache-control": "max-age=2592000,public",
+          "expires": "Mon, 01 Apr 2024 13:22:46 GMT",
+          "etag": "\"606eab8427ee98ffc5914b11d570de1e8ebb1d8d\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:15 GMT",
+          "age": "116968",
+          "x-served-by": "cache-iad-kcgs7200035-IAD, cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "6, 1",
+          "x-timer": "S1709502735.489638,VS0,VE1",
+          "vary": "Accept,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "22398"
+        },
+        "responseBodyHash": "08b36e6d7a161ea725f6413fefc2f2de56769eadcc1ec77f456758abe0c4bbae",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 0.04151300003286451
+      },
+      {
+        "url": "https://cdn.theatlantic.com/thumbor/wneudtjHmri3HhDTHvO4cFAg74I=/352x0:1648x1296/86x86/media/img/photo/2024/02/photos-week-4/a01_RC2GA6ACWVD2-1/original.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 15795,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "content-type": "image/avif",
+          "cache-control": "max-age=2592000,public",
+          "expires": "Sun, 31 Mar 2024 06:21:43 GMT",
+          "etag": "\"cd11fe503972abee80cd3c130df1dcad1d226f7f\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:15 GMT",
+          "age": "228633",
+          "x-served-by": "cache-iad-kiad7000107-IAD, cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "9, 1",
+          "x-timer": "S1709502735.491050,VS0,VE1",
+          "vary": "Accept,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "15626"
+        },
+        "responseBodyHash": "ae67593cceca8fd0c13355b67bc7689a38edd888b26b7669bdb3320f1068d3c0",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 0.04066399997100234
+      },
+      {
+        "url": "https://cdn.theatlantic.com/thumbor/ARKITvz8dYjmotn6m22pVt8S-tY=/800x0:4000x3200/86x86/media/img/mt/2024/03/GettyImages_937060088/original.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5201,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "content-type": "image/avif",
+          "cache-control": "max-age=2592000,public",
+          "expires": "Tue, 02 Apr 2024 13:29:12 GMT",
+          "etag": "\"e2dae67944a4cc67ca2253edd7548abc21f83c9f\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:15 GMT",
+          "age": "30183",
+          "x-served-by": "cache-iad-kcgs7200155-IAD, cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "10, 1",
+          "x-timer": "S1709502735.499937,VS0,VE1",
+          "vary": "Accept,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "5001"
+        },
+        "responseBodyHash": "b106c1c3dcfe82814f6e26edeba4088815211a04d2f71ebe63f20091625bbca8",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 0.7091449999716133
+      },
+      {
+        "url": "https://www.theatlantic.com/packages/hummingbirdjs/hummingbird.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 38385,
+        "remoteIPAddress": "199.232.198.133",
+        "responseHeaders": {
+          "x-amz-id-2": "uv0ayQwatvhfbtbxS6C8GBQOZB1Y8kkGN85wsiYcHPb53bGMToQpcJxkWF9q6nAEHOIlysMShQ0=",
+          "x-amz-request-id": "W2DHBABS1GX70XWV",
+          "last-modified": "Mon, 29 Jan 2024 16:18:59 GMT",
+          "etag": "W/\"4fa86924ff67184823b40d6e14817c48\"",
+          "cache-control": "max-age=500",
+          "content-type": "text/javascript",
+          "accept-ranges": "none",
+          "date": "Sun, 03 Mar 2024 21:52:18 GMT",
+          "via": "1.1 varnish",
+          "age": "8",
+          "x-served-by": "cache-chi-kigq8000082-CHI",
+          "x-cache": "HIT",
+          "x-cache-hits": "1",
+          "x-timer": "S1709502738.088592,VS0,VE2",
+          "set-cookie": "atltestbucketv1=0; Domain=.theatlantic.com; Path=/; Max-Age=7776000\nis_gdpr=0; Domain=.theatlantic.com; Path=/; Max-Age=3600",
+          "vary": "Accept-Encoding, x-is-gdpr,Origin",
+          "x-is-gdpr": "0",
+          "x-jwt-state": "Anonymous",
+          "state": "HIT-CLUSTER",
+          "strict-transport-security": "max-age=300",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "edec2f6a158eb08cd20c859a68ace654a25b9e717c01c94690d6731d9c9b565f",
+        "initiators": [
+          "https://cdn.theatlantic.com/_next/static/chunks/main-b7c6a1659f030104.js",
+          "https://cdn.theatlantic.com/_next/static/chunks/framework-2114f3935436c3d0.js"
+        ],
+        "time": 0.03437499993015081
+      },
+      {
+        "url": "https://cdn.theatlantic.com/thumbor/p_DgC26VT9xoiVmtOOAanTT1KYM=/438x0:1563x1125/86x86/media/img/mt/2024/03/luxuries_final/original.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2386,
+        "remoteIPAddress": "199.232.194.133",
+        "responseHeaders": {
+          "content-type": "image/avif",
+          "cache-control": "max-age=2592000,public",
+          "expires": "Mon, 01 Apr 2024 12:48:34 GMT",
+          "etag": "\"25ab10a59fd689c3d09d9346263d20e83e597d30\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:18 GMT",
+          "age": "119024",
+          "x-served-by": "cache-iad-kcgs7200144-IAD, cache-chi-kigq8000032-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "10, 1",
+          "x-timer": "S1709502738.241977,VS0,VE1",
+          "vary": "Accept,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "2089"
+        },
+        "responseBodyHash": "a2ce97fd3ee99f878272a8e1b33846a6cee4cc3280ea8033fc29a2b4c385ecf8",
+        "initiators": [
+          "https://www.theatlantic.com/"
+        ],
+        "time": 0.07453600002918392
+      },
+      {
+        "url": "https://www.theatlantic.com/api/user_country/",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 361,
+        "remoteIPAddress": "199.232.194.133",
+        "responseHeaders": {
+          "server": "Varnish",
+          "retry-after": "0",
+          "content-type": "application/json",
+          "accept-ranges": "none",
+          "date": "Sun, 03 Mar 2024 21:52:19 GMT",
+          "via": "1.1 varnish",
+          "x-served-by": "cache-chi-kigq8000032-CHI",
+          "x-cache": "HIT",
+          "x-cache-hits": "0",
+          "x-timer": "S1709502740.651020,VS0,VE0",
+          "vary": "Origin, accept-encoding",
+          "x-is-gdpr": "0",
+          "set-cookie": "is_gdpr=0; Domain=.theatlantic.com; Path=/; Max-Age=3600",
+          "state": "HIT-SYNTH",
+          "strict-transport-security": "max-age=300",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "37074f09f6ec13b0b830b2a803c306c5e367c0ec05b15ca0efda0ad8959c6e2e",
+        "initiators": [
+          "https://www.theatlantic.com/packages/hummingbirdjs/hummingbird.min.js"
+        ],
+        "time": 0.025403000065125525
+      },
+      {
+        "url": "https://cdn.theatlantic.com/_next/static/images/favicon-3888b0e329526a975703e3059a02b92d.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 1405,
+        "remoteIPAddress": "199.232.194.133",
+        "responseHeaders": {
+          "x-amz-id-2": "HGvGawiVNQxGrO8HSGSUVxR9CFChR/JrWLuaOc58WhE4qm4i1EdUrcDop6jgy84WHt9b9HaTNRrjPZ1WV5erMLt9F6OfWs9a",
+          "x-amz-request-id": "D5QB1Q1YQS52V2RR",
+          "last-modified": "Tue, 05 Dec 2023 21:16:41 GMT",
+          "etag": "\"307574422186e445c2962796e62177e8\"",
+          "cache-control": "max-age=31540000",
+          "content-type": "image/vnd.microsoft.icon",
+          "content-encoding": "br",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:52:19 GMT",
+          "age": "7630898",
+          "x-served-by": "cache-iad-kcgs7200045-IAD, cache-chi-kigq8000032-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "88436, 25",
+          "x-timer": "S1709502740.684084,VS0,VE0",
+          "vary": "Accept-Encoding,Origin",
+          "strict-transport-security": "max-age=300",
+          "content-length": "1073"
+        },
+        "responseBodyHash": "1a5e21a734876a6b011842d0e62bc0dc4c203f4837002703c91abaee1499a7f8",
+        "initiators": [],
+        "time": 0.035447000060230494
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api.js?render=6Lc9Z7AUAAAAAEYS1dgAG2_6tT3KLqZQ1z4kbDRc",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1187,
+        "remoteIPAddress": "142.250.191.132",
+        "responseHeaders": {
+          "content-type": "text/javascript; charset=utf-8",
+          "expires": "Sun, 03 Mar 2024 21:52:19 GMT",
+          "date": "Sun, 03 Mar 2024 21:52:19 GMT",
+          "cache-control": "private, max-age=300",
+          "cross-origin-resource-policy": "cross-origin",
+          "content-encoding": "gzip",
+          "x-content-type-options": "nosniff",
+          "x-frame-options": "SAMEORIGIN",
+          "content-security-policy": "frame-ancestors 'self'",
+          "x-xss-protection": "1; mode=block",
+          "server": "GSE",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "e294195a8d04fbd632374af9981ee227b56bb59d9869f0e515aa6fd7fd9cf3eb",
+        "initiators": [
+          "https://cdn.theatlantic.com/_next/static/chunks/main-b7c6a1659f030104.js",
+          "https://cdn.theatlantic.com/_next/static/chunks/framework-2114f3935436c3d0.js"
+        ],
+        "time": 0.10297000000718981
+      },
+      {
+        "url": "https://dev.visualwebsiteoptimizer.com/j.php?a=506588&u=https%3A%2F%2Fwww.theatlantic.com%2F&f=1&r=0.8223287857786872",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://cdn.theatlantic.com/_next/static/chunks/pages/_app-c69d585423e4eb54.js",
+          "https://cdn.theatlantic.com/_next/static/chunks/main-b7c6a1659f030104.js",
+          "https://cdn.theatlantic.com/_next/static/chunks/framework-2114f3935436c3d0.js"
+        ],
+        "time": 0.09058399999048561
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NTQTB9V",
+        "method": "GET",
+        "type": "Script",
+        "status": 307,
+        "responseHeaders": {
+          "location": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_analytics.js?secret=87ztfa",
+          "non-authoritative-reason": "WebRequest API"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_analytics.js?secret=87ztfa",
+        "initiators": [
+          "https://cdn.theatlantic.com/_next/static/chunks/pages/_app-c69d585423e4eb54.js",
+          "https://cdn.theatlantic.com/_next/static/chunks/main-b7c6a1659f030104.js",
+          "https://cdn.theatlantic.com/_next/static/chunks/framework-2114f3935436c3d0.js"
+        ],
+        "time": 0.08981899998616427
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 307,
+        "responseHeaders": {
+          "location": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/googletagservices_gpt.js?secret=hwyyx8",
+          "non-authoritative-reason": "WebRequest API"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/googletagservices_gpt.js?secret=hwyyx8",
+        "initiators": [
+          "https://www.theatlantic.com/packages/hummingbirdjs/hummingbird.min.js"
+        ],
+        "time": 0.05670800001826137
+      },
+      {
+        "url": "https://carbon-cdn.ccgateway.net/script?id=www.theatlantic.com&parentId=f38ac78416",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.theatlantic.com/packages/hummingbirdjs/hummingbird.min.js"
+        ],
+        "time": 0.053118000039830804
+      },
+      {
+        "url": "https://eus-api.ccgateway.net/v1/s/atlantic-gaid?puid=null",
+        "method": "GET",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.theatlantic.com/packages/hummingbirdjs/hummingbird.min.js"
+        ],
+        "time": 0.06256400002166629
+      },
+      {
+        "url": "https://c.amazon-adsystem.com/aax2/apstag.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 307,
+        "responseHeaders": {
+          "location": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/amazon_apstag.js?secret=tpxn2k",
+          "non-authoritative-reason": "WebRequest API"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/amazon_apstag.js?secret=tpxn2k",
+        "initiators": [
+          "https://www.theatlantic.com/packages/hummingbirdjs/hummingbird.min.js"
+        ],
+        "time": 0.0543329999782145
+      },
+      {
+        "url": "https://www.theatlantic.com/packages/hummingbirdjs/prebid.js?v=v8.30.0-2024-01-10",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.theatlantic.com/packages/hummingbirdjs/hummingbird.min.js"
+        ],
+        "time": 0.05242200009524822
+      },
+      {
+        "url": "https://cadmus.script.ac/dojx47ab4dyxi/script.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.theatlantic.com/packages/hummingbirdjs/hummingbird.min.js"
+        ],
+        "time": 0.05073200003243983
+      },
+      {
+        "url": "https://www.theatlantic.com/sponsored/config/?origin=https://www.theatlantic.com",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 762,
+        "remoteIPAddress": "199.232.194.133",
+        "responseHeaders": {
+          "content-type": "application/json; charset=utf-8",
+          "x-powered-by": "Express",
+          "cache-control": "public, maxage=600",
+          "x-request-origin-header": "none",
+          "etag": "W/\"3f4-JhiVKYAcMBVO8MAWg01yKxqwlxs\"",
+          "accept-ranges": "none",
+          "date": "Sun, 03 Mar 2024 21:52:19 GMT",
+          "via": "1.1 varnish",
+          "age": "8",
+          "x-served-by": "cache-chi-kigq8000032-CHI",
+          "x-cache": "HIT",
+          "x-cache-hits": "1",
+          "x-timer": "S1709502740.758215,VS0,VE1",
+          "set-cookie": "atltestbucketv1=0; Domain=.theatlantic.com; Path=/; Max-Age=7776000\nis_gdpr=0; Domain=.theatlantic.com; Path=/; Max-Age=3600",
+          "vary": "Accept-Encoding, x-is-gdpr,Origin",
+          "x-is-gdpr": "0",
+          "x-jwt-state": "Anonymous",
+          "state": "HIT-CLUSTER",
+          "strict-transport-security": "max-age=300",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "03c09bff226c24fe31677c95ea6582311574a2909ccdadd7ee3caa3b995700a3",
+        "initiators": [
+          "https://www.theatlantic.com/packages/hummingbirdjs/hummingbird.min.js"
+        ],
+        "time": 0.03232900006696582
+      },
+      {
+        "url": "https://pub.doubleverify.com/signals/pub.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.theatlantic.com/packages/hummingbirdjs/hummingbird.min.js"
+        ],
+        "time": 0.04845600004773587
+      },
+      {
+        "url": "https://714aecbf-a3b6-4f4e-8006-c57c6507930d.edge.permutive.app/714aecbf-a3b6-4f4e-8006-c57c6507930d-web.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.theatlantic.com/packages/hummingbirdjs/hummingbird.min.js"
+        ],
+        "time": 0.04217799997422844
+      },
+      {
+        "url": "https://b-code.liadm.com/a-096g.min.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.theatlantic.com/packages/hummingbirdjs/hummingbird.min.js"
+        ],
+        "time": 0.03664299997035414
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_analytics.js?secret=87ztfa",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3695,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"wTqkQ1ryNce63XhVKrXix8otYW0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "6b4621868cac589a603fe1263aad242f67262ef971bdacaccc1a515cd0488466",
+        "redirectedFrom": "https://www.googletagmanager.com/gtm.js?id=GTM-NTQTB9V",
+        "initiators": [
+          "https://cdn.theatlantic.com/_next/static/chunks/pages/_app-c69d585423e4eb54.js",
+          "https://cdn.theatlantic.com/_next/static/chunks/main-b7c6a1659f030104.js",
+          "https://cdn.theatlantic.com/_next/static/chunks/framework-2114f3935436c3d0.js"
+        ],
+        "time": 0.05895600002259016
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/googletagservices_gpt.js?secret=hwyyx8",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5102,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"76KRjaFvvOrwsb8JSDs4Q2jTlbo=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "3ad0442f766373b8fed1f1ba2dcd6d6cbf948b68641956135a8f552472e3e6b6",
+        "redirectedFrom": "https://securepubads.g.doubleclick.net/tag/js/gpt.js",
+        "initiators": [
+          "https://www.theatlantic.com/packages/hummingbirdjs/hummingbird.min.js"
+        ],
+        "time": 0.055060000042431056
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/amazon_apstag.js?secret=tpxn2k",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1974,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"rPOoZgIganaq20u6zAc1kSizP9k=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "cf3f5c41c90134ff7ee66a471875b1e076384d789aa3827990ea99f00ee40231",
+        "redirectedFrom": "https://c.amazon-adsystem.com/aax2/apstag.js",
+        "initiators": [
+          "https://www.theatlantic.com/packages/hummingbirdjs/hummingbird.min.js"
+        ],
+        "time": 0.08750999998301268
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/vj7hFxe2iNgbe-u95xTozOXW/recaptcha__en.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 200475,
+        "remoteIPAddress": "142.250.190.67",
+        "responseHeaders": {
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/recaptcha",
+          "cross-origin-resource-policy": "cross-origin",
+          "cross-origin-opener-policy": "same-origin-allow-popups; report-to=\"recaptcha\"",
+          "report-to": "{\"group\":\"recaptcha\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/recaptcha\"}]}",
+          "content-length": "199830",
+          "x-content-type-options": "nosniff",
+          "server": "sffe",
+          "x-xss-protection": "0",
+          "date": "Sun, 03 Mar 2024 21:51:39 GMT",
+          "expires": "Mon, 03 Mar 2025 21:51:39 GMT",
+          "cache-control": "public, max-age=31536000",
+          "last-modified": "Mon, 26 Feb 2024 03:01:13 GMT",
+          "content-type": "text/javascript",
+          "vary": "Accept-Encoding",
+          "age": "40",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "2c6a3425cec9ba0cbcfcf1dbba2120a72ac369674a6d02e06bd3b0c16efbdcf7",
+        "initiators": [
+          "https://www.google.com/recaptcha/api.js?render=6Lc9Z7AUAAAAAEYS1dgAG2_6tT3KLqZQ1z4kbDRc"
+        ],
+        "time": 0.16467999992892146
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lc9Z7AUAAAAAEYS1dgAG2_6tT3KLqZQ1z4kbDRc&co=aHR0cHM6Ly93d3cudGhlYXRsYW50aWMuY29tOjQ0Mw..&hl=en&v=vj7hFxe2iNgbe-u95xTozOXW&size=invisible&cb=2o6f1vc3jaje",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "remoteIPAddress": "142.250.191.132",
+        "responseHeaders": {
+          "content-type": "text/html; charset=utf-8",
+          "cross-origin-resource-policy": "cross-origin",
+          "cross-origin-embedder-policy": "require-corp",
+          "report-to": "{\"group\":\"recaptcha\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/recaptcha\"}]}",
+          "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+          "pragma": "no-cache",
+          "expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+          "date": "Sun, 03 Mar 2024 21:52:20 GMT",
+          "content-security-policy": "script-src 'report-sample' 'nonce-6V-P3Lcf0ui94NurrwUMCA' 'unsafe-inline' 'strict-dynamic' https: http: 'unsafe-eval';object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/recaptcha/1",
+          "content-encoding": "gzip",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "server": "GSE",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "initiators": [
+          "https://www.gstatic.com/recaptcha/releases/vj7hFxe2iNgbe-u95xTozOXW/recaptcha__en.js"
+        ]
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://cdn.theatlantic.com/_next/static/chunks/pages/_app-c69d585423e4eb54.js": {
+          "Navigator.prototype.platform": 3,
+          "Document.cookie getter": 18,
+          "Date.prototype.getTime": 2855
+        },
+        "https://cdn.theatlantic.com/_next/static/chunks/6729-85e40cec85603df8.js": {
+          "Navigator.prototype.product": 2
+        },
+        "https://cdn.theatlantic.com/_next/static/chunks/2746-8e2d3d2e5989050e.js": {
+          "Navigator.prototype.userAgent": 1
+        },
+        "https://cdn.theatlantic.com/_next/static/chunks/framework-2114f3935436c3d0.js": {
+          "Event.prototype.timeStamp": 12
+        },
+        "https://www.theatlantic.com/packages/hummingbirdjs/hummingbird.min.js": {
+          "Document.cookie getter": 50,
+          "Navigator.prototype.userAgent": 9,
+          "Screen.prototype.width": 9,
+          "window.localStorage": 11,
+          "window.sessionStorage": 5,
+          "Navigator.prototype.language": 1,
+          "window.innerWidth": 11,
+          "window.innerHeight": 180
+        },
+        "https://www.gstatic.com/recaptcha/releases/vj7hFxe2iNgbe-u95xTozOXW/recaptcha__en.js": {
+          "Navigator.prototype.userAgent": 27
+        }
+      },
+      "savedCalls": []
+    },
+    "cookies": [
+      {
+        "name": "atltestbucketv1",
+        "domain": ".theatlantic.com",
+        "path": "/",
+        "expires": 1717278739486,
+        "session": false
+      },
+      {
+        "name": "is_gdpr",
+        "domain": ".theatlantic.com",
+        "path": "/",
+        "expires": 1709506339486,
+        "session": false
+      },
+      {
+        "name": "kppid",
+        "domain": ".theatlantic.com",
+        "path": "/",
+        "expires": 1741038732272,
+        "session": false
+      },
+      {
+        "name": "atl_uuid",
+        "domain": ".theatlantic.com",
+        "path": "/",
+        "expires": 2147483647272,
+        "session": false
+      }
+    ]
+  }
+}

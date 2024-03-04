@@ -1,0 +1,4440 @@
+{
+  "initialUrl": "http://businessinsider.com/",
+  "finalUrl": "https://www.businessinsider.com/",
+  "timeout": false,
+  "testStarted": 1709502691251,
+  "testFinished": 1709502714279,
+  "data": {
+    "requests": [
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-common.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9146,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"aaUB+OkU2kkNMG0s29pMrD/Txpw=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "f126a5d9a1d51b6e9a69bce4c7bc5cd73d35c52f698720718bd42f55d564930d",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.04418700002133846
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 63306,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"brp35kQtS8+j/OiHcYh4IU0cb3Q=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "6e72cbe8c52b11d9b408452d7cfb3f49fe1c78c017bd8077110b357fdec328a8",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.05364900000859052
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background-ext.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 8841,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"fXf83hxHQFYzgM0DpIEbFLcQtRs=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "970661746c1bd310b52c2a4106f5628f2ec33587889f62a010055490f9da77c3",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.0630210000090301
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/commands.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5688,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"c/ILoHWOD64IpOQHtmk7EIE2XqA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "8600c9766351b29e50594db79a48a6257edd8caf7ac6e9e1f6a739e1a76cfff5",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.07025599991902709
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 64015,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"tB/CTGayMFjN4N1iH+gWkt7Ypys=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "814ca08012b5676b8f54fa9b76db8d32c7b809a8d6232f085836c8379af81dd3",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.06493500003125519
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 59170,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"8qtLS1TRlqk4NFoKeiaqWbvgnjs=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "2273d9c1354d7d76dcdf4ac1af459f83b8d5ba69fe7cf3ba9e739cbc6465469d",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.08420699997805059
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/tab.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 43055,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"bAN/KBrmF13jeLEa8CnmY/h9yJw=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "14ca611674b054d67b8ee47aaa75247c7ca714ffb56505922dd20eb8a683d117",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.06963400007225573
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/ublock.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 21360,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"s2huleUUItx8WmfIoigU2k89EI4=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "680316d3bc24a4c7075f953b804bdf386bf7006dad240d9dd82c0749e0bde7bb",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.08711500000208616
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/utils.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5732,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"ewbUChQLhbKBviAH8OkhaZR6EBY=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "53753703bb4eddbc3b10e89a971bc24af840fde30fb7895ed2664fe875f99216",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.08984000002965331
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/cachestorage.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 17413,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"BKGwCtQGOhNSwT+cpw63EvtlObc=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "037dbc3d31577989f3e77cfa4da0f37344f8d1d9d1063cf147e904fd5aef8b27",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.0929799999576062
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/contextmenu.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9458,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"KnFG3e4nOTTCC0ndfJpFbFTX1yQ=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "dda53fe9ea31d6abc64cc04453043ac5c9855c59fc5e7a11c7a79aac2f75c147",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09402099996805191
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 37085,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"rkObEe2pVTnb8GIlR54aPZvaOuE=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "7f57c7371827dee653f88641abe00fb3576343467b131a0f81dbe05252d47df7",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09654200007207692
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/lz4.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6476,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"Aby2z5UWZo+IfYyE5QRUC04KW7E=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "bc37731b1037f5f5beb72337a0403137be0d14f2dfe4d9b4c3489f5871337fe8",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.10049099999014288
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-ext-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6442,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"T246NPf/b38zaoR9brX77q41lqM=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "25e9546e55c911b89c60bfaae1facd64726567d1ff00efce427063f92dab782a",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.10476299992296845
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/reverselookup.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6410,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"jCMDkD1weRVOYWmj9W86+SAAOqc=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "8aafbe6baaf965e15146d7d4c86edd6eca77eebc070447170f64d6ddfdc3f26d",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.1059489999897778
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-net-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 177232,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"naOuX4j11zGMRfwg1/ib5p70d9o=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "977ab6b0e22f7014a66e861483da1657f9197c0f7f5ce03cfff6b9bae03a6a21",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.1709830000763759
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/background.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12935,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"pxJDj/3NSnAwkacM0mDXjla4oKA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "617e411ff07ff690535663dceaa4b4afef54c3f72e851fb3ca95fd811352c237",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.11919699993450195
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 40690,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"2ULP7uOZN0J63JSZrWNClnpoRZ0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "d4767d32875f7d6392123143a0a90f39f578be6500d48310fa6655ac53018375",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.11112900008447468
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16231,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"5/Hviz/N4pTuWsUsdPmG+Vurg4g=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "25caf31da6b5a1226229110ef285f7ed21e1c6c7b2e67b2ebc3b3dc9f251ce3f",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.10677900002337992
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/console.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1686,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"FolHAjRVIeXDvaQ1O5ZchW1id7o=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "4c9115d407dc2d37e4947201e1cd403ce49e773cf3145c748145145152a39ba6",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.10921599995344877
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/filtering-engines.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1843,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"GJXEGjVT9sYpuBNXUfBP4hLDkPc=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "8e3f6983c16220eaf941346b35d632300fc0cd9b86020f3816eb92767cf2b622",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.11965800006873906
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7129,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"1vY+XR+TzcIhxp2BuhYVZJ65M+Y=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "e2e65720e4c6816243d811e34a3fa8773bde2fc7da683ef912246bbd4f266e3b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.15013399999588728
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/lib/publicsuffixlist/publicsuffixlist.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 21141,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"iila5CWHW0iw8SPgL216SoU3hYw=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "4bffa485e7f0c16134305215cb85b6ee33af08a1370484351b230f56c64fe6a4",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.1474630000302568
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/lib/punycode.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 13615,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"Cnf4OiWclUC+aPRdFWSYUnGTUnA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "329249856a82a02f69fb2d929f89e02aefa6b04cca4ef6a3b9bebfa48d6e824c",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.1761699999915436
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/cosmetic-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 33982,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"8DeaqhHs9iEDwoRUHAwyVhluLGk=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "f85390d75b092dc72cc27f559516fc3b0d9a1f473c921cde3f86cf32a0244e59",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.172186000039801
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/html-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 13226,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"nE/MtESN4/QpDKN9nEGM5qoH4M4=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "a39efe15686694c36c84c76fef131c400199de765eccc56e4234d138eab327ad",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.17589900002349168
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/logger.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2617,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"b8Wd6PJxRPGudjfAAryIkg7il6g=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "74588f2dfea500aedfac8edd75b949e6d4aeb2070706885d3ffe9dce297658d6",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.18062999995891005
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/scriptlet-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16396,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"tzLnLKB+/ZNmrSigvMkdpANOsGg=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "9009f525e509824eb26816d85f5bba1fa05aeacd8439cdd372e1fa67fd2d691f",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.17656600009649992
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/base64-custom.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9061,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"OnBCHLjB+OUYqDx7akb0eRGnoZs=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "a0880409a82754c2e5927f5d3712dbbab280c5024ecce864b7dbec20dc19d2ea",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.18181099998764694
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-dnr-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 17406,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"DbHGb5L4hdAkjR9FLOq6UPY0mSA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "10f814879fa095d9558a96692bb261010315429e4534d98644050157c30a866f",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.20019799994770437
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/i18n.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 13319,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"sgE7pqJMnDa8VrcldJ0ilYveB9M=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "54fb40243620deba248a8e72fba23d2bdb38072bc32b30f0b8dc4b5210bb0746",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.20096099993679672
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-filtering-parser.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 164667,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"H6Vn2En40xu1GbGWyUOD8+h0LF8=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "cfdf172c8e95c947c500dea40ba5540daaa4e6e8c62230be7c60658c1cc7c114",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.22968399990350008
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/uri-utils.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5459,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"Xn67G/cKymweq4CjJ8jx85KcgH4=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "aad0fbad010ed91399e993917f329b2d745fbe4457e3d0f011662ea048a62d03",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.2076809999998659
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/benchmarks.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14781,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"fx2USk/w9OdwKYUcesd1PiXaKso=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "7dc5738c927e44080b7cd9a134a20c9a27c4d5f16858640f417bc4c54c7f8fe7",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.20994599990081042
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/pagestore.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 37941,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"0pAEaDWrTcynpqbYkllrsQbu4P4=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "0d276e541f29baf81c120ed01011b79dd6314bf10d3a7ac71b9f22cc8b4020e1",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/tab.js"
+        ],
+        "time": 0.20817999995779246
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-filtering-io.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4549,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"odWmB/ijF6Od72rdmnHNjvmWt1Q=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "e0d8f3c6d0d715f2ea61ab6670e153f341e2abe07dc5e0f6bbb3532bfeedbc30",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js"
+        ],
+        "time": 0.20204599993303418
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/text-utils.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3206,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"bybrzDjowCch/sktFQYJugb+zwM=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "b1a96611d4ed6efbd6b6cd5c79175e891575c63294e45f847f05600f5cdb12ac",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js"
+        ],
+        "time": 0.20280800003092736
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/httpheader-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6352,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"SqWU30JsVe68CGl7V5IYN9Ue8ZY=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "a668fd9d938f686433d2e5e621f5175fbe3cc31a3f7f1e08e24352ecab395c90",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-ext-filtering.js"
+        ],
+        "time": 0.1785290000261739
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-resources.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5378,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"o8OhMLJZCm7xijQh+t91hKH16vM=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "820e0173c4edd93e7dc5d4244e1d12e7129de894aef21f713ba21bf548c60ecf",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js"
+        ],
+        "time": 0.17568599991500378
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/text-encode.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12028,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"hN/C9mwwtU1t+yo3/Rg0M2yGi5k=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "850aa0a27dd5ae4a14c9e1173839ee2376849ef5590f6c82b8c34e200a2344ec",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js"
+        ],
+        "time": 0.1741710000205785
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/filtering-context.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14378,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"yN0YEFTj9wAv0PvTGvys1uJ8kl0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "c91359d674f43f0ebdc9a355d8b0fb43735d48995df2196f67e17de92b723fce",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/background.js"
+        ],
+        "time": 0.17603800003416836
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/dynamic-net-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14929,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"gXO6tsSsmyISqWJESo/178bzc70=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "1599cd0e54d1054f513498d2d4809a39a795d82c1e23b422cc6503608600df36",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/filtering-engines.js"
+        ],
+        "time": 0.1722339999396354
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/hnswitches.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9552,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"+rKz0sjaKVuCQGW9yi4CgDBwdaQ=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "347df073a6f20be44a21ae99b8da0c14614b397658894963f24330acc553113b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/filtering-engines.js"
+        ],
+        "time": 0.1758459999691695
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/url-net-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10209,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"tieD34setz8cNEM+sZ0i6CEhpFg=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "835831a8584c0b8d7d0ea93bc8d1579ef3dc8c4611d371722a643c36f14471dc",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/filtering-engines.js"
+        ],
+        "time": 0.17424899991601706
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/tasks.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1405,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"SYHXDKUVZzLkC5tphHt3KrA4+7U=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "1c32e673ad892453685d10961246093eac5b628d4a0dfe423a6b3903a3a971b8",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-net-filtering.js"
+        ],
+        "time": 0.13682400004472584
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/biditrie.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 34955,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"AheZ6MejaiDkLljcnWjPUo842xA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "4e020d6ce6f487e50ee11a68c69808a1466dc39d91c45d7b576186fc4d333189",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-net-filtering.js"
+        ],
+        "time": 0.13375999999698251
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/hntrie.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 28060,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"Er8vVKiCQn/QLsrtE4b7i/p31bY=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "0c2d598dcfb869d73fdd210d8d4de6be01bf963fd68493aff38412a4558a6543",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-net-filtering.js"
+        ],
+        "time": 0.13716799998655915
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-ext-filtering-db.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6022,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"jqRZdGl0d4KQTEg9Iimy9jCMWE0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "fed5ab181ee1c6857ee8c7e6ef251dba74d361e7cc291b076199e2fedaca50cc",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/cosmetic-filtering.js"
+        ],
+        "time": 0.07398200000170618
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/lib/regexanalyzer/regex.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 71968,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"Zc4zMrbKNl4jIVUdCsA8BAi5Qk8=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "de0a7a04bd5349dd3ffb91fb54d66fc5ccbd930f8c4bdb41ddac4dd03e18aacb",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-filtering-parser.js"
+        ],
+        "time": 0.04433499998413026
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/lib/csstree/css-tree.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 167973,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"4WxGcJjJUcwPUMlunC7RvGLWaI4=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "ecc4507fac946cbe442962e11bb058195dbe72545cce42f34338a83726ec56e0",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-filtering-parser.js"
+        ],
+        "time": 0.05782100011128932
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16-off.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 552,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"UjtU7CjAmAcHX4DBL09uSijcYkg=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "7ea99590d4b3f5ffbd7610f8ae42a72803a0f809200f595b943d5a622eb8d9bd",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.026893000002019107
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32-off.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1114,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"nkCRpu+nneDbhSqRHQsS4ngvo0I=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "3c8bf856b1fed942ab11cfc92aeda135adcc25c7012528f4b95cc6cb0e74a2cb",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.03774699999485165
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 420,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"9uZWEEQawXEa9JeFZdVDxheK738=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "5bc0b6c5d00309f9dae2be3fb505fda1ccdfa5c4d2994e167c8fb473bf95a777",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.036149000050500035
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1278,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"e74+CjUkVkdX//K9KytM4jGb4Sg=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "2fd0f85a569e98791d39884b54e706d105e5db0dfc60a319a40e09d48fc9b878",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.0364500000141561
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 570,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"SCCY3xHCtdMdB9jfy1lKOHd91yw=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "75cfccc844e135a85d7508a5892f72bac16b510919e4d4d5801ded7b1901a5cd",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background-ext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js"
+        ],
+        "time": 0.037124999915249646
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1089,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"RmlX4Eb0Vf+9Lga44dPV6pw/juM=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "230dc98bf942ad4be6016cbff229ae0605f2f02401e406ef0d649e7b1cca37ae",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background-ext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js"
+        ],
+        "time": 0.037010999978519976
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_64-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4406,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"VxvYv0EN5oLKTZD+GqhZRU48+qM=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "d52e425f9820d4c3e27e3ba658b7d21b14e3fbda7dd43febeea5a6021809060c",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background-ext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js"
+        ],
+        "time": 0.03528700000606477
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/badlists.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 4136,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"eOiMDeKtL1q/V6TIuAFaDCVjfWY=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "109822a6b68367e225fd701e53be3419800b95c7d4becd50bf8a2d49ba22424f",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.03978399990592152
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/resources/scriptlets.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 125820,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"CgwgzxiUJT5q+w9lH7Se+5ZMoIc=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "82d47ba987d73c40c4e7363b9ab5dba77ed1527a26d77909e3cedc27a5cd3439",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.06209499994292855
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/1x1.gif?secret=4lm0kq",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 43,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"72D+/UKGYStX5er87ISTvvrF5tQ=\"",
+          "content-type": "image/gif"
+        },
+        "responseBodyHash": "6b3da89922d333d106b84fefeebd7b16bfebf4cfbd7bef37fa10a47c471ae64c",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09889000002294779
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/2x2.png?secret=cg7frj",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 68,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"esKRo0fVKvgNoUzOaCbJcHcCR5c=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "53b14a22cd3dc973d6cb1a381d01fafafc4da1632bacbf15f7fac0014fbe70c0",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.10347900004126132
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/3x2.png?secret=0vpy9k",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 68,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"FE1vXRwHfZli324eMoQlsnugEho=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "c6ea854b737a88835e1c7349bcfa0730f55e19de7acf0f54f9d6ea817fcd2f20",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09991099999751896
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/32x32.png?secret=tll3b1",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 83,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"67CnMiH92/CeXXcyr+80HclqFxI=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "173650f1d19d59786ce8dd44c64cd8fb4471552c2e247fb774bec92726a7ee6b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09925500000827014
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/amazon_ads.js?secret=rf9pql",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2296,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"By+IDkPL9F/5lkH5nXfR93EB23k=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "41901805f575d9d06608682999cf588b12c318face2ed04e8566ec8cbec4c610",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09823400003369898
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/doubleclick_instream_ad_status.js?secret=o5vcgk",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 29,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"s8ZaX7h28RDv/PN40yMhb1rRBto=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "eed0dc1fdb5d97ed188ae16fd5e1024a5bb744af47340346be2146300a6c54b9",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09916199999861419
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/empty?secret=nelymm",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"w1USgRq36N3lrsNJbzqv38xCsUk=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09644599992316216
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/fingerprint2.js?secret=dkvihk",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1810,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"PePG6yN3ZEGZMHdAk3DkU2BtUIM=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "7db8892256cdf45ad5ca5748e136e0c241b53b38c5adaa744a42ca139f05ffb3",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09899600001517683
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/fingerprint3.js?secret=hfch5o",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1492,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"CetrBFm7a360yitCLL/02QWkJT8=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "6fd5703f2bdd85932f18adc99f30d8736d2bf5f09b1dde6c129f4616259fc827",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09933800005819649
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_analytics.js?secret=8iv3dr",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3695,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"wTqkQ1ryNce63XhVKrXix8otYW0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "6b4621868cac589a603fe1263aad242f67262ef971bdacaccc1a515cd0488466",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09433700004592538
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_ga.js?secret=zjvirz",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 4810,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"FSty3AHCXVujktdhdSOgAswTJwI=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "f0546767675ac7eff724521236be831e8753a7b8c15aa1c792d8121cb5311094",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09437000006437302
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/googlesyndication_adsbygoogle.js?secret=bwvat1",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3603,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"27D7TdoFnKSaDAxhDXZtyWlUA+0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "ba81dafd9a59c99b9d9e914ecbd5545c36d73d55b5ecb4d698ee3c49b02101c2",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09141600003931671
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/googletagservices_gpt.js?secret=3bm570",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 5102,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"76KRjaFvvOrwsb8JSDs4Q2jTlbo=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "3ad0442f766373b8fed1f1ba2dcd6d6cbf948b68641956135a8f552472e3e6b6",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09169899998232722
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/nobab.js?secret=u1cwdb",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2976,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"fWIMOUaEIaNtkbrEiIKDhn8PTGY=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "1bc47b0e9b642cfcf2496977df36babdb263f13d0cfd64b286eb5c4c84cc319c",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09010800009127706
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/nobab2.js?secret=iv3ai0",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1503,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"vy1qEErrRXmXVNnibZFXADJr2NA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "3ee47f99116088a94e1c280d3cd6216a75513a9109a3876ed7926897ec7cfc96",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.08915999997407198
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noeval.js?secret=4pqisq",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1169,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"Zm3NrZrHm1RQ8sEDNdlqPrq/x5I=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "3cdd6f7412af4317374860533434959652db9e61633bdcae4755ad9039732bc6",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09016100002918392
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noeval-silent.js?secret=rrgi7p",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1046,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"uAxLt+FExKqnQoCEOy79k/qsAoI=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "bcb710ed7e64295cc8fe98b8611978e0801ffdce65107d1cb9c318339a5644d6",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.08875600004103035
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/nofab.js?secret=ucwgkc",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2604,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"8C4cfBueT2MD3BS5m6yoQgPFyj0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "dd7684145ffe90180075aa4d98a7a457cbdc6b73295bea17c55bf230332cf056",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.0892199999652803
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop-0.1s.mp3?secret=pxoq4o",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 813,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"2+x2uGBtVFxzOfC/ga3FuCo0a10=\"",
+          "content-type": "audio/mpeg"
+        },
+        "responseBodyHash": "3b31d6fd84b91ed8fafa0dc7d7f6dbded7fc8a9b51289991138a07d33bb7a99b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.08882800000719726
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop-1s.mp4?secret=cxx6ah",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3753,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"phhjpBwH2UsBHfAauKoOtl6zzkY=\"",
+          "content-type": "video/mp4"
+        },
+        "responseBodyHash": "5fffd48ffc18ad96d910ea2d84da417974177c3c0cc12fa0ca364c6f864ea641",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.08827399997971952
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop.css?secret=eppq0b",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 6,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"KSIg5lBIqQJSknb8PjMzOeEIjSU=\"",
+          "content-type": "text/css"
+        },
+        "responseBodyHash": "cccc5e8a9a7ad608a04f242530345694bd7150bd73315513284142b6a39ba4b7",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.08784599998034537
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop.js?secret=2lrxwl",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 38,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"OpoFl8Qm9JGwy6bvidLZuEeJc50=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "5592bfa25de75c18ef0116cbb9990c122178b1efe5e076f1c45049a09d935a25",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.08803500002250075
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop.txt?secret=ib8gez",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"MEUVxJfRt7KHLk+5bpNePR0DHec=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.0870500000892207
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop-vmap1.0.xml?secret=kcp7t4",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 86,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"o91xJuRB4zgK7iE97MmCHdnqlwI=\"",
+          "content-type": "text/xml"
+        },
+        "responseBodyHash": "fcc40f36d86c8f7146d4b2f0c1273cc46282c2c236303dabc172dfacfdf86508",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09012800001073629
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/popads.js?secret=tdm6p6",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1601,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"I9T+DOFVlPUkYWimhhzIRMcfjvI=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "85700e488f782dde2eac664d8127399f7650832678188ecbde143e5482a0bf58",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.08635200001299381
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/popads-dummy.js?secret=5l9ra8",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1082,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"WifQzgUPi4l7MnUILkJmjzMy6+I=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "7d9ea48fc2dbf1c680406d5335aa567f84967e91b10e823b7e2462ce531fa281",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.08469299995340407
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/prebid-ads.js?secret=vg63cs",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 990,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"zgpQ56ZBEYb7FmruMvEAtYO6iHM=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "4ef4348e32fffdfa739b160f77d0b96fc4c861c089cfae8458275e30436179b3",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.08750099991448224
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/easylist/easylist.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1561127,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"LtheFwWjs98NDuASTQh7tNDCpLI=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "fdd1f5fad30f0615b76861caec3b0385b5628839e1b0f30f08d253ae4d63ac5f",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.32090499997138977
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/easylist/easyprivacy.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 869277,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"w2nyAU5mv9ABOU6GFTURUHq4xgQ=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "a1ec9956461f447372f9c0f0658880e6d68f2137eb4caa206013027653c09e65",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 2.3658639999339357
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/pgl.yoyo.org/as/serverlist.txt",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FILE_NOT_FOUND",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.0769720000680536
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/badware.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 111016,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"AYIE/yEnpZPkbhaGZvQlS2EcDJ8=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "61339a487f716803a4d81ea2abef7603a30a1799fedd42626671a2cd8352ce60",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.4823790000518784
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/filters.min.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1244702,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"h1LFQV4RKbAD/Dr/crybn2Q5sRM=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "40edb5e5c62e3cc3e701fda60ca76362a0401be26b96fa7da827a91ec3676695",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 2.9432769999839365
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/privacy.min.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 25261,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"NVSCvkmHFfp2m7DKRdO/KxfEuKk=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "5e35527a7b50abc913a6bf2a4efa113a7ad3a29875679820be9f223e33e2c564",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.08087199996225536
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/quick-fixes.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 12961,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"afueNux30hW+NV4++qgmpXTa57Q=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "8da204883be6cef9a900cfeebace44bff5c1ab48f1f5b1e0934be478beed838b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.19250600005034357
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/unbreak.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 225327,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"RJFXfxbz9txDf2F9CzvtzGKrUGQ=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "0842f26631ba700715f6807ebed0b0686340385a51aef6ba56c44797f6e859f9",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.9828310000011697
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/urlhaus-filter/urlhaus-filter-online.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 62578,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"BTHdXv1lxAGsEi3GXDaj3ARryk8=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "64473d0333370e1aa9208bd5895394c4c977c3c9eccd2df53605aca3f5cf577d",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.21404300001449883
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/pgl.yoyo.org/as/serverlist",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 99702,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"cjJqLaDjMIABN/iLNntIhbyVrgY=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "e7564ecea385fef412bb736d9f715c9944ce043747c4421c6835e24cc93ace75",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.8245589999714866
+      },
+      {
+        "url": "http://businessinsider.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "151.101.193.171",
+        "responseHeaders": {
+          "connection": "close",
+          "content-length": "718",
+          "server": "Varnish",
+          "retry-after": "0",
+          "content-type": "text/html; charset=utf-8",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:40 GMT",
+          "via": "1.1 varnish",
+          "x-served-by": "cache-chi-kigq8000087-CHI",
+          "x-cache": "MISS",
+          "x-cache-hits": "0",
+          "x-timer": "S1709502701.751304,VS0,VE0",
+          "strict-transport-security": "max-age=31536000",
+          "location": "https://www.businessinsider.com/"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.businessinsider.com/",
+        "initiators": [],
+        "time": 2.3207450000336394
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 570,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"SCCY3xHCtdMdB9jfy1lKOHd91yw=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "75cfccc844e135a85d7508a5892f72bac16b510919e4d4d5801ded7b1901a5cd",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "extensions::webRequestEvent"
+        ],
+        "time": 0.20948499999940395
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1089,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"RmlX4Eb0Vf+9Lga44dPV6pw/juM=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "230dc98bf942ad4be6016cbff229ae0605f2f02401e406ef0d649e7b1cca37ae",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "extensions::webRequestEvent"
+        ],
+        "time": 0.27137900004163384
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_64-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4406,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"VxvYv0EN5oLKTZD+GqhZRU48+qM=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "d52e425f9820d4c3e27e3ba658b7d21b14e3fbda7dd43febeea5a6021809060c",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "extensions::webRequestEvent"
+        ],
+        "time": 0.27117899991571903
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 420,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"9uZWEEQawXEa9JeFZdVDxheK738=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "5bc0b6c5d00309f9dae2be3fb505fda1ccdfa5c4d2994e167c8fb473bf95a777",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09713300003204495
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1278,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"e74+CjUkVkdX//K9KytM4jGb4Sg=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "2fd0f85a569e98791d39884b54e706d105e5db0dfc60a319a40e09d48fc9b878",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09674499998800457
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_64.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2655,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"z1HgbWDpu8W5XjdmapJcfSGuRjA=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "5fa6baa4bed8763bc19a8f6e6d169c0ba472d3f1913b6a093f65262ebd7c1c52",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09644500003196299
+      },
+      {
+        "url": "https://www.businessinsider.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 53372,
+        "remoteIPAddress": "151.101.65.171",
+        "responseHeaders": {
+          "content-type": "text/html; charset=utf-8",
+          "x-powered-by": "Fenrir",
+          "last-modified": "Sun, 03 Mar 2024 21:51:40 GMT",
+          "cache-control": "public, max-age=120",
+          "x-frame-options": "sameorigin",
+          "access-control-allow-headers": "Origin, X-Requested-With, Content-Type, Accept",
+          "link": "</styles/landing-page.de7a9c157585cb90ca9f.css>; rel=preload; as=style; nopush, </scripts/main.fc6b1c9eecb21a517e97.js>; rel=preload; as=script; fetchpriority=low; nopush, </scripts/vendors.5a03a0196903ba74a2d4.js>; rel=preload; as=script; fetchpriority=low; nopush, </scripts/utilities.66599a200b1bb1a65b5a.js>; rel=preload; as=script; fetchpriority=low; nopush, </public/fonts/subset/LabGrotesque-Black-subset.woff2>; rel=preload; as=font; type=font/woff2; crossorigin; fetchpriority=low; nopush",
+          "etag": "W/\"508b6-JUcDQ9V6dUxdzTZQxxNJVZmg3D8\"",
+          "content-encoding": "br",
+          "via": "1.1 varnish, 1.1 varnish",
+          "x-country-code": "US",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:41 GMT",
+          "age": "0",
+          "x-served-by": "cache-iad-kiad7000044-IAD, cache-chi-kigq8000168-CHI",
+          "x-cache": "MISS, MISS",
+          "x-cache-hits": "0, 0",
+          "x-timer": "S1709502701.870233,VS0,VE139",
+          "vary": "Accept-Encoding, Authorization, Fastly-SSL, X-Device, X-Continent-Code, X-Piano-Disabled, X-User-Logged-In, X-User-Has-Access, X-ABTest-htmin3, X-ABTest-pb_5, X-ABTest-fplcp, X-ABTest-tags",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "52417"
+        },
+        "responseBodyHash": "78648f3231d61d6a37ac7ab582c927205cfe4672576d7cbdb8750679bd0e83f8",
+        "redirectedFrom": "http://businessinsider.com/",
+        "initiators": [],
+        "time": 0.27558499993756413
+      },
+      {
+        "url": "https://www.businessinsider.com/styles/landing-page.de7a9c157585cb90ca9f.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 35298,
+        "remoteIPAddress": "151.101.65.171",
+        "responseHeaders": {
+          "content-type": "text/css; charset=utf-8",
+          "x-powered-by": "Fenrir",
+          "last-modified": "Thu, 29 Feb 2024 21:44:16 GMT",
+          "cache-control": "public, max-age=31557600",
+          "x-frame-options": "sameorigin",
+          "content-encoding": "br",
+          "etag": "W/\"8920-18df6ce1f00\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "x-country-code": "US",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:41 GMT",
+          "age": "259644",
+          "x-served-by": "cache-iad-kjyo7100135-IAD, cache-chi-kigq8000168-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "7, 2",
+          "x-timer": "S1709502701.201401,VS0,VE0",
+          "vary": "Accept-Encoding, Fastly-SSL",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "35104"
+        },
+        "responseBodyHash": "e4beb12247acaaf513ca6d2d4d07faf3e6478d52ec978aa19157c5f312385260",
+        "initiators": [],
+        "time": 0.18122399994172156
+      },
+      {
+        "url": "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 62882,
+        "remoteIPAddress": "151.101.65.171",
+        "responseHeaders": {
+          "content-type": "text/javascript; charset=utf-8",
+          "x-powered-by": "Fenrir",
+          "last-modified": "Thu, 29 Feb 2024 18:31:24 GMT",
+          "cache-control": "public, max-age=31557600",
+          "x-frame-options": "sameorigin",
+          "content-encoding": "br",
+          "etag": "W/\"f499-18df61efb10\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "x-country-code": "US",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:41 GMT",
+          "age": "271216",
+          "x-served-by": "cache-iad-kiad7000114-IAD, cache-chi-kigq8000168-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "123, 2761",
+          "x-timer": "S1709502701.201559,VS0,VE0",
+          "vary": "Accept-Encoding, Fastly-SSL",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "62617"
+        },
+        "responseBodyHash": "460c30e19e18fc869e771c7f22b253ba92a9bd5f37ff86311864216fad6aada1",
+        "initiators": [],
+        "time": 0.14849499997217208
+      },
+      {
+        "url": "https://www.businessinsider.com/scripts/vendors.5a03a0196903ba74a2d4.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 41553,
+        "remoteIPAddress": "151.101.65.171",
+        "responseHeaders": {
+          "content-type": "text/javascript; charset=utf-8",
+          "x-powered-by": "Fenrir",
+          "last-modified": "Thu, 29 Feb 2024 18:31:24 GMT",
+          "cache-control": "public, max-age=31557600",
+          "x-frame-options": "sameorigin",
+          "content-encoding": "br",
+          "etag": "W/\"a196-18df61efb10\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "x-country-code": "US",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:41 GMT",
+          "age": "271216",
+          "x-served-by": "cache-iad-kcgs7200092-IAD, cache-chi-kigq8000168-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "123, 5159",
+          "x-timer": "S1709502701.207707,VS0,VE0",
+          "vary": "Accept-Encoding, Fastly-SSL",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "41366"
+        },
+        "responseBodyHash": "20502488f1edf462be10b0ef2e0891333c2bf316a0a8a63f0cb8660ac623dbe7",
+        "initiators": [],
+        "time": 0.447766000055708
+      },
+      {
+        "url": "https://www.businessinsider.com/scripts/utilities.66599a200b1bb1a65b5a.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12623,
+        "remoteIPAddress": "151.101.65.171",
+        "responseHeaders": {
+          "content-type": "text/javascript; charset=utf-8",
+          "x-powered-by": "Fenrir",
+          "last-modified": "Thu, 29 Feb 2024 18:31:23 GMT",
+          "cache-control": "public, max-age=31557600",
+          "x-frame-options": "sameorigin",
+          "content-encoding": "br",
+          "etag": "W/\"3061-18df61efb10\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "x-country-code": "US",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:41 GMT",
+          "age": "271218",
+          "x-served-by": "cache-iad-kcgs7200126-IAD, cache-chi-kigq8000168-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "107, 4779",
+          "x-timer": "S1709502701.207978,VS0,VE0",
+          "vary": "Accept-Encoding, Fastly-SSL",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "12385"
+        },
+        "responseBodyHash": "054d4ecefec25b9a28dddb71748092ec566421329ecfd99fdb645c09c0143e25",
+        "initiators": [],
+        "time": 0.18250300001818687
+      },
+      {
+        "url": "https://www.businessinsider.com/public/fonts/subset/LabGrotesque-Black-subset.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 18728,
+        "remoteIPAddress": "151.101.65.171",
+        "responseHeaders": {
+          "content-type": "font/woff2",
+          "x-powered-by": "Fenrir",
+          "last-modified": "Thu, 29 Feb 2024 18:31:24 GMT",
+          "cache-control": "public, max-age=31557600",
+          "x-frame-options": "sameorigin",
+          "etag": "W/\"4840-18df61bf5a0\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "x-country-code": "US",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:41 GMT",
+          "age": "271217",
+          "x-served-by": "cache-iad-kiad7000064-IAD, cache-chi-kigq8000168-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "249, 5410",
+          "x-timer": "S1709502701.208146,VS0,VE0",
+          "vary": "Accept-Encoding, Fastly-SSL",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "18496"
+        },
+        "responseBodyHash": "214761e038a755edcc34fbd93988cc851b3c84180673e47ef9ec855603088167",
+        "initiators": [],
+        "time": 0.18263099994510412
+      },
+      {
+        "url": "https://cdn.speedcurve.com/js/lux.js?id=38383524",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.businessinsider.com/"
+        ],
+        "time": 1.1899970000376925
+      },
+      {
+        "url": "https://www.businessinsider.com/styles/fonts-async.efee4dcbf67d27a90400.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 688,
+        "remoteIPAddress": "151.101.65.171",
+        "responseHeaders": {
+          "content-type": "text/css; charset=utf-8",
+          "x-powered-by": "Fenrir",
+          "last-modified": "Thu, 29 Feb 2024 18:31:24 GMT",
+          "cache-control": "public, max-age=31557600",
+          "x-frame-options": "sameorigin",
+          "content-encoding": "br",
+          "etag": "W/\"21c-18df61efb10\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "x-country-code": "US",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:41 GMT",
+          "age": "271217",
+          "x-served-by": "cache-iad-kjyo7100087-IAD, cache-chi-kigq8000168-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "111, 4440",
+          "x-timer": "S1709502702.525108,VS0,VE0",
+          "vary": "Accept-Encoding, Fastly-SSL",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "540"
+        },
+        "responseBodyHash": "08e9f2ff0943bc77fb84ca3579549af963704226fdfff14e9ed306c65a2f3cda",
+        "initiators": [
+          "https://www.businessinsider.com/"
+        ],
+        "time": 0.3532789999153465
+      },
+      {
+        "url": "https://www.businessinsider.com/public/assets/shared/chevron-right.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 477,
+        "remoteIPAddress": "151.101.65.171",
+        "responseHeaders": {
+          "content-type": "image/svg+xml",
+          "x-powered-by": "Fenrir",
+          "last-modified": "Thu, 29 Feb 2024 21:44:17 GMT",
+          "cache-control": "public, max-age=172800",
+          "x-frame-options": "sameorigin",
+          "etag": "W/\"144-18df6ca42b8\"",
+          "content-encoding": "br",
+          "via": "1.1 varnish, 1.1 varnish",
+          "x-country-code": "US",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:43 GMT",
+          "age": "86847",
+          "x-served-by": "cache-iad-kjyo7100175-IAD, cache-chi-kigq8000168-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "6, 11",
+          "x-timer": "S1709502704.765033,VS0,VE0",
+          "vary": "Accept-Encoding, Fastly-SSL",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "234"
+        },
+        "responseBodyHash": "e96fba8577b45347303d00d90937144b5cae5fd8ee0e4f22a46b812d78ba945e",
+        "initiators": [
+          "https://www.businessinsider.com/styles/landing-page.de7a9c157585cb90ca9f.css"
+        ],
+        "time": 0.03222599998116493
+      },
+      {
+        "url": "https://www.businessinsider.com/public/fonts/subset/LabGrotesque-Regular-subset.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 17102,
+        "remoteIPAddress": "151.101.65.171",
+        "responseHeaders": {
+          "content-type": "font/woff2",
+          "x-powered-by": "Fenrir",
+          "last-modified": "Thu, 29 Feb 2024 18:31:25 GMT",
+          "cache-control": "public, max-age=31557600",
+          "x-frame-options": "sameorigin",
+          "etag": "W/\"41dc-18df61bf5a0\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "x-country-code": "US",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:44 GMT",
+          "age": "271219",
+          "x-served-by": "cache-iad-kcgs7200165-IAD, cache-chi-kigq8000168-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "70, 3130",
+          "x-timer": "S1709502704.360750,VS0,VE0",
+          "vary": "Accept-Encoding, Fastly-SSL",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "16860"
+        },
+        "responseBodyHash": "e78636b8fc5c652362855796a38f794891cddf171242cd9afbbccdb14b3cd2d9",
+        "initiators": [
+          "https://www.businessinsider.com/styles/fonts-async.efee4dcbf67d27a90400.css"
+        ],
+        "time": 0.23402099998202175
+      },
+      {
+        "url": "blob:https://www.businessinsider.com/c01099c5-27a8-45fa-afbb-9e079974c695",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {
+          "content-length": "5193",
+          "content-type": "text/javascript; charset=utf-8"
+        },
+        "responseBodyHash": "9260bf96f9dcfb55da1827f3f927b8e0f5617ef364793b5bb940c2a2652740f9",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/contentscript.js"
+        ],
+        "time": 0.046629999997094274
+      },
+      {
+        "url": "blob:https://www.businessinsider.com/0a11ce94-faef-4b2f-88a8-91c343e3066f",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {
+          "content-length": "5193",
+          "content-type": "text/javascript; charset=utf-8"
+        },
+        "responseBodyHash": "9260bf96f9dcfb55da1827f3f927b8e0f5617ef364793b5bb940c2a2652740f9",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/contentscript.js"
+        ],
+        "time": 0.03558799996972084
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NS64GV",
+        "method": "GET",
+        "type": "Script",
+        "status": 307,
+        "responseHeaders": {
+          "location": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_analytics.js?secret=3fu7p5",
+          "non-authoritative-reason": "WebRequest API"
+        },
+        "responseBodyHash": "6b4621868cac589a603fe1263aad242f67262ef971bdacaccc1a515cd0488466",
+        "redirectedTo": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_analytics.js?secret=3fu7p5",
+        "initiators": [
+          "https://www.businessinsider.com/"
+        ],
+        "time": 0.7663359999423847
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MP6F46L",
+        "method": "GET",
+        "type": "Script",
+        "status": 307,
+        "responseHeaders": {
+          "location": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_analytics.js?secret=k2wm2q",
+          "non-authoritative-reason": "WebRequest API"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_analytics.js?secret=k2wm2q",
+        "initiators": [
+          "https://www.businessinsider.com/"
+        ],
+        "time": 1.5233490000246093
+      },
+      {
+        "url": "https://cdn.confiant-integrations.net/cdnm50QDU6s2lq_RrjTCOPkh-uY/gpt_and_prebid/config.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.businessinsider.com/"
+        ],
+        "time": 1.511043000034988
+      },
+      {
+        "url": "https://businessinsider.edge.permutive.app/3aba5292-ba75-422b-8715-bd21146f7836-web.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.businessinsider.com/"
+        ],
+        "time": 1.5054319999180734
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 307,
+        "responseHeaders": {
+          "location": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/googletagservices_gpt.js?secret=aa5iu6",
+          "non-authoritative-reason": "WebRequest API"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/googletagservices_gpt.js?secret=aa5iu6",
+        "initiators": [
+          "https://www.businessinsider.com/"
+        ],
+        "time": 1.5002500000409782
+      },
+      {
+        "url": "https://pub.doubleverify.com/dvtag/23280644/DV673672/pub.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.businessinsider.com/"
+        ],
+        "time": 1.4990720000350848
+      },
+      {
+        "url": "https://c.amazon-adsystem.com/aax2/apstag.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 307,
+        "responseHeaders": {
+          "location": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/amazon_apstag.js?secret=y2hy8z",
+          "non-authoritative-reason": "WebRequest API"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/amazon_apstag.js?secret=y2hy8z",
+        "initiators": [
+          "https://www.businessinsider.com/"
+        ],
+        "time": 1.4958780000451952
+      },
+      {
+        "url": "https://vi.ml314.com/get?eid=50096&tk=8PHo1fmxaUWZY0JmljRcRGcCzjCy4DKbPX5sP2fZNL483d&fp=",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.businessinsider.com/"
+        ],
+        "time": 1.4910400001099333
+      },
+      {
+        "url": "https://ml314.com/tag.aspx?32",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.businessinsider.com/"
+        ],
+        "time": 1.4882650000508875
+      },
+      {
+        "url": "https://micro.rubiconproject.com/prebid/dynamic/10306.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.businessinsider.com/"
+        ],
+        "time": 1.4790959999663755
+      },
+      {
+        "url": "https://cdn.tinypass.com/api/tinypass.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 118231,
+        "remoteIPAddress": "104.18.176.126",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:51:45 GMT",
+          "content-type": "application/javascript",
+          "x-amz-id-2": "/cMnsznqCkOarf45Kukn/Fl03K9sFttoZ2WZUCMAN9pP43878Bnq31bhTHtm9zTF4PkPZ80fFJ8=",
+          "x-amz-request-id": "BTY2RVHJ3ZSEG9XH",
+          "x-amz-replication-status": "COMPLETED",
+          "last-modified": "Wed, 21 Feb 2024 14:01:48 GMT",
+          "etag": "W/\"05cb4323604ef6b2615d85e4c62171ae\"",
+          "x-amz-server-side-encryption": "AES256",
+          "cache-control": "public, max-age=14400",
+          "x-amz-version-id": "sYJR8dcenTNZeMU2Zzi1.tz6VDkdunuC",
+          "cf-cache-status": "HIT",
+          "age": "11724",
+          "expires": "Mon, 04 Mar 2024 01:51:45 GMT",
+          "vary": "Accept-Encoding",
+          "strict-transport-security": "max-age=86400; includeSubDomains",
+          "server": "cloudflare",
+          "cf-ray": "85ecd9833f821cde-ORD",
+          "content-encoding": "br",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "97ed4d32ee64f03547251736eca1b942da433d76a677f13e47881214ec760e7e",
+        "initiators": [
+          "https://www.businessinsider.com/"
+        ],
+        "time": 0.21398000000044703
+      },
+      {
+        "url": "https://cdn.sophi.io/sdks/paywall/1/stable/main.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.businessinsider.com/"
+        ],
+        "time": 1.420088000013493
+      },
+      {
+        "url": "https://sdk.mrf.io/statics/marfeel-sdk.js?id=3378",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.businessinsider.com/"
+        ],
+        "time": 1.4121199999935925
+      },
+      {
+        "url": "https://www.businessinsider.com/public/assets/BI/US/favicons/site.webmanifest?v=2023-11",
+        "method": "GET",
+        "type": "Manifest",
+        "status": 200,
+        "size": 938,
+        "remoteIPAddress": "151.101.65.171",
+        "responseHeaders": {
+          "content-type": "application/manifest+json",
+          "x-powered-by": "Fenrir",
+          "last-modified": "Sun, 03 Mar 2024 21:33:59 GMT",
+          "cache-control": "public, max-age=120",
+          "x-frame-options": "sameorigin",
+          "etag": "W/\"248-18df6ca42b8\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "x-country-code": "US",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:45 GMT",
+          "age": "105",
+          "x-served-by": "cache-iad-kcgs7200094-IAD, cache-chi-kigq8000152-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "4, 2",
+          "x-timer": "S1709502705.161741,VS0,VE1",
+          "vary": "Accept-Encoding, Fastly-SSL",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "584"
+        },
+        "responseBodyHash": "c4a795d70ff2fbb06ec53505fad3aae8d473027f4cc498ba75df4169c3395db6",
+        "initiators": [],
+        "time": 0.07329400000162423
+      },
+      {
+        "url": "blob:https://www.businessinsider.com/4944e9e6-19a6-4c31-bc36-8a78959af040",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {
+          "content-length": "5193",
+          "content-type": "text/javascript; charset=utf-8"
+        },
+        "responseBodyHash": "9260bf96f9dcfb55da1827f3f927b8e0f5617ef364793b5bb940c2a2652740f9",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/contentscript.js",
+          "https://www.businessinsider.com/"
+        ],
+        "time": 0.9868739999365062
+      },
+      {
+        "url": "blob:https://www.businessinsider.com/930ea8de-373a-4282-b454-b483d038ba87",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {
+          "content-length": "5193",
+          "content-type": "text/javascript; charset=utf-8"
+        },
+        "responseBodyHash": "9260bf96f9dcfb55da1827f3f927b8e0f5617ef364793b5bb940c2a2652740f9",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/contentscript.js",
+          "https://www.businessinsider.com/"
+        ],
+        "time": 1.6885809999657795
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_analytics.js?secret=3fu7p5",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3695,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"wTqkQ1ryNce63XhVKrXix8otYW0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "6b4621868cac589a603fe1263aad242f67262ef971bdacaccc1a515cd0488466",
+        "redirectedFrom": "https://www.googletagmanager.com/gtm.js?id=GTM-NS64GV",
+        "initiators": [
+          "https://www.businessinsider.com/"
+        ],
+        "time": 0.7568260000552982
+      },
+      {
+        "url": "https://www.businessinsider.com/public/assets/BI/US/favicons/favicon.svg?v=2023-11",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 570,
+        "remoteIPAddress": "151.101.65.171",
+        "responseHeaders": {
+          "content-type": "image/svg+xml",
+          "x-powered-by": "Fenrir",
+          "last-modified": "Thu, 29 Feb 2024 21:44:15 GMT",
+          "cache-control": "public, max-age=172800",
+          "x-frame-options": "sameorigin",
+          "etag": "W/\"245-18df6ca42b8\"",
+          "content-encoding": "br",
+          "via": "1.1 varnish, 1.1 varnish",
+          "x-country-code": "US",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:45 GMT",
+          "age": "86850",
+          "x-served-by": "cache-iad-kjyo7100108-IAD, cache-chi-kigq8000168-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "16, 347",
+          "x-timer": "S1709502706.690634,VS0,VE0",
+          "vary": "Accept-Encoding, Fastly-SSL",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "352"
+        },
+        "responseBodyHash": "19d794a6c14d3da358d79f6df8eab6b38d479466061c54232d4485923abc57ff",
+        "initiators": [],
+        "time": 0.024338000104762614
+      },
+      {
+        "url": "https://www.businessinsider.com/chunks/scripts/components~masthead-client.9c1e1897d689cda6a22c.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2055,
+        "remoteIPAddress": "151.101.65.171",
+        "responseHeaders": {
+          "content-type": "text/javascript; charset=utf-8",
+          "x-powered-by": "Fenrir",
+          "last-modified": "Thu, 29 Feb 2024 18:31:25 GMT",
+          "cache-control": "public, max-age=31557600",
+          "x-frame-options": "sameorigin",
+          "content-encoding": "br",
+          "etag": "W/\"73e-18df61efb10\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "x-country-code": "US",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:46 GMT",
+          "age": "271220",
+          "x-served-by": "cache-iad-kjyo7100169-IAD, cache-chi-kigq8000168-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "65, 2488",
+          "x-timer": "S1709502706.343537,VS0,VE1",
+          "vary": "Accept-Encoding, Fastly-SSL",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "1854"
+        },
+        "responseBodyHash": "2cf281d8b1b66cf6a204e13cfec9532bcd407d3e560f2ece173a79a6735c80b9",
+        "initiators": [
+          "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js"
+        ],
+        "time": 0.023770000087097287
+      },
+      {
+        "url": "https://www.businessinsider.com/chunks/scripts/21431.aa9e1fb3d4fb532d2d1b.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3550,
+        "remoteIPAddress": "151.101.65.171",
+        "responseHeaders": {
+          "content-type": "text/javascript; charset=utf-8",
+          "x-powered-by": "Fenrir",
+          "last-modified": "Thu, 29 Feb 2024 18:31:30 GMT",
+          "cache-control": "public, max-age=31557600",
+          "x-frame-options": "sameorigin",
+          "content-encoding": "br",
+          "etag": "W/\"d1c-18df61efb10\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "x-country-code": "US",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:46 GMT",
+          "age": "271215",
+          "x-served-by": "cache-iad-kjyo7100105-IAD, cache-chi-kigq8000168-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "27, 142",
+          "x-timer": "S1709502706.352901,VS0,VE0",
+          "vary": "Accept-Encoding, Fastly-SSL",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "3356"
+        },
+        "responseBodyHash": "cfe11124c8b5a5e4064891b827b567868dc0149989527898f74398c7f8b6bd1a",
+        "initiators": [
+          "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js"
+        ],
+        "time": 0.02316500002052635
+      },
+      {
+        "url": "https://markets.businessinsider.com/cross-domain",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 13682,
+        "remoteIPAddress": "151.101.64.64",
+        "responseHeaders": {
+          "connection": "keep-alive",
+          "content-length": "13008",
+          "content-type": "text/html; charset=utf-8",
+          "x-powered-by": "Fenrir",
+          "last-modified": "Sun, 03 Mar 2024 21:30:47 GMT",
+          "cache-control": "public, max-age=120",
+          "etag": "W/\"9eb2-LB7Nay0NQXLLUFt8fBpLmjgHGIQ\"",
+          "content-encoding": "gzip",
+          "via": "1.1 varnish, 1.1 varnish",
+          "x-country-code": "US",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:46 GMT",
+          "age": "57",
+          "x-served-by": "cache-iad-kiad7000135-IAD, cache-chi-kigq8000042-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "14, 2",
+          "x-timer": "S1709502707.575605,VS0,VE1",
+          "vary": "Accept-Encoding, Authorization, Fastly-SSL, X-Device, X-Continent-Code, X-Piano-Disabled, X-User-Logged-In, X-User-Has-Access"
+        },
+        "responseBodyHash": "16e614bb3b41fc1b15783192f1e7427942f5c73b08885cdddee41337191a9f5a",
+        "initiators": [
+          "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js"
+        ],
+        "time": 0.23325000004842877
+      },
+      {
+        "url": "https://my.businessinsider.com/cross-domain",
+        "method": "GET",
+        "type": "Document",
+        "status": 308,
+        "remoteIPAddress": "104.22.45.136",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:51:46 GMT",
+          "content-length": "0",
+          "location": "/cross-domain/",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=NU%2FAVDB%2Bqldl%2FL3IWiL2yBtp3fNb7TgMJSbJ1Fx%2Bqye71LOSrBrn7UbrHWOfebwkePM4Ux50JzMHyoYVlUw%2FpEZg0rrnSUCB07O9xFIcRka%2F2I%2BPfkwj96%2FKz9A85tpKqC6Y8CHUqxgN\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+          "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+          "vary": "Accept-Encoding",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "85ecd98bcb6f5074-ORD"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://my.businessinsider.com/cross-domain/",
+        "initiators": [
+          "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js"
+        ],
+        "time": 0.2186979999532923
+      },
+      {
+        "url": "https://www.businessinsider.com/styles/41384.178d32759bfd2d2c3556.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 2924,
+        "remoteIPAddress": "151.101.65.171",
+        "responseHeaders": {
+          "content-type": "text/css; charset=utf-8",
+          "x-powered-by": "Fenrir",
+          "last-modified": "Thu, 29 Feb 2024 18:31:24 GMT",
+          "cache-control": "public, max-age=31557600",
+          "x-frame-options": "sameorigin",
+          "content-encoding": "br",
+          "etag": "W/\"a89-18df61efb10\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "x-country-code": "US",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:46 GMT",
+          "age": "271222",
+          "x-served-by": "cache-iad-kcgs7200073-IAD, cache-chi-kigq8000168-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "43, 2415",
+          "x-timer": "S1709502706.370979,VS0,VE0",
+          "vary": "Accept-Encoding, Fastly-SSL",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "2697"
+        },
+        "responseBodyHash": "c122203a0fa1705eaf8020c61f10fbf6af7e2cf1f2e42fb78c9b15bf320f37c3",
+        "initiators": [
+          "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js"
+        ],
+        "time": 0.026431000092998147
+      },
+      {
+        "url": "https://www.businessinsider.com/chunks/scripts/41440.fecb521995c39d78bf30.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3374,
+        "remoteIPAddress": "151.101.65.171",
+        "responseHeaders": {
+          "content-type": "text/javascript; charset=utf-8",
+          "x-powered-by": "Fenrir",
+          "last-modified": "Thu, 29 Feb 2024 18:31:25 GMT",
+          "cache-control": "public, max-age=31557600",
+          "x-frame-options": "sameorigin",
+          "content-encoding": "br",
+          "etag": "W/\"c69-18df61efb10\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "x-country-code": "US",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:46 GMT",
+          "age": "271221",
+          "x-served-by": "cache-iad-kiad7000137-IAD, cache-chi-kigq8000168-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "106, 2438",
+          "x-timer": "S1709502706.373688,VS0,VE1",
+          "vary": "Accept-Encoding, Fastly-SSL",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "3177"
+        },
+        "responseBodyHash": "cfc241fdc22baa288d08f06117878c330065a55442043d4995d8788c645d92bb",
+        "initiators": [
+          "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js"
+        ],
+        "time": 0.027149999979883432
+      },
+      {
+        "url": "https://www.businessinsider.com/chunks/scripts/7754.e6f8f5b74dfc085e636c.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 15623,
+        "remoteIPAddress": "151.101.65.171",
+        "responseHeaders": {
+          "content-type": "text/javascript; charset=utf-8",
+          "x-powered-by": "Fenrir",
+          "last-modified": "Thu, 29 Feb 2024 21:44:16 GMT",
+          "cache-control": "public, max-age=31557600",
+          "x-frame-options": "sameorigin",
+          "content-encoding": "br",
+          "etag": "W/\"3c25-18df6ce1f00\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "x-country-code": "US",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:46 GMT",
+          "age": "259650",
+          "x-served-by": "cache-iad-kcgs7200080-IAD, cache-chi-kigq8000168-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "3, 2436",
+          "x-timer": "S1709502706.374126,VS0,VE0",
+          "vary": "Accept-Encoding, Fastly-SSL",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "15397"
+        },
+        "responseBodyHash": "a718efef680c824ea938f844e38c2885be31d4469c9b3304ae78e7bfac6828af",
+        "initiators": [
+          "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js"
+        ],
+        "time": 0.025794000015594065
+      },
+      {
+        "url": "https://www.businessinsider.com/chunks/scripts/1908.64dcaccdd552a7149b21.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3751,
+        "remoteIPAddress": "151.101.65.171",
+        "responseHeaders": {
+          "content-type": "text/javascript; charset=utf-8",
+          "x-powered-by": "Fenrir",
+          "last-modified": "Thu, 29 Feb 2024 18:31:25 GMT",
+          "cache-control": "public, max-age=31557600",
+          "x-frame-options": "sameorigin",
+          "content-encoding": "br",
+          "etag": "W/\"e01-18df61efb10\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "x-country-code": "US",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:46 GMT",
+          "age": "271221",
+          "x-served-by": "cache-iad-kjyo7100025-IAD, cache-chi-kigq8000168-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "53, 2420",
+          "x-timer": "S1709502706.379656,VS0,VE1",
+          "vary": "Accept-Encoding, Fastly-SSL",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "3585"
+        },
+        "responseBodyHash": "c145939bc4a2acb382c36c58d32c0bbeefb6a9af5f4d9285848f75f9337b6ee9",
+        "initiators": [
+          "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js"
+        ],
+        "time": 0.02708199992775917
+      },
+      {
+        "url": "https://www.businessinsider.com/chunks/scripts/48669.18cdf397887ef8223513.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4301,
+        "remoteIPAddress": "151.101.65.171",
+        "responseHeaders": {
+          "content-type": "text/javascript; charset=utf-8",
+          "x-powered-by": "Fenrir",
+          "last-modified": "Thu, 29 Feb 2024 18:31:25 GMT",
+          "cache-control": "public, max-age=31557600",
+          "x-frame-options": "sameorigin",
+          "content-encoding": "br",
+          "etag": "W/\"1012-18df61efb10\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "x-country-code": "US",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:46 GMT",
+          "age": "271222",
+          "x-served-by": "cache-iad-kiad7000117-IAD, cache-chi-kigq8000168-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "117, 2440",
+          "x-timer": "S1709502706.384037,VS0,VE0",
+          "vary": "Accept-Encoding, Fastly-SSL",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "4114"
+        },
+        "responseBodyHash": "dca1e334ab0bd1ecebc39db9f981552a00698d1d84743bc7105746993d386978",
+        "initiators": [
+          "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js"
+        ],
+        "time": 0.028126000077463686
+      },
+      {
+        "url": "https://www.businessinsider.com/chunks/scripts/37271.0526fd21afc35dc950b4.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4988,
+        "remoteIPAddress": "151.101.65.171",
+        "responseHeaders": {
+          "content-type": "text/javascript; charset=utf-8",
+          "x-powered-by": "Fenrir",
+          "last-modified": "Thu, 29 Feb 2024 21:44:16 GMT",
+          "cache-control": "public, max-age=31557600",
+          "x-frame-options": "sameorigin",
+          "content-encoding": "br",
+          "etag": "W/\"12fa-18df6ce1f00\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "x-country-code": "US",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:46 GMT",
+          "age": "259650",
+          "x-served-by": "cache-iad-kjyo7100043-IAD, cache-chi-kigq8000168-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "4, 2431",
+          "x-timer": "S1709502706.388732,VS0,VE0",
+          "vary": "Accept-Encoding, Fastly-SSL",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "4858"
+        },
+        "responseBodyHash": "c7e997eadaccaecbfe04b9acf83245e5777295b872e76c96c262b6424f94225b",
+        "initiators": [
+          "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js"
+        ],
+        "time": 0.028418999980203807
+      },
+      {
+        "url": "https://www.businessinsider.com/styles/piano.ab366ff37c23ec6df703.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1435,
+        "remoteIPAddress": "151.101.65.171",
+        "responseHeaders": {
+          "content-type": "text/css; charset=utf-8",
+          "x-powered-by": "Fenrir",
+          "last-modified": "Thu, 29 Feb 2024 18:31:24 GMT",
+          "cache-control": "public, max-age=31557600",
+          "x-frame-options": "sameorigin",
+          "content-encoding": "br",
+          "etag": "W/\"4c9-18df61efb10\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "x-country-code": "US",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:46 GMT",
+          "age": "271222",
+          "x-served-by": "cache-iad-kiad7000172-IAD, cache-chi-kigq8000168-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "114, 2399",
+          "x-timer": "S1709502706.396412,VS0,VE0",
+          "vary": "Accept-Encoding, Fastly-SSL",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "1225"
+        },
+        "responseBodyHash": "a92a22ee0b8b07029bffabe10901c4f6f807021d4e8253ea38290a246263ce14",
+        "initiators": [
+          "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js"
+        ],
+        "time": 0.03396399994380772
+      },
+      {
+        "url": "https://www.businessinsider.com/chunks/scripts/piano.b1f87bb9cb5676280e15.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6725,
+        "remoteIPAddress": "151.101.65.171",
+        "responseHeaders": {
+          "content-type": "text/javascript; charset=utf-8",
+          "x-powered-by": "Fenrir",
+          "last-modified": "Thu, 29 Feb 2024 18:31:25 GMT",
+          "cache-control": "public, max-age=31557600",
+          "x-frame-options": "sameorigin",
+          "content-encoding": "br",
+          "etag": "W/\"1964-18df61efb10\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "x-country-code": "US",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:46 GMT",
+          "age": "271221",
+          "x-served-by": "cache-iad-kiad7000082-IAD, cache-chi-kigq8000168-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "117, 2511",
+          "x-timer": "S1709502706.398245,VS0,VE0",
+          "vary": "Accept-Encoding, Fastly-SSL",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "6500"
+        },
+        "responseBodyHash": "60292c0584f0ec695999d60876077875b8dd1507569fb3b873a3090ac7bd34a1",
+        "initiators": [
+          "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js"
+        ],
+        "time": 0.03368599992245436
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_analytics.js?secret=k2wm2q",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3695,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"wTqkQ1ryNce63XhVKrXix8otYW0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "6b4621868cac589a603fe1263aad242f67262ef971bdacaccc1a515cd0488466",
+        "redirectedFrom": "https://www.googletagmanager.com/gtm.js?id=GTM-MP6F46L",
+        "initiators": [
+          "https://www.businessinsider.com/"
+        ],
+        "time": 1.155475000035949
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/googletagservices_gpt.js?secret=aa5iu6",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5102,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"76KRjaFvvOrwsb8JSDs4Q2jTlbo=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "3ad0442f766373b8fed1f1ba2dcd6d6cbf948b68641956135a8f552472e3e6b6",
+        "redirectedFrom": "https://securepubads.g.doubleclick.net/tag/js/gpt.js",
+        "initiators": [
+          "https://www.businessinsider.com/"
+        ],
+        "time": 1.1551129999570549
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/amazon_apstag.js?secret=y2hy8z",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1974,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"rPOoZgIganaq20u6zAc1kSizP9k=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "cf3f5c41c90134ff7ee66a471875b1e076384d789aa3827990ea99f00ee40231",
+        "redirectedFrom": "https://c.amazon-adsystem.com/aax2/apstag.js",
+        "initiators": [
+          "https://www.businessinsider.com/"
+        ],
+        "time": 1.1550130000105128
+      },
+      {
+        "url": "https://geoip.businessinsider.com/",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 175,
+        "remoteIPAddress": "151.101.65.171",
+        "responseHeaders": {
+          "server": "Varnish",
+          "content-type": "application/json; charset=utf-8",
+          "date": "Sun, 03 Mar 2024 21:51:46 GMT",
+          "via": "1.1 varnish",
+          "access-control-allow-origin": "https://www.businessinsider.com",
+          "content-length": "107"
+        },
+        "responseBodyHash": "cdaa0e8d142eadb1c3c86d9896f4e8df7eca662ec4dabe0e3cba44b48b688548",
+        "initiators": [
+          "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js"
+        ],
+        "time": 0.13566499995067716
+      },
+      {
+        "url": "https://www.businessinsider.com/ajax/finanzen-banner?cb=9497237",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 666,
+        "remoteIPAddress": "151.101.65.171",
+        "responseHeaders": {
+          "content-type": "application/json; charset=utf-8",
+          "x-powered-by": "Fenrir",
+          "last-modified": "Sun, 03 Mar 2024 21:49:28 GMT",
+          "cache-control": "public, max-age=120",
+          "x-frame-options": "sameorigin",
+          "access-control-allow-origin": "*",
+          "access-control-allow-headers": "Origin, X-Requested-With, Content-Type, Accept",
+          "etag": "W/\"305-9WE1GATn6nzcsejkIjGKRGw2Xs4\"",
+          "content-encoding": "br",
+          "via": "1.1 varnish, 1.1 varnish",
+          "x-country-code": "US",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:46 GMT",
+          "age": "138",
+          "x-served-by": "cache-iad-kjyo7100064-IAD, cache-chi-kigq8000152-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "65, 1",
+          "x-timer": "S1709502707.529984,VS0,VE1",
+          "vary": "Accept-Encoding, Fastly-SSL, X-Device",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "359"
+        },
+        "responseBodyHash": "d2b3d17d9402c9861ce5f50b7b841c75c1f5aea4924e50677964474b22f963d1",
+        "initiators": [
+          "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js"
+        ],
+        "time": 0.09671499999240041
+      },
+      {
+        "url": "https://my.businessinsider.com/cross-domain/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 2101,
+        "remoteIPAddress": "104.22.45.136",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:51:46 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=0, must-revalidate",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "x-content-type-options": "nosniff",
+          "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=De2tp8yTl0ReqofaPk%2F%2B2OZoUU%2FK%2BeWc5VTYgBJ6IM%2FYngVS7dwE0kC9NH%2FiVsU4o16RvPxkLJUmtAz3uDh0EjEr1BJwuacymRd9tQdAmdZMHqK2A6dDMp9SFY3mboIyE3puADrDcXRA\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+          "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+          "vary": "Accept-Encoding",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "85ecd98c2bf75074-ORD",
+          "content-encoding": "gzip"
+        },
+        "responseBodyHash": "f5c494476cfd2d3b2e9fc95282c0408ea8124c04bacdec7251cf1705f8458cce",
+        "redirectedFrom": "https://my.businessinsider.com/cross-domain",
+        "initiators": [
+          "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js"
+        ],
+        "time": 0.08108699996955693
+      },
+      {
+        "url": "https://sb.scorecardresearch.com/cs/9900186/beacon.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js",
+          "https://www.businessinsider.com/scripts/vendors.5a03a0196903ba74a2d4.js",
+          "https://www.businessinsider.com/"
+        ],
+        "time": 0.8583660000003874
+      },
+      {
+        "url": "https://i.insider.com/65e216d0ce7f1785b2e575ab?width=400&format=jpeg&auto=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 12909,
+        "remoteIPAddress": "151.101.66.217",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, public",
+          "content-type": "image/webp",
+          "etag": "\"hAaQedTjdIhWwfiSp+S0RhkTYBHNauHPrUvz1Eo+gJg\"",
+          "fastly-io-info": "ifsz=528207 idim=2979x1490 ifmt=jpeg ofsz=12392 odim=400x200 ofmt=webp",
+          "fastly-io-served-by": "vpop-kiad7010231",
+          "fastly-stats": "io=1",
+          "server": "AmazonS3",
+          "x-amz-id-2": "iZ+jNFQ5dMdUcA4pLj5F1QC9XyZsQneqGquypRDTGnCfoBG2wQQDTK26iNtuGJmnoOKr+8l6CDE=",
+          "x-amz-request-id": "FFT5C4M8XK94KXWB",
+          "x-amz-server-side-encryption": "AES256",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:47 GMT",
+          "age": "186913",
+          "x-served-by": "cache-iad-kiad7000077-IAD, cache-chi-kigq8000046-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "7, 1",
+          "x-timer": "S1709502707.314856,VS0,VE1",
+          "vary": "Accept",
+          "access-control-allow-origin": "*",
+          "content-length": "12392"
+        },
+        "responseBodyHash": "8ea8aae2944f6fac7fe4c7646d7bf9684ef9b0a84fb0578f5a3f2d068b7d447a",
+        "initiators": [
+          "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js"
+        ],
+        "time": 0.20784699998330325
+      },
+      {
+        "url": "https://i.insider.com/65e0d23fce7f1785b2e506d1?width=400&format=jpeg&auto=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5756,
+        "remoteIPAddress": "151.101.66.217",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, public",
+          "content-type": "image/webp",
+          "etag": "\"RoSGdBWIjkdH9V+pTVniEs1bXS4xNBpoLVjUBe34CM4\"",
+          "fastly-io-info": "ifsz=210470 idim=2000x1000 ifmt=jpeg ofsz=5454 odim=400x200 ofmt=webp",
+          "fastly-io-served-by": "vpop-kiad7010210",
+          "fastly-stats": "io=1",
+          "server": "AmazonS3",
+          "x-amz-id-2": "2r7tYDJS9IX0/pcab4UY42uC9ouRhFTj4e9J7n2QRUyL5cC7qynYPyawS489AY/FjGLWLpFxr6I=",
+          "x-amz-request-id": "0CSTXXSWT1RMFNTT",
+          "x-amz-server-side-encryption": "AES256",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:47 GMT",
+          "age": "270004",
+          "x-served-by": "cache-iad-kcgs7200066-IAD, cache-chi-kigq8000046-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "27, 1",
+          "x-timer": "S1709502707.315299,VS0,VE3",
+          "vary": "Accept",
+          "access-control-allow-origin": "*",
+          "content-length": "5454"
+        },
+        "responseBodyHash": "955c98d5dfa0eb26e8e24fed8432a9c4a69c128337244616fa525e6ef47bd58f",
+        "initiators": [
+          "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js"
+        ],
+        "time": 0.315984999993816
+      },
+      {
+        "url": "https://www.businessinsider.com/styles/components~jumper-client.761f310fe6253afa760e.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1497,
+        "remoteIPAddress": "151.101.65.171",
+        "responseHeaders": {
+          "content-type": "text/css; charset=utf-8",
+          "x-powered-by": "Fenrir",
+          "last-modified": "Thu, 29 Feb 2024 21:44:17 GMT",
+          "cache-control": "public, max-age=31557600",
+          "x-frame-options": "sameorigin",
+          "content-encoding": "br",
+          "etag": "W/\"45e-18df6ce1f00\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "x-country-code": "US",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:47 GMT",
+          "age": "259649",
+          "x-served-by": "cache-iad-kcgs7200133-IAD, cache-chi-kigq8000168-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "2, 2378",
+          "x-timer": "S1709502707.135347,VS0,VE0",
+          "vary": "Accept-Encoding, Fastly-SSL",
+          "strict-transport-security": "max-age=31536000",
+          "set-cookie": "fenrir_anonymous_id=d113fc06-8d3c-4278-b3eb-4cce3e5db8f3; httponly; expires=Mon, 03 Mar 2025 21:51:47 +0000; path=/; domain=www.businessinsider.com;",
+          "content-length": "1118"
+        },
+        "responseBodyHash": "c682239d2b3fdca7b599de8f9f3636e701fbbde9be8406e36f75afeaf85143ba",
+        "initiators": [
+          "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js"
+        ],
+        "time": 0.020034000044688582
+      },
+      {
+        "url": "https://www.businessinsider.com/chunks/scripts/components~jumper-client.2c40549dd4a60f1304fa.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3648,
+        "remoteIPAddress": "151.101.65.171",
+        "responseHeaders": {
+          "content-type": "text/javascript; charset=utf-8",
+          "x-powered-by": "Fenrir",
+          "last-modified": "Thu, 29 Feb 2024 18:31:25 GMT",
+          "cache-control": "public, max-age=31557600",
+          "x-frame-options": "sameorigin",
+          "content-encoding": "br",
+          "etag": "W/\"dbd-18df61efb10\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "x-country-code": "US",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:47 GMT",
+          "age": "271221",
+          "x-served-by": "cache-iad-kcgs7200157-IAD, cache-chi-kigq8000168-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "65, 2471",
+          "x-timer": "S1709502707.137522,VS0,VE0",
+          "vary": "Accept-Encoding, Fastly-SSL",
+          "strict-transport-security": "max-age=31536000",
+          "set-cookie": "fenrir_anonymous_id=d113fc06-8d3c-4278-b3eb-4cce3e5db8f3; httponly; expires=Mon, 03 Mar 2025 21:51:47 +0000; path=/; domain=www.businessinsider.com;",
+          "content-length": "3517"
+        },
+        "responseBodyHash": "9af88ae42f219a0ebbd8b2cf1e7a3091225eefe8faf7023e4ee37e0d76370c83",
+        "initiators": [
+          "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js"
+        ],
+        "time": 0.021477999980561435
+      },
+      {
+        "url": "https://i.insider.com/65e3f7a990413ab8e1d8a5d8?width=400&format=jpeg&auto=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 10912,
+        "remoteIPAddress": "151.101.66.217",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, public",
+          "content-type": "image/webp",
+          "etag": "\"3liUic3V8jC5nzKv7k53hK/GABtQPUw0/BYoApSGASg\"",
+          "fastly-io-info": "ifsz=826738 idim=4564x2282 ifmt=jpeg ofsz=10610 odim=400x200 ofmt=webp",
+          "fastly-io-served-by": "vpop-kiad7010212",
+          "fastly-stats": "io=1",
+          "server": "AmazonS3",
+          "x-amz-id-2": "spL8qGNJ9NkJQPuf/yMeY7gVegZ/fBSJVxARcHQ9gvn0thrgf8Tq1BFQAEJddztG8arI2cc1loE=",
+          "x-amz-request-id": "CCW52PW1REGY6T3D",
+          "x-amz-server-side-encryption": "AES256",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:47 GMT",
+          "age": "63817",
+          "x-served-by": "cache-iad-kcgs7200132-IAD, cache-chi-kigq8000046-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "10, 1",
+          "x-timer": "S1709502707.315241,VS0,VE1",
+          "vary": "Accept",
+          "access-control-allow-origin": "*",
+          "content-length": "10610"
+        },
+        "responseBodyHash": "1d8c181bce2d620505da238fe0140270573f10d902287627ef64b1e39d04ffbb",
+        "initiators": [
+          "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js"
+        ],
+        "time": 0.2101259999908507
+      },
+      {
+        "url": "https://i.insider.com/65e326bc6080194819fbf246?width=600&format=jpeg&auto=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 36194,
+        "remoteIPAddress": "151.101.66.217",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, public",
+          "content-type": "image/webp",
+          "etag": "\"q+DBa4H+vOsZiziyZZh3NdB3nAxdLltU6rSo7cTfTEc\"",
+          "fastly-io-info": "ifsz=469804 idim=1440x1080 ifmt=jpeg ofsz=35730 odim=600x450 ofmt=webp",
+          "fastly-io-served-by": "vpop-kiad7010211",
+          "fastly-stats": "io=1",
+          "server": "AmazonS3",
+          "x-amz-id-2": "BAh5v3YinfvMZQwtbUt6tVX73is0SEauICCVeP5Vcwong6mcaC/hIc6WEGzUzoU5hgo+jMr0Gho=",
+          "x-amz-request-id": "S86SD2519CPKJHWT",
+          "x-amz-server-side-encryption": "AES256",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:47 GMT",
+          "age": "117301",
+          "x-served-by": "cache-iad-kjyo7100097-IAD, cache-chi-kigq8000046-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "4, 1",
+          "x-timer": "S1709502707.315226,VS0,VE2",
+          "vary": "Accept",
+          "access-control-allow-origin": "*",
+          "content-length": "35730"
+        },
+        "responseBodyHash": "4c499a964e86da426d6ac0b6cbbfbf7b89ff50b42bd8d4d506888b19be44e247",
+        "initiators": [
+          "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js"
+        ],
+        "time": 0.21052899991627783
+      },
+      {
+        "url": "https://www.businessinsider.com/chunks/scripts/components~most-popular-client.864c5ed732f5273d8355.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1111,
+        "remoteIPAddress": "151.101.65.171",
+        "responseHeaders": {
+          "content-type": "text/javascript; charset=utf-8",
+          "x-powered-by": "Fenrir",
+          "last-modified": "Thu, 29 Feb 2024 18:31:33 GMT",
+          "cache-control": "public, max-age=31557600",
+          "x-frame-options": "sameorigin",
+          "content-encoding": "br",
+          "etag": "W/\"396-18df61efb10\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "x-country-code": "US",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:47 GMT",
+          "age": "271214",
+          "x-served-by": "cache-iad-kcgs7200164-IAD, cache-chi-kigq8000168-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "2, 2",
+          "x-timer": "S1709502707.150673,VS0,VE1",
+          "vary": "Accept-Encoding, Fastly-SSL",
+          "strict-transport-security": "max-age=31536000",
+          "set-cookie": "fenrir_anonymous_id=d113fc06-8d3c-4278-b3eb-4cce3e5db8f3; httponly; expires=Mon, 03 Mar 2025 21:51:47 +0000; path=/; domain=www.businessinsider.com;",
+          "content-length": "918"
+        },
+        "responseBodyHash": "32057d9e960734ebfea17acf7f9859af3c9c3e0ee63adfeaa8b2ba842a8128dc",
+        "initiators": [
+          "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js"
+        ],
+        "time": 0.020647999946959317
+      },
+      {
+        "url": "https://www.businessinsider.com/chunks/scripts/components~ad-swapper-client.94a1d2ed33e31b9480b0.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3129,
+        "remoteIPAddress": "151.101.65.171",
+        "responseHeaders": {
+          "content-type": "text/javascript; charset=utf-8",
+          "x-powered-by": "Fenrir",
+          "last-modified": "Thu, 29 Feb 2024 18:31:27 GMT",
+          "cache-control": "public, max-age=31557600",
+          "x-frame-options": "sameorigin",
+          "content-encoding": "br",
+          "etag": "W/\"b74-18df61efb10\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "x-country-code": "US",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:47 GMT",
+          "age": "271220",
+          "x-served-by": "cache-iad-kjyo7100139-IAD, cache-chi-kigq8000168-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "1, 2",
+          "x-timer": "S1709502707.155079,VS0,VE0",
+          "vary": "Accept-Encoding, Fastly-SSL",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "2932"
+        },
+        "responseBodyHash": "f5125958d97158cd95581f512474d2858be38b41a9caed2e019fc9323cde166f",
+        "initiators": [
+          "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js"
+        ],
+        "time": 0.038874999969266355
+      },
+      {
+        "url": "https://www.businessinsider.com/chunks/scripts/components~quick-links-client.bc366ec372d2d980dc44.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 540,
+        "remoteIPAddress": "151.101.65.171",
+        "responseHeaders": {
+          "content-type": "text/javascript; charset=utf-8",
+          "x-powered-by": "Fenrir",
+          "last-modified": "Thu, 29 Feb 2024 18:31:26 GMT",
+          "cache-control": "public, max-age=31557600",
+          "x-frame-options": "sameorigin",
+          "content-encoding": "br",
+          "etag": "W/\"113-18df61efb10\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "x-country-code": "US",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:47 GMT",
+          "age": "271221",
+          "x-served-by": "cache-iad-kcgs7200096-IAD, cache-chi-kigq8000168-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "19, 5",
+          "x-timer": "S1709502707.156257,VS0,VE1",
+          "vary": "Accept-Encoding, Fastly-SSL",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "275"
+        },
+        "responseBodyHash": "1f04f21d7b7a20b893638a75951e0392749b90ffe115a07222613bb33d51c4ab",
+        "initiators": [
+          "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js"
+        ],
+        "time": 0.037376999971456826
+      },
+      {
+        "url": "https://i.insider.com/65e45bc2ce7f1785b2e5bd08?width=400&format=jpeg&auto=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 17597,
+        "remoteIPAddress": "151.101.66.217",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, public",
+          "content-type": "image/webp",
+          "etag": "\"4q4eRmHz2NyC7Fd+RZbf+2Ug9nwhGH7CavCXY4UVE1I\"",
+          "fastly-io-info": "ifsz=430521 idim=3200x1600 ifmt=jpeg ofsz=17284 odim=400x200 ofmt=webp",
+          "fastly-io-served-by": "vpop-kiad7010226",
+          "fastly-stats": "io=1",
+          "server": "AmazonS3",
+          "x-amz-id-2": "0ulbgDg9urjG2r5Ug1xF3RuGmxZ0cvy3bCgCaru2vLafiru1c9LR8W268OmljJDjYLBizvv8WII=",
+          "x-amz-request-id": "6Y8V3W3M8SYMM2EX",
+          "x-amz-server-side-encryption": "AES256",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:47 GMT",
+          "age": "38192",
+          "x-served-by": "cache-iad-kiad7000174-IAD, cache-chi-kigq8000046-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "9, 1",
+          "x-timer": "S1709502707.315501,VS0,VE2",
+          "vary": "Accept",
+          "access-control-allow-origin": "*",
+          "content-length": "17284"
+        },
+        "responseBodyHash": "da2fa7a6e5bedd34e74da22dd5e3eaecaab40a655706b42ad64fbb58585b448a",
+        "initiators": [
+          "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js"
+        ],
+        "time": 0.21629599994048476
+      },
+      {
+        "url": "https://i.insider.com/65e2063bce7f1785b2e55f5a?width=600&format=jpeg&auto=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 21214,
+        "remoteIPAddress": "151.101.66.217",
+        "responseHeaders": {
+          "cache-control": "max-age=2592000, public",
+          "content-type": "image/webp",
+          "etag": "\"ZAqLFv50vGk5otKXt+kgLrrBMhzd+E7+gyBPuyk2xfQ\"",
+          "fastly-io-info": "ifsz=1096439 idim=1200x900 ifmt=png ofsz=20900 odim=600x450 ofmt=webp",
+          "fastly-io-served-by": "vpop-kiad7010215",
+          "fastly-stats": "io=1",
+          "server": "AmazonS3",
+          "x-amz-id-2": "HWXAipCt/hJBU6jsfSrUVSXJ8EC4U1w3CCRc1Zjzz0hobCdrYA4411OOmZcZyp1afbTip36qwfo=",
+          "x-amz-request-id": "GHJN96CEZR4VEN4Y",
+          "x-amz-server-side-encryption": "AES256",
+          "via": "1.1 varnish, 1.1 varnish",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:47 GMT",
+          "age": "35653",
+          "x-served-by": "cache-iad-kjyo7100132-IAD, cache-chi-kigq8000046-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "26, 1",
+          "x-timer": "S1709502707.315508,VS0,VE1",
+          "vary": "Accept",
+          "access-control-allow-origin": "*",
+          "content-length": "20900"
+        },
+        "responseBodyHash": "58ac6b53fcefa25c780d2a9f643dd0a43310567f3eba4244a268050dfa9ff691",
+        "initiators": [
+          "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js"
+        ],
+        "time": 0.19121399999130517
+      },
+      {
+        "url": "https://www.datadoghq-browser-agent.com/us1/v5/datadog-logs.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.businessinsider.com/"
+        ],
+        "time": 0.8292389999842271
+      },
+      {
+        "url": "https://www.businessinsider.com/public/assets/BI/US/favicons/favicon.ico?v=2023-11",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 1050,
+        "remoteIPAddress": "151.101.65.171",
+        "responseHeaders": {
+          "content-type": "image/x-icon",
+          "x-powered-by": "Fenrir",
+          "last-modified": "Sun, 03 Mar 2024 21:29:29 GMT",
+          "cache-control": "public, max-age=120",
+          "x-frame-options": "sameorigin",
+          "etag": "W/\"3aee-18df6ca42b8\"",
+          "content-encoding": "br",
+          "via": "1.1 varnish, 1.1 varnish",
+          "x-country-code": "US",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:47 GMT",
+          "age": "17",
+          "x-served-by": "cache-iad-kjyo7100148-IAD, cache-chi-kigq8000168-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "2, 1",
+          "x-timer": "S1709502708.763138,VS0,VE2",
+          "vary": "Accept-Encoding, Fastly-SSL",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "869"
+        },
+        "responseBodyHash": "733141637ad530259651d12fa84e4e53b780826844fb60450d4289be3b6101cd",
+        "initiators": [],
+        "time": 0.037826000014320016
+      },
+      {
+        "url": "https://cdn.cxense.com/cx.cce.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://cdn.tinypass.com/api/tinypass.min.js",
+          "https://www.businessinsider.com/chunks/scripts/piano.b1f87bb9cb5676280e15.js",
+          "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js"
+        ],
+        "time": 0.2829749999800697
+      },
+      {
+        "url": "https://c2.piano.io/xbuilder/experience/execute?aid=B6sIXKLiin",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 3825,
+        "remoteIPAddress": "104.17.194.118",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:51:48 GMT",
+          "content-type": "application/json; charset=UTF-8",
+          "vary": "Accept-Encoding\nOrigin",
+          "access-control-allow-origin": "https://www.businessinsider.com",
+          "access-control-allow-credentials": "true",
+          "x-request-id": "jrdlaowva0",
+          "cache-control": "no-cache, no-store",
+          "pragma": "no-cache",
+          "access-control-allow-methods": "POST, GET, OPTIONS",
+          "access-control-expose-headers": "Composer-Request-Control-Policy",
+          "strict-transport-security": "max-age=86400; includeSubDomains",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=UHGCb5WQcmQmYrKfa_SmnG8LIM__cGMWlvbGnhvBLyc-1709502708-1.0.1.1-sf3JhC1t.7j9HvaLbCeppseerVByF8euzxif75H00I2V1B1J9TnDB0kTkyhhX27Lr9uYSVxdO8UjDd_ikVfIEA; path=/; expires=Sun, 03-Mar-24 22:21:48 GMT; domain=.piano.io; HttpOnly; Secure; SameSite=None",
+          "server": "cloudflare",
+          "cf-ray": "85ecd996cee68134-ORD",
+          "content-encoding": "br",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "c69be6e7d5e44ce4b512eab4241a68f0157fc59e0106ae6188f8eee6bf44448b",
+        "initiators": [
+          "https://cdn.tinypass.com/api/tinypass.min.js",
+          "https://www.businessinsider.com/chunks/scripts/piano.b1f87bb9cb5676280e15.js",
+          "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js"
+        ],
+        "time": 0.14612599997781217
+      },
+      {
+        "url": "https://www.businessinsider.com/ajax/popular-posts?limit=10",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1170,
+        "remoteIPAddress": "151.101.65.171",
+        "responseHeaders": {
+          "content-type": "application/json; charset=utf-8",
+          "x-powered-by": "Fenrir",
+          "last-modified": "Sun, 03 Mar 2024 21:24:27 GMT",
+          "cache-control": "public, max-age=120",
+          "x-frame-options": "sameorigin",
+          "etag": "W/\"b6d-Pu2IgH0JtSDixpCLQXkdq7Zdf8I\"",
+          "content-encoding": "br",
+          "via": "1.1 varnish, 1.1 varnish",
+          "x-country-code": "US",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:48 GMT",
+          "age": "1642",
+          "x-served-by": "cache-iad-kiad7000052-IAD, cache-chi-kigq8000168-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "41, 1",
+          "x-timer": "S1709502708.326109,VS0,VE2",
+          "vary": "Accept-Encoding, Fastly-SSL, X-Device",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "913"
+        },
+        "responseBodyHash": "57218efdcbbc5d764a83e539c25e3a8bc1856ca0859dee72fd4a6c610ece0cbd",
+        "initiators": [
+          "https://www.businessinsider.com/chunks/scripts/components~most-popular-client.864c5ed732f5273d8355.js",
+          "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js"
+        ],
+        "time": 0.023546000011265278
+      },
+      {
+        "url": "https://www.businessinsider.com/public/assets/skeleton/most-popular.svg?636",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 958,
+        "remoteIPAddress": "151.101.65.171",
+        "responseHeaders": {
+          "content-type": "image/svg+xml",
+          "x-powered-by": "Fenrir",
+          "last-modified": "Sat, 02 Mar 2024 22:35:30 GMT",
+          "cache-control": "public, max-age=172800",
+          "x-frame-options": "sameorigin",
+          "etag": "W/\"994-18df6ca42b8\"",
+          "content-encoding": "br",
+          "via": "1.1 varnish, 1.1 varnish",
+          "x-country-code": "US",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:48 GMT",
+          "age": "83778",
+          "x-served-by": "cache-iad-kiad7000160-IAD, cache-chi-kigq8000168-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "20, 1",
+          "x-timer": "S1709502708.358155,VS0,VE1",
+          "vary": "Accept-Encoding, Fastly-SSL",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "666"
+        },
+        "responseBodyHash": "bc351ff3ecfcb18b59087fd75c7c712a68616a6561ac78ae6488aff781c125f6",
+        "initiators": [],
+        "time": 0.021231000078842044
+      },
+      {
+        "url": "https://markets.businessinsider.com/scripts/cross-domain.e8dbc171bea8c3834473.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2000,
+        "remoteIPAddress": "151.101.64.64",
+        "responseHeaders": {
+          "connection": "keep-alive",
+          "content-length": "1394",
+          "content-type": "text/javascript; charset=utf-8",
+          "x-powered-by": "Fenrir",
+          "last-modified": "Fri, 02 Feb 2024 19:07:22 GMT",
+          "cache-control": "public, max-age=31557600",
+          "x-frame-options": "sameorigin",
+          "content-encoding": "gzip",
+          "etag": "W/\"572-18d6b349e38\"",
+          "via": "1.1 varnish, 1.1 varnish",
+          "x-country-code": "US",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:50 GMT",
+          "age": "2601869",
+          "x-served-by": "cache-iad-kjyo7100145-IAD, cache-chi-kigq8000042-CHI",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "18, 4383",
+          "x-timer": "S1709502710.388837,VS0,VE0",
+          "vary": "Accept-Encoding, Fastly-SSL"
+        },
+        "responseBodyHash": "3a72021a9c4f597f52b655a75766c945f0d2527d967defc32b74811834697cb4",
+        "initiators": [
+          "https://markets.businessinsider.com/cross-domain"
+        ],
+        "time": 0.02445400005672127
+      },
+      {
+        "url": "https://buy.tinypass.com/api/v3/anon/assets/sdk-runtime-config.js?aid=B6sIXKLiin",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 509,
+        "remoteIPAddress": "104.18.239.248",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:51:53 GMT",
+          "content-type": "application/json",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=14400",
+          "p3p": "CP=\"NON DSP COR OUR IND\"",
+          "server-time": "0.006",
+          "strict-transport-security": "max-age=86400; includeSubDomains",
+          "vary": "Accept-Encoding",
+          "wn": "prod-dash-10-0-113-31",
+          "x-forwarded-https": "on",
+          "x-request-id": "Mepbs9sOi7q",
+          "cf-cache-status": "HIT",
+          "age": "11703",
+          "last-modified": "Sun, 03 Mar 2024 18:36:50 GMT",
+          "expires": "Mon, 04 Mar 2024 01:51:53 GMT",
+          "server": "cloudflare",
+          "cf-ray": "85ecd9b8ba2c6163-ORD",
+          "content-encoding": "br",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "6ff378b67e8e4a8d00db478d0d38d72a7475510265181500afe63ac10f6668f5",
+        "initiators": [
+          "https://cdn.tinypass.com/api/tinypass.min.js",
+          "https://www.businessinsider.com/chunks/scripts/piano.b1f87bb9cb5676280e15.js",
+          "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js"
+        ],
+        "time": 0.4286129999672994
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://www.businessinsider.com/": {
+          "console.memory": 1,
+          "window.localStorage": 26,
+          "Date.prototype.getTime": 2,
+          "Document.cookie getter": 1
+        },
+        "https://www.businessinsider.com/scripts/vendors.5a03a0196903ba74a2d4.js": {
+          "Navigator.prototype.userAgent": 1,
+          "Navigator.prototype.connection": 2,
+          "Date.prototype.getTime": 12
+        },
+        "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js": {
+          "window.devicePixelRatio": 1,
+          "Navigator.prototype.userAgent": 2,
+          "Navigator.prototype.maxTouchPoints": 2,
+          "window.localStorage": 42,
+          "Document.cookie getter": 15,
+          "Date.prototype.getTime": 9,
+          "Document.cookie setter": 8,
+          "window.innerHeight": 1
+        },
+        "https://cdn.tinypass.com/api/tinypass.min.js": {
+          "window.localStorage": 55,
+          "Date.prototype.getTime": 12,
+          "Document.cookie setter": 25,
+          "Document.cookie getter": 52,
+          "window.name": 1,
+          "Navigator.prototype.userAgent": 6,
+          "Navigator.prototype.language": 1,
+          "Date.prototype.getTimezoneOffset": 2,
+          "Navigator.prototype.plugins": 4,
+          "Screen.prototype.height": 1,
+          "Screen.prototype.width": 1,
+          "Screen.prototype.colorDepth": 1,
+          "window.sessionStorage": 1,
+          "Navigator.prototype.platform": 1,
+          "window.innerWidth": 20,
+          "window.innerHeight": 20,
+          "Notification.permission": 1,
+          "Navigator.prototype.appVersion": 1
+        },
+        "https://securepubads.g.doubleclick.net/tag/js/gpt.js": {
+          "window.localStorage": 2
+        },
+        "https://www.businessinsider.com/chunks/scripts/7754.e6f8f5b74dfc085e636c.js": {
+          "Document.cookie getter": 34,
+          "Date.prototype.getTime": 38,
+          "Document.cookie setter": 15,
+          "PerformanceTiming.prototype.navigationStart": 1
+        },
+        "https://www.businessinsider.com/chunks/scripts/37271.0526fd21afc35dc950b4.js": {
+          "Navigator.prototype.userAgent": 1,
+          "window.sessionStorage": 1
+        },
+        "https://my.businessinsider.com/cross-domain/": {
+          "Date.prototype.getTime": 2,
+          "window.localStorage": 7,
+          "window.sessionStorage": 1
+        },
+        "https://markets.businessinsider.com/cross-domain": {
+          "window.localStorage": 1
+        },
+        "https://markets.businessinsider.com/scripts/cross-domain.e8dbc171bea8c3834473.js": {
+          "window.localStorage": 9,
+          "Document.cookie getter": 3,
+          "window.sessionStorage": 1
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ABTest_htmin3=c; expires=Sat, 28 Nov 2026 21:51:46 GMT; path=/"
+          ]
+        },
+        {
+          "source": "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ABTest_pb_5=variant; expires=Sat, 28 Nov 2026 21:51:46 GMT; path=/"
+          ]
+        },
+        {
+          "source": "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ABTest_fplcp=v; expires=Sat, 28 Nov 2026 21:51:46 GMT; path=/"
+          ]
+        },
+        {
+          "source": "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_ABTest_tags=v2; expires=Sat, 28 Nov 2026 21:51:46 GMT; path=/"
+          ]
+        },
+        {
+          "source": "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "universal_id=df622fa0-724d-4e79-92f6-55a349ccb253; expires=Mon, 03 Mar 2025 21:51:46 GMT; path=/"
+          ]
+        },
+        {
+          "source": "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "anonymous_id=d113fc06-8d3c-4278-b3eb-4cce3e5db8f3; expires=Mon, 03 Mar 2025 21:51:46 GMT; path=/"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=ltc1rv3fqr8txn; expires=Sun, 03 Mar 2024 21:52:17 GMT; path=/; domain=com"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=; expires=Sat, 02 Mar 2024 21:51:47 GMT; path=/; domain=com"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=ltc1rv3fqr8txn; expires=Sun, 03 Mar 2024 21:52:17 GMT; path=/; domain=businessinsider.com"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=; expires=Sat, 02 Mar 2024 21:51:47 GMT; path=/; domain=businessinsider.com"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=ltc1rv43y1q5t; expires=Sun, 03 Mar 2024 21:52:17 GMT; path=/; domain=com"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=; expires=Sat, 02 Mar 2024 21:51:47 GMT; path=/; domain=com"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=ltc1rv43y1q5t; expires=Sun, 03 Mar 2024 21:52:17 GMT; path=/; domain=businessinsider.com"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=; expires=Sat, 02 Mar 2024 21:51:47 GMT; path=/; domain=businessinsider.com"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_pctx=%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXQF8g; expires=Wed, 02 Apr 2025 20:51:47 GMT; path=/; domain=businessinsider.com; secure; sameSite=lax"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_pctx=%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAEzIEYOBmADgFZBANgBM3bv24AWIQHZZU2SAC%2BQA; expires=Wed, 02 Apr 2025 20:51:47 GMT; path=/; domain=businessinsider.com; secure; sameSite=lax"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=ltc1rv64qplwsc; expires=Sun, 03 Mar 2024 21:52:17 GMT; path=/; domain=com"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=; expires=Sat, 02 Mar 2024 21:51:47 GMT; path=/; domain=com"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=ltc1rv64qplwsc; expires=Sun, 03 Mar 2024 21:52:17 GMT; path=/; domain=businessinsider.com"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=; expires=Sat, 02 Mar 2024 21:51:47 GMT; path=/; domain=businessinsider.com"
+          ]
+        },
+        {
+          "source": "https://www.businessinsider.com/chunks/scripts/7754.e6f8f5b74dfc085e636c.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "dd_cookie_test_76de74e1-758d-4088-bd3d-265a6fb8adfc=test;expires=Sun, 03 Mar 2024 21:52:47 GMT;path=/;samesite=strict"
+          ]
+        },
+        {
+          "source": "https://www.businessinsider.com/chunks/scripts/7754.e6f8f5b74dfc085e636c.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "dd_cookie_test_76de74e1-758d-4088-bd3d-265a6fb8adfc=;expires=Sun, 03 Mar 2024 21:51:47 GMT;path=/;samesite=strict"
+          ]
+        },
+        {
+          "source": "https://www.businessinsider.com/chunks/scripts/7754.e6f8f5b74dfc085e636c.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_dd_s=lock=9b10ebc5-d784-4c2c-b75a-8aae2e72b13f;expires=Sun, 03 Mar 2024 22:06:47 GMT;path=/;samesite=strict"
+          ]
+        },
+        {
+          "source": "https://www.businessinsider.com/chunks/scripts/7754.e6f8f5b74dfc085e636c.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_dd_s=lock=9b10ebc5-d784-4c2c-b75a-8aae2e72b13f&logs=1&id=0a6353c2-ec00-41b2-82f1-966004201d6b&created=1709502707849&expire=1709503607852;expires=Sun, 03 Mar 2024 22:06:47 GMT;path=/;samesite=strict"
+          ]
+        },
+        {
+          "source": "https://www.businessinsider.com/chunks/scripts/7754.e6f8f5b74dfc085e636c.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_dd_s=logs=1&id=0a6353c2-ec00-41b2-82f1-966004201d6b&created=1709502707849&expire=1709503607852;expires=Sun, 03 Mar 2024 22:06:47 GMT;path=/;samesite=strict"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_pcid=%7B%22browserId%22%3A%22ltc1rv5p95wslbqh%22%7D; expires=Wed, 02 Apr 2025 20:51:47 GMT; path=/; domain=businessinsider.com; secure; sameSite=lax"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_pcus=eyJ1c2VyU2VnbWVudHMiOm51bGx9; expires=Wed, 02 Apr 2025 20:51:47 GMT; path=/; domain=businessinsider.com; secure; sameSite=lax"
+          ]
+        },
+        {
+          "source": "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "crossdomain_id_set=1; expires=Sat, 01 Jun 2024 21:51:48 GMT; path=/"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "__tbc=%7Bkpcd%7DChBsdGMxcnY1cDk1d3NsYnFoEgpCNnNJWEtMaWluGjxLclpSYXhXNHRZVTFOSG94VU14S3QxOGhiVHlUaXZpQ09QU1NCM0ExdlBoSDNIMzlUSmFLV1lJVkpwMmMgAA; expires=Tue, 03 Mar 2026 21:51:50 GMT; path=/; domain=.businessinsider.com; sameSite=lax"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=ltc1rx1osr3ffl; expires=Sun, 03 Mar 2024 21:52:20 GMT; path=/; domain=com"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=; expires=Sat, 02 Mar 2024 21:51:50 GMT; path=/; domain=com"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=ltc1rx1osr3ffl; expires=Sun, 03 Mar 2024 21:52:20 GMT; path=/; domain=businessinsider.com"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cookie_test=; expires=Sat, 02 Mar 2024 21:51:50 GMT; path=/; domain=businessinsider.com"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "__pat=-18000000; expires=Tue, 02 Apr 2024 20:51:50 GMT; path=/; domain=businessinsider.com; sameSite=lax"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "__pvi=eyJpZCI6InYtbHRjMXJ2NzQ3eTd0aTFtcCIsImRvbWFpbiI6Ii5idXNpbmVzc2luc2lkZXIuY29tIiwidGltZSI6MTcwOTUwMjcxMDAzN30%3D; expires=Mon, 04 Mar 2024 21:51:50 GMT; path=/; domain=.businessinsider.com; sameSite=lax"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "xbc=%7Bkpcd%7DChBsdGMxcnY1cDk1d3NsYnFoEgpCNnNJWEtMaWluGjxLclpSYXhXNHRZVTFOSG94VU14S3QxOGhiVHlUaXZpQ09QU1NCM0ExdlBoSDNIMzlUSmFLV1lJVkpwMmMgAA; expires=Tue, 03 Mar 2026 21:51:50 GMT; path=/; domain=.businessinsider.com; sameSite=lax"
+          ]
+        },
+        {
+          "source": "https://cdn.tinypass.com/api/tinypass.min.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_pcus=eyJ1c2VyU2VnbWVudHMiOnsiQ09NUE9TRVIxWCI6eyJzZWdtZW50cyI6WyJMVHM6ODBkM2MzMmMwNGJmMjJiNWIzMTNkM2ZlNzI1YWMwODEwYmYwMmYxOTpub19zY29yZSIsIkxUYzozMGQzY2JiMDdjMWFjMWRmMThjMWVmMzYwMTcyMDEwNWEzMzZmNmQ2Om5vX3Njb3JlIiwiTFRyZWc6MTY3MGY5NmEwYTNlYjRiNzRhOWE3YzkzZGM5ZjQ5NjI1MzkxMDU0Yjpub19zY29yZSJdfX19; expires=Wed, 02 Apr 2025 20:51:50 GMT; path=/; domain=businessinsider.com; secure; sameSite=lax"
+          ]
+        },
+        {
+          "source": "https://www.businessinsider.com/chunks/scripts/7754.e6f8f5b74dfc085e636c.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_dd_s=logs=1&id=0a6353c2-ec00-41b2-82f1-966004201d6b&created=1709502707849&expire=1709503607852&lock=dbc074fc-c4a0-4a46-88eb-36117c25d079;expires=Sun, 03 Mar 2024 22:06:50 GMT;path=/;samesite=strict"
+          ]
+        },
+        {
+          "source": "https://www.businessinsider.com/chunks/scripts/7754.e6f8f5b74dfc085e636c.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_dd_s=logs=1&id=0a6353c2-ec00-41b2-82f1-966004201d6b&created=1709502707849&expire=1709503607852;expires=Sun, 03 Mar 2024 22:06:50 GMT;path=/;samesite=strict"
+          ]
+        },
+        {
+          "source": "https://www.businessinsider.com/scripts/main.fc6b1c9eecb21a517e97.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "crossdomain_id_set=1; expires=Sat, 01 Jun 2024 21:51:50 GMT; path=/"
+          ]
+        },
+        {
+          "source": "https://www.businessinsider.com/chunks/scripts/7754.e6f8f5b74dfc085e636c.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_dd_s=logs=1&id=0a6353c2-ec00-41b2-82f1-966004201d6b&created=1709502707849&expire=1709503607852&lock=a9d75b02-5c62-44f7-b5a5-1c7960df2bc4;expires=Sun, 03 Mar 2024 22:06:50 GMT;path=/;samesite=strict"
+          ]
+        },
+        {
+          "source": "https://www.businessinsider.com/chunks/scripts/7754.e6f8f5b74dfc085e636c.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_dd_s=logs=1&id=0a6353c2-ec00-41b2-82f1-966004201d6b&created=1709502707849&expire=1709503607852;expires=Sun, 03 Mar 2024 22:06:50 GMT;path=/;samesite=strict"
+          ]
+        },
+        {
+          "source": "https://www.businessinsider.com/chunks/scripts/7754.e6f8f5b74dfc085e636c.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_dd_s=logs=1&id=0a6353c2-ec00-41b2-82f1-966004201d6b&created=1709502707849&expire=1709503607852&lock=4721840d-9a2b-46e4-838e-1d2baea81371;expires=Sun, 03 Mar 2024 22:06:51 GMT;path=/;samesite=strict"
+          ]
+        },
+        {
+          "source": "https://www.businessinsider.com/chunks/scripts/7754.e6f8f5b74dfc085e636c.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_dd_s=logs=1&id=0a6353c2-ec00-41b2-82f1-966004201d6b&created=1709502707849&expire=1709503607852;expires=Sun, 03 Mar 2024 22:06:51 GMT;path=/;samesite=strict"
+          ]
+        },
+        {
+          "source": "https://www.businessinsider.com/chunks/scripts/7754.e6f8f5b74dfc085e636c.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_dd_s=logs=1&id=0a6353c2-ec00-41b2-82f1-966004201d6b&created=1709502707849&expire=1709503607852&lock=e4b3059d-946c-494b-b427-62ddf520da2f;expires=Sun, 03 Mar 2024 22:06:52 GMT;path=/;samesite=strict"
+          ]
+        },
+        {
+          "source": "https://www.businessinsider.com/chunks/scripts/7754.e6f8f5b74dfc085e636c.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_dd_s=logs=1&id=0a6353c2-ec00-41b2-82f1-966004201d6b&created=1709502707849&expire=1709503607852;expires=Sun, 03 Mar 2024 22:06:52 GMT;path=/;samesite=strict"
+          ]
+        },
+        {
+          "source": "https://www.businessinsider.com/chunks/scripts/7754.e6f8f5b74dfc085e636c.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_dd_s=logs=1&id=0a6353c2-ec00-41b2-82f1-966004201d6b&created=1709502707849&expire=1709503607852&lock=5baba1f7-6ff1-447b-9b61-80c6d4d22d6b;expires=Sun, 03 Mar 2024 22:06:53 GMT;path=/;samesite=strict"
+          ]
+        },
+        {
+          "source": "https://www.businessinsider.com/chunks/scripts/7754.e6f8f5b74dfc085e636c.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_dd_s=logs=1&id=0a6353c2-ec00-41b2-82f1-966004201d6b&created=1709502707849&expire=1709503607852;expires=Sun, 03 Mar 2024 22:06:53 GMT;path=/;samesite=strict"
+          ]
+        }
+      ]
+    },
+    "cookies": [
+      {
+        "name": "_ABTest_htmin3",
+        "domain": "www.businessinsider.com",
+        "path": "/",
+        "expires": 1795902706000,
+        "session": false
+      },
+      {
+        "name": "_ABTest_pb_5",
+        "domain": "www.businessinsider.com",
+        "path": "/",
+        "expires": 1795902706000,
+        "session": false
+      },
+      {
+        "name": "_ABTest_fplcp",
+        "domain": "www.businessinsider.com",
+        "path": "/",
+        "expires": 1795902706000,
+        "session": false
+      },
+      {
+        "name": "_ABTest_tags",
+        "domain": "www.businessinsider.com",
+        "path": "/",
+        "expires": 1795902706000,
+        "session": false
+      },
+      {
+        "name": "universal_id",
+        "domain": "www.businessinsider.com",
+        "path": "/",
+        "expires": 1741038706000,
+        "session": false
+      },
+      {
+        "name": "anonymous_id",
+        "domain": "www.businessinsider.com",
+        "path": "/",
+        "expires": 1741038706000,
+        "session": false
+      },
+      {
+        "name": "fenrir_anonymous_id",
+        "domain": ".www.businessinsider.com",
+        "path": "/",
+        "expires": 1741038706881,
+        "session": false
+      },
+      {
+        "name": "_pctx",
+        "domain": ".businessinsider.com",
+        "path": "/",
+        "expires": 1743627107000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "_pcid",
+        "domain": ".businessinsider.com",
+        "path": "/",
+        "expires": 1743627107000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "anonymous_id",
+        "domain": "my.businessinsider.com",
+        "path": "/",
+        "expires": 1717278708000,
+        "session": false
+      },
+      {
+        "name": "myinsider-anonymous-id",
+        "domain": "my.businessinsider.com",
+        "path": "/",
+        "expires": 1741038708000,
+        "session": false
+      },
+      {
+        "name": "__cf_bm",
+        "domain": ".piano.io",
+        "path": "/",
+        "expires": 1709504508069,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "crossdomain_id_set",
+        "domain": "www.businessinsider.com",
+        "path": "/",
+        "expires": 1717278710000,
+        "session": false
+      },
+      {
+        "name": "__tbc",
+        "domain": ".businessinsider.com",
+        "path": "/",
+        "expires": 1772574710000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "__pat",
+        "domain": ".businessinsider.com",
+        "path": "/",
+        "expires": 1712091110000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "__pvi",
+        "domain": ".businessinsider.com",
+        "path": "/",
+        "expires": 1709589110000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "xbc",
+        "domain": ".businessinsider.com",
+        "path": "/",
+        "expires": 1772574710000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "_pcus",
+        "domain": ".businessinsider.com",
+        "path": "/",
+        "expires": 1743627110000,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "_dd_s",
+        "domain": "www.businessinsider.com",
+        "path": "/",
+        "expires": 1709503613000,
+        "session": false,
+        "sameSite": "Strict"
+      }
+    ]
+  }
+}

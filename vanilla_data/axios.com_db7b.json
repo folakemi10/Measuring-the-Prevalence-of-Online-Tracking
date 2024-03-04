@@ -1,0 +1,4324 @@
+{
+  "initialUrl": "http://axios.com/",
+  "finalUrl": "https://www.axios.com/",
+  "timeout": false,
+  "testStarted": 1709502630051,
+  "testFinished": 1709502651245,
+  "data": {
+    "requests": [
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7129,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"1vY+XR+TzcIhxp2BuhYVZJ65M+Y=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "e2e65720e4c6816243d811e34a3fa8773bde2fc7da683ef912246bbd4f266e3b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.0614720000885427
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/uri-utils.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5459,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"Xn67G/cKymweq4CjJ8jx85KcgH4=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "aad0fbad010ed91399e993917f329b2d745fbe4457e3d0f011662ea048a62d03",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/commands.js"
+        ],
+        "time": 0.05738999997265637
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/lib/publicsuffixlist/publicsuffixlist.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 21141,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"iila5CWHW0iw8SPgL216SoU3hYw=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "4bffa485e7f0c16134305215cb85b6ee33af08a1370484351b230f56c64fe6a4",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.05108899995684624
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/lib/punycode.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 13615,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"Cnf4OiWclUC+aPRdFWSYUnGTUnA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "329249856a82a02f69fb2d929f89e02aefa6b04cca4ef6a3b9bebfa48d6e824c",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.053155000088736415
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/cosmetic-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 33982,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"8DeaqhHs9iEDwoRUHAwyVhluLGk=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "f85390d75b092dc72cc27f559516fc3b0d9a1f473c921cde3f86cf32a0244e59",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.05411599995568395
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/html-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 13226,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"nE/MtESN4/QpDKN9nEGM5qoH4M4=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "a39efe15686694c36c84c76fef131c400199de765eccc56e4234d138eab327ad",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.055779999936930835
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/logger.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2617,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"b8Wd6PJxRPGudjfAAryIkg7il6g=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "74588f2dfea500aedfac8edd75b949e6d4aeb2070706885d3ffe9dce297658d6",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.05704900005366653
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/scriptlet-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16396,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"tzLnLKB+/ZNmrSigvMkdpANOsGg=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "9009f525e509824eb26816d85f5bba1fa05aeacd8439cdd372e1fa67fd2d691f",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.05953700002282858
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/base64-custom.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9061,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"OnBCHLjB+OUYqDx7akb0eRGnoZs=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "a0880409a82754c2e5927f5d3712dbbab280c5024ecce864b7dbec20dc19d2ea",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.059382000006735325
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-dnr-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 17406,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"DbHGb5L4hdAkjR9FLOq6UPY0mSA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "10f814879fa095d9558a96692bb261010315429e4534d98644050157c30a866f",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.05961400002706796
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/i18n.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 13319,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"sgE7pqJMnDa8VrcldJ0ilYveB9M=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "54fb40243620deba248a8e72fba23d2bdb38072bc32b30f0b8dc4b5210bb0746",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.06060799991246313
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-filtering-parser.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 164667,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"H6Vn2En40xu1GbGWyUOD8+h0LF8=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "cfdf172c8e95c947c500dea40ba5540daaa4e6e8c62230be7c60658c1cc7c114",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.09984799998346716
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/benchmarks.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14781,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"fx2USk/w9OdwKYUcesd1PiXaKso=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "7dc5738c927e44080b7cd9a134a20c9a27c4d5f16858640f417bc4c54c7f8fe7",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.062144000083208084
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/pagestore.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 37941,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"0pAEaDWrTcynpqbYkllrsQbu4P4=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "0d276e541f29baf81c120ed01011b79dd6314bf10d3a7ac71b9f22cc8b4020e1",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/tab.js"
+        ],
+        "time": 0.05962900002487004
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-filtering-io.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4549,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"odWmB/ijF6Od72rdmnHNjvmWt1Q=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "e0d8f3c6d0d715f2ea61ab6670e153f341e2abe07dc5e0f6bbb3532bfeedbc30",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js"
+        ],
+        "time": 0.057001000037416816
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/text-utils.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3206,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"bybrzDjowCch/sktFQYJugb+zwM=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "b1a96611d4ed6efbd6b6cd5c79175e891575c63294e45f847f05600f5cdb12ac",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js"
+        ],
+        "time": 0.05595599999651313
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/httpheader-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6352,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"SqWU30JsVe68CGl7V5IYN9Ue8ZY=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "a668fd9d938f686433d2e5e621f5175fbe3cc31a3f7f1e08e24352ecab395c90",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-ext-filtering.js"
+        ],
+        "time": 0.042213000007905066
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/filtering-context.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14378,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"yN0YEFTj9wAv0PvTGvys1uJ8kl0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "c91359d674f43f0ebdc9a355d8b0fb43735d48995df2196f67e17de92b723fce",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/background.js"
+        ],
+        "time": 0.041893000015988946
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/text-encode.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12028,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"hN/C9mwwtU1t+yo3/Rg0M2yGi5k=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "850aa0a27dd5ae4a14c9e1173839ee2376849ef5590f6c82b8c34e200a2344ec",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js"
+        ],
+        "time": 0.04422599996905774
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-resources.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5378,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"o8OhMLJZCm7xijQh+t91hKH16vM=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "820e0173c4edd93e7dc5d4244e1d12e7129de894aef21f713ba21bf548c60ecf",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js"
+        ],
+        "time": 0.04313699994236231
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/dynamic-net-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14929,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"gXO6tsSsmyISqWJESo/178bzc70=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "1599cd0e54d1054f513498d2d4809a39a795d82c1e23b422cc6503608600df36",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/filtering-engines.js"
+        ],
+        "time": 0.03782500000670552
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/hnswitches.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9552,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"+rKz0sjaKVuCQGW9yi4CgDBwdaQ=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "347df073a6f20be44a21ae99b8da0c14614b397658894963f24330acc553113b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/filtering-engines.js"
+        ],
+        "time": 0.040729999891482294
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/url-net-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10209,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"tieD34setz8cNEM+sZ0i6CEhpFg=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "835831a8584c0b8d7d0ea93bc8d1579ef3dc8c4611d371722a643c36f14471dc",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/filtering-engines.js"
+        ],
+        "time": 0.03846399998292327
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-ext-filtering-db.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6022,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"jqRZdGl0d4KQTEg9Iimy9jCMWE0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "fed5ab181ee1c6857ee8c7e6ef251dba74d361e7cc291b076199e2fedaca50cc",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/cosmetic-filtering.js"
+        ],
+        "time": 0.031657999963499606
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/tasks.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1405,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"SYHXDKUVZzLkC5tphHt3KrA4+7U=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "1c32e673ad892453685d10961246093eac5b628d4a0dfe423a6b3903a3a971b8",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-net-filtering.js"
+        ],
+        "time": 0.021062999963760376
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/biditrie.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 34955,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"AheZ6MejaiDkLljcnWjPUo842xA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "4e020d6ce6f487e50ee11a68c69808a1466dc39d91c45d7b576186fc4d333189",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-net-filtering.js"
+        ],
+        "time": 0.027226999984122813
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/hntrie.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 28060,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"Er8vVKiCQn/QLsrtE4b7i/p31bY=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "0c2d598dcfb869d73fdd210d8d4de6be01bf963fd68493aff38412a4558a6543",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-net-filtering.js"
+        ],
+        "time": 0.02420200000051409
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/lib/regexanalyzer/regex.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 71968,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"Zc4zMrbKNl4jIVUdCsA8BAi5Qk8=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "de0a7a04bd5349dd3ffb91fb54d66fc5ccbd930f8c4bdb41ddac4dd03e18aacb",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-filtering-parser.js"
+        ],
+        "time": 0.01964500010944903
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/lib/csstree/css-tree.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 167973,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"4WxGcJjJUcwPUMlunC7RvGLWaI4=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "ecc4507fac946cbe442962e11bb058195dbe72545cce42f34338a83726ec56e0",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-filtering-parser.js"
+        ],
+        "time": 0.02715199999511242
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16-off.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 552,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"UjtU7CjAmAcHX4DBL09uSijcYkg=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "7ea99590d4b3f5ffbd7610f8ae42a72803a0f809200f595b943d5a622eb8d9bd",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.032724999939091504
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32-off.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1114,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"nkCRpu+nneDbhSqRHQsS4ngvo0I=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "3c8bf856b1fed942ab11cfc92aeda135adcc25c7012528f4b95cc6cb0e74a2cb",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.03397500002756715
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 420,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"9uZWEEQawXEa9JeFZdVDxheK738=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "5bc0b6c5d00309f9dae2be3fb505fda1ccdfa5c4d2994e167c8fb473bf95a777",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.03533900005277246
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1278,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"e74+CjUkVkdX//K9KytM4jGb4Sg=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "2fd0f85a569e98791d39884b54e706d105e5db0dfc60a319a40e09d48fc9b878",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.045403000083751976
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 570,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"SCCY3xHCtdMdB9jfy1lKOHd91yw=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "75cfccc844e135a85d7508a5892f72bac16b510919e4d4d5801ded7b1901a5cd",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background-ext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js"
+        ],
+        "time": 0.045151000027544796
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1089,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"RmlX4Eb0Vf+9Lga44dPV6pw/juM=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "230dc98bf942ad4be6016cbff229ae0605f2f02401e406ef0d649e7b1cca37ae",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background-ext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js"
+        ],
+        "time": 0.04569099994841963
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_64-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4406,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"VxvYv0EN5oLKTZD+GqhZRU48+qM=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "d52e425f9820d4c3e27e3ba658b7d21b14e3fbda7dd43febeea5a6021809060c",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background-ext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js"
+        ],
+        "time": 0.04472999996505678
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/badlists.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 4136,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"eOiMDeKtL1q/V6TIuAFaDCVjfWY=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "109822a6b68367e225fd701e53be3419800b95c7d4becd50bf8a2d49ba22424f",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.046923000016249716
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/resources/scriptlets.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 125820,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"CgwgzxiUJT5q+w9lH7Se+5ZMoIc=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "82d47ba987d73c40c4e7363b9ab5dba77ed1527a26d77909e3cedc27a5cd3439",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.07923699996899813
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/1x1.gif?secret=j06o16",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 43,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"72D+/UKGYStX5er87ISTvvrF5tQ=\"",
+          "content-type": "image/gif"
+        },
+        "responseBodyHash": "6b3da89922d333d106b84fefeebd7b16bfebf4cfbd7bef37fa10a47c471ae64c",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09770100004971027
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/2x2.png?secret=l74hnu",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 68,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"esKRo0fVKvgNoUzOaCbJcHcCR5c=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "53b14a22cd3dc973d6cb1a381d01fafafc4da1632bacbf15f7fac0014fbe70c0",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.10314500005915761
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/3x2.png?secret=q4va0x",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 68,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"FE1vXRwHfZli324eMoQlsnugEho=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "c6ea854b737a88835e1c7349bcfa0730f55e19de7acf0f54f9d6ea817fcd2f20",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.10334700008388609
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/32x32.png?secret=s1yd26",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 83,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"67CnMiH92/CeXXcyr+80HclqFxI=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "173650f1d19d59786ce8dd44c64cd8fb4471552c2e247fb774bec92726a7ee6b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.10230899997986853
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/amazon_ads.js?secret=c3dhms",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2296,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"By+IDkPL9F/5lkH5nXfR93EB23k=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "41901805f575d9d06608682999cf588b12c318face2ed04e8566ec8cbec4c610",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.10254500003065914
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/doubleclick_instream_ad_status.js?secret=znq7qy",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 29,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"s8ZaX7h28RDv/PN40yMhb1rRBto=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "eed0dc1fdb5d97ed188ae16fd5e1024a5bb744af47340346be2146300a6c54b9",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.10221200005616993
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/empty?secret=1gw2fs",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"w1USgRq36N3lrsNJbzqv38xCsUk=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.10222300002351403
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/fingerprint2.js?secret=3s64tu",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1810,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"PePG6yN3ZEGZMHdAk3DkU2BtUIM=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "7db8892256cdf45ad5ca5748e136e0c241b53b38c5adaa744a42ca139f05ffb3",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09886000002734363
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/fingerprint3.js?secret=q9rnzm",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1492,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"CetrBFm7a360yitCLL/02QWkJT8=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "6fd5703f2bdd85932f18adc99f30d8736d2bf5f09b1dde6c129f4616259fc827",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09705899993423373
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_analytics.js?secret=tuu6t9",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3695,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"wTqkQ1ryNce63XhVKrXix8otYW0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "6b4621868cac589a603fe1263aad242f67262ef971bdacaccc1a515cd0488466",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09636600001249462
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_ga.js?secret=lo5dk2",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 4810,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"FSty3AHCXVujktdhdSOgAswTJwI=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "f0546767675ac7eff724521236be831e8753a7b8c15aa1c792d8121cb5311094",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09493999998085201
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/googlesyndication_adsbygoogle.js?secret=j9dxaq",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3603,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"27D7TdoFnKSaDAxhDXZtyWlUA+0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "ba81dafd9a59c99b9d9e914ecbd5545c36d73d55b5ecb4d698ee3c49b02101c2",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.10069300001487136
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/googletagservices_gpt.js?secret=2o29f1",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 5102,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"76KRjaFvvOrwsb8JSDs4Q2jTlbo=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "3ad0442f766373b8fed1f1ba2dcd6d6cbf948b68641956135a8f552472e3e6b6",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.10344800003804266
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/nobab.js?secret=fwq3jv",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2976,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"fWIMOUaEIaNtkbrEiIKDhn8PTGY=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "1bc47b0e9b642cfcf2496977df36babdb263f13d0cfd64b286eb5c4c84cc319c",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09960499999579042
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/nobab2.js?secret=fyygn8",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1503,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"vy1qEErrRXmXVNnibZFXADJr2NA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "3ee47f99116088a94e1c280d3cd6216a75513a9109a3876ed7926897ec7cfc96",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.1044349999865517
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noeval.js?secret=ot2xdp",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1169,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"Zm3NrZrHm1RQ8sEDNdlqPrq/x5I=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "3cdd6f7412af4317374860533434959652db9e61633bdcae4755ad9039732bc6",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.10660499997902662
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noeval-silent.js?secret=0g2sni",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1046,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"uAxLt+FExKqnQoCEOy79k/qsAoI=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "bcb710ed7e64295cc8fe98b8611978e0801ffdce65107d1cb9c318339a5644d6",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.1020170000847429
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/nofab.js?secret=lbinj5",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2604,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"8C4cfBueT2MD3BS5m6yoQgPFyj0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "dd7684145ffe90180075aa4d98a7a457cbdc6b73295bea17c55bf230332cf056",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.10339300008490682
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop-0.1s.mp3?secret=2e0o1e",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 813,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"2+x2uGBtVFxzOfC/ga3FuCo0a10=\"",
+          "content-type": "audio/mpeg"
+        },
+        "responseBodyHash": "3b31d6fd84b91ed8fafa0dc7d7f6dbded7fc8a9b51289991138a07d33bb7a99b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.10513899999205023
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop-1s.mp4?secret=kamned",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3753,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"phhjpBwH2UsBHfAauKoOtl6zzkY=\"",
+          "content-type": "video/mp4"
+        },
+        "responseBodyHash": "5fffd48ffc18ad96d910ea2d84da417974177c3c0cc12fa0ca364c6f864ea641",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.10581000009551644
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop.css?secret=ls5emv",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 6,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"KSIg5lBIqQJSknb8PjMzOeEIjSU=\"",
+          "content-type": "text/css"
+        },
+        "responseBodyHash": "cccc5e8a9a7ad608a04f242530345694bd7150bd73315513284142b6a39ba4b7",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.1105039999820292
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop.js?secret=rqtudn",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 38,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"OpoFl8Qm9JGwy6bvidLZuEeJc50=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "5592bfa25de75c18ef0116cbb9990c122178b1efe5e076f1c45049a09d935a25",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.10703800001647323
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop.txt?secret=k1geja",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"MEUVxJfRt7KHLk+5bpNePR0DHec=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.10531100002117455
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop-vmap1.0.xml?secret=wnvsqz",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 86,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"o91xJuRB4zgK7iE97MmCHdnqlwI=\"",
+          "content-type": "text/xml"
+        },
+        "responseBodyHash": "fcc40f36d86c8f7146d4b2f0c1273cc46282c2c236303dabc172dfacfdf86508",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.10805799998342991
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/popads.js?secret=pdqplu",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1601,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"I9T+DOFVlPUkYWimhhzIRMcfjvI=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "85700e488f782dde2eac664d8127399f7650832678188ecbde143e5482a0bf58",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.10803100001066923
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/popads-dummy.js?secret=20p7xk",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1082,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"WifQzgUPi4l7MnUILkJmjzMy6+I=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "7d9ea48fc2dbf1c680406d5335aa567f84967e91b10e823b7e2462ce531fa281",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.10911999992094934
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/prebid-ads.js?secret=x4yj8v",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 990,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"zgpQ56ZBEYb7FmruMvEAtYO6iHM=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "4ef4348e32fffdfa739b160f77d0b96fc4c861c089cfae8458275e30436179b3",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.10879600001499057
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/easylist/easylist.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1561127,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"LtheFwWjs98NDuASTQh7tNDCpLI=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "fdd1f5fad30f0615b76861caec3b0385b5628839e1b0f30f08d253ae4d63ac5f",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.17734099994413555
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/easylist/easyprivacy.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 869277,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"w2nyAU5mv9ABOU6GFTURUHq4xgQ=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "a1ec9956461f447372f9c0f0658880e6d68f2137eb4caa206013027653c09e65",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.589179000002332
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/pgl.yoyo.org/as/serverlist.txt",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FILE_NOT_FOUND",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09618400002364069
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/badware.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 111016,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"AYIE/yEnpZPkbhaGZvQlS2EcDJ8=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "61339a487f716803a4d81ea2abef7603a30a1799fedd42626671a2cd8352ce60",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 2.0628580000484362
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/filters.min.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1244702,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"h1LFQV4RKbAD/Dr/crybn2Q5sRM=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "40edb5e5c62e3cc3e701fda60ca76362a0401be26b96fa7da827a91ec3676695",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 2.5131749999709427
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/privacy.min.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 25261,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"NVSCvkmHFfp2m7DKRdO/KxfEuKk=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "5e35527a7b50abc913a6bf2a4efa113a7ad3a29875679820be9f223e33e2c564",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.4099079999141395
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/quick-fixes.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 12961,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"afueNux30hW+NV4++qgmpXTa57Q=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "8da204883be6cef9a900cfeebace44bff5c1ab48f1f5b1e0934be478beed838b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.4826710000634193
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/unbreak.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 225327,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"RJFXfxbz9txDf2F9CzvtzGKrUGQ=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "0842f26631ba700715f6807ebed0b0686340385a51aef6ba56c44797f6e859f9",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 2.318779999972321
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/urlhaus-filter/urlhaus-filter-online.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 62578,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"BTHdXv1lxAGsEi3GXDaj3ARryk8=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "64473d0333370e1aa9208bd5895394c4c977c3c9eccd2df53605aca3f5cf577d",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.49802900000941
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/pgl.yoyo.org/as/serverlist",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 99702,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"cjJqLaDjMIABN/iLNntIhbyVrgY=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "e7564ecea385fef412bb736d9f715c9944ce043747c4421c6835e24cc93ace75",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 2.1156300000147894
+      },
+      {
+        "url": "http://axios.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "108.157.150.107",
+        "responseHeaders": {
+          "server": "CloudFront",
+          "date": "Sun, 03 Mar 2024 21:50:38 GMT",
+          "content-type": "text/html",
+          "content-length": "167",
+          "connection": "keep-alive",
+          "location": "https://axios.com/",
+          "x-cache": "Redirect from cloudfront",
+          "via": "1.1 f7f9f3d588a38a4cee083e9af044ddb0.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P2",
+          "x-amz-cf-id": "csDnAfnGqT3e5LvWPNSBJTiww7qzUV4AVMyCZkj7LS9uNex2AoCCIQ=="
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://axios.com/",
+        "initiators": [],
+        "time": 2.3587790000019595
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 570,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"SCCY3xHCtdMdB9jfy1lKOHd91yw=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "75cfccc844e135a85d7508a5892f72bac16b510919e4d4d5801ded7b1901a5cd",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "extensions::webRequestEvent"
+        ],
+        "time": 0.3225539999548346
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1089,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"RmlX4Eb0Vf+9Lga44dPV6pw/juM=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "230dc98bf942ad4be6016cbff229ae0605f2f02401e406ef0d649e7b1cca37ae",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "extensions::webRequestEvent"
+        ],
+        "time": 0.3458330000285059
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_64-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4406,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"VxvYv0EN5oLKTZD+GqhZRU48+qM=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "d52e425f9820d4c3e27e3ba658b7d21b14e3fbda7dd43febeea5a6021809060c",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "extensions::webRequestEvent"
+        ],
+        "time": 0.3458749999990687
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 420,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"9uZWEEQawXEa9JeFZdVDxheK738=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "5bc0b6c5d00309f9dae2be3fb505fda1ccdfa5c4d2994e167c8fb473bf95a777",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.1233880000654608
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1278,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"e74+CjUkVkdX//K9KytM4jGb4Sg=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "2fd0f85a569e98791d39884b54e706d105e5db0dfc60a319a40e09d48fc9b878",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.12320500006899238
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_64.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2655,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"z1HgbWDpu8W5XjdmapJcfSGuRjA=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "5fa6baa4bed8763bc19a8f6e6d169c0ba472d3f1913b6a093f65262ebd7c1c52",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.1229280000552535
+      },
+      {
+        "url": "https://axios.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "108.157.150.107",
+        "responseHeaders": {
+          "content-length": "0",
+          "location": "https://www.axios.com/",
+          "date": "Sun, 03 Mar 2024 13:51:11 GMT",
+          "server": "AmazonS3",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 f7b3336e5245ab3df285c43bba5ea594.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P2",
+          "x-amz-cf-id": "mIzewOLLrTMZ0BYhRxfrUdq9fgXV9hYkQMn3NdgMU6sLIPq5CK8Faw==",
+          "age": "28768"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.axios.com/",
+        "redirectedFrom": "http://axios.com/",
+        "initiators": [],
+        "time": 0.29355500009842217
+      },
+      {
+        "url": "https://www.axios.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 52129,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:39 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+          "set-cookie": "ax=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkNTcxZGIxYi0yYTNjLTQ1MTMtYTYxNy1kNmE0MWYxYzc1NjkiLCJzdGF0dXMiOiIxIiwiZXhwIjoxNzQxMDM4NjM4fQ.LwsM_kCAJsal-5LTechWHcVA-InxO5Fa-01SAaQiFPcEHAbXs7Vj_6cjsNl7DzGHw88GiWU9Z7D1Kw2ibwU12w; Path=/; Domain=axios.com; Expires=Mon, 03 Mar 2025 21:50:38 GMT; HttpOnly; Secure\n__cf_bm=Gn3Xk.SCwbnyetSnjFkkgKyFNnNaIibbTUxilDZifoA-1709502639-1.0.1.1-eikLNv3LIvTiCzTs2WYDHgf37Wmq8t9TqV7DFyMsSx7aHT.WOSQy2x.nhuxFIfAXN_fBVRf69yOlslGvZ8MAXg; path=/; expires=Sun, 03-Mar-24 22:20:39 GMT; domain=.axios.com; HttpOnly; Secure; SameSite=None",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7e53dc502a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "baa10529e05c2d3d6d4a6b870402974621202b5bf71fc8a7eae2185b106720aa",
+        "redirectedFrom": "https://axios.com/",
+        "initiators": [],
+        "time": 0.2751809998881072
+      },
+      {
+        "url": "https://images.axios.com/J-VuA6dUn_YNITLz5mC7wcQ17u0=/0x550:5276x3518/640x360/2024/03/03/1709501188616.jpg?w=640",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 10008,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:39 GMT",
+          "content-type": "image/webp",
+          "content-length": "9830",
+          "cache-control": "max-age=345600,public",
+          "etag": "\"858f6397c01e9ba568dce2dacfb0b68c92b8a4a9\"",
+          "expires": "Thu, 07 Mar 2024 21:36:53 GMT",
+          "vary": "Accept, Accept-Encoding",
+          "cf-cache-status": "HIT",
+          "age": "744",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7e748a402a7-ORD"
+        },
+        "responseBodyHash": "9400aaf364477c2e252763d77abb3d1b377321f1fd5c97acafe4ba05bdf85a44",
+        "initiators": [
+          "https://www.axios.com/"
+        ],
+        "time": 0.1365930000320077
+      },
+      {
+        "url": "https://static.axios.com/fonts/axios-site/nb_international_pro_book.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 21260,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:39 GMT",
+          "content-type": "binary/octet-stream",
+          "content-length": "20812",
+          "x-amz-id-2": "34fmXawd5mdxjrbOyZOauZLCXqAYhxv8/Y6Ekp1uxLxViiLzsS1M4/Epa4c0ODyrwe4BqkMDmZs=",
+          "x-amz-request-id": "H000PP1APBMK39TW",
+          "access-control-allow-origin": "*",
+          "access-control-allow-methods": "GET, PUT, POST, DELETE, HEAD",
+          "access-control-max-age": "3000",
+          "vary": "Origin, Access-Control-Request-Headers, Access-Control-Request-Method, Accept-Encoding",
+          "x-amz-replication-status": "COMPLETED",
+          "last-modified": "Mon, 24 Feb 2020 19:52:51 GMT",
+          "etag": "\"657f9b5b98c82c61c7a69e6a3a06d664\"",
+          "cache-control": "public, max-age=31536000",
+          "x-amz-version-id": "6PAzjuAkM62f3RrlrwfR10DbpISQkGyD",
+          "cf-cache-status": "HIT",
+          "age": "52456",
+          "expires": "Mon, 03 Mar 2025 21:50:39 GMT",
+          "accept-ranges": "bytes",
+          "set-cookie": "__cf_bm=snblsQCuWAGLTGY0pRZKrvayvugDsQeGVMiJWIEZx5w-1709502639-1.0.1.1-Umbv4Q1zwqqEg6wGduQOlkIb4G0o9OgytQ2wT1p4eJBHMGuhNOh6lWwB.naMmXWfPk15KhWtIU0PlcOnBaxa8g; path=/; expires=Sun, 03-Mar-24 22:20:39 GMT; domain=.axios.com; HttpOnly; Secure; SameSite=None",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7e8b9f72a24-ORD"
+        },
+        "responseBodyHash": "6f404a16c45942ebed646bc6ee80f9910c37a2082d025f025941ca623092ab3f",
+        "initiators": [
+          "https://www.axios.com/"
+        ],
+        "time": 0.5293560000136495
+      },
+      {
+        "url": "https://static.axios.com/fonts/axios-site/nb_international_pro_regular.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 21631,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:39 GMT",
+          "content-type": "binary/octet-stream",
+          "content-length": "21180",
+          "x-amz-id-2": "oKsehbKzzPx+8AmtQq3R6C66S/X2am9xqLKZqssIU+1qrBNgUMLFJ7sPm6vqjxM4MXS1+9WfXRk=",
+          "x-amz-request-id": "J2TJ4AAHV0MV87CQ",
+          "access-control-allow-origin": "*",
+          "access-control-allow-methods": "GET, PUT, POST, DELETE, HEAD",
+          "access-control-max-age": "3000",
+          "vary": "Origin, Access-Control-Request-Headers, Access-Control-Request-Method, Accept-Encoding",
+          "x-amz-replication-status": "COMPLETED",
+          "last-modified": "Mon, 24 Feb 2020 19:53:00 GMT",
+          "etag": "\"d11ef16454d2cb00dd55468bd60c799e\"",
+          "cache-control": "public, max-age=31536000",
+          "x-amz-version-id": "am9YW0dr7s2vw803wonSHhSWHPeToKbB",
+          "cf-cache-status": "HIT",
+          "age": "54116",
+          "expires": "Mon, 03 Mar 2025 21:50:39 GMT",
+          "accept-ranges": "bytes",
+          "set-cookie": "__cf_bm=rdZnaDJmZUN04E4w0GM9UY5hqTMQ9JM9SlupJMuGPXU-1709502639-1.0.1.1-5UvXWqjFzTfNS6IxJ559CU56Xfj4LkjF82GVOre4i0aAAE9PH4nxLANhcrQ1G67zFzhxh_prL12jvVyN3SmOLA; path=/; expires=Sun, 03-Mar-24 22:20:39 GMT; domain=.axios.com; HttpOnly; Secure; SameSite=None",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7e8b9f82a24-ORD"
+        },
+        "responseBodyHash": "9c2b40c7cd79721b6a902d063169a2acee91a4551554e6a7b5456b09a935eb78",
+        "initiators": [
+          "https://www.axios.com/"
+        ],
+        "time": 0.5306359999813139
+      },
+      {
+        "url": "https://static.axios.com/fonts/axios-site/nb_international_pro_bold.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 20063,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:39 GMT",
+          "content-type": "binary/octet-stream",
+          "content-length": "19600",
+          "x-amz-id-2": "7Z3Kzxn7FrmA0X5eX9T4fdMkbMmiLOEGXu+GUWib48wc55k8Bizp58NaZB0ZBpaBzACW45bil7IFNVk6PBTTJLRyGG0WZs22",
+          "x-amz-request-id": "QTG4W31YH31E8F8C",
+          "access-control-allow-origin": "*",
+          "access-control-allow-methods": "GET, PUT, POST, DELETE, HEAD",
+          "access-control-max-age": "3000",
+          "vary": "Origin, Access-Control-Request-Headers, Access-Control-Request-Method, Accept-Encoding",
+          "x-amz-replication-status": "COMPLETED",
+          "last-modified": "Mon, 24 Feb 2020 19:52:47 GMT",
+          "etag": "\"4d12e5fe6e6e48ad44cce443b6261d09\"",
+          "cache-control": "public, max-age=31536000",
+          "x-amz-version-id": "dVMRqqlfjr2fBsuiECCWgEHfcMDkip3J",
+          "cf-cache-status": "HIT",
+          "age": "34801",
+          "expires": "Mon, 03 Mar 2025 21:50:39 GMT",
+          "accept-ranges": "bytes",
+          "set-cookie": "__cf_bm=oW2Ek2QO2gQtNgzy8Qbt_FMarS_QJtkpiaHb9QZyopU-1709502639-1.0.1.1-yJqV88V6ugtdqC14cVQNKdZq0M9Q3z4mqrnXrChgI58s9r13mJkh.7HA0tKPeKnY9SlynRzjXwhwlZGTxIou4g; path=/; expires=Sun, 03-Mar-24 22:20:39 GMT; domain=.axios.com; HttpOnly; Secure; SameSite=None",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7e8b9f92a24-ORD"
+        },
+        "responseBodyHash": "761d2a5043bafe8b25f00ba91c1f55b1e0d003bb4016445161a05fd1d2744084",
+        "initiators": [
+          "https://www.axios.com/"
+        ],
+        "time": 0.5300009999191388
+      },
+      {
+        "url": "https://static.axios.com/fonts/axios-site/atiza/atizatext-regular-webfont.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 26669,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:39 GMT",
+          "content-type": "binary/octet-stream",
+          "content-length": "25880",
+          "x-amz-id-2": "V0M/rFDGP10V/G9FAKWhTJwBmslWISwEVfeh1xPgDOc6ryKgJpCONGIfduwN+lZztStxh995rppj/+cxJss1EAbnziPDRqsX9YvCTrGyfXY=",
+          "x-amz-request-id": "7BEZ3W52570J83CW",
+          "access-control-allow-origin": "*",
+          "access-control-allow-methods": "GET, PUT, POST, DELETE, HEAD",
+          "access-control-max-age": "3000",
+          "vary": "Origin, Access-Control-Request-Headers, Access-Control-Request-Method, Accept-Encoding",
+          "x-amz-replication-status": "COMPLETED",
+          "last-modified": "Mon, 24 Feb 2020 19:52:44 GMT",
+          "etag": "\"64a7b7ba3afac6823203ab70bdcf0a4b\"",
+          "cache-control": "public, max-age=31536000",
+          "x-amz-version-id": "0lrWlj7jTi4molqn2WyrmiPM5iSjpm0t",
+          "cf-cache-status": "HIT",
+          "age": "43554",
+          "expires": "Mon, 03 Mar 2025 21:50:39 GMT",
+          "accept-ranges": "bytes",
+          "set-cookie": "__cf_bm=BvLj3VATxZ1IslErpQHr8H94DjDnTQPXkTIwqLF5pMQ-1709502639-1.0.1.1-cjusD.gcIGFDBj2pWMf0MWuf310FVMUrILZJ6CNvEYdt0EWo.UduyvoKNcU5Ydgz0FjU1q08FzKv92MWwmlodw; path=/; expires=Sun, 03-Mar-24 22:20:39 GMT; domain=.axios.com; HttpOnly; Secure; SameSite=None",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7e8b9fa2a24-ORD"
+        },
+        "responseBodyHash": "b59d69e7fbaf0deefbecd862e3c5ad58738710282ea7ed9c3b24abcfe94ccbb5",
+        "initiators": [
+          "https://www.axios.com/"
+        ],
+        "time": 0.3411720000440255
+      },
+      {
+        "url": "https://www.axios.com/api/runtime-file?path=RUNTIME_ENV_VARS.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 965,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:39 GMT",
+          "content-type": "application/javascript",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "etag": "W/\"3u7uoezrmq4g6\"",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7e6e82602a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "b93bf9005de624bfb196ce973b49f7e0c5fae11fcff4625298dd64cf4272a564",
+        "initiators": [
+          "https://www.axios.com/"
+        ],
+        "time": 0.1330080000916496
+      },
+      {
+        "url": "https://www.axios.com/_next/static/css/967fde39d98b5688.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 40425,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:39 GMT",
+          "content-type": "text/css; charset=UTF-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"432b9-18dfc2a6f80\"",
+          "last-modified": "Fri, 01 Mar 2024 22:37:36 GMT",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "169291",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7e6e83002a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "e0fd6ff208dfce153e0e70827d3708433ef2ecbbd21a9bb7742b551a5a3d427f",
+        "initiators": [
+          "https://www.axios.com/"
+        ],
+        "time": 0.06266199995297939
+      },
+      {
+        "url": "https://www.axios.com/_next/static/css/b42425b526643d26.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 3030,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:39 GMT",
+          "content-type": "text/css; charset=UTF-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"372b-18dd7ce9eb8\"",
+          "last-modified": "Fri, 23 Feb 2024 21:10:59 GMT",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "779372",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7e6e83202a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "e8705ce8eece37023fb184a2892f2b2daa1971cb1f6c8e0b248494b41dc77d91",
+        "initiators": [
+          "https://www.axios.com/"
+        ],
+        "time": 0.057029000017791986
+      },
+      {
+        "url": "https://7d93c764-8b63-4579-ab4b-9e8666250987.edge.permutive.app/7d93c764-8b63-4579-ab4b-9e8666250987-web.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.axios.com/"
+        ],
+        "time": 1.7252700000535697
+      },
+      {
+        "url": "https://www.axios.com/js/gppStub.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1458,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:40 GMT",
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"1236-18dfc90f598\"",
+          "last-modified": "Sat, 02 Mar 2024 00:29:35 GMT",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "REVALIDATED",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7ef8b3302a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "0db59390a219eb872ab55c09bf95f012e0c642b914a6b2ec54db21ea02566a29",
+        "initiators": [
+          "https://www.axios.com/"
+        ],
+        "time": 1.5080950000556186
+      },
+      {
+        "url": "https://www.axios.com/_next/static/chunks/webpack-30fbfde165e3bbcf.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3902,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:40 GMT",
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"2087-18dfc2a6f80\"",
+          "last-modified": "Fri, 01 Mar 2024 22:37:36 GMT",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "169292",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7ef8b3402a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "26187134ee350b5bd224eaef1f185441ada979a5f0f63ce96338318052929de7",
+        "initiators": [
+          "https://www.axios.com/"
+        ],
+        "time": 1.4283000000286847
+      },
+      {
+        "url": "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 45790,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:40 GMT",
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"226cf-18d9efd5110\"",
+          "last-modified": "Mon, 12 Feb 2024 20:23:38 GMT",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "1732428",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7ef8b3602a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "126dc25d50bf1916552394a0b705032133a67828e6456bfbcaa506a458e04975",
+        "initiators": [
+          "https://www.axios.com/"
+        ],
+        "time": 1.4407209999626502
+      },
+      {
+        "url": "https://www.axios.com/_next/static/chunks/main-2160fa6b65b3eed6.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 37276,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:40 GMT",
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"1e800-18d9efd5110\"",
+          "last-modified": "Mon, 12 Feb 2024 20:23:38 GMT",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "1732428",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7ef8b3802a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "3941999d59ff2828bba400049bda79ab840801d5dcd0dc7dd5edccdf831d7747",
+        "initiators": [
+          "https://www.axios.com/"
+        ],
+        "time": 1.4942639999790117
+      },
+      {
+        "url": "https://www.axios.com/_next/static/chunks/vendor-chunk-0a3379370d45fcc7.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 59895,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:40 GMT",
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"3d0c5-18d9efd5110\"",
+          "last-modified": "Mon, 12 Feb 2024 20:23:38 GMT",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "1732428",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7ef8b3b02a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "90a764f92a13f3c82e21362223ed0d23c84ca7ef1a5b3759f7b79e558bc5d0d4",
+        "initiators": [
+          "https://www.axios.com/"
+        ],
+        "time": 1.5398130000103265
+      },
+      {
+        "url": "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 319782,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:40 GMT",
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"10c677-18dfc94b688\"",
+          "last-modified": "Sat, 02 Mar 2024 00:33:41 GMT",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "162514",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7ef8b3d02a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "eb796c95aec77559f5d9d8fe9b5228967ec74e972d45dd929eb25638490683d5",
+        "initiators": [
+          "https://www.axios.com/"
+        ],
+        "time": 1.894548000069335
+      },
+      {
+        "url": "https://www.axios.com/_next/static/chunks/4474-dcd31bf787c2f32e.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 67647,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:40 GMT",
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"3693d-18d9efd5110\"",
+          "last-modified": "Mon, 12 Feb 2024 20:23:38 GMT",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "1732428",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7ef8b4102a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "238210ad5b3e5f7578a3c72b4d149b0e36e28e06ede9c5bfee71eca3d2166e93",
+        "initiators": [
+          "https://www.axios.com/"
+        ],
+        "time": 1.730483999941498
+      },
+      {
+        "url": "https://www.axios.com/_next/static/chunks/6752-5a60f6dc9eddefae.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 8277,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:40 GMT",
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"5c4e-18d9efd5110\"",
+          "last-modified": "Mon, 12 Feb 2024 20:23:38 GMT",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "457937",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7ef8b4302a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "9fb0f0f5a7a3d6b5fd1840bd191772627a8344dc14248c809b4ce1188216f540",
+        "initiators": [
+          "https://www.axios.com/"
+        ],
+        "time": 1.4954190000426024
+      },
+      {
+        "url": "https://www.axios.com/_next/static/chunks/7832-2f0db82f42d610cb.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 8419,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:40 GMT",
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"723b-18d9efd5110\"",
+          "last-modified": "Mon, 12 Feb 2024 20:23:38 GMT",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "1732428",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7ef8b4402a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "04a91c2b39e1b3c7d9dc4cffdd7aa9004dee3bfec1f3b328138489126f14de78",
+        "initiators": [
+          "https://www.axios.com/"
+        ],
+        "time": 1.4272580000106245
+      },
+      {
+        "url": "https://www.axios.com/_next/static/chunks/4598-381821eb5e91e0cf.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2363,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:40 GMT",
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"15fa-18d9efd5110\"",
+          "last-modified": "Mon, 12 Feb 2024 20:23:38 GMT",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "1732428",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7ef8b4602a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "4a030b53590a02a71171cbbf4720a179a1036331675fd4d1920779bf7ca4405b",
+        "initiators": [
+          "https://www.axios.com/"
+        ],
+        "time": 1.4294689999660477
+      },
+      {
+        "url": "https://www.axios.com/_next/static/chunks/6844-89a76257da977526.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 33005,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:40 GMT",
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"1a0ec-18debeeeb00\"",
+          "last-modified": "Tue, 27 Feb 2024 18:58:40 GMT",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "441137",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7ef8b4802a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "1cce7a1687a0fd5e747720156330847d40b4084ed584cb7ed59700b7aee083a5",
+        "initiators": [
+          "https://www.axios.com/"
+        ],
+        "time": 1.5306049999780953
+      },
+      {
+        "url": "https://www.axios.com/_next/static/chunks/2673-8f4175e072235ecf.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4591,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:40 GMT",
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"3077-18dfc2a6f80\"",
+          "last-modified": "Fri, 01 Mar 2024 22:37:36 GMT",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "169292",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7ef9b4b02a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "51a1b60ffa0b2c40e774cfa51b9ae49a179b5704b1e04e26d847870543e51244",
+        "initiators": [
+          "https://www.axios.com/"
+        ],
+        "time": 1.4912509999703616
+      },
+      {
+        "url": "https://www.axios.com/_next/static/chunks/683-74672f390f1a1996.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5905,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:40 GMT",
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"454a-18df15983c0\"",
+          "last-modified": "Wed, 28 Feb 2024 20:13:12 GMT",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "350769",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7ef9b4c02a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "2ec98f7df192c5496133752380bef488bed3c14e00b14658a0f274d1965dadea",
+        "initiators": [
+          "https://www.axios.com/"
+        ],
+        "time": 1.4974710000678897
+      },
+      {
+        "url": "https://www.axios.com/_next/static/chunks/5785-e4471a406176d516.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3825,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:40 GMT",
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"28df-18dfc2a6f80\"",
+          "last-modified": "Fri, 01 Mar 2024 22:37:36 GMT",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "169292",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7ef9b4f02a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "3a900d099b6c870a20456ef5142ff7e6438b296daf9901dbfde2d86469b706ce",
+        "initiators": [
+          "https://www.axios.com/"
+        ],
+        "time": 1.4989369999384508
+      },
+      {
+        "url": "https://www.axios.com/_next/static/chunks/2188-2f3a47ed9409c24c.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 34716,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:40 GMT",
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"1aa3f-18dfc2a6f80\"",
+          "last-modified": "Fri, 01 Mar 2024 22:37:36 GMT",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "169292",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7ef9b5402a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "77358ad82a363d00d0edf7b572afd89f49c4c9a1f84903658348c2f4d1958dab",
+        "initiators": [
+          "https://www.axios.com/"
+        ],
+        "time": 1.5336909999605268
+      },
+      {
+        "url": "https://www.axios.com/_next/static/chunks/2270-ed2831618e3e6e69.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3082,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:40 GMT",
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"2067-18dfc2a6f80\"",
+          "last-modified": "Fri, 01 Mar 2024 22:37:36 GMT",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "169292",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7ef9b5602a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "76a1ab446a693c142e66f958f076c9b0a73ef2231ca8e9e19bf37544136854f6",
+        "initiators": [
+          "https://www.axios.com/"
+        ],
+        "time": 1.4910050000762567
+      },
+      {
+        "url": "https://www.axios.com/_next/static/chunks/6440-2a7f05ebb410826b.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6548,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:40 GMT",
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"43eb-18dfc2a6f80\"",
+          "last-modified": "Fri, 01 Mar 2024 22:37:36 GMT",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "169292",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7ef9b5e02a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "32528c4771038e1948ef3a772f9647ce46618a9547a3415e9d26e241cdd29e3b",
+        "initiators": [
+          "https://www.axios.com/"
+        ],
+        "time": 1.50012300000526
+      },
+      {
+        "url": "https://www.axios.com/_next/static/chunks/pages/index-6692da601e694186.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5164,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:40 GMT",
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"38d5-18df6f80978\"",
+          "last-modified": "Thu, 29 Feb 2024 22:24:27 GMT",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "256569",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7ef9b6002a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "2b862c6e3aeacf041a4b733b72b517e574c90321064cb1dadb6a7ad810f386d6",
+        "initiators": [
+          "https://www.axios.com/"
+        ],
+        "time": 1.496997999958694
+      },
+      {
+        "url": "https://www.axios.com/_next/static/QO7OTJ2bIR-Rn6o_YNw7Z/_buildManifest.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5644,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:40 GMT",
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"5968-18dfc94b688\"",
+          "last-modified": "Sat, 02 Mar 2024 00:33:41 GMT",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "162514",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7ef9b6202a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "22ec34dfcc6bf24a1cfcb846846f3672adef1760505f7adfd6905279816eddc0",
+        "initiators": [
+          "https://www.axios.com/"
+        ],
+        "time": 1.4982580000068992
+      },
+      {
+        "url": "https://www.axios.com/_next/static/QO7OTJ2bIR-Rn6o_YNw7Z/_ssgManifest.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 129,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:40 GMT",
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"4d-18dfc94b688\"",
+          "last-modified": "Sat, 02 Mar 2024 00:33:41 GMT",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "162514",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7ef9b6a02a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "6f5b4aa00d2f8d6aed9935b471806bf7acef464d0c1d390260e5fe27f800c67e",
+        "initiators": [
+          "https://www.axios.com/"
+        ],
+        "time": 1.4967440000036731
+      },
+      {
+        "url": "https://www.axios.com/_next/image?url=https%3A%2F%2Fimages.axios.com%2FexucPJoeDeFWQvW9qFDkjPXtrBM%3D%2F52x0%2Fsmart%2F2023%2F09%2F05%2F1693921763736.png&w=320&q=75",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 813,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:40 GMT",
+          "content-type": "image/webp",
+          "content-length": "544",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=345600, must-revalidate",
+          "content-disposition": "inline; filename=\"1693921763736.webp\"",
+          "content-security-policy": "script-src 'none'; frame-src 'none'; sandbox;",
+          "etag": "nREW33ZGjPFFSXw3CTI5cH3gsofm-YFNQFfVU57M924=",
+          "vary": "Accept, Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-nextjs-cache": "MISS",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "35224",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7f1be1402a7-ORD"
+        },
+        "responseBodyHash": "104d5e82bc62b4450c399498a9097373d81da1ad1ab50d729950f115bc5e158d",
+        "initiators": [
+          "https://www.axios.com/"
+        ],
+        "time": 0.07316799997352064
+      },
+      {
+        "url": "https://www.axios.com/_next/image?url=https%3A%2F%2Fimages.axios.com%2FOSw4t5rXljis41ZAALCgfoxhaqU%3D%2F0x0%3A1423x1423%2F52x0%2F2022%2F06%2F20%2F1655761503342.jpg&w=320&q=75",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 587,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:40 GMT",
+          "content-type": "image/webp",
+          "content-length": "450",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=345600, must-revalidate",
+          "content-disposition": "inline; filename=\"1655761503342.webp\"",
+          "content-security-policy": "script-src 'none'; frame-src 'none'; sandbox;",
+          "etag": "UScJcsYLidfivaUsnpeKBvDqFArmVFuMwB7o7lllDPs=",
+          "vary": "Accept, Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-nextjs-cache": "MISS",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "284327",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7f1be1702a7-ORD"
+        },
+        "responseBodyHash": "920846366079df2abcc3445619189e3868eac515d83d720da6bb04c7171d6d7a",
+        "initiators": [
+          "https://www.axios.com/"
+        ],
+        "time": 0.07255700009409338
+      },
+      {
+        "url": "https://www.axios.com/_next/image?url=https%3A%2F%2Fimages.axios.com%2FqPsv0zcL9SX5x0aot1fp_0oU5xU%3D%2F0x0%3A5304x5304%2F52x0%2F2018%2F08%2F15%2F1534363767547.jpg&w=320&q=75",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 735,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:40 GMT",
+          "content-type": "image/webp",
+          "content-length": "574",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=345600, must-revalidate",
+          "content-disposition": "inline; filename=\"1534363767547.webp\"",
+          "content-security-policy": "script-src 'none'; frame-src 'none'; sandbox;",
+          "etag": "UgSE39knisWQn7BNLcVZD3ndfXNybRtheBc+nvHBXNk=",
+          "vary": "Accept, Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-nextjs-cache": "MISS",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "15007",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7f1be1802a7-ORD"
+        },
+        "responseBodyHash": "682d4600ff7af6238d824e457d191336aa63b5628ad2ad1e4af7854f57df2676",
+        "initiators": [
+          "https://www.axios.com/"
+        ],
+        "time": 0.06879900000058115
+      },
+      {
+        "url": "https://images.axios.com/mJbPvaueRb5p4D43ha0Ewm8vKnU=/0x856:8192x5464/640x360/2024/03/03/1709492995957.jpg?w=640",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 25837,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:40 GMT",
+          "content-type": "image/webp",
+          "content-length": "25672",
+          "cache-control": "max-age=345600,public",
+          "etag": "\"ec7b1fa85d73fa0c7dcabe58761efffb5d9461dd\"",
+          "expires": "Thu, 07 Mar 2024 20:22:45 GMT",
+          "vary": "Accept, Accept-Encoding",
+          "cf-cache-status": "HIT",
+          "age": "5148",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7f1be1902a7-ORD"
+        },
+        "responseBodyHash": "d7b71398c53f319752ffa00cb6bcece9c28ad7df12fde34ae2158cebe484af0e",
+        "initiators": [
+          "https://www.axios.com/"
+        ],
+        "time": 0.06699399999342859
+      },
+      {
+        "url": "https://o87425.ingest.sentry.io/api/5839818/envelope/?sentry_key=0e467099322a7d523c8734f3d130d7dc&sentry_version=7&sentry_client=sentry.javascript.nextjs%2F7.80.1",
+        "method": "POST",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/vendor-chunk-0a3379370d45fcc7.js",
+          "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js",
+          "https://www.axios.com/_next/static/chunks/webpack-30fbfde165e3bbcf.js"
+        ],
+        "time": 0.6745060000102967
+      },
+      {
+        "url": "https://www.axios.com/_next/static/css/94f3e35d9b125df3.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 661,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:42 GMT",
+          "content-type": "text/css; charset=UTF-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"60b-18c1d0322d0\"",
+          "last-modified": "Wed, 29 Nov 2023 21:36:34 GMT",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "8073651",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7f8dec702a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "f21dd10236da3d74fea91bff4021b51587417364aee3d449165561b0ac0d2f5b",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/webpack-30fbfde165e3bbcf.js",
+          "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 0.047489000018686056
+      },
+      {
+        "url": "https://www.axios.com/_next/static/chunks/9513.51e2afead157caa8.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2181,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:42 GMT",
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"12ab-18dfc2a6f80\"",
+          "last-modified": "Fri, 01 Mar 2024 22:37:36 GMT",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "169293",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7f8eed602a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "a360b1115b3257dde42e27403cb6c7929bcba177aa30dcd844900c173c874233",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/webpack-30fbfde165e3bbcf.js",
+          "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 0.0563069999916479
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 307,
+        "responseHeaders": {
+          "location": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/googletagservices_gpt.js?secret=zgog6f",
+          "non-authoritative-reason": "WebRequest API"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/googletagservices_gpt.js?secret=zgog6f",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 1.4054839999880642
+      },
+      {
+        "url": "https://api.axios.com/api/render/topics",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 4248,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:42 GMT",
+          "content-type": "application/json",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "https://www.axios.com",
+          "age": "39",
+          "allow": "GET, HEAD, OPTIONS",
+          "cache-control": "max-age=60, stale-while-revalidate=86400, public, stale-if-error=259200",
+          "cross-origin-opener-policy": "same-origin",
+          "referrer-policy": "same-origin",
+          "vary": "Accept, Cookie, Origin",
+          "via": "1.1 infra-varnish-7f9bbfd885-6mssw (Varnish/7.3)",
+          "x-content-type-options": "nosniff",
+          "x-frame-options": "ALLOWALL",
+          "x-varnish": "49870589 49363679",
+          "x-varnish-cache-status": "hit",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7fd9d8902a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "09a80e7357d0feca929cedf45e4f9423e47c93bcb0408c8094a427904182536f",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/vendor-chunk-0a3379370d45fcc7.js",
+          "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 0.19241899996995926
+      },
+      {
+        "url": "https://api.axios.com/api/render/audiences",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 52239,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:42 GMT",
+          "content-type": "application/json",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "https://www.axios.com",
+          "age": "43",
+          "allow": "GET, HEAD, OPTIONS",
+          "cache-control": "public, max-age=60, stale-while-revalidate=120, stale-if-error=259200",
+          "cross-origin-opener-policy": "same-origin",
+          "referrer-policy": "same-origin",
+          "vary": "Accept, Cookie, Origin",
+          "via": "1.1 infra-varnish-7f9bbfd885-m6zjz (Varnish/7.3)",
+          "x-content-type-options": "nosniff",
+          "x-frame-options": "ALLOWALL",
+          "x-varnish": "44793296 48156273",
+          "x-varnish-cache-status": "hit",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7fd9d8602a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "371d5bb4a62dfd5838c4dc566d36f555e21e289f10ac2948f1d81dd3e616b233",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/vendor-chunk-0a3379370d45fcc7.js",
+          "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 0.2053829999640584
+      },
+      {
+        "url": "https://api.axios.com/api/render/topics",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:42 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-headers": "accept, accept-encoding, authorization, content-type, dnt, origin, user-agent, x-csrftoken, x-requested-with, X-Axios-edit-key",
+          "access-control-allow-methods": "DELETE, GET, OPTIONS, PATCH, POST, PUT",
+          "access-control-allow-origin": "https://www.axios.com",
+          "access-control-max-age": "86400",
+          "age": "43",
+          "cache-control": "max-age=60",
+          "vary": "Origin",
+          "via": "1.1 infra-varnish-7f9bbfd885-vlw25 (Varnish/7.3)",
+          "x-varnish": "49386151 49236917",
+          "x-varnish-cache-status": "hit",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=os2_9Jw081Tmp.kM_mWlBUPBJFwj0gSaYFT7g0tKtWA-1709502642-1.0.1.1-uLSQSd8AWnozzAWDml4HSNkkhlDos1QcjpdRcLN7wEqaNEb5fckp_0V6vRDW5igkK3HjYlSz9pBulOynZ_QdxQ; path=/; expires=Sun, 03-Mar-24 22:20:42 GMT; domain=.axios.com; HttpOnly; Secure; SameSite=None",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7fd3fd62a24-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.axios.com/api/render/topics"
+        ],
+        "time": 0.11251000000629574
+      },
+      {
+        "url": "https://api.axios.com/api/render/audiences",
+        "method": "OPTIONS",
+        "type": "Preflight",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:42 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-headers": "accept, accept-encoding, authorization, content-type, dnt, origin, user-agent, x-csrftoken, x-requested-with, X-Axios-edit-key",
+          "access-control-allow-methods": "DELETE, GET, OPTIONS, PATCH, POST, PUT",
+          "access-control-allow-origin": "https://www.axios.com",
+          "access-control-max-age": "86400",
+          "age": "13",
+          "cache-control": "max-age=60",
+          "vary": "Origin",
+          "via": "1.1 infra-varnish-7f9bbfd885-vlw25 (Varnish/7.3)",
+          "x-varnish": "44296323 48652178",
+          "x-varnish-cache-status": "hit",
+          "cf-cache-status": "DYNAMIC",
+          "set-cookie": "__cf_bm=QzT7Jm_sfcRu9YPYKxmNARXk9kNe8koLrdrjxW3y5l0-1709502642-1.0.1.1-g3PZ_tJ74yN.KCesmC0q430Bwxz.1W1XLTq54tvHOEUibpQGovvkdt4V6gEwauyaChL4102jO6ozbgmkFDIFYg; path=/; expires=Sun, 03-Mar-24 22:20:42 GMT; domain=.axios.com; HttpOnly; Secure; SameSite=None",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7fd3fd32a24-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": null,
+        "initiators": [
+          "https://api.axios.com/api/render/audiences"
+        ],
+        "time": 0.11084099998697639
+      },
+      {
+        "url": "https://www.axios.com/api/axios-web/get-story/by-id/d6ca1139-446b-4feb-8fbe-4bd93567c776",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 6098,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:42 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "max-age=60",
+          "etag": "W/\"xkzbhrrzccld2\"",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7fcec9202a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "a2d64584d5732fe9a98ba20118a710b96ad817d238d7bd2ae6ef123beae27d2d",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/vendor-chunk-0a3379370d45fcc7.js",
+          "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 0.11669399996753782
+      },
+      {
+        "url": "https://www.axios.com/api/axios-web/get-story/by-id/d2e70fb5-b732-4cea-95aa-6e6b2499d9d3",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 4964,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:42 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "max-age=60",
+          "etag": "W/\"iipybq3u1zeb3\"",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7fcfc9b02a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "57f5e2381fe1fbe5321b8bb60472b03837535119dc13e4b80efc763fd002f2b6",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/vendor-chunk-0a3379370d45fcc7.js",
+          "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 0.18590399995446205
+      },
+      {
+        "url": "https://www.axios.com/api/axios-web/get-story/by-id/f3d0ac48-a3ca-4ace-bc3e-a0899455b8e8",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 5433,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:42 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "max-age=60",
+          "etag": "W/\"itnnprrmmqhj1\"",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7fcfc9d02a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "1f5478e1e7ac70e147bbbe6808b5f884a8f915169c8eafeb73350b7d41bd13ff",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/vendor-chunk-0a3379370d45fcc7.js",
+          "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 0.08592099999077618
+      },
+      {
+        "url": "https://www.axios.com/api/axios-web/get-story/by-id/1a211a48-32ab-461c-adee-e84001f547a6",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 5728,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:42 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "max-age=60",
+          "etag": "W/\"izbzsnod9pjxx\"",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7fcfc9f02a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "42607b44b58ab30b5b94871dbb127f418ded62862fb8b9a739931dd905430400",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/vendor-chunk-0a3379370d45fcc7.js",
+          "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 0.091169000021182
+      },
+      {
+        "url": "https://www.axios.com/api/axios-web/get-story/by-id/12353220-fe69-4098-886c-d684b0bd93fd",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 5861,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:42 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "max-age=60",
+          "etag": "W/\"jrnlhyodcwjon\"",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7fcfca302a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "195b08d56931a633e2f9c7605eba6c570c5af91d2260806d611f3ab049a187ce",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/vendor-chunk-0a3379370d45fcc7.js",
+          "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 0.08959800004959106
+      },
+      {
+        "url": "https://www.axios.com/api/axios-web/get-story/by-id/95a84e61-ab60-4919-9caf-edd576103340",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 5869,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:42 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "max-age=60",
+          "etag": "W/\"nhij0ll8ecisu\"",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7fcfcaa02a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "1a91bd367107c83020496a294fd27bc8b025f8f82b959caba7b3499e8886aef9",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/vendor-chunk-0a3379370d45fcc7.js",
+          "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 0.08224799996241927
+      },
+      {
+        "url": "https://www.axios.com/api/axios-web/get-story/by-id/8ed491bb-2d7a-4636-a5c7-2a41aa4f64ef",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 6660,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:42 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "max-age=60",
+          "etag": "W/\"13sqzi48gvcodo\"",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7fcfcab02a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "afc53c59897af019f444d5648a6fd2948ae8953038d49429c58646b03358a52a",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/vendor-chunk-0a3379370d45fcc7.js",
+          "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 0.17595199996139854
+      },
+      {
+        "url": "https://www.axios.com/api/axios-web/get-story/by-id/17958157-853d-42b0-8da9-495da416d591",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 6740,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:42 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "max-age=60",
+          "etag": "W/\"jn7kv6rrx4pvj\"",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7fcfcaf02a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "25b06bee2ca1e07814dd4d99737421d85d1f82f1c401563f867bb655c127fc19",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/vendor-chunk-0a3379370d45fcc7.js",
+          "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 0.09331500006373972
+      },
+      {
+        "url": "https://www.axios.com/api/axios-web/get-story/by-id/b5d6a258-278b-416f-98e7-9b2062d8e42b",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 6513,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:45 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "max-age=60",
+          "etag": "W/\"w38wan0tnzjja\"",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7fcfcb102a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "156a3ba15d7f6671cb1e00d55b5d427b7cc62071ab951066cf6a3108ebd7de71",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/vendor-chunk-0a3379370d45fcc7.js",
+          "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 2.425347000011243
+      },
+      {
+        "url": "https://www.axios.com/api/axios-web/get-story/by-id/f474eacf-fcf2-4f7c-a9ed-8ff0b51b9229",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 6159,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:42 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "max-age=60",
+          "etag": "W/\"iibgbdjp78l2y\"",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7fcfcb502a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "45c88df608f2accd5557d73cc04bbe65e4997c77ac7ac3b11013280a83fe6069",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/vendor-chunk-0a3379370d45fcc7.js",
+          "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 0.17360600002575666
+      },
+      {
+        "url": "https://www.axios.com/api/v1/user-licenses?userId=d571db1b-2a3c-4513-a617-d6a41f1c7569",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 86,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:42 GMT",
+          "content-type": "application/json",
+          "content-length": "20",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7fd0cb802a7-ORD"
+        },
+        "responseBodyHash": "fe4659ddd914114c11dd35c406fa3b6b318ac025c4943efc9c1563fdcf3ae4c9",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/vendor-chunk-0a3379370d45fcc7.js",
+          "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 0.07873899990227073
+      },
+      {
+        "url": "https://www.axios.com/api/v1/me",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 618,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:42 GMT",
+          "content-type": "application/json",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7fd0ccd02a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "4775c0eb0a0d0a7040b4c8a1c520d137bdf2f6bc91a19afcc0cc9f60d7cbca5b",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/vendor-chunk-0a3379370d45fcc7.js",
+          "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 0.09017400001175702
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TNFK734",
+        "method": "GET",
+        "type": "Script",
+        "status": 307,
+        "responseHeaders": {
+          "location": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_analytics.js?secret=1wsm6h",
+          "non-authoritative-reason": "WebRequest API"
+        },
+        "responseBodyHash": "6b4621868cac589a603fe1263aad242f67262ef971bdacaccc1a515cd0488466",
+        "redirectedTo": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_analytics.js?secret=1wsm6h",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/main-2160fa6b65b3eed6.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 0.9792819999856874
+      },
+      {
+        "url": "https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 17777,
+        "remoteIPAddress": "23.66.94.80",
+        "responseHeaders": {
+          "server": "Apple",
+          "content-type": "application/javascript;charset=UTF-8",
+          "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+          "accept-ranges": "bytes",
+          "etag": "W/\"43171-1693955357907\"",
+          "last-modified": "Tue, 05 Sep 2023 23:09:17 GMT",
+          "vary": "accept-encoding",
+          "content-encoding": "gzip",
+          "content-length": "17356",
+          "date": "Sun, 03 Mar 2024 21:50:43 GMT",
+          "connection": "keep-alive",
+          "access-control-allow-origin": "*"
+        },
+        "responseBodyHash": "8356948d6f3bef342ff37a4deca7f6b64b58ca0b90ca128c1929c1bb76cc7a54",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 0.3847310000564903
+      },
+      {
+        "url": "https://www.axios.com/api/auth/session",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 290,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:43 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "content-length": "2",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "etag": "\"bwc9mymkdm2\"",
+          "set-cookie": "next-auth.csrf-token=4e9824820ff4dfc5b17e46332b8d4ba36d89144c667fbdb8f83611e30a00fb68%7C1dde1674a08dae71b2f2f24237d05142f92b5c18d79471e9815ffd6d7d4cc460; Path=/; HttpOnly; Secure; SameSite=None\n__Secure-next-auth.callback-url=https%3A%2F%2Fwww.axios.com; Path=/; HttpOnly; Secure; SameSite=Lax",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "85ecd800aa4002a7-ORD"
+        },
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/vendor-chunk-0a3379370d45fcc7.js",
+          "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 0.11172899999655783
+      },
+      {
+        "url": "https://www.axios.com/api/v1/me",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 641,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:43 GMT",
+          "content-type": "application/json",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "85ecd800ba5402a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "4775c0eb0a0d0a7040b4c8a1c520d137bdf2f6bc91a19afcc0cc9f60d7cbca5b",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/vendor-chunk-0a3379370d45fcc7.js",
+          "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 0.07299800007604063
+      },
+      {
+        "url": "https://www.axios.com/images/favicon-32x32.png",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 722,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:44 GMT",
+          "content-type": "image/webp",
+          "content-length": "436",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=3600",
+          "cf-bgj": "imgq:100,h2pri",
+          "cf-polished": "origFmt=png, origSize=490",
+          "content-disposition": "inline; filename=\"favicon-32x32.webp\"",
+          "etag": "W/\"1ea-18dfc90f598\"",
+          "last-modified": "Sat, 02 Mar 2024 00:29:35 GMT",
+          "vary": "Accept",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "1235",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "85ecd804ff7f02a7-ORD"
+        },
+        "responseBodyHash": "a4c6d50855fcd8a4a0fb9d3488cd6c568b0a1408c4db68c6424d50eb9bf5f157",
+        "initiators": [],
+        "time": 0.03910199995152652
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/googletagservices_gpt.js?secret=zgog6f",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5102,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"76KRjaFvvOrwsb8JSDs4Q2jTlbo=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "3ad0442f766373b8fed1f1ba2dcd6d6cbf948b68641956135a8f552472e3e6b6",
+        "redirectedFrom": "https://securepubads.g.doubleclick.net/tag/js/gpt.js",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 0.1571789999725297
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_analytics.js?secret=1wsm6h",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3695,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"wTqkQ1ryNce63XhVKrXix8otYW0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "6b4621868cac589a603fe1263aad242f67262ef971bdacaccc1a515cd0488466",
+        "redirectedFrom": "https://www.googletagmanager.com/gtm.js?id=GTM-TNFK734",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/main-2160fa6b65b3eed6.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 1.018127000075765
+      },
+      {
+        "url": "https://www.axios.com/_next/data/QO7OTJ2bIR-Rn6o_YNw7Z/index.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 176,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:44 GMT",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+          "x-content-type-options": "nosniff",
+          "x-middleware-skip": "1",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "85ecd806d9d402a7-ORD"
+        },
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/vendor-chunk-0a3379370d45fcc7.js",
+          "https://www.axios.com/_next/static/chunks/main-2160fa6b65b3eed6.js",
+          "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 0.07225099997594953
+      },
+      {
+        "url": "https://www.axios.com/_next/data/QO7OTJ2bIR-Rn6o_YNw7Z/2024/03/03/nikki-haley-donald-trump-republican-party-rnc.json?year=2024&month=03&day=03&slug=nikki-haley-donald-trump-republican-party-rnc",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 56,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:44 GMT",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+          "x-content-type-options": "nosniff",
+          "x-middleware-skip": "1",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "85ecd806d9d702a7-ORD"
+        },
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/vendor-chunk-0a3379370d45fcc7.js",
+          "https://www.axios.com/_next/static/chunks/main-2160fa6b65b3eed6.js",
+          "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 0.6732249999186024
+      },
+      {
+        "url": "https://www.axios.com/_next/data/QO7OTJ2bIR-Rn6o_YNw7Z/2024/03/03/congress-government-funding-johnson-schumer.json?year=2024&month=03&day=03&slug=congress-government-funding-johnson-schumer",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 56,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:44 GMT",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+          "x-content-type-options": "nosniff",
+          "x-middleware-skip": "1",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "85ecd806e9e102a7-ORD"
+        },
+        "responseBodyHash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/vendor-chunk-0a3379370d45fcc7.js",
+          "https://www.axios.com/_next/static/chunks/main-2160fa6b65b3eed6.js",
+          "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 0.06868399993982166
+      },
+      {
+        "url": "https://cdn.jwplayer.com/previews/ZIGlwjOI-AeXnLRNE",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "remoteIPAddress": "108.157.142.87",
+        "responseHeaders": {
+          "content-type": "text/html; charset=utf-8",
+          "content-length": "1400",
+          "access-control-allow-origin": "*",
+          "content-encoding": "gzip",
+          "date": "Sun, 03 Mar 2024 21:50:40 GMT",
+          "server": "openresty",
+          "x-robots-tag": "noindex, indexifembedded",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 2163528b1f064196b85d263c356bfa50.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P1",
+          "x-amz-cf-id": "Kyx-Xbv8BjvfDyLqEqyuPBA0qTkEY_GZuM-HVUMaoUNj2QsFlyvAhw==",
+          "age": "4"
+        },
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ]
+      },
+      {
+        "url": "https://static.axios.com/fonts/axios-site/atiza/atizatext-bold-webfont.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 26226,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:45 GMT",
+          "content-type": "binary/octet-stream",
+          "content-length": "25464",
+          "x-amz-id-2": "TOmwvNiVSPLpTO59smJB5ANorLLPHHui+ifJIQ2biitC1b7hf9Hjk1OgmROpafuBOlWblUtzGjo=",
+          "x-amz-request-id": "WR5PK3ATMTD3R091",
+          "access-control-allow-origin": "*",
+          "access-control-allow-methods": "GET, PUT, POST, DELETE, HEAD",
+          "access-control-max-age": "3000",
+          "vary": "Origin, Access-Control-Request-Headers, Access-Control-Request-Method, Accept-Encoding",
+          "x-amz-replication-status": "COMPLETED",
+          "last-modified": "Mon, 24 Feb 2020 19:52:42 GMT",
+          "etag": "\"bde2fd48898d8fe9756fbf47ec5c4a0a\"",
+          "cache-control": "public, max-age=31536000",
+          "x-amz-version-id": "9Tf_UclUV735S2v829XD0ct29v8JNw8Q",
+          "cf-cache-status": "HIT",
+          "age": "23742",
+          "expires": "Mon, 03 Mar 2025 21:50:45 GMT",
+          "accept-ranges": "bytes",
+          "set-cookie": "__cf_bm=3Fx.d4jwQ3M5tIOlwEZdXAtAYQ8QtdKYPvtNVc_rCRk-1709502645-1.0.1.1-RSwhFjbjLIgmm7JzodS39QZlw91gt2zpuCm.HYoZ2btzjSP7NyYOFVRLnpH3p5VfweLd_14qYAi0lCtY4hA9vQ; path=/; expires=Sun, 03-Mar-24 22:20:45 GMT; domain=.axios.com; HttpOnly; Secure; SameSite=None",
+          "server": "cloudflare",
+          "cf-ray": "85ecd80d6f5161db-ORD"
+        },
+        "responseBodyHash": "84f89b3394d4066fe95fe694dfb36d784113a47efdcb49c2e0907270903d68e3",
+        "initiators": [
+          "https://www.axios.com/_next/static/css/967fde39d98b5688.css"
+        ],
+        "time": 1.0738220000639558
+      },
+      {
+        "url": "https://cdn.jwplayer.com/previews/0GMWkggc-AeXnLRNE",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "remoteIPAddress": "108.157.142.87",
+        "responseHeaders": {
+          "content-type": "text/html; charset=utf-8",
+          "content-length": "1426",
+          "access-control-allow-origin": "*",
+          "content-encoding": "gzip",
+          "date": "Sun, 03 Mar 2024 21:50:16 GMT",
+          "server": "openresty",
+          "x-robots-tag": "noindex, indexifembedded",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 2163528b1f064196b85d263c356bfa50.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P1",
+          "x-amz-cf-id": "6zSykiYUlkfYmAl9rfofMTJNuznmv255braV4W2FcFTq5gFwpMm-Gw==",
+          "age": "28"
+        },
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ]
+      },
+      {
+        "url": "https://static.axios.com/img/axios-site/bullet-filled.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 435,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:44 GMT",
+          "content-type": "image/svg+xml",
+          "x-amz-id-2": "3COlAqwI/x7WflNIenITW1F2jcoBj7Pt1n8kPD0m+chIXVAq0Mk+cE+/1EP7Cyqq/zpCC+4+DnU=",
+          "x-amz-request-id": "WR5N08PXNZX04XSC",
+          "x-amz-replication-status": "COMPLETED",
+          "last-modified": "Fri, 31 Jul 2020 21:15:09 GMT",
+          "etag": "W/\"7701ff576f427f5e26f9bcfad7f96b97\"",
+          "cache-control": "max-age=2678400",
+          "x-amz-version-id": "NJKVFUE3AP48E3HmP3rzt8pdoGmJV70X",
+          "cf-cache-status": "HIT",
+          "age": "45270",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "85ecd80b0efd02a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "b24e9f778b444dae9ab9ee9c72208235bf7a8626c236f52f5297ef4cf78854ea",
+        "initiators": [
+          "https://www.axios.com/_next/static/css/b42425b526643d26.css"
+        ],
+        "time": 0.03775899996981025
+      },
+      {
+        "url": "https://datawrapper.dwcdn.net/UnBBg/embed.js?v=1",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 18985,
+        "remoteIPAddress": "104.22.24.245",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:45 GMT",
+          "content-type": "text/javascript",
+          "x-amz-id-2": "cvkh+2BX8/kiwzMKHLYimWZOfIazZ6+x6YRFyEh4DrPqNcjzIKzb1AyBRoCLuuNG0WT1/v3D6po=",
+          "x-amz-request-id": "EQHSMT9M3AE58V4R",
+          "last-modified": "Tue, 27 Feb 2024 21:18:26 GMT",
+          "x-amz-version-id": "jUd83Qv9tIwDAQ5ri_ai7Wa35Rd4Sode",
+          "etag": "W/\"b64c31b5c4ac40f3fcdf30a7a8835902\"",
+          "cf-cache-status": "HIT",
+          "age": "6137",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "85ecd80d1f272309-ORD",
+          "content-encoding": "gzip"
+        },
+        "responseBodyHash": "9382f7a7997fb79d88c3a994b8232563fc7eb77bdcd33e3559614b0d4b171103",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/2270-ed2831618e3e6e69.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 0.15041899995412678
+      },
+      {
+        "url": "https://datawrapper.dwcdn.net/UnBBg/full.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 168874,
+        "remoteIPAddress": "104.22.24.245",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:45 GMT",
+          "content-type": "image/png",
+          "content-length": "168348",
+          "x-amz-id-2": "OdFubRZ61tUdJWP8iYgf4yvrRNh2uvs9YDI02JHp8TZWE6R4qrqjlAny3XlFBOvJg7sy/78IJKo=",
+          "x-amz-request-id": "FWGNY3EQHZF34VXV",
+          "last-modified": "Tue, 27 Feb 2024 21:18:46 GMT",
+          "x-amz-version-id": "lyzMLVl3T8RKcekUB_eEU_Y1AXHdQ2af",
+          "etag": "\"9525ab550ca65991231c290912a4ecd2\"",
+          "cache-control": "max-age=1",
+          "cf-cache-status": "HIT",
+          "age": "13305",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "85ecd80d1f282309-ORD"
+        },
+        "responseBodyHash": "f73e82bf58cf34733a5e40c0656d6b47888440d2494d75ca8de7272cc9ef425a",
+        "initiators": [],
+        "time": 0.12334100005682558
+      },
+      {
+        "url": "https://datawrapper.dwcdn.net/lib/vendor/dw-2.0.min.bf7c66ea.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 73232,
+        "remoteIPAddress": "104.22.24.245",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:46 GMT",
+          "content-type": "text/javascript",
+          "x-amz-id-2": "knOYixl0v8MHqcLDIceLrrx5XaZAuVwEVA3wqrx3v4t2n5hMjcZejf2qtNbeLjsARdNCtYzweuE=",
+          "x-amz-request-id": "A4W50E1K5D771WG8",
+          "cache-control": "public, max-age=31536000",
+          "last-modified": "Fri, 16 Feb 2024 13:39:31 GMT",
+          "x-amz-version-id": "QmO0SNQN4UjrevXb1etplHnz9khTFe6w",
+          "etag": "W/\"f2688fae76afe329d2d11503284ea9f9\"",
+          "cf-cache-status": "HIT",
+          "age": "1410830",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "85ecd816ab872309-ORD",
+          "content-encoding": "gzip"
+        },
+        "responseBodyHash": "aa2b10e461af51f6ec809706cdf3cdbf1abac79a0b414d83fe60104b8036d865",
+        "initiators": [
+          "https://datawrapper.dwcdn.net/UnBBg/embed.js?v=1"
+        ],
+        "time": 0.050706000067293644
+      },
+      {
+        "url": "https://datawrapper.dwcdn.net/lib/vendor/web-component.45f2a623.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 146228,
+        "remoteIPAddress": "104.22.24.245",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:46 GMT",
+          "content-type": "text/javascript",
+          "x-amz-id-2": "XCduN82685+dsO+9OyXCADnsWiKjjpewhxd2ueDXkJPj/j1rTaKzhCD8cPvLNsGZ+sTLkHAgnOs=",
+          "x-amz-request-id": "8VJQSN8PP507J1BR",
+          "cache-control": "public, max-age=31536000",
+          "last-modified": "Tue, 27 Feb 2024 14:48:21 GMT",
+          "x-amz-version-id": "KHJkFCmDu3bL00lrA5Ig_PiEDzzerwLk",
+          "etag": "W/\"391dce503b10fe7dc6e121754750f59f\"",
+          "cf-cache-status": "HIT",
+          "age": "447849",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "85ecd816ab882309-ORD",
+          "content-encoding": "gzip"
+        },
+        "responseBodyHash": "45f2a623d8f5ec23f599f0d4d7f7707d5992015b6aeca5bb1ca4a556b6c8e6fe",
+        "initiators": [
+          "https://datawrapper.dwcdn.net/UnBBg/embed.js?v=1"
+        ],
+        "time": 0.10034899995662272
+      },
+      {
+        "url": "https://www.axios.com/_next/static/chunks/6421-435896a00e5e5ef6.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 5918,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:46 GMT",
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"4232-18dfc2a6f80\"",
+          "last-modified": "Fri, 01 Mar 2024 22:37:36 GMT",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "169298",
+          "server": "cloudflare",
+          "cf-ray": "85ecd816dd7b02a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/main-2160fa6b65b3eed6.js",
+          "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 0.0843560000648722
+      },
+      {
+        "url": "https://www.axios.com/_next/static/chunks/1007-44c7d47d37d1953e.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 7200,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:46 GMT",
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"5238-18dfc2a6f80\"",
+          "last-modified": "Fri, 01 Mar 2024 22:37:36 GMT",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "169298",
+          "server": "cloudflare",
+          "cf-ray": "85ecd816dd7c02a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/main-2160fa6b65b3eed6.js",
+          "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 0.0832249999511987
+      },
+      {
+        "url": "https://www.axios.com/_next/static/chunks/pages/%5Byear%5D/%5Bmonth%5D/%5Bday%5D/%5Bslug%5D-4cc30be312f57ba3.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 6637,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:46 GMT",
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"4402-18dfc2a6f80\"",
+          "last-modified": "Fri, 01 Mar 2024 22:37:36 GMT",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "169298",
+          "server": "cloudflare",
+          "cf-ray": "85ecd816dd7f02a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/main-2160fa6b65b3eed6.js",
+          "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 0.08261000004131347
+      },
+      {
+        "url": "https://datawrapper.dwcdn.net/lib/vis/d3-maps-choropleth.53f625fb.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 179325,
+        "remoteIPAddress": "104.22.24.245",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:47 GMT",
+          "content-type": "text/javascript",
+          "x-amz-id-2": "Ib5LNvwS2nbGf5aj/RDlQDDFTxN/skgN239i4h2d4cIx890kFW6FkVNzo3+0ZF74Q05T/3O9BHM=",
+          "x-amz-request-id": "Z41HGNSQERZPHDRB",
+          "cache-control": "public, max-age=31536000",
+          "last-modified": "Fri, 16 Feb 2024 13:40:24 GMT",
+          "x-amz-version-id": "xyzOTg737QtwXXakdyekFh5Jmx_0GJ3i",
+          "etag": "W/\"a275503217e48a6948ab718cb725972d\"",
+          "cf-cache-status": "HIT",
+          "age": "1410381",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "85ecd8189e5d2309-ORD",
+          "content-encoding": "gzip"
+        },
+        "responseBodyHash": "b48cced06148d8a0d9c0cee3d2b6a186747832c3bc7c3732ee40a5b4cce7afff",
+        "initiators": [
+          "https://datawrapper.dwcdn.net/UnBBg/embed.js?v=1"
+        ],
+        "time": 0.0653419999871403
+      },
+      {
+        "url": "https://www.axios.com/_next/static/css/b42425b526643d26.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:39 GMT",
+          "content-type": "text/css; charset=UTF-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"372b-18dd7ce9eb8\"",
+          "last-modified": "Fri, 23 Feb 2024 21:10:59 GMT",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "779372",
+          "server": "cloudflare",
+          "cf-ray": "85ecd7e6e83202a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "e8705ce8eece37023fb184a2892f2b2daa1971cb1f6c8e0b248494b41dc77d91",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/vendor-chunk-0a3379370d45fcc7.js",
+          "https://www.axios.com/_next/static/chunks/main-2160fa6b65b3eed6.js",
+          "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 0.034651000052690506
+      },
+      {
+        "url": "https://www.axios.com/_next/static/chunks/6421-435896a00e5e5ef6.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:46 GMT",
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"4232-18dfc2a6f80\"",
+          "last-modified": "Fri, 01 Mar 2024 22:37:36 GMT",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "169298",
+          "server": "cloudflare",
+          "cf-ray": "85ecd816dd7b02a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "97fd946f2abeb54cb79c293ac8852d9e91350595d02d55442b47bb455effc0d8",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/main-2160fa6b65b3eed6.js",
+          "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 0.03487900004256517
+      },
+      {
+        "url": "https://www.axios.com/_next/static/chunks/1007-44c7d47d37d1953e.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:46 GMT",
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"5238-18dfc2a6f80\"",
+          "last-modified": "Fri, 01 Mar 2024 22:37:36 GMT",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "169298",
+          "server": "cloudflare",
+          "cf-ray": "85ecd816dd7c02a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "28ee5f02a90d3089a87eee9faca0bf0b6103741e87fa36c93a00734cb3fdaf1c",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/main-2160fa6b65b3eed6.js",
+          "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 0.034767999895848334
+      },
+      {
+        "url": "https://www.axios.com/_next/static/chunks/pages/%5Byear%5D/%5Bmonth%5D/%5Bday%5D/%5Bslug%5D-4cc30be312f57ba3.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:46 GMT",
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"4402-18dfc2a6f80\"",
+          "last-modified": "Fri, 01 Mar 2024 22:37:36 GMT",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "169298",
+          "server": "cloudflare",
+          "cf-ray": "85ecd816dd7f02a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "d00fdda33b2680d99517c3c1199829598e9c39a2c5f78e85ed439f626fbce973",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/main-2160fa6b65b3eed6.js",
+          "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 0.03404399997089058
+      },
+      {
+        "url": "https://www.axios.com/_next/static/css/035aba06677c02e5.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 3574,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:47 GMT",
+          "content-type": "text/css; charset=UTF-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"427d-18de2e3f230\"",
+          "last-modified": "Mon, 26 Feb 2024 00:50:06 GMT",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "593471",
+          "server": "cloudflare",
+          "cf-ray": "85ecd818e82102a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "174243beddd383b679fd1117e684e4d80f18f735fd9acdcf4847c41e2eb945ad",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/vendor-chunk-0a3379370d45fcc7.js",
+          "https://www.axios.com/_next/static/chunks/main-2160fa6b65b3eed6.js",
+          "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 0.17760199995245785
+      },
+      {
+        "url": "https://www.axios.com/_next/static/css/cf7ec12cb99dbee6.css",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 381,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:47 GMT",
+          "content-type": "text/css; charset=UTF-8",
+          "access-control-allow-headers": "sentry-trace, baggage",
+          "cache-control": "public, max-age=31536000, immutable",
+          "etag": "W/\"230-18cb5e7e5f8\"",
+          "last-modified": "Fri, 29 Dec 2023 14:08:43 GMT",
+          "vary": "Accept-Encoding",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "cf-cache-status": "HIT",
+          "age": "5643247",
+          "server": "cloudflare",
+          "cf-ray": "85ecd818e82202a7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "3be94ad203b9cd127b10d4f5727ee03bd2966d17b5132c715e67f40810a32152",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/vendor-chunk-0a3379370d45fcc7.js",
+          "https://www.axios.com/_next/static/chunks/main-2160fa6b65b3eed6.js",
+          "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js",
+          "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js"
+        ],
+        "time": 0.17648500006180257
+      },
+      {
+        "url": "https://datawrapper.dwcdn.net/UnBBg/1/dataset.csv",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 1852,
+        "remoteIPAddress": "104.22.24.245",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:47 GMT",
+          "content-type": "application/octet-stream",
+          "content-length": "1385",
+          "x-amz-id-2": "dmm8G/cPmmnGMd5T8YPV6cSUp9RJnv7J+m3zyIwkyeC9cawpJaKaO+ZDEHCGA53wsiJUP8F93w8=",
+          "x-amz-request-id": "3T6Y4QSDKX2GME1P",
+          "access-control-allow-origin": "*",
+          "access-control-allow-methods": "GET",
+          "access-control-max-age": "3000",
+          "vary": "Origin, Access-Control-Request-Headers, Access-Control-Request-Method, Accept-Encoding",
+          "cache-control": "public, max-age=31536000",
+          "last-modified": "Tue, 27 Feb 2024 21:18:26 GMT",
+          "x-amz-version-id": "XfWk1ckH3WeHAUQuUM8wp2CQyjq_6rad",
+          "etag": "\"98cf71289432635baf619854e4c4e11f\"",
+          "cf-cache-status": "HIT",
+          "age": "42457",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "85ecd81a9f8a02b4-ORD"
+        },
+        "responseBodyHash": "5f0916a919c897f6228510331f5652776c61bdefae96fc437d358e1ef6709491",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/vendor-chunk-0a3379370d45fcc7.js",
+          "https://datawrapper.dwcdn.net/lib/vendor/web-component.45f2a623.js",
+          "https://datawrapper.dwcdn.net/UnBBg/embed.js?v=1"
+        ],
+        "time": 0.08727799996268004
+      },
+      {
+        "url": "https://datawrapper.dwcdn.net/lib/basemaps/us-states.e600931c.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 95066,
+        "remoteIPAddress": "104.22.24.245",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:47 GMT",
+          "content-type": "application/json",
+          "x-amz-id-2": "RhunQT/OgEVqChktOna4epdNSf8ajHu3BDe8YZJrGk9sAKCUsEao1n+pnH3PbWHccthujBRCKfY=",
+          "x-amz-request-id": "E5Y0VP18BDQC9JN8",
+          "access-control-allow-origin": "*",
+          "access-control-allow-methods": "GET",
+          "access-control-max-age": "3000",
+          "vary": "Origin, Access-Control-Request-Headers, Access-Control-Request-Method, Accept-Encoding",
+          "cache-control": "public, max-age=31536000",
+          "last-modified": "Fri, 24 Nov 2023 01:07:52 GMT",
+          "x-amz-version-id": "9zNttu_3j3qkHd22fsbTH2qel6nbHb5f",
+          "etag": "W/\"8d6ea5e8226698226ec5f39285653102\"",
+          "cf-cache-status": "HIT",
+          "age": "8148690",
+          "server": "cloudflare",
+          "cf-ray": "85ecd81a9f8c02b4-ORD",
+          "content-encoding": "gzip"
+        },
+        "responseBodyHash": "e600931cdbec827350af431f14aab949700e6d58fb3a1eb77999d83aa56892d5",
+        "initiators": [
+          "https://www.axios.com/_next/static/chunks/vendor-chunk-0a3379370d45fcc7.js",
+          "https://datawrapper.dwcdn.net/lib/vendor/web-component.45f2a623.js",
+          "https://datawrapper.dwcdn.net/UnBBg/embed.js?v=1"
+        ],
+        "time": 0.10200399998575449
+      },
+      {
+        "url": "https://static.axios.com/fonts/nb_international_pro_medium.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 22282,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:48 GMT",
+          "content-type": "binary/octet-stream",
+          "content-length": "21776",
+          "x-amz-id-2": "kff9QE75pRRAW2QvSNp+rqpganQYSOX3KSH4x6pTMt1++qV6VN7wzqzrbsshg6JYK3e00EHCQ40GE5hLHgcfRg==",
+          "x-amz-request-id": "Q6MFCE03VSEND3BB",
+          "access-control-allow-origin": "*",
+          "access-control-allow-methods": "GET, PUT, POST, DELETE, HEAD",
+          "access-control-max-age": "3000",
+          "vary": "Origin, Access-Control-Request-Headers, Access-Control-Request-Method, Accept-Encoding",
+          "x-amz-replication-status": "COMPLETED",
+          "last-modified": "Thu, 05 Nov 2020 18:51:19 GMT",
+          "etag": "\"75e5b1017bb1ef95717aa79e63c7bb72\"",
+          "cache-control": "public, max-age=31536000",
+          "x-amz-version-id": "WhBKrYETJMzE.pL8NYMWM4QUh.YIo0x.",
+          "cf-cache-status": "HIT",
+          "age": "14562",
+          "expires": "Mon, 03 Mar 2025 21:50:48 GMT",
+          "accept-ranges": "bytes",
+          "set-cookie": "__cf_bm=O6565.H2Ok3vJAJ7oQPQaZl8lyEQeDREau93e7AioKU-1709502648-1.0.1.1-OG5U86Z_j4227NKvBC7ObH2TDac3IgKeTF1Uv0d0ZVMeNXqJuVu8Yk9EOeLOq4l.wZQcQmvHNqkzNSmyDMm9jA; path=/; expires=Sun, 03-Mar-24 22:20:48 GMT; domain=.axios.com; HttpOnly; Secure; SameSite=None",
+          "server": "cloudflare",
+          "cf-ray": "85ecd81dec6261db-ORD"
+        },
+        "responseBodyHash": "dee30a753bedc6a67dc8c8ddb5e1f6aca8ae13b9ac84391db6a2d8f77f7cbcb3",
+        "initiators": [
+          "https://www.axios.com/_next/static/css/967fde39d98b5688.css"
+        ],
+        "time": 0.3278109999373555
+      },
+      {
+        "url": "https://static.axios.com/fonts/axios-site/nb_international_pro_regular_italic.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 23170,
+        "remoteIPAddress": "104.18.36.82",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:47 GMT",
+          "content-type": "binary/octet-stream",
+          "content-length": "22676",
+          "x-amz-id-2": "5HzwmqkqEcXmhnQQYerFXStgQ0AaxcQTqa/Z5Hdq/7QLPvCZb3ecpy+DanFWc2PjrTdRUhhlIx4=",
+          "x-amz-request-id": "VFFYTJ3ECRJH1V1T",
+          "access-control-allow-origin": "*",
+          "access-control-allow-methods": "GET, PUT, POST, DELETE, HEAD",
+          "access-control-max-age": "3000",
+          "vary": "Origin, Access-Control-Request-Headers, Access-Control-Request-Method, Accept-Encoding",
+          "x-amz-replication-status": "COMPLETED",
+          "last-modified": "Mon, 24 Feb 2020 19:53:01 GMT",
+          "etag": "\"9f7248038911dd3e7cc533575103f32b\"",
+          "cache-control": "public, max-age=31536000",
+          "x-amz-version-id": "Pcg2wDA1FP9rBA6UDrzhqCxE4JqhDlkM",
+          "cf-cache-status": "HIT",
+          "age": "14853",
+          "expires": "Mon, 03 Mar 2025 21:50:47 GMT",
+          "accept-ranges": "bytes",
+          "set-cookie": "__cf_bm=wTah3ZUW98_2aaVSN0REHYZy3r36HHTgYxTfMjrNBs4-1709502647-1.0.1.1-42k08OJlrSbC2c9asaZfLpBrslaculRiKYVdBaMy0anYZL6rEUd9xp82zNUsYJ0yDd.cCTcBOmW3f7ga0TLmqg; path=/; expires=Sun, 03-Mar-24 22:20:47 GMT; domain=.axios.com; HttpOnly; Secure; SameSite=None",
+          "server": "cloudflare",
+          "cf-ray": "85ecd81dec6461db-ORD"
+        },
+        "responseBodyHash": "6e37e5415e0625471a0823c3f3c44bb3d9f94713518f377585c723bd1860a988",
+        "initiators": [
+          "https://www.axios.com/_next/static/css/967fde39d98b5688.css"
+        ],
+        "time": 0.11432299995794892
+      },
+      {
+        "url": "https://static.dwcdn.net/custom/themes/axios/NBInternationalPro-Mono/NBInternationalPro-Mono.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 17348,
+        "remoteIPAddress": "104.22.24.245",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:50:48 GMT",
+          "content-type": "application/octet-stream",
+          "content-length": "17064",
+          "x-amz-id-2": "XbaOY+zJZKc8xkVqOg4++w/eMVBzoTdz/Gz8tIQM0MIDLGIC+zKwIRbPOeshv9AhPvI42EZqD8s=",
+          "x-amz-request-id": "E6EQY30EX0AF4JF1",
+          "access-control-allow-origin": "*",
+          "access-control-allow-methods": "GET",
+          "access-control-max-age": "3000",
+          "vary": "Origin, Access-Control-Request-Headers, Access-Control-Request-Method, Accept-Encoding",
+          "last-modified": "Wed, 27 Jan 2021 06:11:51 GMT",
+          "x-amz-version-id": "TYEV1jubrq.9EzR6JgnnGR_ZXCtkr7dm",
+          "etag": "\"00d92d47c7c6a49e1dbcd8acf76f2d2c\"",
+          "cache-control": "max-age=2678400",
+          "cf-cache-status": "HIT",
+          "age": "463",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "85ecd81e0c7d02b4-ORD"
+        },
+        "responseBodyHash": "8d1cc982dcbd56ed13985a72c94abca3dcb89da358b68a3dd1eb48e65568fc0d",
+        "initiators": [],
+        "time": 0.2133859999012202
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://www.axios.com/_next/static/chunks/main-2160fa6b65b3eed6.js": {
+          "window.sessionStorage": 2,
+          "Date.prototype.getTime": 1,
+          "Navigator.prototype.userAgent": 3,
+          "Navigator.prototype.connection": 3
+        },
+        "https://www.axios.com/_next/static/chunks/vendor-chunk-0a3379370d45fcc7.js": {
+          "PerformanceTiming.prototype.navigationStart": 1,
+          "Navigator.prototype.userAgent": 1,
+          "Navigator.prototype.language": 3
+        },
+        "https://www.axios.com/_next/static/chunks/pages/_app-f0a9b10d19e1571e.js": {
+          "Navigator.prototype.connection": 1,
+          "window.localStorage": 5,
+          "Navigator.prototype.userAgent": 1,
+          "window.sessionStorage": 3,
+          "Navigator.prototype.onLine": 2,
+          "Date.prototype.getTime": 2242,
+          "Navigator.prototype.language": 1
+        },
+        "https://www.axios.com/_next/static/chunks/4474-dcd31bf787c2f32e.js": {
+          "Navigator.prototype.userAgent": 4
+        },
+        "https://www.axios.com/_next/static/chunks/7832-2f0db82f42d610cb.js": {
+          "window.localStorage": 1,
+          "Navigator.prototype.userAgent": 24
+        },
+        "https://www.axios.com/_next/static/chunks/6844-89a76257da977526.js": {
+          "Navigator.prototype.platform": 3
+        },
+        "https://www.axios.com/_next/static/chunks/framework-f5e3754860554db3.js": {
+          "Event.prototype.timeStamp": 6
+        },
+        "https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js": {
+          "window.innerWidth": 4,
+          "window.innerHeight": 4,
+          "window.screenLeft": 2,
+          "window.screenTop": 2
+        },
+        "https://www.axios.com/": {
+          "window.localStorage": 2
+        },
+        "https://datawrapper.dwcdn.net/lib/vis/d3-maps-choropleth.53f625fb.js": {
+          "Navigator.prototype.userAgent": 1,
+          "Navigator.prototype.appVersion": 2,
+          "window.devicePixelRatio": 1,
+          "window.innerWidth": 1
+        },
+        "https://datawrapper.dwcdn.net/lib/vendor/web-component.45f2a623.js": {
+          "document.fonts.check": 6,
+          "Date.prototype.getTime": 10,
+          "Navigator.prototype.vendor": 1,
+          "Navigator.prototype.platform": 1
+        }
+      },
+      "savedCalls": []
+    },
+    "cookies": [
+      {
+        "name": "ax",
+        "domain": ".axios.com",
+        "path": "/",
+        "expires": 1741038637744,
+        "session": false
+      },
+      {
+        "name": "__cf_bm",
+        "domain": ".axios.com",
+        "path": "/",
+        "expires": 1709504438744,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "next-auth.csrf-token",
+        "domain": "www.axios.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "__Secure-next-auth.callback-url",
+        "domain": "www.axios.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "Lax"
+      }
+    ]
+  }
+}

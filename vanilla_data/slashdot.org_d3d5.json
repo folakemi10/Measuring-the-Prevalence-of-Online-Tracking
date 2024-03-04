@@ -1,0 +1,3387 @@
+{
+  "initialUrl": "http://slashdot.org/",
+  "finalUrl": "https://slashdot.org/",
+  "timeout": false,
+  "testStarted": 1709502781952,
+  "testFinished": 1709502796066,
+  "data": {
+    "requests": [
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-common.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9146,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"aaUB+OkU2kkNMG0s29pMrD/Txpw=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "f126a5d9a1d51b6e9a69bce4c7bc5cd73d35c52f698720718bd42f55d564930d",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.01588999992236495
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 63306,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"brp35kQtS8+j/OiHcYh4IU0cb3Q=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "6e72cbe8c52b11d9b408452d7cfb3f49fe1c78c017bd8077110b357fdec328a8",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.03166900004725903
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background-ext.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 8841,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"fXf83hxHQFYzgM0DpIEbFLcQtRs=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "970661746c1bd310b52c2a4106f5628f2ec33587889f62a010055490f9da77c3",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.036549000069499016
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/commands.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5688,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"c/ILoHWOD64IpOQHtmk7EIE2XqA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "8600c9766351b29e50594db79a48a6257edd8caf7ac6e9e1f6a739e1a76cfff5",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.04136499995365739
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 64015,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"tB/CTGayMFjN4N1iH+gWkt7Ypys=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "814ca08012b5676b8f54fa9b76db8d32c7b809a8d6232f085836c8379af81dd3",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.037222000071778893
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 59170,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"8qtLS1TRlqk4NFoKeiaqWbvgnjs=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "2273d9c1354d7d76dcdf4ac1af459f83b8d5ba69fe7cf3ba9e739cbc6465469d",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.04707700002472848
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/tab.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 43055,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"bAN/KBrmF13jeLEa8CnmY/h9yJw=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "14ca611674b054d67b8ee47aaa75247c7ca714ffb56505922dd20eb8a683d117",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.05293300002813339
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/ublock.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 21360,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"s2huleUUItx8WmfIoigU2k89EI4=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "680316d3bc24a4c7075f953b804bdf386bf7006dad240d9dd82c0749e0bde7bb",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.04998000001069158
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/utils.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5732,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"ewbUChQLhbKBviAH8OkhaZR6EBY=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "53753703bb4eddbc3b10e89a971bc24af840fde30fb7895ed2664fe875f99216",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.05554400000255555
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/cachestorage.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 17413,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"BKGwCtQGOhNSwT+cpw63EvtlObc=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "037dbc3d31577989f3e77cfa4da0f37344f8d1d9d1063cf147e904fd5aef8b27",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.05587299994658679
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/contextmenu.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9458,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"KnFG3e4nOTTCC0ndfJpFbFTX1yQ=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "dda53fe9ea31d6abc64cc04453043ac5c9855c59fc5e7a11c7a79aac2f75c147",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.05860500002745539
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 37085,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"rkObEe2pVTnb8GIlR54aPZvaOuE=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "7f57c7371827dee653f88641abe00fb3576343467b131a0f81dbe05252d47df7",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.06352600001264364
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/lz4.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6476,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"Aby2z5UWZo+IfYyE5QRUC04KW7E=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "bc37731b1037f5f5beb72337a0403137be0d14f2dfe4d9b4c3489f5871337fe8",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.06199800001922995
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-ext-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6442,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"T246NPf/b38zaoR9brX77q41lqM=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "25e9546e55c911b89c60bfaae1facd64726567d1ff00efce427063f92dab782a",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.05935600004158914
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/reverselookup.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6410,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"jCMDkD1weRVOYWmj9W86+SAAOqc=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "8aafbe6baaf965e15146d7d4c86edd6eca77eebc070447170f64d6ddfdc3f26d",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.06432699994184077
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-net-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 177232,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"naOuX4j11zGMRfwg1/ib5p70d9o=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "977ab6b0e22f7014a66e861483da1657f9197c0f7f5ce03cfff6b9bae03a6a21",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.08141800004523247
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/background.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12935,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"pxJDj/3NSnAwkacM0mDXjla4oKA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "617e411ff07ff690535663dceaa4b4afef54c3f72e851fb3ca95fd811352c237",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.06715200003236532
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 40690,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"2ULP7uOZN0J63JSZrWNClnpoRZ0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "d4767d32875f7d6392123143a0a90f39f578be6500d48310fa6655ac53018375",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.064286999986507
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16231,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"5/Hviz/N4pTuWsUsdPmG+Vurg4g=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "25caf31da6b5a1226229110ef285f7ed21e1c6c7b2e67b2ebc3b3dc9f251ce3f",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.06702299998141825
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/console.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1686,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"FolHAjRVIeXDvaQ1O5ZchW1id7o=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "4c9115d407dc2d37e4947201e1cd403ce49e773cf3145c748145145152a39ba6",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.05188599997200072
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/filtering-engines.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1843,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"GJXEGjVT9sYpuBNXUfBP4hLDkPc=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "8e3f6983c16220eaf941346b35d632300fc0cd9b86020f3816eb92767cf2b622",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.06773999996948987
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7129,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"1vY+XR+TzcIhxp2BuhYVZJ65M+Y=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "e2e65720e4c6816243d811e34a3fa8773bde2fc7da683ef912246bbd4f266e3b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.062356999958865345
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/lib/publicsuffixlist/publicsuffixlist.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 21141,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"iila5CWHW0iw8SPgL216SoU3hYw=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "4bffa485e7f0c16134305215cb85b6ee33af08a1370484351b230f56c64fe6a4",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.06741799996234477
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/lib/punycode.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 13615,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"Cnf4OiWclUC+aPRdFWSYUnGTUnA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "329249856a82a02f69fb2d929f89e02aefa6b04cca4ef6a3b9bebfa48d6e824c",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.07815499999560416
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/cosmetic-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 33982,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"8DeaqhHs9iEDwoRUHAwyVhluLGk=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "f85390d75b092dc72cc27f559516fc3b0d9a1f473c921cde3f86cf32a0244e59",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.08023199997842312
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/html-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 13226,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"nE/MtESN4/QpDKN9nEGM5qoH4M4=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "a39efe15686694c36c84c76fef131c400199de765eccc56e4234d138eab327ad",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.07879299996420741
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/logger.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2617,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"b8Wd6PJxRPGudjfAAryIkg7il6g=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "74588f2dfea500aedfac8edd75b949e6d4aeb2070706885d3ffe9dce297658d6",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.08693400002084672
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/scriptlet-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16396,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"tzLnLKB+/ZNmrSigvMkdpANOsGg=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "9009f525e509824eb26816d85f5bba1fa05aeacd8439cdd372e1fa67fd2d691f",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.08823900006245822
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/base64-custom.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9061,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"OnBCHLjB+OUYqDx7akb0eRGnoZs=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "a0880409a82754c2e5927f5d3712dbbab280c5024ecce864b7dbec20dc19d2ea",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.0870359999826178
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-dnr-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 17406,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"DbHGb5L4hdAkjR9FLOq6UPY0mSA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "10f814879fa095d9558a96692bb261010315429e4534d98644050157c30a866f",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.08956799993757159
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/i18n.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 13319,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"sgE7pqJMnDa8VrcldJ0ilYveB9M=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "54fb40243620deba248a8e72fba23d2bdb38072bc32b30f0b8dc4b5210bb0746",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.0907959999749437
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-filtering-parser.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 164667,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"H6Vn2En40xu1GbGWyUOD8+h0LF8=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "cfdf172c8e95c947c500dea40ba5540daaa4e6e8c62230be7c60658c1cc7c114",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.1121310000307858
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/uri-utils.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5459,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"Xn67G/cKymweq4CjJ8jx85KcgH4=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "aad0fbad010ed91399e993917f329b2d745fbe4457e3d0f011662ea048a62d03",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.09182199998758733
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/benchmarks.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14781,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"fx2USk/w9OdwKYUcesd1PiXaKso=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "7dc5738c927e44080b7cd9a134a20c9a27c4d5f16858640f417bc4c54c7f8fe7",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.09290099993813783
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-filtering-io.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4549,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"odWmB/ijF6Od72rdmnHNjvmWt1Q=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "e0d8f3c6d0d715f2ea61ab6670e153f341e2abe07dc5e0f6bbb3532bfeedbc30",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js"
+        ],
+        "time": 0.07959900004789233
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/text-utils.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3206,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"bybrzDjowCch/sktFQYJugb+zwM=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "b1a96611d4ed6efbd6b6cd5c79175e891575c63294e45f847f05600f5cdb12ac",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js"
+        ],
+        "time": 0.08002700004726648
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/pagestore.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 37941,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"0pAEaDWrTcynpqbYkllrsQbu4P4=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "0d276e541f29baf81c120ed01011b79dd6314bf10d3a7ac71b9f22cc8b4020e1",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/tab.js"
+        ],
+        "time": 0.07655699993483722
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/httpheader-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6352,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"SqWU30JsVe68CGl7V5IYN9Ue8ZY=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "a668fd9d938f686433d2e5e621f5175fbe3cc31a3f7f1e08e24352ecab395c90",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-ext-filtering.js"
+        ],
+        "time": 0.07720099994912744
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/text-encode.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12028,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"hN/C9mwwtU1t+yo3/Rg0M2yGi5k=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "850aa0a27dd5ae4a14c9e1173839ee2376849ef5590f6c82b8c34e200a2344ec",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js"
+        ],
+        "time": 0.0737179999705404
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/filtering-context.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14378,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"yN0YEFTj9wAv0PvTGvys1uJ8kl0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "c91359d674f43f0ebdc9a355d8b0fb43735d48995df2196f67e17de92b723fce",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/background.js"
+        ],
+        "time": 0.08713799994438887
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-resources.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5378,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"o8OhMLJZCm7xijQh+t91hKH16vM=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "820e0173c4edd93e7dc5d4244e1d12e7129de894aef21f713ba21bf548c60ecf",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js"
+        ],
+        "time": 0.09114799997769296
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/dynamic-net-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14929,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"gXO6tsSsmyISqWJESo/178bzc70=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "1599cd0e54d1054f513498d2d4809a39a795d82c1e23b422cc6503608600df36",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/filtering-engines.js"
+        ],
+        "time": 0.091340999933891
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/hnswitches.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9552,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"+rKz0sjaKVuCQGW9yi4CgDBwdaQ=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "347df073a6f20be44a21ae99b8da0c14614b397658894963f24330acc553113b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/filtering-engines.js"
+        ],
+        "time": 0.0921610000077635
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/url-net-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10209,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"tieD34setz8cNEM+sZ0i6CEhpFg=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "835831a8584c0b8d7d0ea93bc8d1579ef3dc8c4611d371722a643c36f14471dc",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/filtering-engines.js"
+        ],
+        "time": 0.0926710000494495
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/tasks.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1405,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"SYHXDKUVZzLkC5tphHt3KrA4+7U=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "1c32e673ad892453685d10961246093eac5b628d4a0dfe423a6b3903a3a971b8",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-net-filtering.js"
+        ],
+        "time": 0.06758899998385459
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/biditrie.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 34955,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"AheZ6MejaiDkLljcnWjPUo842xA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "4e020d6ce6f487e50ee11a68c69808a1466dc39d91c45d7b576186fc4d333189",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-net-filtering.js"
+        ],
+        "time": 0.07285600004252046
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/hntrie.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 28060,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"Er8vVKiCQn/QLsrtE4b7i/p31bY=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "0c2d598dcfb869d73fdd210d8d4de6be01bf963fd68493aff38412a4558a6543",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-net-filtering.js"
+        ],
+        "time": 0.06767300004139543
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-ext-filtering-db.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6022,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"jqRZdGl0d4KQTEg9Iimy9jCMWE0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "fed5ab181ee1c6857ee8c7e6ef251dba74d361e7cc291b076199e2fedaca50cc",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/html-filtering.js"
+        ],
+        "time": 0.0587670000968501
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/lib/regexanalyzer/regex.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 71968,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"Zc4zMrbKNl4jIVUdCsA8BAi5Qk8=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "de0a7a04bd5349dd3ffb91fb54d66fc5ccbd930f8c4bdb41ddac4dd03e18aacb",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-filtering-parser.js"
+        ],
+        "time": 0.025048999930731952
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/lib/csstree/css-tree.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 167973,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"4WxGcJjJUcwPUMlunC7RvGLWaI4=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "ecc4507fac946cbe442962e11bb058195dbe72545cce42f34338a83726ec56e0",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-filtering-parser.js"
+        ],
+        "time": 0.030931000015698373
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16-off.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 552,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"UjtU7CjAmAcHX4DBL09uSijcYkg=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "7ea99590d4b3f5ffbd7610f8ae42a72803a0f809200f595b943d5a622eb8d9bd",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.02976399997714907
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32-off.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1114,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"nkCRpu+nneDbhSqRHQsS4ngvo0I=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "3c8bf856b1fed942ab11cfc92aeda135adcc25c7012528f4b95cc6cb0e74a2cb",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.029974999953992665
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 420,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"9uZWEEQawXEa9JeFZdVDxheK738=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "5bc0b6c5d00309f9dae2be3fb505fda1ccdfa5c4d2994e167c8fb473bf95a777",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.03013000008650124
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1278,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"e74+CjUkVkdX//K9KytM4jGb4Sg=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "2fd0f85a569e98791d39884b54e706d105e5db0dfc60a319a40e09d48fc9b878",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.030100999982096255
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 570,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"SCCY3xHCtdMdB9jfy1lKOHd91yw=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "75cfccc844e135a85d7508a5892f72bac16b510919e4d4d5801ded7b1901a5cd",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background-ext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js"
+        ],
+        "time": 0.030353999929502606
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1089,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"RmlX4Eb0Vf+9Lga44dPV6pw/juM=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "230dc98bf942ad4be6016cbff229ae0605f2f02401e406ef0d649e7b1cca37ae",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background-ext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js"
+        ],
+        "time": 0.03048099996522069
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_64-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4406,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"VxvYv0EN5oLKTZD+GqhZRU48+qM=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "d52e425f9820d4c3e27e3ba658b7d21b14e3fbda7dd43febeea5a6021809060c",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background-ext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js"
+        ],
+        "time": 0.030150000005960464
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/badlists.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 4136,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"eOiMDeKtL1q/V6TIuAFaDCVjfWY=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "109822a6b68367e225fd701e53be3419800b95c7d4becd50bf8a2d49ba22424f",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.03262600000016391
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/resources/scriptlets.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 125820,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"CgwgzxiUJT5q+w9lH7Se+5ZMoIc=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "82d47ba987d73c40c4e7363b9ab5dba77ed1527a26d77909e3cedc27a5cd3439",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.05030799994710833
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/1x1.gif?secret=m1qfzv",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 43,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"72D+/UKGYStX5er87ISTvvrF5tQ=\"",
+          "content-type": "image/gif"
+        },
+        "responseBodyHash": "6b3da89922d333d106b84fefeebd7b16bfebf4cfbd7bef37fa10a47c471ae64c",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09205199999269098
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/2x2.png?secret=4sp7m1",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 68,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"esKRo0fVKvgNoUzOaCbJcHcCR5c=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "53b14a22cd3dc973d6cb1a381d01fafafc4da1632bacbf15f7fac0014fbe70c0",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09969000006094575
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/3x2.png?secret=ls1o39",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 68,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"FE1vXRwHfZli324eMoQlsnugEho=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "c6ea854b737a88835e1c7349bcfa0730f55e19de7acf0f54f9d6ea817fcd2f20",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09573000005912036
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/32x32.png?secret=2glq1o",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 83,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"67CnMiH92/CeXXcyr+80HclqFxI=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "173650f1d19d59786ce8dd44c64cd8fb4471552c2e247fb774bec92726a7ee6b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09600399993360043
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/amazon_ads.js?secret=rqvvrd",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2296,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"By+IDkPL9F/5lkH5nXfR93EB23k=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "41901805f575d9d06608682999cf588b12c318face2ed04e8566ec8cbec4c610",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.10058800003025681
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/doubleclick_instream_ad_status.js?secret=ph1t5k",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 29,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"s8ZaX7h28RDv/PN40yMhb1rRBto=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "eed0dc1fdb5d97ed188ae16fd5e1024a5bb744af47340346be2146300a6c54b9",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09598900005221367
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/empty?secret=zkiwhm",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"w1USgRq36N3lrsNJbzqv38xCsUk=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09744299994781613
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/fingerprint2.js?secret=a0cly1",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1810,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"PePG6yN3ZEGZMHdAk3DkU2BtUIM=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "7db8892256cdf45ad5ca5748e136e0c241b53b38c5adaa744a42ca139f05ffb3",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09535800002049655
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/fingerprint3.js?secret=6rknci",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1492,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"CetrBFm7a360yitCLL/02QWkJT8=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "6fd5703f2bdd85932f18adc99f30d8736d2bf5f09b1dde6c129f4616259fc827",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09721300005912781
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_analytics.js?secret=nw8w7z",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3695,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"wTqkQ1ryNce63XhVKrXix8otYW0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "6b4621868cac589a603fe1263aad242f67262ef971bdacaccc1a515cd0488466",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.097408999921754
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_ga.js?secret=x2v70g",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 4810,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"FSty3AHCXVujktdhdSOgAswTJwI=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "f0546767675ac7eff724521236be831e8753a7b8c15aa1c792d8121cb5311094",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09741800010669976
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/googlesyndication_adsbygoogle.js?secret=dcfpw1",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3603,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"27D7TdoFnKSaDAxhDXZtyWlUA+0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "ba81dafd9a59c99b9d9e914ecbd5545c36d73d55b5ecb4d698ee3c49b02101c2",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09657000005245209
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/googletagservices_gpt.js?secret=oe4iee",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 5102,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"76KRjaFvvOrwsb8JSDs4Q2jTlbo=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "3ad0442f766373b8fed1f1ba2dcd6d6cbf948b68641956135a8f552472e3e6b6",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09626300004310906
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/nobab.js?secret=7zu7au",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2976,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"fWIMOUaEIaNtkbrEiIKDhn8PTGY=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "1bc47b0e9b642cfcf2496977df36babdb263f13d0cfd64b286eb5c4c84cc319c",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09963400010019541
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/nobab2.js?secret=9mih2l",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1503,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"vy1qEErrRXmXVNnibZFXADJr2NA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "3ee47f99116088a94e1c280d3cd6216a75513a9109a3876ed7926897ec7cfc96",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09695299994200468
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noeval.js?secret=3ogtwt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1169,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"Zm3NrZrHm1RQ8sEDNdlqPrq/x5I=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "3cdd6f7412af4317374860533434959652db9e61633bdcae4755ad9039732bc6",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.09953200002200902
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noeval-silent.js?secret=exq38y",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1046,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"uAxLt+FExKqnQoCEOy79k/qsAoI=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "bcb710ed7e64295cc8fe98b8611978e0801ffdce65107d1cb9c318339a5644d6",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.07131100003607571
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/nofab.js?secret=mfquw4",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2604,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"8C4cfBueT2MD3BS5m6yoQgPFyj0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "dd7684145ffe90180075aa4d98a7a457cbdc6b73295bea17c55bf230332cf056",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.07438100001309067
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop-0.1s.mp3?secret=72qeb1",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 813,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"2+x2uGBtVFxzOfC/ga3FuCo0a10=\"",
+          "content-type": "audio/mpeg"
+        },
+        "responseBodyHash": "3b31d6fd84b91ed8fafa0dc7d7f6dbded7fc8a9b51289991138a07d33bb7a99b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.07481100002769381
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop-1s.mp4?secret=ee6oel",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3753,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"phhjpBwH2UsBHfAauKoOtl6zzkY=\"",
+          "content-type": "video/mp4"
+        },
+        "responseBodyHash": "5fffd48ffc18ad96d910ea2d84da417974177c3c0cc12fa0ca364c6f864ea641",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.07453199999872595
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop.css?secret=z668jc",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 6,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"KSIg5lBIqQJSknb8PjMzOeEIjSU=\"",
+          "content-type": "text/css"
+        },
+        "responseBodyHash": "cccc5e8a9a7ad608a04f242530345694bd7150bd73315513284142b6a39ba4b7",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.07375600002706051
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop.js?secret=xmzgmd",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 38,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"OpoFl8Qm9JGwy6bvidLZuEeJc50=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "5592bfa25de75c18ef0116cbb9990c122178b1efe5e076f1c45049a09d935a25",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.07363500003702939
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop.txt?secret=fzwswk",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"MEUVxJfRt7KHLk+5bpNePR0DHec=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.07337599992752075
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop-vmap1.0.xml?secret=5zl3va",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 86,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"o91xJuRB4zgK7iE97MmCHdnqlwI=\"",
+          "content-type": "text/xml"
+        },
+        "responseBodyHash": "fcc40f36d86c8f7146d4b2f0c1273cc46282c2c236303dabc172dfacfdf86508",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.07351500005461276
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/popads.js?secret=c2dcjk",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1601,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"I9T+DOFVlPUkYWimhhzIRMcfjvI=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "85700e488f782dde2eac664d8127399f7650832678188ecbde143e5482a0bf58",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.07494999992195517
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/popads-dummy.js?secret=462xnl",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1082,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"WifQzgUPi4l7MnUILkJmjzMy6+I=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "7d9ea48fc2dbf1c680406d5335aa567f84967e91b10e823b7e2462ce531fa281",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.07319700007792562
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/prebid-ads.js?secret=nwzi3r",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 990,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"zgpQ56ZBEYb7FmruMvEAtYO6iHM=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "4ef4348e32fffdfa739b160f77d0b96fc4c861c089cfae8458275e30436179b3",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.07513699994888157
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/easylist/easylist.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1561127,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"LtheFwWjs98NDuASTQh7tNDCpLI=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "fdd1f5fad30f0615b76861caec3b0385b5628839e1b0f30f08d253ae4d63ac5f",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.6399809999857098
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/easylist/easyprivacy.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 869277,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"w2nyAU5mv9ABOU6GFTURUHq4xgQ=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "a1ec9956461f447372f9c0f0658880e6d68f2137eb4caa206013027653c09e65",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.5906069999327883
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/pgl.yoyo.org/as/serverlist.txt",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FILE_NOT_FOUND",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.08226999989710748
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/badware.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 111016,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"AYIE/yEnpZPkbhaGZvQlS2EcDJ8=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "61339a487f716803a4d81ea2abef7603a30a1799fedd42626671a2cd8352ce60",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.30240599997341633
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/filters.min.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1244702,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"h1LFQV4RKbAD/Dr/crybn2Q5sRM=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "40edb5e5c62e3cc3e701fda60ca76362a0401be26b96fa7da827a91ec3676695",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 2.1574369999580085
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/privacy.min.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 25261,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"NVSCvkmHFfp2m7DKRdO/KxfEuKk=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "5e35527a7b50abc913a6bf2a4efa113a7ad3a29875679820be9f223e33e2c564",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.18651399994269013
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/quick-fixes.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 12961,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"afueNux30hW+NV4++qgmpXTa57Q=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "8da204883be6cef9a900cfeebace44bff5c1ab48f1f5b1e0934be478beed838b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.27553600003011525
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/unbreak.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 225327,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"RJFXfxbz9txDf2F9CzvtzGKrUGQ=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "0842f26631ba700715f6807ebed0b0686340385a51aef6ba56c44797f6e859f9",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.46100200002547354
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/urlhaus-filter/urlhaus-filter-online.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 62578,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"BTHdXv1lxAGsEi3GXDaj3ARryk8=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "64473d0333370e1aa9208bd5895394c4c977c3c9eccd2df53605aca3f5cf577d",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.07217299996409565
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/pgl.yoyo.org/as/serverlist",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 99702,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"cjJqLaDjMIABN/iLNntIhbyVrgY=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "e7564ecea385fef412bb736d9f715c9944ce043747c4421c6835e24cc93ace75",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.3486859999829903
+      },
+      {
+        "url": "http://slashdot.org/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "172.64.151.192",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:53:08 GMT",
+          "content-type": "text/html",
+          "content-length": "162",
+          "connection": "keep-alive",
+          "location": "https://slashdot.org/",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "85ecdb8cf83b632a-ORD",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://slashdot.org/",
+        "initiators": [],
+        "time": 0.4651609999127686
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 570,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"SCCY3xHCtdMdB9jfy1lKOHd91yw=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "75cfccc844e135a85d7508a5892f72bac16b510919e4d4d5801ded7b1901a5cd",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "extensions::webRequestEvent"
+        ],
+        "time": 0.20386399992275983
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1089,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"RmlX4Eb0Vf+9Lga44dPV6pw/juM=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "230dc98bf942ad4be6016cbff229ae0605f2f02401e406ef0d649e7b1cca37ae",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "extensions::webRequestEvent"
+        ],
+        "time": 0.21273999998811632
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_64-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4406,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"VxvYv0EN5oLKTZD+GqhZRU48+qM=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "d52e425f9820d4c3e27e3ba658b7d21b14e3fbda7dd43febeea5a6021809060c",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "extensions::webRequestEvent"
+        ],
+        "time": 0.2127059999620542
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 420,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"9uZWEEQawXEa9JeFZdVDxheK738=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "5bc0b6c5d00309f9dae2be3fb505fda1ccdfa5c4d2994e167c8fb473bf95a777",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.07144299999345094
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1278,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"e74+CjUkVkdX//K9KytM4jGb4Sg=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "2fd0f85a569e98791d39884b54e706d105e5db0dfc60a319a40e09d48fc9b878",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.07124499999918044
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_64.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2655,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"z1HgbWDpu8W5XjdmapJcfSGuRjA=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "5fa6baa4bed8763bc19a8f6e6d169c0ba472d3f1913b6a093f65262ebd7c1c52",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.07108400005381554
+      },
+      {
+        "url": "https://slashdot.org/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 48489,
+        "remoteIPAddress": "172.64.151.192",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:53:08 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "slash_log_data": "shtml",
+          "cache-control": "no-cache",
+          "pragma": "no-cache",
+          "x-frame-options": "SAMEORIGIN",
+          "permissions-policy": "geolocation=(), microphone=(), camera=(), payment=(), document-domain=(), display-capture=(), autoplay=()",
+          "feature-policy": "geolocation 'none'; microphone 'none'; camera 'none'; payment 'none'; document-domain 'none'; display-capture 'none'; autoplay 'none'",
+          "x-xrds-location": "https://slashdot.org/slashdot.xrds",
+          "content-security-policy": "frame-ancestors 'self'; upgrade-insecure-requests;form-action 'self' slashdot.org slashdot.us15.list-manage.com;frame-src 'self' slashdot.org *.lijit.com *.btloader.com http://*.pro-market.net *.crsspxl.com *.google.com *.googlesyndication.com *.safeframe.usercontent.goog *.doubleclick.net challenges.cloudflare.com *.recaptcha.net recaptcha.net *.adnxs.com *.indexww.com *.rubiconproject.com *.pubmatic.com *.smartadserver.com *.tapad.com http://*.youtube.com http://*.youtube-nocookie.com slashdotmedia.com; object-src http://*.youtube.com;script-src 'self' slashdot.org *.slashdot.org slashdot.org *.slashdotmedia.com a.fsdn.com challenges.cloudflare.com *.lijit.com *.moatads.com *.adsafeprotected.com *.sharethrough.com *.2mdn.net *.adnxs.com *.jobbio.com *.script.ac *.defybrick.com *.aniview.com *.vidazoo.com *.pubmatic.com chimpstatic.com *.mailchimp.com mc.us15.list-manage.com ml314.com *.stack-sonar.com *.licdn.com translate.googleapis.com *.doubleclick.net *.googleadservices.com translate.google.cn *.gstatic.cn *.google.com *.consentmanager.net *.microsofttranslator.com *.gstatic.com *.googletagservices.com *.recaptcha.net recaptcha.net *.google-analytics.com *.googlesyndication.com *.cloudflareinsights.com d3tglifpd8whs6.cloudfront.net rpxnow.com btloader.com *.crsspxl.com http://*.pro-market.net *.4dex.io *.adnxs-simple.com *.s-onetag.com *.rubiconproject.com *.trustarc.com *.truste.com *.doubleverify.com *.tapad.com *.pghub.io pghub.io *.sharethru.com adservice.google.ad adservice.google.ae adservice.google.at adservice.google.be adservice.google.bg adservice.google.ca adservice.google.ch adservice.google.co.id adservice.google.co.il adservice.google.co.in adservice.google.co.jp adservice.google.co.kr adservice.google.co.th adservice.google.co.uk adservice.google.co.zw adservice.google.com.au adservice.google.com.bo adservice.google.com.hk adservice.google.com.mx adservice.google.com.ph adservice.google.com.pk adservice.google.com.sa adservice.google.com.sg adservice.google.com.tr adservice.google.com.tw adservice.google.com.ua adservice.google.com.vn adservice.google.cz adservice.google.de adservice.google.dk adservice.google.dz adservice.google.ee adservice.google.fi adservice.google.fr adservice.google.gr adservice.google.hu adservice.google.ie adservice.google.it adservice.google.li adservice.google.lu adservice.google.mu adservice.google.mv adservice.google.nl adservice.google.no adservice.google.pl adservice.google.pt adservice.google.ro adservice.google.rs adservice.google.se adservice.google.sk adservice.google.com.br adservice.google.com.ar adservice.google.cl adservice.google.com.co adservice.google.com.cu adservice.google.com.cy adservice.google.es adservice.google.hr adservice.google.im adservice.google.lk adservice.google.me adservice.google.mg adservice.google.com.mm adservice.google.com.ng adservice.google.com.np adservice.google.com.pr adservice.google.com.uy adservice.google.co.za adservice.google.jo adservice.google.bs adservice.google.al adservice.google.co.tz adservice.google.rw adservice.google.hn adservice.google.lt adservice.google.iq adservice.google.si adservice.google.bj adservice.google.co.ao adservice.google.com.gh adservice.google.kz adservice.google.com.eg adservice.google.com.ec adservice.google.co.ve adservice.google.com.py adservice.google.lv adservice.google.mn adservice.google.com.bn adservice.google.tn adservice.google.ml adservice.google.is adservice.google.com.sv adservice.google.com.bz adservice.google.az adservice.google.gt adservice.google.sn adservice.google.cm adservice.google.com.kh adservice.google.ge adservice.google.com.et adservice.google.com.pe adservice.google.com.ly adservice.google.co.mz adservice.google.com.bh adservice.google.com.mt adservice.google.ps adservice.google.so adservice.google.bf adservice.google.co.nz adservice.google.com.gt adservice.google.co.zm adservice.google.je adservice.google.cv adservice.google.la adservice.google.bi adservice.google.com.jm adservice.google.tt adservice.google.com.kw adservice.google.cd adservice.google.gy adservice.google.tg adservice.google.com.af adservice.google.com.lb adservice.google.sr adservice.google.com.ni adservice.google.ki adservice.google.com.na adservice.google.ht adservice.google.nr adservice.google.td adservice.google.co.ls adservice.google.gl adservice.google.bt adservice.google.tm adservice.google.com.vc adservice.google.co.bw adservice.google.vg adservice.google.as adservice.google.cg adservice.google.com.ag adservice.google.com.tj adservice.google.dm adservice.google.to adservice.google.dj adservice.google.cf adservice.google.ws adservice.google.st adservice.google.gm adservice.google.fm adservice.google.com.sb adservice.google.com.pg adservice.google.com.gi adservice.google.com.ai adservice.google.co.ck adservice.google.ru adservice.google.nu adservice.google.com.my adservice.google.com.bd adservice.google.ci adservice.google.co.cr adservice.google.co.ke adservice.google.co.ug adservice.google.co.uz adservice.google.co.vi adservice.google.ms adservice.google.com.fj adservice.google.com.om adservice.google.com.pa adservice.google.com.qa adservice.google.ga adservice.google.gg adservice.google.kg adservice.google.md adservice.google.mk adservice.google.mw adservice.google.ne adservice.google.sm adservice.google.tl adservice.google.sc adservice.google.vu 'unsafe-inline' 'unsafe-eval';",
+          "strict-transport-security": "max-age=31536000",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "85ecdb8e29eee259-ORD",
+          "content-encoding": "br",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "2281d0ff8fe7787c7256aa201015e5eaf74f92ed263b1203da41f6150d8bd95b",
+        "redirectedFrom": "http://slashdot.org/",
+        "initiators": [],
+        "time": 0.30757800000719726
+      },
+      {
+        "url": "https://a.fsdn.com/sd/classic.ssl.css?a23c9cce1cf8807f",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 32720,
+        "remoteIPAddress": "104.18.40.209",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:53:09 GMT",
+          "content-type": "text/css",
+          "cf-bgj": "minify",
+          "cf-polished": "status=cannot_optimize",
+          "etag": "W/\"65d6411f-23158\"",
+          "last-modified": "Wed, 21 Feb 2024 18:29:51 GMT",
+          "cf-cache-status": "HIT",
+          "age": "4748",
+          "expires": "Wed, 03 Apr 2024 21:53:09 GMT",
+          "cache-control": "public, max-age=2678400",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "85ecdb926ef410dc-ORD",
+          "content-encoding": "br",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "e23e7798cb5ddf0eda1344352e663bcf88db05f0b2cd94b9f169cfc352eb4194",
+        "initiators": [
+          "https://slashdot.org/"
+        ],
+        "time": 0.36022499995306134
+      },
+      {
+        "url": "https://a.fsdn.com/sd/css/app.css?a23c9cce1cf8807f",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 18288,
+        "remoteIPAddress": "104.18.40.209",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:53:09 GMT",
+          "content-type": "text/css",
+          "cf-bgj": "minify",
+          "cf-polished": "origSize=121538",
+          "etag": "W/\"65d64121-1dac2\"",
+          "last-modified": "Wed, 21 Feb 2024 18:29:53 GMT",
+          "cf-cache-status": "HIT",
+          "age": "805",
+          "expires": "Wed, 03 Apr 2024 21:53:09 GMT",
+          "cache-control": "public, max-age=2678400",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "85ecdb926ef910dc-ORD",
+          "content-encoding": "br",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "51e9cfa8ed945537d24a8ff5d698f52b642e63fe38b9dd4583a4f511f6da88ff",
+        "initiators": [
+          "https://slashdot.org/"
+        ],
+        "time": 0.347014999948442
+      },
+      {
+        "url": "https://a.fsdn.com/con/js/sftheme/cmp2.js?2024-01",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10347,
+        "remoteIPAddress": "104.18.40.209",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:53:09 GMT",
+          "content-type": "application/javascript",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=2678400",
+          "cf-bgj": "minify",
+          "cf-polished": "origSize=52658",
+          "etag": "W/\"65d50322-cdb2\"",
+          "expires": "Wed, 03 Apr 2024 21:53:09 GMT",
+          "last-modified": "Tue, 20 Feb 2024 19:53:06 GMT",
+          "timing-allow-origin": "*",
+          "cf-cache-status": "HIT",
+          "age": "533709",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "85ecdb926efc10dc-ORD",
+          "content-encoding": "br",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "0d574c7b1f5fe34f29026b60a15eea3f34fb054306ca28d38b101c1e8bf45164",
+        "initiators": [
+          "https://slashdot.org/"
+        ],
+        "time": 0.3356599999824539
+      },
+      {
+        "url": "https://slashdot.org/country.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://slashdot.org/"
+        ],
+        "time": 0.19015899999067187
+      },
+      {
+        "url": "https://a.fsdn.com/con/css/sftheme/sandiego/cmp.css?2020-06-11",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1647,
+        "remoteIPAddress": "104.18.40.209",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:53:09 GMT",
+          "content-type": "text/css",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=2678400",
+          "cf-bgj": "minify",
+          "cf-polished": "status=cannot_optimize",
+          "etag": "W/\"639a4a75-1233\"",
+          "expires": "Wed, 03 Apr 2024 21:53:09 GMT",
+          "last-modified": "Wed, 14 Dec 2022 22:13:09 GMT",
+          "timing-allow-origin": "*",
+          "cf-cache-status": "HIT",
+          "age": "384357",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "85ecdb926efa10dc-ORD",
+          "content-encoding": "br",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "c53ef9ef03d08bc1c1c3d677d1c92ca90ddb487961e9291687f17acc3ee804ba",
+        "initiators": [
+          "https://slashdot.org/"
+        ],
+        "time": 0.331893999944441
+      },
+      {
+        "url": "https://d3tglifpd8whs6.cloudfront.net/js/prebid/slash-homepage/slash-homepage.min.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://slashdot.org/"
+        ],
+        "time": 0.19157299993094057
+      },
+      {
+        "url": "https://a.fsdn.com/sd/js/scripts/adsbanner.js?a23c9cce1cf8807f",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://slashdot.org/"
+        ],
+        "time": 1.5673989999340847
+      },
+      {
+        "url": "https://a.fsdn.com/sd/all-minified.js?a23c9cce1cf8807f",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 127340,
+        "remoteIPAddress": "104.18.40.209",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:53:09 GMT",
+          "content-type": "application/javascript",
+          "cf-bgj": "minify",
+          "cf-polished": "origSize=430121",
+          "etag": "W/\"64b6e181-69029\"",
+          "last-modified": "Tue, 18 Jul 2023 19:01:21 GMT",
+          "cf-cache-status": "HIT",
+          "age": "5216",
+          "expires": "Wed, 03 Apr 2024 21:53:09 GMT",
+          "cache-control": "public, max-age=2678400",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "85ecdb926efd10dc-ORD",
+          "content-encoding": "br",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "98e340a87db63d243b5be3e021c52d9ceed87b491d3699cd292dbc2ce7a53c5e",
+        "initiators": [
+          "https://slashdot.org/"
+        ],
+        "time": 0.38502099993638694
+      },
+      {
+        "url": "https://a.fsdn.com/sd/topics/nasa_64.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3444,
+        "remoteIPAddress": "104.18.40.209",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:53:10 GMT",
+          "content-type": "image/webp",
+          "content-length": "3214",
+          "cf-bgj": "imgq:100,h2pri",
+          "cf-polished": "origFmt=png, origSize=3599",
+          "content-disposition": "inline; filename=\"nasa_64.webp\"",
+          "etag": "\"60270983-e0f\"",
+          "last-modified": "Fri, 12 Feb 2021 23:04:35 GMT",
+          "vary": "Accept",
+          "cf-cache-status": "HIT",
+          "age": "5274",
+          "expires": "Wed, 03 Apr 2024 21:53:10 GMT",
+          "cache-control": "public, max-age=2678400",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "85ecdb9918bc10dc-ORD",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "fbf8dcd1382ebcd3f3199a79a6559cc623b2ea2e2b6cf35c1160246d618407b5",
+        "initiators": [
+          "https://slashdot.org/"
+        ],
+        "time": 1.401865000021644
+      },
+      {
+        "url": "https://a.fsdn.com/sd/topics/ai_64.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 10875,
+        "remoteIPAddress": "104.18.40.209",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:53:10 GMT",
+          "content-type": "image/png",
+          "content-length": "10752",
+          "cf-bgj": "imgq:100,h2pri",
+          "cf-polished": "status=cannot_optimize",
+          "etag": "\"61ce3d3d-2a00\"",
+          "last-modified": "Thu, 30 Dec 2021 23:14:05 GMT",
+          "cf-cache-status": "HIT",
+          "age": "534",
+          "expires": "Wed, 03 Apr 2024 21:53:10 GMT",
+          "cache-control": "public, max-age=2678400",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "85ecdb9938d510dc-ORD",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "636bd192d50ae2396d0621bd5333ad69190a42a3211e4e8c88cc07418e883408",
+        "initiators": [
+          "https://slashdot.org/"
+        ],
+        "time": 1.4129490000195801
+      },
+      {
+        "url": "https://a.fsdn.com/sd/topics/programming_64.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1513,
+        "remoteIPAddress": "104.18.40.209",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:53:10 GMT",
+          "content-type": "image/webp",
+          "content-length": "1356",
+          "cf-bgj": "imgq:100,h2pri",
+          "cf-polished": "origFmt=png, origSize=1693",
+          "content-disposition": "inline; filename=\"programming_64.webp\"",
+          "etag": "\"61722e3f-69d\"",
+          "last-modified": "Fri, 22 Oct 2021 03:21:35 GMT",
+          "vary": "Accept",
+          "cf-cache-status": "HIT",
+          "age": "1361",
+          "expires": "Wed, 03 Apr 2024 21:53:10 GMT",
+          "cache-control": "public, max-age=2678400",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "85ecdb9938d910dc-ORD",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "fef1c2c94cdbbaea00baf1ccb7e23464ed8cd9e3de48b770d7ef20cca928a950",
+        "initiators": [
+          "https://slashdot.org/"
+        ],
+        "time": 1.413069999893196
+      },
+      {
+        "url": "https://a.fsdn.com/sd/topics/amd_64.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 667,
+        "remoteIPAddress": "104.18.40.209",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:53:10 GMT",
+          "content-type": "image/webp",
+          "content-length": "434",
+          "cf-bgj": "imgq:100,h2pri",
+          "cf-polished": "origFmt=png, origSize=774",
+          "content-disposition": "inline; filename=\"amd_64.webp\"",
+          "etag": "\"61cf4523-306\"",
+          "last-modified": "Fri, 31 Dec 2021 18:00:03 GMT",
+          "vary": "Accept",
+          "cf-cache-status": "HIT",
+          "age": "4617",
+          "expires": "Wed, 03 Apr 2024 21:53:10 GMT",
+          "cache-control": "public, max-age=2678400",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "85ecdb9938dd10dc-ORD",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "8fcc307c3b98f7fc892d6937866a756ae213956bdd7afdf95484467b662366c2",
+        "initiators": [
+          "https://slashdot.org/"
+        ],
+        "time": 1.4278979999944568
+      },
+      {
+        "url": "https://a.fsdn.com/sd/topics/opensource_64.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2744,
+        "remoteIPAddress": "104.18.40.209",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:53:10 GMT",
+          "content-type": "image/webp",
+          "content-length": "2610",
+          "cf-bgj": "imgq:100,h2pri",
+          "cf-polished": "origFmt=png, origSize=3254",
+          "content-disposition": "inline; filename=\"opensource_64.webp\"",
+          "etag": "\"5f7bb2fa-cb6\"",
+          "last-modified": "Mon, 05 Oct 2020 23:57:46 GMT",
+          "vary": "Accept",
+          "cf-cache-status": "HIT",
+          "age": "5834",
+          "expires": "Wed, 03 Apr 2024 21:53:10 GMT",
+          "cache-control": "public, max-age=2678400",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "85ecdb9938df10dc-ORD",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "28634238ae5808c30be78b9585200a363e810ad4034a11576a76236f4ab768ca",
+        "initiators": [
+          "https://slashdot.org/"
+        ],
+        "time": 1.4062139999587089
+      },
+      {
+        "url": "https://a.fsdn.com/sd/topics/business_64.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4043,
+        "remoteIPAddress": "104.18.40.209",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:53:10 GMT",
+          "content-type": "image/webp",
+          "content-length": "3888",
+          "cf-bgj": "imgq:100,h2pri",
+          "cf-polished": "origFmt=png, origSize=6221",
+          "content-disposition": "inline; filename=\"business_64.webp\"",
+          "etag": "\"617b14c7-184d\"",
+          "last-modified": "Thu, 28 Oct 2021 21:23:19 GMT",
+          "vary": "Accept",
+          "cf-cache-status": "HIT",
+          "age": "1968",
+          "expires": "Wed, 03 Apr 2024 21:53:10 GMT",
+          "cache-control": "public, max-age=2678400",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "85ecdb9938e310dc-ORD",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "f26b45706873dac62baf2072ec6eec434b5de2381271fae286bf2c25f9831024",
+        "initiators": [
+          "https://slashdot.org/"
+        ],
+        "time": 1.3939140000147745
+      },
+      {
+        "url": "https://a.fsdn.com/sd/topics/moon_64.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4450,
+        "remoteIPAddress": "104.18.40.209",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:53:10 GMT",
+          "content-type": "image/webp",
+          "content-length": "4280",
+          "cf-bgj": "imgq:100,h2pri",
+          "cf-polished": "origFmt=png, origSize=7041",
+          "content-disposition": "inline; filename=\"moon_64.webp\"",
+          "etag": "\"5f7bb2fa-1b81\"",
+          "last-modified": "Mon, 05 Oct 2020 23:57:46 GMT",
+          "vary": "Accept",
+          "cf-cache-status": "HIT",
+          "age": "1097",
+          "expires": "Wed, 03 Apr 2024 21:53:10 GMT",
+          "cache-control": "public, max-age=2678400",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "85ecdb9938e410dc-ORD",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "32b3a49852f12970e7f2ba815411d3e77481109583f840059cf69a3cb2d7b5f2",
+        "initiators": [
+          "https://slashdot.org/"
+        ],
+        "time": 1.393902000039816
+      },
+      {
+        "url": "https://a.fsdn.com/sd/topics/transportation_64.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3554,
+        "remoteIPAddress": "104.18.40.209",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:53:10 GMT",
+          "content-type": "image/webp",
+          "content-length": "3418",
+          "cf-bgj": "imgq:100,h2pri",
+          "cf-polished": "origFmt=png, origSize=4095",
+          "content-disposition": "inline; filename=\"transportation_64.webp\"",
+          "etag": "\"61cf4523-fff\"",
+          "last-modified": "Fri, 31 Dec 2021 18:00:03 GMT",
+          "vary": "Accept",
+          "cf-cache-status": "HIT",
+          "age": "1361",
+          "expires": "Wed, 03 Apr 2024 21:53:10 GMT",
+          "cache-control": "public, max-age=2678400",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "85ecdb9938e510dc-ORD",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "780411cc4630a7d2764b41034b823eac59e02e470d5d15451a9e6b79ac5edd42",
+        "initiators": [
+          "https://slashdot.org/"
+        ],
+        "time": 1.4051499998895451
+      },
+      {
+        "url": "https://a.fsdn.com/sd/topics/mars_64.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5706,
+        "remoteIPAddress": "104.18.40.209",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:53:10 GMT",
+          "content-type": "image/webp",
+          "content-length": "5580",
+          "cf-bgj": "imgq:100,h2pri",
+          "cf-polished": "origFmt=png, origSize=7246",
+          "content-disposition": "inline; filename=\"mars_64.webp\"",
+          "etag": "\"617b14c7-1c4e\"",
+          "last-modified": "Thu, 28 Oct 2021 21:23:19 GMT",
+          "vary": "Accept",
+          "cf-cache-status": "HIT",
+          "age": "1097",
+          "expires": "Wed, 03 Apr 2024 21:53:10 GMT",
+          "cache-control": "public, max-age=2678400",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "85ecdb9938e810dc-ORD",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "d83a0189487d8fbf61e9d790222e4ae4c4de64d0703780bafa7bc29d4fbb4221",
+        "initiators": [
+          "https://slashdot.org/"
+        ],
+        "time": 1.4000480000395328
+      },
+      {
+        "url": "https://a.fsdn.com/sd/topics/windows_64.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5057,
+        "remoteIPAddress": "104.18.40.209",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:53:10 GMT",
+          "content-type": "image/webp",
+          "content-length": "4902",
+          "cf-bgj": "imgq:100,h2pri",
+          "cf-polished": "origFmt=png, origSize=6070",
+          "content-disposition": "inline; filename=\"windows_64.webp\"",
+          "etag": "\"60270983-17b6\"",
+          "last-modified": "Fri, 12 Feb 2021 23:04:35 GMT",
+          "vary": "Accept",
+          "cf-cache-status": "HIT",
+          "age": "3067",
+          "expires": "Wed, 03 Apr 2024 21:53:10 GMT",
+          "cache-control": "public, max-age=2678400",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "85ecdb9938e910dc-ORD",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "6518ca0cb050f2e0bfb02aaa5ef5bf3a3d1d5ef8c55025c7211af26c5684cc23",
+        "initiators": [
+          "https://slashdot.org/"
+        ],
+        "time": 1.4055190000217408
+      },
+      {
+        "url": "https://a.fsdn.com/sd/topics/usa_64.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4290,
+        "remoteIPAddress": "104.18.40.209",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:53:10 GMT",
+          "content-type": "image/webp",
+          "content-length": "4162",
+          "cf-bgj": "imgq:100,h2pri",
+          "cf-polished": "origFmt=png, origSize=5105",
+          "content-disposition": "inline; filename=\"usa_64.webp\"",
+          "etag": "\"60270983-13f1\"",
+          "last-modified": "Fri, 12 Feb 2021 23:04:35 GMT",
+          "vary": "Accept",
+          "cf-cache-status": "HIT",
+          "age": "1770",
+          "expires": "Wed, 03 Apr 2024 21:53:10 GMT",
+          "cache-control": "public, max-age=2678400",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "85ecdb9938ea10dc-ORD",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "b0148353a6932f737a9ef258b163aa20227ba5f05c844275beb471692fa9eb64",
+        "initiators": [
+          "https://slashdot.org/"
+        ],
+        "time": 1.3988329999847338
+      },
+      {
+        "url": "https://a.fsdn.com/sd/topics/science_64.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4918,
+        "remoteIPAddress": "104.18.40.209",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:53:10 GMT",
+          "content-type": "image/webp",
+          "content-length": "4718",
+          "cf-bgj": "imgq:100,h2pri",
+          "cf-polished": "origFmt=png, origSize=6820",
+          "content-disposition": "inline; filename=\"science_64.webp\"",
+          "etag": "\"61ce505e-1aa4\"",
+          "last-modified": "Fri, 31 Dec 2021 00:35:42 GMT",
+          "vary": "Accept",
+          "cf-cache-status": "HIT",
+          "age": "2142",
+          "expires": "Wed, 03 Apr 2024 21:53:10 GMT",
+          "cache-control": "public, max-age=2678400",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "85ecdb9938ec10dc-ORD",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "7066aed3a05fb2c53ff64c27765cffe2c79a7995f0f33fff0f8be88629931f9e",
+        "initiators": [
+          "https://slashdot.org/"
+        ],
+        "time": 1.3947509999852628
+      },
+      {
+        "url": "https://a.fsdn.com/sd/NewsletterSubscription.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 10885,
+        "remoteIPAddress": "104.18.40.209",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:53:10 GMT",
+          "content-type": "image/png",
+          "content-length": "10749",
+          "cf-bgj": "imgq:100,h2pri",
+          "cf-polished": "origSize=11017",
+          "etag": "\"617b14c7-2b09\"",
+          "last-modified": "Thu, 28 Oct 2021 21:23:19 GMT",
+          "cf-cache-status": "HIT",
+          "age": "5217",
+          "expires": "Wed, 03 Apr 2024 21:53:10 GMT",
+          "cache-control": "public, max-age=2678400",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "85ecdb9938ef10dc-ORD",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "e5e5b51275f19ca3693df1893e7f3097e3b372cf6403de403559ae08e72d2d36",
+        "initiators": [
+          "https://slashdot.org/"
+        ],
+        "time": 1.3673740000231192
+      },
+      {
+        "url": "https://a.fsdn.com/sd/ccpa-optout.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 905,
+        "remoteIPAddress": "104.18.40.209",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:53:10 GMT",
+          "content-type": "image/webp",
+          "content-length": "752",
+          "cf-bgj": "imgq:100,h2pri",
+          "cf-polished": "origFmt=png, origSize=1909",
+          "content-disposition": "inline; filename=\"ccpa-optout.webp\"",
+          "etag": "\"61ce505d-775\"",
+          "last-modified": "Fri, 31 Dec 2021 00:35:41 GMT",
+          "vary": "Accept",
+          "cf-cache-status": "HIT",
+          "age": "4749",
+          "expires": "Wed, 03 Apr 2024 21:53:10 GMT",
+          "cache-control": "public, max-age=2678400",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "85ecdb9938f210dc-ORD",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "8a5b20736599b680e685b6de9a619ad5d8625d5cd036a059e4084fd44a3549a3",
+        "initiators": [
+          "https://slashdot.org/"
+        ],
+        "time": 1.361373999970965
+      },
+      {
+        "url": "https://btloader.com/tag?o=5098683085881344&upapi=true",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://a.fsdn.com/con/js/sftheme/cmp2.js?2024-01",
+          "https://slashdot.org/"
+        ],
+        "time": 0.20409100002143532
+      },
+      {
+        "url": "https://widgets.jobbio.com/partner_fluid_widgets_v1.6.1/display.min.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://slashdot.org/",
+          "https://a.fsdn.com/con/js/sftheme/cmp2.js?2024-01"
+        ],
+        "time": 0.3595590000040829
+      },
+      {
+        "url": "https://chimpstatic.com/mcjs-connected/js/users/aab6529d3675bd877963a652d/fc2aefbb539f9ecd8f1ab4cee.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1770,
+        "remoteIPAddress": "23.62.66.46",
+        "responseHeaders": {
+          "x-amz-id-2": "7/4ZDJ72g1mnYJbEBNjrN3njf20RPRgW0t2ryCbwcPAdTlkDaBeFCe7aIqh19OOt+L0k5eNFD8g=",
+          "x-amz-request-id": "TMBH2ADNB34DNRBA",
+          "last-modified": "Mon, 17 Jul 2023 21:57:46 GMT",
+          "etag": "\"2c0daf29d575b5c56e5abe4f1d1ba8e1\"",
+          "x-amz-server-side-encryption": "AES256",
+          "accept-ranges": "bytes",
+          "content-type": "application/javascript",
+          "server": "AmazonS3",
+          "vary": "Accept-Encoding",
+          "content-encoding": "gzip",
+          "cache-control": "max-age=416",
+          "expires": "Sun, 03 Mar 2024 22:00:06 GMT",
+          "date": "Sun, 03 Mar 2024 21:53:10 GMT",
+          "content-length": "1223",
+          "connection": "keep-alive"
+        },
+        "responseBodyHash": "29c352fd700db04bd12a29169b9022ac7d8ff4c30466fb6c51284ac4f59569ed",
+        "initiators": [
+          "https://slashdot.org/",
+          "https://a.fsdn.com/con/js/sftheme/cmp2.js?2024-01"
+        ],
+        "time": 0.142835000064224
+      },
+      {
+        "url": "https://a.fsdn.com/sd/slashdot.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1579,
+        "remoteIPAddress": "104.18.40.209",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:53:10 GMT",
+          "content-type": "image/svg+xml",
+          "last-modified": "Tue, 14 Nov 2023 15:52:55 GMT",
+          "etag": "W/\"655397d7-de3\"",
+          "cf-cache-status": "HIT",
+          "age": "376",
+          "expires": "Wed, 03 Apr 2024 21:53:10 GMT",
+          "cache-control": "public, max-age=2678400",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "85ecdb99a9e26089-ORD",
+          "content-encoding": "br",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "005e3fb3108f73c3a84f4f4c6bfddb255613a35c0e9a9e5d188b732714d6fdee",
+        "initiators": [
+          "https://a.fsdn.com/sd/css/app.css?a23c9cce1cf8807f"
+        ],
+        "time": 0.02610899996943772
+      },
+      {
+        "url": "https://a.fsdn.com/sd/slashdot_favicon_white.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 520,
+        "remoteIPAddress": "104.18.40.209",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:53:10 GMT",
+          "content-type": "image/webp",
+          "content-length": "218",
+          "cf-bgj": "imgq:100,h2pri",
+          "cf-polished": "origFmt=png, origSize=19894",
+          "content-disposition": "inline; filename=\"slashdot_favicon_white.webp\"",
+          "etag": "\"61ce505d-4db6\"",
+          "last-modified": "Fri, 31 Dec 2021 00:35:41 GMT",
+          "vary": "Accept",
+          "cf-cache-status": "HIT",
+          "age": "806",
+          "expires": "Wed, 03 Apr 2024 21:53:10 GMT",
+          "cache-control": "public, max-age=2678400",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "85ecdb99b9ec6089-ORD",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "269fb74e0b6edebb92d174ef2f0e160f9652748a7a49bef45ee9b31ee87e9620",
+        "initiators": [
+          "https://a.fsdn.com/sd/css/app.css?a23c9cce1cf8807f"
+        ],
+        "time": 0.025421000085771084
+      },
+      {
+        "url": "https://a.fsdn.com/sd/font/sdicon.woff?a23c9cce1cf8807f",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 45716,
+        "remoteIPAddress": "104.18.40.209",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:53:10 GMT",
+          "content-type": "font/woff",
+          "content-length": "45436",
+          "last-modified": "Thu, 29 Jul 2021 19:20:27 GMT",
+          "etag": "\"6102ff7b-b17c\"",
+          "access-control-allow-origin": "*",
+          "cf-cache-status": "HIT",
+          "age": "2031",
+          "expires": "Wed, 03 Apr 2024 21:53:10 GMT",
+          "cache-control": "public, max-age=2678400",
+          "accept-ranges": "bytes",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "85ecdb9a99fc507a-ORD",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "0193ca759e46e75b772942d8ebd1d3330fe201460457beaf73a35864bd52ecb2",
+        "initiators": [
+          "https://a.fsdn.com/sd/css/app.css?a23c9cce1cf8807f"
+        ],
+        "time": 0.19749599997885525
+      },
+      {
+        "url": "https://downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 73774,
+        "remoteIPAddress": "108.157.142.2",
+        "responseHeaders": {
+          "content-type": "application/javascript",
+          "transfer-encoding": "chunked",
+          "connection": "keep-alive",
+          "last-modified": "Tue, 27 Feb 2024 20:05:10 GMT",
+          "x-amz-server-side-encryption": "AES256",
+          "server": "AmazonS3",
+          "content-encoding": "gzip",
+          "date": "Sun, 03 Mar 2024 07:16:26 GMT",
+          "etag": "W/\"915b0e502dfd37dc880b1138b8ba4a66\"",
+          "vary": "Accept-Encoding\nOrigin",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 2163528b1f064196b85d263c356bfa50.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P1",
+          "x-amz-cf-id": "Jnyif5py9Y9tcG_OGbp-31a-TxrtSqPlo3aaXsR3kEH40cg3sbhd4g==",
+          "age": "52606"
+        },
+        "responseBodyHash": "0f85528a1ab1e7c1b41cbf8797eddcfd96d857ee195ee33f2c9346ff642aa554",
+        "initiators": [
+          "https://chimpstatic.com/mcjs-connected/js/users/aab6529d3675bd877963a652d/fc2aefbb539f9ecd8f1ab4cee.js"
+        ],
+        "time": 0.17943999997805804
+      },
+      {
+        "url": "https://ml314.com/tag.aspx?322024",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://slashdot.org/",
+          "https://a.fsdn.com/con/js/sftheme/cmp2.js?2024-01"
+        ],
+        "time": 0.1336479999590665
+      },
+      {
+        "url": "https://analytics.slashdotmedia.com/sd.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://slashdot.org/",
+          "https://a.fsdn.com/con/js/sftheme/cmp2.js?2024-01"
+        ],
+        "time": 0.13972300000023097
+      },
+      {
+        "url": "https://slashdot.org/ajax.pl?op=nel",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 13596,
+        "remoteIPAddress": "172.64.151.192",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:53:11 GMT",
+          "content-type": "text/plain; charset=UTF-8",
+          "cache-control": "private",
+          "pragma": "no-cache",
+          "x-frame-options": "SAMEORIGIN",
+          "permissions-policy": "geolocation=(), microphone=(), camera=(), payment=(), document-domain=(), display-capture=(), autoplay=()",
+          "feature-policy": "geolocation 'none'; microphone 'none'; camera 'none'; payment 'none'; document-domain 'none'; display-capture 'none'; autoplay 'none'",
+          "x-xrds-location": "https://slashdot.org/slashdot.xrds",
+          "content-security-policy": "frame-ancestors 'self'; upgrade-insecure-requests;form-action 'self' slashdot.org slashdot.us15.list-manage.com;frame-src 'self' slashdot.org *.lijit.com *.btloader.com http://*.pro-market.net *.crsspxl.com *.google.com *.googlesyndication.com *.safeframe.usercontent.goog *.doubleclick.net challenges.cloudflare.com *.recaptcha.net recaptcha.net *.adnxs.com *.indexww.com *.rubiconproject.com *.pubmatic.com *.smartadserver.com *.tapad.com http://*.youtube.com http://*.youtube-nocookie.com slashdotmedia.com; object-src http://*.youtube.com;script-src 'self' slashdot.org *.slashdot.org slashdot.org *.slashdotmedia.com a.fsdn.com challenges.cloudflare.com *.lijit.com *.moatads.com *.adsafeprotected.com *.sharethrough.com *.2mdn.net *.adnxs.com *.jobbio.com *.script.ac *.defybrick.com *.aniview.com *.vidazoo.com *.pubmatic.com chimpstatic.com *.mailchimp.com mc.us15.list-manage.com ml314.com *.stack-sonar.com *.licdn.com translate.googleapis.com *.doubleclick.net *.googleadservices.com translate.google.cn *.gstatic.cn *.google.com *.consentmanager.net *.microsofttranslator.com *.gstatic.com *.googletagservices.com *.recaptcha.net recaptcha.net *.google-analytics.com *.googlesyndication.com *.cloudflareinsights.com d3tglifpd8whs6.cloudfront.net rpxnow.com btloader.com *.crsspxl.com http://*.pro-market.net *.4dex.io *.adnxs-simple.com *.s-onetag.com *.rubiconproject.com *.trustarc.com *.truste.com *.doubleverify.com *.tapad.com *.pghub.io pghub.io *.sharethru.com adservice.google.ad adservice.google.ae adservice.google.at adservice.google.be adservice.google.bg adservice.google.ca adservice.google.ch adservice.google.co.id adservice.google.co.il adservice.google.co.in adservice.google.co.jp adservice.google.co.kr adservice.google.co.th adservice.google.co.uk adservice.google.co.zw adservice.google.com.au adservice.google.com.bo adservice.google.com.hk adservice.google.com.mx adservice.google.com.ph adservice.google.com.pk adservice.google.com.sa adservice.google.com.sg adservice.google.com.tr adservice.google.com.tw adservice.google.com.ua adservice.google.com.vn adservice.google.cz adservice.google.de adservice.google.dk adservice.google.dz adservice.google.ee adservice.google.fi adservice.google.fr adservice.google.gr adservice.google.hu adservice.google.ie adservice.google.it adservice.google.li adservice.google.lu adservice.google.mu adservice.google.mv adservice.google.nl adservice.google.no adservice.google.pl adservice.google.pt adservice.google.ro adservice.google.rs adservice.google.se adservice.google.sk adservice.google.com.br adservice.google.com.ar adservice.google.cl adservice.google.com.co adservice.google.com.cu adservice.google.com.cy adservice.google.es adservice.google.hr adservice.google.im adservice.google.lk adservice.google.me adservice.google.mg adservice.google.com.mm adservice.google.com.ng adservice.google.com.np adservice.google.com.pr adservice.google.com.uy adservice.google.co.za adservice.google.jo adservice.google.bs adservice.google.al adservice.google.co.tz adservice.google.rw adservice.google.hn adservice.google.lt adservice.google.iq adservice.google.si adservice.google.bj adservice.google.co.ao adservice.google.com.gh adservice.google.kz adservice.google.com.eg adservice.google.com.ec adservice.google.co.ve adservice.google.com.py adservice.google.lv adservice.google.mn adservice.google.com.bn adservice.google.tn adservice.google.ml adservice.google.is adservice.google.com.sv adservice.google.com.bz adservice.google.az adservice.google.gt adservice.google.sn adservice.google.cm adservice.google.com.kh adservice.google.ge adservice.google.com.et adservice.google.com.pe adservice.google.com.ly adservice.google.co.mz adservice.google.com.bh adservice.google.com.mt adservice.google.ps adservice.google.so adservice.google.bf adservice.google.co.nz adservice.google.com.gt adservice.google.co.zm adservice.google.je adservice.google.cv adservice.google.la adservice.google.bi adservice.google.com.jm adservice.google.tt adservice.google.com.kw adservice.google.cd adservice.google.gy adservice.google.tg adservice.google.com.af adservice.google.com.lb adservice.google.sr adservice.google.com.ni adservice.google.ki adservice.google.com.na adservice.google.ht adservice.google.nr adservice.google.td adservice.google.co.ls adservice.google.gl adservice.google.bt adservice.google.tm adservice.google.com.vc adservice.google.co.bw adservice.google.vg adservice.google.as adservice.google.cg adservice.google.com.ag adservice.google.com.tj adservice.google.dm adservice.google.to adservice.google.dj adservice.google.cf adservice.google.ws adservice.google.st adservice.google.gm adservice.google.fm adservice.google.com.sb adservice.google.com.pg adservice.google.com.gi adservice.google.com.ai adservice.google.co.ck adservice.google.ru adservice.google.nu adservice.google.com.my adservice.google.com.bd adservice.google.ci adservice.google.co.cr adservice.google.co.ke adservice.google.co.ug adservice.google.co.uz adservice.google.co.vi adservice.google.ms adservice.google.com.fj adservice.google.com.om adservice.google.com.pa adservice.google.com.qa adservice.google.ga adservice.google.gg adservice.google.kg adservice.google.md adservice.google.mk adservice.google.mw adservice.google.ne adservice.google.sm adservice.google.tl adservice.google.sc adservice.google.vu 'unsafe-inline' 'unsafe-eval';",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "85ecdb9c3ded1131-ORD",
+          "content-encoding": "br",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "953529e0072b3c950225f8524de382913df778eb5014530cb52d76c4248f17c7",
+        "initiators": [
+          "https://a.fsdn.com/sd/all-minified.js?a23c9cce1cf8807f",
+          "https://slashdot.org/",
+          "https://a.fsdn.com/con/js/sftheme/cmp2.js?2024-01"
+        ],
+        "time": 0.21104500000365078
+      },
+      {
+        "url": "https://a.fsdn.com/sd/sf-logo.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3255,
+        "remoteIPAddress": "104.18.40.209",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:53:11 GMT",
+          "content-type": "image/webp",
+          "content-length": "2962",
+          "cf-bgj": "imgq:100,h2pri",
+          "cf-polished": "origFmt=png, origSize=5787",
+          "content-disposition": "inline; filename=\"sf-logo.webp\"",
+          "etag": "\"6102ff7b-169b\"",
+          "last-modified": "Thu, 29 Jul 2021 19:20:27 GMT",
+          "vary": "Accept",
+          "cf-cache-status": "HIT",
+          "age": "7085",
+          "expires": "Wed, 03 Apr 2024 21:53:11 GMT",
+          "cache-control": "public, max-age=2678400",
+          "accept-ranges": "bytes",
+          "server": "cloudflare",
+          "cf-ray": "85ecdb9c1c866089-ORD",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "b660047f1bdfd3ee30f9edbfdfd6c6854e3bec27c5bd65b0a9f96641efa9dc1a",
+        "initiators": [
+          "https://a.fsdn.com/sd/classic.ssl.css?a23c9cce1cf8807f"
+        ],
+        "time": 0.02323900000192225
+      },
+      {
+        "url": "https://a.fsdn.com/sd/sdlogo.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1253,
+        "remoteIPAddress": "104.18.40.209",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:53:11 GMT",
+          "content-type": "image/svg+xml",
+          "last-modified": "Mon, 05 Oct 2020 23:57:46 GMT",
+          "etag": "W/\"5f7bb2fa-889\"",
+          "cf-cache-status": "HIT",
+          "age": "3512",
+          "expires": "Wed, 03 Apr 2024 21:53:11 GMT",
+          "cache-control": "public, max-age=2678400",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "85ecdb9c1c876089-ORD",
+          "content-encoding": "br",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "c54cce6af217271cf459a481704772625f0861f881946e463b91c77f62e4688d",
+        "initiators": [
+          "https://a.fsdn.com/sd/classic.ssl.css?a23c9cce1cf8807f"
+        ],
+        "time": 0.025726999971084297
+      },
+      {
+        "url": "https://slashdot.org/ajax.pl?op=hl_nel",
+        "method": "POST",
+        "type": "XHR",
+        "status": 200,
+        "size": 4210,
+        "remoteIPAddress": "172.64.151.192",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:53:11 GMT",
+          "content-type": "text/plain; charset=UTF-8",
+          "cache-control": "private",
+          "pragma": "no-cache",
+          "x-frame-options": "SAMEORIGIN",
+          "permissions-policy": "geolocation=(), microphone=(), camera=(), payment=(), document-domain=(), display-capture=(), autoplay=()",
+          "feature-policy": "geolocation 'none'; microphone 'none'; camera 'none'; payment 'none'; document-domain 'none'; display-capture 'none'; autoplay 'none'",
+          "x-xrds-location": "https://slashdot.org/slashdot.xrds",
+          "content-security-policy": "frame-ancestors 'self'; upgrade-insecure-requests;form-action 'self' slashdot.org slashdot.us15.list-manage.com;frame-src 'self' slashdot.org *.lijit.com *.btloader.com http://*.pro-market.net *.crsspxl.com *.google.com *.googlesyndication.com *.safeframe.usercontent.goog *.doubleclick.net challenges.cloudflare.com *.recaptcha.net recaptcha.net *.adnxs.com *.indexww.com *.rubiconproject.com *.pubmatic.com *.smartadserver.com *.tapad.com http://*.youtube.com http://*.youtube-nocookie.com slashdotmedia.com; object-src http://*.youtube.com;script-src 'self' slashdot.org *.slashdot.org slashdot.org *.slashdotmedia.com a.fsdn.com challenges.cloudflare.com *.lijit.com *.moatads.com *.adsafeprotected.com *.sharethrough.com *.2mdn.net *.adnxs.com *.jobbio.com *.script.ac *.defybrick.com *.aniview.com *.vidazoo.com *.pubmatic.com chimpstatic.com *.mailchimp.com mc.us15.list-manage.com ml314.com *.stack-sonar.com *.licdn.com translate.googleapis.com *.doubleclick.net *.googleadservices.com translate.google.cn *.gstatic.cn *.google.com *.consentmanager.net *.microsofttranslator.com *.gstatic.com *.googletagservices.com *.recaptcha.net recaptcha.net *.google-analytics.com *.googlesyndication.com *.cloudflareinsights.com d3tglifpd8whs6.cloudfront.net rpxnow.com btloader.com *.crsspxl.com http://*.pro-market.net *.4dex.io *.adnxs-simple.com *.s-onetag.com *.rubiconproject.com *.trustarc.com *.truste.com *.doubleverify.com *.tapad.com *.pghub.io pghub.io *.sharethru.com adservice.google.ad adservice.google.ae adservice.google.at adservice.google.be adservice.google.bg adservice.google.ca adservice.google.ch adservice.google.co.id adservice.google.co.il adservice.google.co.in adservice.google.co.jp adservice.google.co.kr adservice.google.co.th adservice.google.co.uk adservice.google.co.zw adservice.google.com.au adservice.google.com.bo adservice.google.com.hk adservice.google.com.mx adservice.google.com.ph adservice.google.com.pk adservice.google.com.sa adservice.google.com.sg adservice.google.com.tr adservice.google.com.tw adservice.google.com.ua adservice.google.com.vn adservice.google.cz adservice.google.de adservice.google.dk adservice.google.dz adservice.google.ee adservice.google.fi adservice.google.fr adservice.google.gr adservice.google.hu adservice.google.ie adservice.google.it adservice.google.li adservice.google.lu adservice.google.mu adservice.google.mv adservice.google.nl adservice.google.no adservice.google.pl adservice.google.pt adservice.google.ro adservice.google.rs adservice.google.se adservice.google.sk adservice.google.com.br adservice.google.com.ar adservice.google.cl adservice.google.com.co adservice.google.com.cu adservice.google.com.cy adservice.google.es adservice.google.hr adservice.google.im adservice.google.lk adservice.google.me adservice.google.mg adservice.google.com.mm adservice.google.com.ng adservice.google.com.np adservice.google.com.pr adservice.google.com.uy adservice.google.co.za adservice.google.jo adservice.google.bs adservice.google.al adservice.google.co.tz adservice.google.rw adservice.google.hn adservice.google.lt adservice.google.iq adservice.google.si adservice.google.bj adservice.google.co.ao adservice.google.com.gh adservice.google.kz adservice.google.com.eg adservice.google.com.ec adservice.google.co.ve adservice.google.com.py adservice.google.lv adservice.google.mn adservice.google.com.bn adservice.google.tn adservice.google.ml adservice.google.is adservice.google.com.sv adservice.google.com.bz adservice.google.az adservice.google.gt adservice.google.sn adservice.google.cm adservice.google.com.kh adservice.google.ge adservice.google.com.et adservice.google.com.pe adservice.google.com.ly adservice.google.co.mz adservice.google.com.bh adservice.google.com.mt adservice.google.ps adservice.google.so adservice.google.bf adservice.google.co.nz adservice.google.com.gt adservice.google.co.zm adservice.google.je adservice.google.cv adservice.google.la adservice.google.bi adservice.google.com.jm adservice.google.tt adservice.google.com.kw adservice.google.cd adservice.google.gy adservice.google.tg adservice.google.com.af adservice.google.com.lb adservice.google.sr adservice.google.com.ni adservice.google.ki adservice.google.com.na adservice.google.ht adservice.google.nr adservice.google.td adservice.google.co.ls adservice.google.gl adservice.google.bt adservice.google.tm adservice.google.com.vc adservice.google.co.bw adservice.google.vg adservice.google.as adservice.google.cg adservice.google.com.ag adservice.google.com.tj adservice.google.dm adservice.google.to adservice.google.dj adservice.google.cf adservice.google.ws adservice.google.st adservice.google.gm adservice.google.fm adservice.google.com.sb adservice.google.com.pg adservice.google.com.gi adservice.google.com.ai adservice.google.co.ck adservice.google.ru adservice.google.nu adservice.google.com.my adservice.google.com.bd adservice.google.ci adservice.google.co.cr adservice.google.co.ke adservice.google.co.ug adservice.google.co.uz adservice.google.co.vi adservice.google.ms adservice.google.com.fj adservice.google.com.om adservice.google.com.pa adservice.google.com.qa adservice.google.ga adservice.google.gg adservice.google.kg adservice.google.md adservice.google.mk adservice.google.mw adservice.google.ne adservice.google.sm adservice.google.tl adservice.google.sc adservice.google.vu 'unsafe-inline' 'unsafe-eval';",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "85ecdb9c3df61131-ORD",
+          "content-encoding": "br",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://a.fsdn.com/sd/all-minified.js?a23c9cce1cf8807f",
+          "https://slashdot.org/",
+          "https://a.fsdn.com/con/js/sftheme/cmp2.js?2024-01"
+        ],
+        "time": 0.1994150000391528
+      },
+      {
+        "url": "https://slashdot.org/images/js.gif?890",
+        "method": "GET",
+        "type": "Image",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://slashdot.org/"
+        ],
+        "time": 0.11005300004035234
+      },
+      {
+        "url": "https://mc.us15.list-manage.com/subscribe/form-settings?u=aab6529d3675bd877963a652d&id=06f8f4922b&f_id=undefined&u=aab6529d3675bd877963a652d&id=06f8f4922b&c=dojo_request_script_callbacks.dojo_request_script0",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10865,
+        "remoteIPAddress": "23.210.145.108",
+        "responseHeaders": {
+          "content-type": "application/json; charset=utf-8",
+          "x-ua-compatible": "IE=edge,chrome=1",
+          "referrer-policy": "same-origin",
+          "content-encoding": "gzip",
+          "content-length": "9181",
+          "cache-control": "max-age=1",
+          "expires": "Sun, 03 Mar 2024 21:53:12 GMT",
+          "date": "Sun, 03 Mar 2024 21:53:11 GMT",
+          "vary": "Accept-Encoding",
+          "server-timing": "cdn-cache; desc=HIT\nedge; dur=530\norigin; dur=0\nak_p; desc=\"1709502791386_398500871_2288088107_52888_9444_17_36_146\";dur=1",
+          "set-cookie": "_abck=B7649B8BEE2A81278AC2A3CA7C852E6A~-1~YAAQB6TAF+cl0OSNAQAAGoFOBgtdw3g5XjavQzw4NXcKteSVdazosyedjIPC6rdX04TKcSEopDGFIPPvSqICmm+iZIguSrxFz8IO9NGmddrOc1sXr0D6YhB3U1PTf8ENC+MbJfRSQnrgLOLTz+4uRbMokbRSRZ7KHTOiuVouZcvn9+Nv2rE31jEQOXWP3CnHfd27jVKieBaYp/nbqoRp/VapFcrqDZvr1kd6x/QCfVEoiPrNKeTlRZgYIybp4Z2Tx8JiZIFTeR0g/OMRY25ejEOnnxTVM5rcMjP1nOctfloL7u6jmSkkVAY0oFOse5PVIe2/BOft6UE2x0Qe6duho04Dykz8c6cIknFUvHieJXe9frRtuYUi8Fp7jN48N7dBgQ==~-1~-1~-1; Domain=.list-manage.com; Path=/; Expires=Mon, 03 Mar 2025 21:53:11 GMT; Max-Age=31536000; SameSite=None; Secure\nak_bmsc=4514E8BD7C8D6974755BDDDF49046AFE~000000000000000000000000000000~YAAQB6TAF+gl0OSNAQAAGoFOBhYJJg1drO80mmwzI93L7suzJvjG/GNQlFdlt+KPf1soE99xoM70Vfzk62meK5ft2/6Igf8FsGsdgo/sYBb3RuDuBAL4lWM8tkboAvgKPDp6fM1WMZLLHWEaMdca6wukB1Ncrgfm73qq97zm2B8NctXkwtWhk58G9Xm75CcmZ8WcM7fm7aX6317g2qFd/zd3uoOV+HSaTyNpG6iPqVOmYnPlGe5+dkGj44CFuLz/FCxJJ45XbowVrOsI0/qwohgzLjd6EJeJmWceVtZxKCuYJLe+DjIj2HecH7oc7aJlT45bef4jdyRybKYKLU1HLuHofUmPqx8WoOT5yTgebfLjxjtu+uiOFgR0lDgnxh2E139Ox/d+wKqj5r6NW6MCT0z2zMM=; Domain=.us15.list-manage.com; Path=/; Expires=Sun, 03 Mar 2024 23:53:11 GMT; Max-Age=7200; SameSite=None; Secure; HttpOnly\nbm_sz=F80737C126E651C417679E95CD49888E~YAAQB6TAF+kl0OSNAQAAG4FOBhaLjPrn57ZADYE7FCLLcf4ErlfWLbRv3cxQ5vMtuK48cDVxFoBVPsM+vHHiQueDtQSRtRQ+ppkyJygObbHhQgWXK3tDGi6kS3GnABMKPhInEhiU+7DaiNG85BYEM4AdOnvfOdEMtnvx7EYdmPtHIB7DFLdekElu6BulIbpEQWycw3279rpdv0HoPNc836MWVuFyrMtw9qSMNICQ9lXextI6w5rMoojaXoUzJPbxJwqGdNczaTPHesJIKrS/41feV8V+YVxZEeqkxNGDrJcx2/5CO0SXo1Dw2a3cEU1wIraXNA4Vcb8pCN7SiAmnn1ItzT3oDB1ih/2jSW+apNMu++FzWLkeEw8yDiM=~3360055~3490869; Domain=.list-manage.com; Path=/; Expires=Mon, 04 Mar 2024 01:53:11 GMT; Max-Age=14400; SameSite=None; Secure"
+        },
+        "responseBodyHash": "6b51442e7f187875281492aa3d7307c72fbaa911991e1b8a4849b21d15bc5c3c",
+        "initiators": [
+          "https://downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js",
+          "https://chimpstatic.com/mcjs-connected/js/users/aab6529d3675bd877963a652d/fc2aefbb539f9ecd8f1ab4cee.js"
+        ],
+        "time": 0.6942520000739023
+      },
+      {
+        "url": "https://a.slashdotmedia.com/www/delivery/lg.php?bannerid=51501&campaignid=9991&zoneid=48832&cb=579b07ad6f",
+        "method": "GET",
+        "type": "Image",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://a.fsdn.com/sd/all-minified.js?a23c9cce1cf8807f",
+          "https://slashdot.org/",
+          "https://a.fsdn.com/con/js/sftheme/cmp2.js?2024-01"
+        ],
+        "time": 0.029654000070877373
+      },
+      {
+        "url": "https://downloads.mailchimp.com/js/signup-forms/popup/unique-methods/dfe06572073337461503fc1b7220303df678803d/popup.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 33580,
+        "remoteIPAddress": "108.157.142.2",
+        "responseHeaders": {
+          "content-type": "application/javascript",
+          "transfer-encoding": "chunked",
+          "connection": "keep-alive",
+          "last-modified": "Thu, 08 Feb 2024 15:40:44 GMT",
+          "x-amz-server-side-encryption": "AES256",
+          "server": "AmazonS3",
+          "content-encoding": "gzip",
+          "date": "Sun, 03 Mar 2024 10:58:19 GMT",
+          "etag": "W/\"affe45fde669a2dd8686a667caf1806b\"",
+          "vary": "Accept-Encoding\nOrigin",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 2163528b1f064196b85d263c356bfa50.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P1",
+          "x-amz-cf-id": "Nz6v5q7fDqSbS6BAFeR_kPVsUciz1JrmCxSrZOiclV6LJWpyL9t-qw==",
+          "age": "39408"
+        },
+        "responseBodyHash": "537517c759eb27641b15b1c3ee08033606762a27a320faa3461017edd301e94f",
+        "initiators": [
+          "https://downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js",
+          "https://mc.us15.list-manage.com/subscribe/form-settings?u=aab6529d3675bd877963a652d&id=06f8f4922b&f_id=undefined&u=aab6529d3675bd877963a652d&id=06f8f4922b&c=dojo_request_script_callbacks.dojo_request_script0"
+        ],
+        "time": 0.039366999990306795
+      },
+      {
+        "url": "https://downloads.mailchimp.com/css/signup-forms/popup/dfe06572073337461503fc1b7220303df678803d/common.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 3358,
+        "remoteIPAddress": "108.157.142.2",
+        "responseHeaders": {
+          "content-type": "text/css",
+          "transfer-encoding": "chunked",
+          "connection": "keep-alive",
+          "last-modified": "Thu, 08 Feb 2024 15:40:44 GMT",
+          "x-amz-server-side-encryption": "AES256",
+          "server": "AmazonS3",
+          "content-encoding": "gzip",
+          "date": "Sun, 03 Mar 2024 11:00:12 GMT",
+          "etag": "W/\"7172da3d9656cb6fc6a67cdecbf0788c\"",
+          "vary": "Accept-Encoding\nOrigin",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 2163528b1f064196b85d263c356bfa50.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P1",
+          "x-amz-cf-id": "VAKKETskdOQdojkeGrRVxWzurFmYJlmDC9A-1r3gRJLXZ8kjurs-jg==",
+          "age": "43899"
+        },
+        "responseBodyHash": "e2e0c4c047cdee9096c2d1642fc9a4192b82ca89c9e734953747d0cd51d4e6cc",
+        "initiators": [
+          "https://downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js",
+          "https://mc.us15.list-manage.com/subscribe/form-settings?u=aab6529d3675bd877963a652d&id=06f8f4922b&f_id=undefined&u=aab6529d3675bd877963a652d&id=06f8f4922b&c=dojo_request_script_callbacks.dojo_request_script0"
+        ],
+        "time": 0.03308699990157038
+      },
+      {
+        "url": "https://downloads.mailchimp.com/css/signup-forms/popup/dfe06572073337461503fc1b7220303df678803d/banner.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1349,
+        "remoteIPAddress": "108.157.142.2",
+        "responseHeaders": {
+          "content-type": "text/css",
+          "content-length": "813",
+          "connection": "keep-alive",
+          "last-modified": "Thu, 08 Feb 2024 15:40:44 GMT",
+          "x-amz-server-side-encryption": "AES256",
+          "accept-ranges": "bytes",
+          "server": "AmazonS3",
+          "date": "Sun, 03 Mar 2024 11:48:45 GMT",
+          "etag": "\"03dc514068214f6d7d052c91c8492206\"",
+          "vary": "Accept-Encoding\nOrigin",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 2163528b1f064196b85d263c356bfa50.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P1",
+          "x-amz-cf-id": "Gj-P2VzGg8uHz20G7uLl0ubpdKa7H32Q6PxwEVGdTBmaixytj6XgJA==",
+          "age": "36269"
+        },
+        "responseBodyHash": "21fd2df4903c9e47405d1c908cb002759b1cbed9027a21c198e4eeff4a52c492",
+        "initiators": [
+          "https://downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js",
+          "https://mc.us15.list-manage.com/subscribe/form-settings?u=aab6529d3675bd877963a652d&id=06f8f4922b&f_id=undefined&u=aab6529d3675bd877963a652d&id=06f8f4922b&c=dojo_request_script_callbacks.dojo_request_script0"
+        ],
+        "time": 0.06575800001155585
+      },
+      {
+        "url": "https://downloads.mailchimp.com/css/signup-forms/popup/dfe06572073337461503fc1b7220303df678803d/common.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "108.157.142.2",
+        "responseHeaders": {
+          "content-type": "text/css",
+          "last-modified": "Thu, 08 Feb 2024 15:40:44 GMT",
+          "x-amz-server-side-encryption": "AES256",
+          "server": "AmazonS3",
+          "content-encoding": "gzip",
+          "date": "Sun, 03 Mar 2024 11:00:12 GMT",
+          "etag": "W/\"7172da3d9656cb6fc6a67cdecbf0788c\"",
+          "vary": "Accept-Encoding\nOrigin",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 2163528b1f064196b85d263c356bfa50.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P1",
+          "x-amz-cf-id": "VAKKETskdOQdojkeGrRVxWzurFmYJlmDC9A-1r3gRJLXZ8kjurs-jg==",
+          "age": "43899"
+        },
+        "responseBodyHash": "e2e0c4c047cdee9096c2d1642fc9a4192b82ca89c9e734953747d0cd51d4e6cc",
+        "initiators": [
+          "https://downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js",
+          "https://mc.us15.list-manage.com/subscribe/form-settings?u=aab6529d3675bd877963a652d&id=06f8f4922b&f_id=undefined&u=aab6529d3675bd877963a652d&id=06f8f4922b&c=dojo_request_script_callbacks.dojo_request_script0"
+        ],
+        "time": 0.004108999972231686
+      },
+      {
+        "url": "https://downloads.mailchimp.com/css/signup-forms/popup/dfe06572073337461503fc1b7220303df678803d/layout-2.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1013,
+        "remoteIPAddress": "108.157.142.2",
+        "responseHeaders": {
+          "content-type": "text/css",
+          "transfer-encoding": "chunked",
+          "connection": "keep-alive",
+          "last-modified": "Thu, 08 Feb 2024 15:40:44 GMT",
+          "x-amz-server-side-encryption": "AES256",
+          "server": "AmazonS3",
+          "content-encoding": "gzip",
+          "date": "Sun, 03 Mar 2024 08:26:54 GMT",
+          "etag": "W/\"193c57f073b6ed9e804272fc773a7092\"",
+          "vary": "Accept-Encoding\nOrigin",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 a7a0f025dbad59d0ea58f579dc4a5d10.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P1",
+          "x-amz-cf-id": "_hRwPUMV7iZapa3Q5PIc_bBSTnAI8WDcPh-R7rReOpeoi5aSlFn8eA==",
+          "age": "48698"
+        },
+        "responseBodyHash": "e027891a1e09342c108af57bede4f932c1b7a55cb7e52298790fd121bbcea996",
+        "initiators": [
+          "https://downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js",
+          "https://mc.us15.list-manage.com/subscribe/form-settings?u=aab6529d3675bd877963a652d&id=06f8f4922b&f_id=undefined&u=aab6529d3675bd877963a652d&id=06f8f4922b&c=dojo_request_script_callbacks.dojo_request_script0"
+        ],
+        "time": 0.06801299995277077
+      },
+      {
+        "url": "https://downloads.mailchimp.com/css/signup-forms/popup/dfe06572073337461503fc1b7220303df678803d/modal.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1576,
+        "remoteIPAddress": "108.157.142.2",
+        "responseHeaders": {
+          "content-type": "text/css",
+          "transfer-encoding": "chunked",
+          "connection": "keep-alive",
+          "last-modified": "Thu, 08 Feb 2024 15:40:44 GMT",
+          "x-amz-server-side-encryption": "AES256",
+          "server": "AmazonS3",
+          "content-encoding": "gzip",
+          "date": "Sun, 03 Mar 2024 11:19:36 GMT",
+          "etag": "W/\"4ffd4d51a85e66c49e842005734dd999\"",
+          "vary": "Accept-Encoding\nOrigin",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 2163528b1f064196b85d263c356bfa50.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P1",
+          "x-amz-cf-id": "wMCgak6j5cXhJ1ZCWEtBZM--hH-Occ6RaTh4dxfBhyO3dysTlJUf8g==",
+          "age": "43898"
+        },
+        "responseBodyHash": "68924b973ceb3199ea958031fc60bff8360083d87eb648568a53f0c808addf07",
+        "initiators": [
+          "https://downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js",
+          "https://mc.us15.list-manage.com/subscribe/form-settings?u=aab6529d3675bd877963a652d&id=06f8f4922b&f_id=undefined&u=aab6529d3675bd877963a652d&id=06f8f4922b&c=dojo_request_script_callbacks.dojo_request_script0"
+        ],
+        "time": 0.06237299996428192
+      },
+      {
+        "url": "https://cdn-images.mailchimp.com/icons/mailchimp-gdpr.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1020,
+        "remoteIPAddress": "108.157.150.63",
+        "responseHeaders": {
+          "content-type": "image/svg+xml",
+          "last-modified": "Wed, 25 Apr 2018 21:26:45 GMT",
+          "x-amz-meta-s3fox-filesize": "1530",
+          "x-amz-version-id": "null",
+          "x-amz-meta-s3fox-modifiedtime": "1524676315000",
+          "server": "AmazonS3",
+          "content-encoding": "gzip",
+          "date": "Sun, 03 Mar 2024 10:42:06 GMT",
+          "etag": "W/\"59a8ccc2056b4656cdc1e99c50b9d0db\"",
+          "vary": "Accept-Encoding",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 7091de94c49fb9a7aff78e2eb5b5f0ea.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P2",
+          "alt-svc": "h3=\":443\"; ma=86400",
+          "x-amz-cf-id": "YpZo0bxkoxORHvQWyLnXBqdQjj0kwDdd15AsqNlv8hU8OmCA3k3Elg==",
+          "age": "40412"
+        },
+        "responseBodyHash": "33c02a8215e3a0d77a0346beb053c756387bdad894b1055340ce6627a6428f3c",
+        "initiators": [
+          "https://downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js",
+          "https://mc.us15.list-manage.com/subscribe/form-settings?u=aab6529d3675bd877963a652d&id=06f8f4922b&f_id=undefined&u=aab6529d3675bd877963a652d&id=06f8f4922b&c=dojo_request_script_callbacks.dojo_request_script0"
+        ],
+        "time": 0.15120299998670816
+      },
+      {
+        "url": "https://slashdot.org/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 937,
+        "remoteIPAddress": "172.64.151.192",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:53:12 GMT",
+          "content-type": "image/x-icon",
+          "last-modified": "Thu, 04 Jan 2024 18:42:50 GMT",
+          "etag": "W/\"6596fc2a-309\"",
+          "cf-cache-status": "DYNAMIC",
+          "server": "cloudflare",
+          "cf-ray": "85ecdba7ad1d1131-ORD",
+          "content-encoding": "br",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "3907f9db8598769251b0ba017e3ba3c63bb3fea4960f8292ccb2c7778062651d",
+        "initiators": [],
+        "time": 0.08840899995993823
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://a.fsdn.com/sd/all-minified.js?a23c9cce1cf8807f": {
+          "Navigator.prototype.userAgent": 2,
+          "Date.prototype.getTime": 10,
+          "Document.cookie getter": 1
+        },
+        "https://slashdot.org/": {
+          "Document.cookie getter": 1,
+          "window.sessionStorage": 1,
+          "Date.prototype.getTime": 1
+        },
+        "https://downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js": {
+          "Navigator.prototype.maxTouchPoints": 1,
+          "Screen.prototype.availWidth": 1,
+          "Navigator.prototype.userAgent": 1,
+          "Navigator.prototype.appVersion": 1,
+          "Navigator.prototype.language": 1,
+          "Document.cookie getter": 1,
+          "window.innerWidth": 1,
+          "window.innerHeight": 1
+        }
+      },
+      "savedCalls": []
+    },
+    "cookies": [
+      {
+        "name": "_abck",
+        "domain": ".list-manage.com",
+        "path": "/",
+        "expires": 1741038791689,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "ak_bmsc",
+        "domain": ".us15.list-manage.com",
+        "path": "/",
+        "expires": 1709509991689,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "bm_sz",
+        "domain": ".list-manage.com",
+        "path": "/",
+        "expires": 1709517191689,
+        "session": false,
+        "sameSite": "None"
+      }
+    ]
+  }
+}

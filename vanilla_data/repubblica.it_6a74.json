@@ -1,0 +1,4082 @@
+{
+  "initialUrl": "http://repubblica.it/",
+  "finalUrl": "https://www.repubblica.it/",
+  "timeout": false,
+  "testStarted": 1709502673063,
+  "testFinished": 1709502692526,
+  "data": {
+    "requests": [
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16-off.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 552,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"UjtU7CjAmAcHX4DBL09uSijcYkg=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "7ea99590d4b3f5ffbd7610f8ae42a72803a0f809200f595b943d5a622eb8d9bd",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.032768000033684075
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32-off.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1114,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"nkCRpu+nneDbhSqRHQsS4ngvo0I=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "3c8bf856b1fed942ab11cfc92aeda135adcc25c7012528f4b95cc6cb0e74a2cb",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.03876799996942282
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 420,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"9uZWEEQawXEa9JeFZdVDxheK738=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "5bc0b6c5d00309f9dae2be3fb505fda1ccdfa5c4d2994e167c8fb473bf95a777",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.03800899989437312
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1278,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"e74+CjUkVkdX//K9KytM4jGb4Sg=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "2fd0f85a569e98791d39884b54e706d105e5db0dfc60a319a40e09d48fc9b878",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.03731099993456155
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 570,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"SCCY3xHCtdMdB9jfy1lKOHd91yw=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "75cfccc844e135a85d7508a5892f72bac16b510919e4d4d5801ded7b1901a5cd",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background-ext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js"
+        ],
+        "time": 0.03713599999900907
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1089,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"RmlX4Eb0Vf+9Lga44dPV6pw/juM=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "230dc98bf942ad4be6016cbff229ae0605f2f02401e406ef0d649e7b1cca37ae",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background-ext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js"
+        ],
+        "time": 0.036571000004187226
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_64-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4406,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"VxvYv0EN5oLKTZD+GqhZRU48+qM=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "d52e425f9820d4c3e27e3ba658b7d21b14e3fbda7dd43febeea5a6021809060c",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background-ext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js"
+        ],
+        "time": 0.03545199998188764
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/badlists.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 4136,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"eOiMDeKtL1q/V6TIuAFaDCVjfWY=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "109822a6b68367e225fd701e53be3419800b95c7d4becd50bf8a2d49ba22424f",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.042754000052809715
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/resources/scriptlets.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 125820,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"CgwgzxiUJT5q+w9lH7Se+5ZMoIc=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "82d47ba987d73c40c4e7363b9ab5dba77ed1527a26d77909e3cedc27a5cd3439",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.11252600001171231
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/1x1.gif?secret=2bg30v",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 43,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"72D+/UKGYStX5er87ISTvvrF5tQ=\"",
+          "content-type": "image/gif"
+        },
+        "responseBodyHash": "6b3da89922d333d106b84fefeebd7b16bfebf4cfbd7bef37fa10a47c471ae64c",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.07029499998316169
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/2x2.png?secret=31rjdn",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 68,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"esKRo0fVKvgNoUzOaCbJcHcCR5c=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "53b14a22cd3dc973d6cb1a381d01fafafc4da1632bacbf15f7fac0014fbe70c0",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.06759200000669807
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/3x2.png?secret=04srma",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 68,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"FE1vXRwHfZli324eMoQlsnugEho=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "c6ea854b737a88835e1c7349bcfa0730f55e19de7acf0f54f9d6ea817fcd2f20",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.06621600000653416
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/32x32.png?secret=6nrhpq",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 83,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"67CnMiH92/CeXXcyr+80HclqFxI=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "173650f1d19d59786ce8dd44c64cd8fb4471552c2e247fb774bec92726a7ee6b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.06559300003573298
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/amazon_ads.js?secret=0h3qmw",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2296,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"By+IDkPL9F/5lkH5nXfR93EB23k=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "41901805f575d9d06608682999cf588b12c318face2ed04e8566ec8cbec4c610",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.06442900002002716
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/doubleclick_instream_ad_status.js?secret=xkrt8z",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 29,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"s8ZaX7h28RDv/PN40yMhb1rRBto=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "eed0dc1fdb5d97ed188ae16fd5e1024a5bb744af47340346be2146300a6c54b9",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.06400000001303852
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/empty?secret=jj9cnl",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"w1USgRq36N3lrsNJbzqv38xCsUk=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.06369600002653897
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/fingerprint2.js?secret=uyzvkd",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1810,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"PePG6yN3ZEGZMHdAk3DkU2BtUIM=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "7db8892256cdf45ad5ca5748e136e0c241b53b38c5adaa744a42ca139f05ffb3",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.06516700005158782
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/fingerprint3.js?secret=63qsi5",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1492,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"CetrBFm7a360yitCLL/02QWkJT8=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "6fd5703f2bdd85932f18adc99f30d8736d2bf5f09b1dde6c129f4616259fc827",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.06733399990480393
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_analytics.js?secret=mqx1pb",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3695,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"wTqkQ1ryNce63XhVKrXix8otYW0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "6b4621868cac589a603fe1263aad242f67262ef971bdacaccc1a515cd0488466",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.06970600003842264
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_ga.js?secret=c0gei9",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 4810,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"FSty3AHCXVujktdhdSOgAswTJwI=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "f0546767675ac7eff724521236be831e8753a7b8c15aa1c792d8121cb5311094",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.06966699997428805
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/googlesyndication_adsbygoogle.js?secret=qhp1p8",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3603,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"27D7TdoFnKSaDAxhDXZtyWlUA+0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "ba81dafd9a59c99b9d9e914ecbd5545c36d73d55b5ecb4d698ee3c49b02101c2",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.0703559999819845
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/googletagservices_gpt.js?secret=1rcrzj",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 5102,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"76KRjaFvvOrwsb8JSDs4Q2jTlbo=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "3ad0442f766373b8fed1f1ba2dcd6d6cbf948b68641956135a8f552472e3e6b6",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.07148799998685718
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/nobab.js?secret=bnldib",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2976,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"fWIMOUaEIaNtkbrEiIKDhn8PTGY=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "1bc47b0e9b642cfcf2496977df36babdb263f13d0cfd64b286eb5c4c84cc319c",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.07201300002634525
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/nobab2.js?secret=c2ql2u",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1503,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"vy1qEErrRXmXVNnibZFXADJr2NA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "3ee47f99116088a94e1c280d3cd6216a75513a9109a3876ed7926897ec7cfc96",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.07293200003914535
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noeval.js?secret=vqekv6",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1169,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"Zm3NrZrHm1RQ8sEDNdlqPrq/x5I=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "3cdd6f7412af4317374860533434959652db9e61633bdcae4755ad9039732bc6",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.07018499996047467
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noeval-silent.js?secret=hzhc78",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1046,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"uAxLt+FExKqnQoCEOy79k/qsAoI=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "bcb710ed7e64295cc8fe98b8611978e0801ffdce65107d1cb9c318339a5644d6",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.07004100002814084
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/nofab.js?secret=6fxjd0",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2604,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"8C4cfBueT2MD3BS5m6yoQgPFyj0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "dd7684145ffe90180075aa4d98a7a457cbdc6b73295bea17c55bf230332cf056",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.0705779999261722
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop-0.1s.mp3?secret=0v9rrx",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 813,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"2+x2uGBtVFxzOfC/ga3FuCo0a10=\"",
+          "content-type": "audio/mpeg"
+        },
+        "responseBodyHash": "3b31d6fd84b91ed8fafa0dc7d7f6dbded7fc8a9b51289991138a07d33bb7a99b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.07117799995467067
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop-1s.mp4?secret=ve349r",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3753,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"phhjpBwH2UsBHfAauKoOtl6zzkY=\"",
+          "content-type": "video/mp4"
+        },
+        "responseBodyHash": "5fffd48ffc18ad96d910ea2d84da417974177c3c0cc12fa0ca364c6f864ea641",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.07478500006254762
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop.css?secret=fdvs60",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 6,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"KSIg5lBIqQJSknb8PjMzOeEIjSU=\"",
+          "content-type": "text/css"
+        },
+        "responseBodyHash": "cccc5e8a9a7ad608a04f242530345694bd7150bd73315513284142b6a39ba4b7",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.06907999992836267
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop.js?secret=oxzv89",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 38,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"OpoFl8Qm9JGwy6bvidLZuEeJc50=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "5592bfa25de75c18ef0116cbb9990c122178b1efe5e076f1c45049a09d935a25",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.06802100001368672
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop.txt?secret=ivbk1x",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"MEUVxJfRt7KHLk+5bpNePR0DHec=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.06472399993799627
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop-vmap1.0.xml?secret=fzkadf",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 86,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"o91xJuRB4zgK7iE97MmCHdnqlwI=\"",
+          "content-type": "text/xml"
+        },
+        "responseBodyHash": "fcc40f36d86c8f7146d4b2f0c1273cc46282c2c236303dabc172dfacfdf86508",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.06540600000880659
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/popads.js?secret=v8tmtg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1601,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"I9T+DOFVlPUkYWimhhzIRMcfjvI=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "85700e488f782dde2eac664d8127399f7650832678188ecbde143e5482a0bf58",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.06506000005174428
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/popads-dummy.js?secret=ti2eya",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1082,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"WifQzgUPi4l7MnUILkJmjzMy6+I=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "7d9ea48fc2dbf1c680406d5335aa567f84967e91b10e823b7e2462ce531fa281",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.0671159999910742
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/prebid-ads.js?secret=n9k2ex",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 990,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"zgpQ56ZBEYb7FmruMvEAtYO6iHM=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "4ef4348e32fffdfa739b160f77d0b96fc4c861c089cfae8458275e30436179b3",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.06727400003001094
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/easylist/easylist.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1561127,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"LtheFwWjs98NDuASTQh7tNDCpLI=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "fdd1f5fad30f0615b76861caec3b0385b5628839e1b0f30f08d253ae4d63ac5f",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 3.4680630000075325
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/easylist/easyprivacy.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 869277,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"w2nyAU5mv9ABOU6GFTURUHq4xgQ=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "a1ec9956461f447372f9c0f0658880e6d68f2137eb4caa206013027653c09e65",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.0104789999313653
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/pgl.yoyo.org/as/serverlist.txt",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FILE_NOT_FOUND",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.02173799998126924
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/badware.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 111016,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"AYIE/yEnpZPkbhaGZvQlS2EcDJ8=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "61339a487f716803a4d81ea2abef7603a30a1799fedd42626671a2cd8352ce60",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.3017159999581054
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/filters.min.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1244702,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"h1LFQV4RKbAD/Dr/crybn2Q5sRM=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "40edb5e5c62e3cc3e701fda60ca76362a0401be26b96fa7da827a91ec3676695",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.4229160000104457
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/privacy.min.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 25261,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"NVSCvkmHFfp2m7DKRdO/KxfEuKk=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "5e35527a7b50abc913a6bf2a4efa113a7ad3a29875679820be9f223e33e2c564",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.041010000044479966
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/quick-fixes.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 12961,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"afueNux30hW+NV4++qgmpXTa57Q=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "8da204883be6cef9a900cfeebace44bff5c1ab48f1f5b1e0934be478beed838b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.15404000005219132
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/unbreak.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 225327,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"RJFXfxbz9txDf2F9CzvtzGKrUGQ=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "0842f26631ba700715f6807ebed0b0686340385a51aef6ba56c44797f6e859f9",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.5775180000346154
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/urlhaus-filter/urlhaus-filter-online.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 62578,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"BTHdXv1lxAGsEi3GXDaj3ARryk8=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "64473d0333370e1aa9208bd5895394c4c977c3c9eccd2df53605aca3f5cf577d",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.1829049999359995
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/pgl.yoyo.org/as/serverlist",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 99702,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"cjJqLaDjMIABN/iLNntIhbyVrgY=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "e7564ecea385fef412bb736d9f715c9944ce043747c4421c6835e24cc93ace75",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.4560289999935776
+      },
+      {
+        "url": "http://repubblica.it/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "108.157.150.68",
+        "responseHeaders": {
+          "content-length": "0",
+          "connection": "keep-alive",
+          "cache-control": "private, no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
+          "date": "Sun, 03 Mar 2024 21:51:20 GMT",
+          "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
+          "location": "https://www.repubblica.it/",
+          "server": "Varnish",
+          "x-varnish": "269121400",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 006c4c21b40c3e291898c78c08143890.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P2",
+          "x-amz-cf-id": "TrZ6rR3UAaxc2u7aMZp2Q53i0f40cfSUFk7-08qrwJRMXY8lcC9sag=="
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.repubblica.it/",
+        "initiators": [],
+        "time": 2.068396999966353
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 570,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"SCCY3xHCtdMdB9jfy1lKOHd91yw=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "75cfccc844e135a85d7508a5892f72bac16b510919e4d4d5801ded7b1901a5cd",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "extensions::webRequestEvent"
+        ],
+        "time": 1.7355090000201017
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1089,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"RmlX4Eb0Vf+9Lga44dPV6pw/juM=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "230dc98bf942ad4be6016cbff229ae0605f2f02401e406ef0d649e7b1cca37ae",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "extensions::webRequestEvent"
+        ],
+        "time": 1.736009000102058
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_64-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4406,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"VxvYv0EN5oLKTZD+GqhZRU48+qM=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "d52e425f9820d4c3e27e3ba658b7d21b14e3fbda7dd43febeea5a6021809060c",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "extensions::webRequestEvent"
+        ],
+        "time": 1.736123999929987
+      },
+      {
+        "url": "https://www.repubblica.it/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 99811,
+        "remoteIPAddress": "108.157.150.88",
+        "responseHeaders": {
+          "content-type": "text/html; charset=utf-8",
+          "x-guploader-uploadid": "ABPtcPrORx4sb_dAIOXOWcKrgN31Ns3SFy_-SxY0e6U5CX2AF5gRVoTimK_D9NdlxoTU_l8WYlaMheV4tw",
+          "expires": "Sun, 03 Mar 2024 21:50:27 GMT",
+          "x-goog-generation": "1709502420651100",
+          "x-goog-metageneration": "1",
+          "x-goog-stored-content-encoding": "identity",
+          "x-goog-stored-content-length": "430959",
+          "x-goog-meta-mtime": "2024-03-03T22:47:00.377403011+01:00",
+          "x-goog-hash": "crc32c=Uc0twQ==\nmd5=lm+LwSDife7MTqE9bCM92g==",
+          "x-goog-storage-class": "REGIONAL",
+          "x-cacheable": "YES",
+          "content-encoding": "gzip",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy": "upgrade-insecure-requests; default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 21:50:27 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:50:27 GMT",
+          "cache-control": "max-age=61, s-maxage=61",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=61, s-maxage=61",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:50:36 GMT",
+          "via": "1.1 google, 1.1 084aee51c27f761149c5fc97f2b483ca.cloudfront.net (CloudFront)",
+          "vary": "Accept-Encoding,gd-facet-webview",
+          "x-cache": "Hit from cloudfront",
+          "x-amz-cf-pop": "MCI50-P2",
+          "alt-svc": "h3=\":443\"; ma=86400",
+          "x-amz-cf-id": "O5w4QlmBJdPOmzvmAaKAM2pVeNgMP51SgLacoRfLugQeQPfneSJRQw==",
+          "age": "55"
+        },
+        "responseBodyHash": "a15a72dd65002e8f52ee220b9a9039805d5d8ff6040db22c56da27ca7a7ce617",
+        "redirectedFrom": "http://repubblica.it/",
+        "initiators": [],
+        "time": 0.8823860000120476
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 420,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"9uZWEEQawXEa9JeFZdVDxheK738=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "5bc0b6c5d00309f9dae2be3fb505fda1ccdfa5c4d2994e167c8fb473bf95a777",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.12088699999731034
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1278,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"e74+CjUkVkdX//K9KytM4jGb4Sg=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "2fd0f85a569e98791d39884b54e706d105e5db0dfc60a319a40e09d48fc9b878",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.12596400000620633
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_64.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2655,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"z1HgbWDpu8W5XjdmapJcfSGuRjA=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "5fa6baa4bed8763bc19a8f6e6d169c0ba472d3f1913b6a093f65262ebd7c1c52",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.12612000002991408
+      },
+      {
+        "url": "https://www.repstatic.it/cless/common/stable/font/eugenio/eugenio-sans-text-regular.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 30143,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 22:21:18 GMT",
+          "content-encoding": "gzip",
+          "content-type": "application/font-woff2",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 20:21:18 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 22:21:18 GMT",
+          "cache-control": "max-age=7200, s-maxage=7200",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=7200, s-maxage=7200",
+          "accept-ranges": "bytes",
+          "content-length": "29554",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "Accept-Encoding\ngd-facet-webview"
+        },
+        "responseBodyHash": "69ea0b90333d1061eced5d8e1691d74a972764c6f4e4b4e37b399a846fdca282",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.3770120000699535
+      },
+      {
+        "url": "https://www.repstatic.it/cless/common/stable/font/eugenio/eugenio-sans-text-medium.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 30823,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 22:18:45 GMT",
+          "content-encoding": "gzip",
+          "content-type": "application/font-woff2",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 20:18:45 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 22:18:45 GMT",
+          "cache-control": "max-age=7200, s-maxage=7200",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=7200, s-maxage=7200",
+          "accept-ranges": "bytes",
+          "content-length": "30234",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "Accept-Encoding\ngd-facet-webview"
+        },
+        "responseBodyHash": "d6044d8eaad20701f37d0811f7db879f793647b6163edf63439221129eb53c97",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.3380580000812188
+      },
+      {
+        "url": "https://www.repstatic.it/cless/common/stable/font/eugenio/eugenio-serif-medium.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 23192,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 21:52:57 GMT",
+          "content-encoding": "gzip",
+          "content-type": "application/font-woff2",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 19:52:57 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:52:57 GMT",
+          "cache-control": "max-age=7200, s-maxage=7200",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=7200, s-maxage=7200",
+          "accept-ranges": "bytes",
+          "content-length": "22603",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "Accept-Encoding\ngd-facet-webview"
+        },
+        "responseBodyHash": "89d8c5acbaefca3d41b643f0edf8482e78984c10ff2e8fcbdde14535466611ed",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.35315199999604374
+      },
+      {
+        "url": "https://www.repstatic.it/cless/common/stable/font/eugenio/eugenio-text-regular.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 32024,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 22:29:14 GMT",
+          "content-encoding": "gzip",
+          "content-type": "application/font-woff2",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 20:29:14 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 22:29:14 GMT",
+          "cache-control": "max-age=7200, s-maxage=7200",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=7200, s-maxage=7200",
+          "accept-ranges": "bytes",
+          "content-length": "31435",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "Accept-Encoding\ngd-facet-webview"
+        },
+        "responseBodyHash": "2b6c6cf50f204fa6d9ecd706baea2d2df40fd0826440eb98d2cda95b9c54e65b",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.3526780001120642
+      },
+      {
+        "url": "https://www.repstatic.it/cless/common/stable/font/eugenio/eugenio-text-medium.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 33411,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 22:12:14 GMT",
+          "content-encoding": "gzip",
+          "content-type": "application/font-woff2",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 20:12:14 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 22:12:14 GMT",
+          "cache-control": "max-age=7200, s-maxage=7200",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=7200, s-maxage=7200",
+          "accept-ranges": "bytes",
+          "content-length": "32813",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "Accept-Encoding\ngd-facet-webview"
+        },
+        "responseBodyHash": "8e8332f464d4a3842cb80f632cdce0c114145d8c1c9edd25574669f18322a56a",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.3712769999401644
+      },
+      {
+        "url": "https://www.repstatic.it/cless/common/stable/js/vendor/lazysizes/lazysizes.min-5.2.0.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3982,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 21:47:31 GMT",
+          "content-type": "application/javascript",
+          "x-cacheable": "YES",
+          "content-encoding": "gzip",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 21:26:31 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:47:31 GMT",
+          "cache-control": "max-age=1260, s-maxage=1260",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=1260, s-maxage=1260",
+          "accept-ranges": "bytes",
+          "content-length": "3394",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "Accept-Encoding\ngd-facet-webview"
+        },
+        "responseBodyHash": "876b4c12685e991d88378c1b6dd3638fd2da0c88f3c24da1ada950c1f26604e1",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.39554599998518825
+      },
+      {
+        "url": "https://www.repstatic.it/minify/sites/common/modular/2018-v1/config.cache.php?name=jquery_js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 30964,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 21:48:16 GMT",
+          "content-encoding": "gzip",
+          "content-type": "application/javascript; charset=UTF-8",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 21:38:16 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:48:16 GMT",
+          "cache-control": "public, max-age=600, s-maxage=60",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "public, max-age=600, s-maxage=60",
+          "accept-ranges": "bytes",
+          "content-length": "30356",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "Accept-Encoding\ngd-facet-webview"
+        },
+        "responseBodyHash": "b6451756d4399638a5f82eb68e0c669de5bfc8986ca974d3a9f03275be326583",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.3971420000307262
+      },
+      {
+        "url": "https://www.repstatic.it/minify/sites/repubblica/nazionale/2020-v1/config.cache.php?name=header_js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2216,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 21:43:45 GMT",
+          "content-encoding": "gzip",
+          "content-type": "application/javascript; charset=UTF-8",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 21:33:45 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:43:45 GMT",
+          "cache-control": "public, max-age=600, s-maxage=60",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "public, max-age=600, s-maxage=60",
+          "accept-ranges": "bytes",
+          "content-length": "1618",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "Accept-Encoding\ngd-facet-webview"
+        },
+        "responseBodyHash": "eb98c3d831425f500d5556522ec810c95aca2fe95a5c684447ad2303959ea6b6",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.3917499999515712
+      },
+      {
+        "url": "https://www.repstatic.it/minify/sites/repubblica/nazionale/2020-v1/config.cache.php?name=accounts_js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 13153,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 21:49:10 GMT",
+          "content-encoding": "gzip",
+          "content-type": "application/javascript; charset=UTF-8",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 21:39:10 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:49:10 GMT",
+          "cache-control": "public, max-age=600, s-maxage=60",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "public, max-age=600, s-maxage=60",
+          "accept-ranges": "bytes",
+          "content-length": "12545",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "Accept-Encoding\ngd-facet-webview"
+        },
+        "responseBodyHash": "c164ad53031d3581f74f223fc7a85ecfdf815ca5c1f760b21eb17aad33f066f5",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.3910880000330508
+      },
+      {
+        "url": "https://www.repstatic.it/minify/sites/repubblica/nazionale/2020-v1/config.cache.php?name=home_js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9601,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 21:52:24 GMT",
+          "content-encoding": "gzip",
+          "content-type": "application/javascript; charset=UTF-8",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 21:42:24 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:52:24 GMT",
+          "cache-control": "public, max-age=600, s-maxage=60",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "public, max-age=600, s-maxage=60",
+          "accept-ranges": "bytes",
+          "content-length": "9003",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "Accept-Encoding\ngd-facet-webview"
+        },
+        "responseBodyHash": "6c9262cd5fb7dd6ab1abd2ef58be3e189626e0e3d81275a0a8b487cd24cedba5",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.2853130000876263
+      },
+      {
+        "url": "https://www.repstatic.it/minify/sites/repubblica/video/config_video_2018_vanilla.cache.php?name=video_js&kwait=false",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14120,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 21:48:56 GMT",
+          "content-encoding": "gzip",
+          "content-type": "application/javascript; charset=UTF-8",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 21:38:55 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:48:56 GMT",
+          "cache-control": "public, max-age=600, s-maxage=60",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "public, max-age=600, s-maxage=60",
+          "accept-ranges": "bytes",
+          "content-length": "13512",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "Accept-Encoding\ngd-facet-webview"
+        },
+        "responseBodyHash": "766bb0850ea18433e43433f81ed26ba94214cefeae425e098d4d30c454b7e61d",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.3342460000421852
+      },
+      {
+        "url": "https://oasjs.kataweb.it/adsetup_cmp.js?mapnode=responsivehp",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 122959,
+        "remoteIPAddress": "108.157.142.3",
+        "responseHeaders": {
+          "content-type": "application/javascript; charset=utf-8",
+          "date": "Sun, 03 Mar 2024 21:51:23 GMT",
+          "accept-ranges": "bytes",
+          "cache-control": "private, no-cache, no-store, must-revalidate, pre-check=0, post-check=0, max-age=0, s-maxage=0",
+          "content-encoding": "gzip",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
+          "referrer-policy": "unsafe-url",
+          "smaxagedone": "yup",
+          "strict-transport-security": "max-age=7200",
+          "vary": "Accept-Encoding, gd-facet-webview, x-lambdaedge-localauth",
+          "x-kw-cache-control": "private, no-cache, no-store, must-revalidate, pre-check=0, post-check=0, max-age=0, s-maxage=0",
+          "x-kw-date": "",
+          "x-kw-expires": "Tue, 31 Mar 1981 05:00:00 GMT",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 913078e2c17f37df2ab68095a97aaffa.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P1",
+          "x-amz-cf-id": "U18_F3nLvYBwkzRoUF9ACxFbVD7jLKqgH_frVtHlsS_sFu0J7yPLvQ=="
+        },
+        "responseBodyHash": "fdb610eb5ffb97dc7e13fce310c1c56c18bee23e6825f064b627d6423aa6ca35",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 2.413037999998778
+      },
+      {
+        "url": "https://www.repstatic.it/video/photo/2023/11/23/924384/924384-thumb-social-play.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 81574,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "content-type": "image/jpeg",
+          "content-length": "80986",
+          "expires": "Sun, 03 Mar 2024 21:30:13 GMT",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 20:30:14 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:30:13 GMT",
+          "cache-control": "max-age=3600, s-maxage=3600",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=3600, s-maxage=3600",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "gd-facet-webview"
+        },
+        "responseBodyHash": "b3e8aa6c8cbaf0a704a5455ab196ddbbf0ebbafb8fa808166dd3e76cde32f43f",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.28301900008227676
+      },
+      {
+        "url": "https://www.repstatic.it/cless/common/widget/meteo/2017-v1/js/meteo-light.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4224,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 21:55:47 GMT",
+          "content-type": "application/javascript",
+          "x-cacheable": "YES",
+          "content-encoding": "gzip",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 21:34:47 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:55:47 GMT",
+          "cache-control": "max-age=1260, s-maxage=1260",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=1260, s-maxage=1260",
+          "accept-ranges": "bytes",
+          "content-length": "3636",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "Accept-Encoding\ngd-facet-webview"
+        },
+        "responseBodyHash": "4cb8190c201ac53ae2a03ee432a8c8b3ed1f2498817178a9cf403279fbc4bdd4",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.3023510000202805
+      },
+      {
+        "url": "https://www.repstatic.it/cless/channel/sport-dirette/sport/calcio/img/napoli_t459.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7895,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 21:21:41 GMT",
+          "content-type": "image/png",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 20:21:41 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:21:41 GMT",
+          "cache-control": "max-age=3600, s-maxage=3600",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=3600, s-maxage=3600",
+          "accept-ranges": "bytes",
+          "content-length": "7345",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "gd-facet-webview"
+        },
+        "responseBodyHash": "e6768e7946d2b1581f58bcd8d09743828a3c528ccb8d3be4dea96b252c14bd9c",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.09751700004562736
+      },
+      {
+        "url": "https://www.repstatic.it/cless/channel/sport-dirette/sport/calcio/img/juventus_t128.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2250,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 21:52:25 GMT",
+          "content-type": "image/png",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 20:52:25 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:52:25 GMT",
+          "cache-control": "max-age=3600, s-maxage=3600",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=3600, s-maxage=3600",
+          "accept-ranges": "bytes",
+          "content-length": "1700",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "gd-facet-webview"
+        },
+        "responseBodyHash": "38e7125b3a1bbe84499b9d0dd4867b2ba3b863490159408686698c0fa8f3f6c7",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.17678400001022965
+      },
+      {
+        "url": "https://www.repstatic.it/cless/channel/sport-dirette/sport/calcio/img/atalanta_t456.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9153,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 22:17:51 GMT",
+          "content-type": "image/png",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 21:17:51 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 22:17:51 GMT",
+          "cache-control": "max-age=3600, s-maxage=3600",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=3600, s-maxage=3600",
+          "accept-ranges": "bytes",
+          "content-length": "8603",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "gd-facet-webview"
+        },
+        "responseBodyHash": "d19bc0b48a29bfac6fa9422ef143c43c4de1829f9881714e139135acedca1af8",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.17215100000612438
+      },
+      {
+        "url": "https://www.repstatic.it/cless/channel/sport-dirette/sport/calcio/img/bologna_t123.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6155,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 21:45:52 GMT",
+          "content-type": "image/png",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 20:45:52 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:45:52 GMT",
+          "cache-control": "max-age=3600, s-maxage=3600",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=3600, s-maxage=3600",
+          "accept-ranges": "bytes",
+          "content-length": "5605",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "gd-facet-webview"
+        },
+        "responseBodyHash": "a625ad126f9e3d05e1123aa9522669e9a16fff44a36d894aac52ab280dbecfe2",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.19492999999783933
+      },
+      {
+        "url": "https://www.repstatic.it/cless/channel/sport-dirette/sport/calcio/img/empoli_t695.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 8848,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 21:37:35 GMT",
+          "content-type": "image/png",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 20:37:35 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:37:35 GMT",
+          "cache-control": "max-age=3600, s-maxage=3600",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=3600, s-maxage=3600",
+          "accept-ranges": "bytes",
+          "content-length": "8298",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "gd-facet-webview"
+        },
+        "responseBodyHash": "37281fcf779a29f8fa42c020f501e55e7cdedaf30817a110e77cba4419cf127e",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.17627200006972998
+      },
+      {
+        "url": "https://www.repstatic.it/cless/channel/sport-dirette/sport/calcio/img/cagliari_t124.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9683,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 21:37:35 GMT",
+          "content-type": "image/png",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 20:37:35 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:37:35 GMT",
+          "cache-control": "max-age=3600, s-maxage=3600",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=3600, s-maxage=3600",
+          "accept-ranges": "bytes",
+          "content-length": "9133",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "gd-facet-webview"
+        },
+        "responseBodyHash": "515f169003f91d1888be797aa74e13d07e728c6900d0c88291a4f594e2eec8fe",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.18495699996128678
+      },
+      {
+        "url": "https://www.repstatic.it/cless/channel/sport-dirette/sport/calcio/img/frosinone_t2037.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9935,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 22:19:25 GMT",
+          "content-type": "image/png",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 21:19:25 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 22:19:25 GMT",
+          "cache-control": "max-age=3600, s-maxage=3600",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=3600, s-maxage=3600",
+          "accept-ranges": "bytes",
+          "content-length": "9385",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "gd-facet-webview"
+        },
+        "responseBodyHash": "fa38e4b86c766323705d42eba5149c3f80b3302267d100408b938c9d99108530",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.19433500000741333
+      },
+      {
+        "url": "https://www.repstatic.it/cless/channel/sport-dirette/sport/calcio/img/lecce_t130.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 8059,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 21:52:25 GMT",
+          "content-type": "image/png",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 20:52:25 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:52:25 GMT",
+          "cache-control": "max-age=3600, s-maxage=3600",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=3600, s-maxage=3600",
+          "accept-ranges": "bytes",
+          "content-length": "7509",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "gd-facet-webview"
+        },
+        "responseBodyHash": "485edc7db712001fe18dc9872b9d7ddbc59cd3ccf3e64d31b4dd3a5fce004c72",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.17440899997018278
+      },
+      {
+        "url": "https://www.repstatic.it/cless/channel/sport-dirette/sport/calcio/img/verona_t126.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 12107,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 21:12:14 GMT",
+          "content-type": "image/png",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 20:12:14 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:12:14 GMT",
+          "cache-control": "max-age=3600, s-maxage=3600",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=3600, s-maxage=3600",
+          "accept-ranges": "bytes",
+          "content-length": "11556",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "gd-facet-webview"
+        },
+        "responseBodyHash": "dd52b432620f35a8bca2e7d8b46cad276d8fca03e61af70401bf9597129cc06d",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.18245600000955164
+      },
+      {
+        "url": "https://www.repstatic.it/cless/channel/sport-dirette/sport/calcio/img/sassuolo_t2182.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 10632,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 21:18:35 GMT",
+          "content-type": "image/png",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 20:18:35 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:18:35 GMT",
+          "cache-control": "max-age=3600, s-maxage=3600",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=3600, s-maxage=3600",
+          "accept-ranges": "bytes",
+          "content-length": "10081",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "gd-facet-webview"
+        },
+        "responseBodyHash": "9d7e1d25879cab023632a5d836dcbd946fd55b20e676c0fe1592fbcc6735d70c",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.1821629999903962
+      },
+      {
+        "url": "https://www.repstatic.it/cless/channel/sport-dirette/sport/calcio/img/torino_t135.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9681,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 21:40:38 GMT",
+          "content-type": "image/png",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 20:40:38 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:40:38 GMT",
+          "cache-control": "max-age=3600, s-maxage=3600",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=3600, s-maxage=3600",
+          "accept-ranges": "bytes",
+          "content-length": "9131",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "gd-facet-webview"
+        },
+        "responseBodyHash": "fafdf595ab47966f68e1ff72844f12c5b3bf9762983b85540f381df4006f63d8",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.19116199994459748
+      },
+      {
+        "url": "https://www.repstatic.it/cless/channel/sport-dirette/sport/calcio/img/fiorentina_t125.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3654,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 21:38:21 GMT",
+          "content-type": "image/png",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 20:38:21 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:38:21 GMT",
+          "cache-control": "max-age=3600, s-maxage=3600",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=3600, s-maxage=3600",
+          "accept-ranges": "bytes",
+          "content-length": "3104",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "gd-facet-webview"
+        },
+        "responseBodyHash": "ead1033974a4d4914f7b986eb362b0e1dcdc5f378568923e445ad7714dd2d04c",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.1844849999761209
+      },
+      {
+        "url": "https://www.repstatic.it/cless/channel/sport-dirette/sport/calcio/img/monza_t742.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7686,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 21:37:35 GMT",
+          "content-type": "image/png",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 20:37:35 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:37:35 GMT",
+          "cache-control": "max-age=3600, s-maxage=3600",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=3600, s-maxage=3600",
+          "accept-ranges": "bytes",
+          "content-length": "7136",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "gd-facet-webview"
+        },
+        "responseBodyHash": "ad671e009f9accf4ec4648b59a05d58fdadce5c3317d754910fd8993fcde1c8b",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.19059099990408868
+      },
+      {
+        "url": "https://www.repstatic.it/cless/channel/sport-dirette/sport/calcio/img/roma_t121.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 8085,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 21:44:25 GMT",
+          "content-type": "image/png",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 20:44:25 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:44:25 GMT",
+          "cache-control": "max-age=3600, s-maxage=3600",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=3600, s-maxage=3600",
+          "accept-ranges": "bytes",
+          "content-length": "7535",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "gd-facet-webview"
+        },
+        "responseBodyHash": "909a1d530782efb93b774d7f3d02f6b88688e73cd57021cdb4ed43d8f00523a2",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.20070300006773323
+      },
+      {
+        "url": "https://www.repstatic.it/cless/channel/sport-dirette/sport/calcio/img/udinese_t136.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 14981,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 21:51:06 GMT",
+          "content-type": "image/png",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 20:51:06 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:51:06 GMT",
+          "cache-control": "max-age=3600, s-maxage=3600",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=3600, s-maxage=3600",
+          "accept-ranges": "bytes",
+          "content-length": "14421",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "gd-facet-webview"
+        },
+        "responseBodyHash": "6dec10f172e0f4fc6479075a9ea2c775bbb858d405ba34eec221199c1e1b06c8",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.2724050000542775
+      },
+      {
+        "url": "https://www.repstatic.it/cless/channel/sport-dirette/sport/calcio/img/salernitana_t1025.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 8014,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 21:48:03 GMT",
+          "content-type": "image/png",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 20:48:03 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:48:03 GMT",
+          "cache-control": "max-age=3600, s-maxage=3600",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=3600, s-maxage=3600",
+          "accept-ranges": "bytes",
+          "content-length": "7464",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "gd-facet-webview"
+        },
+        "responseBodyHash": "d1e2e6a8f189ec6122ec98b8a9bd3c12033d96d99872a43e70fc680220a12b71",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.1871660000178963
+      },
+      {
+        "url": "https://www.repstatic.it/cless/channel/sport-dirette/sport/calcio/img/lazio_t129.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5246,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 22:00:12 GMT",
+          "content-type": "image/png",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 21:00:12 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 22:00:12 GMT",
+          "cache-control": "max-age=3600, s-maxage=3600",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=3600, s-maxage=3600",
+          "accept-ranges": "bytes",
+          "content-length": "4696",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "gd-facet-webview"
+        },
+        "responseBodyHash": "a3124ddf40042293af29516fafc7ea1537c0e7a670bc745e12d1109c8611c2cd",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.21044100006110966
+      },
+      {
+        "url": "https://www.repstatic.it/cless/channel/sport-dirette/sport/calcio/img/milan_t120.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 8329,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 22:24:31 GMT",
+          "content-type": "image/png",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 21:24:31 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 22:24:31 GMT",
+          "cache-control": "max-age=3600, s-maxage=3600",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=3600, s-maxage=3600",
+          "accept-ranges": "bytes",
+          "content-length": "7779",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "gd-facet-webview"
+        },
+        "responseBodyHash": "da5558597312b20dd073ae49100bf7cc861b50222c150b040efde07b64e00a9c",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.2100770000834018
+      },
+      {
+        "url": "https://www.repstatic.it/cless/channel/sport-dirette/sport/calcio/img/inter_t127.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 16960,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 21:28:46 GMT",
+          "content-type": "image/png",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 20:28:46 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:28:46 GMT",
+          "cache-control": "max-age=3600, s-maxage=3600",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=3600, s-maxage=3600",
+          "accept-ranges": "bytes",
+          "content-length": "16400",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "gd-facet-webview"
+        },
+        "responseBodyHash": "38783a9eb24d8da166e5d3d0eec9885719457bb55c84b26a6141c81985ea98a5",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.2099150000140071
+      },
+      {
+        "url": "https://www.repstatic.it/cless/channel/sport-dirette/sport/calcio/img/genoa_t990.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5649,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 21:37:35 GMT",
+          "content-type": "image/png",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 20:37:35 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:37:35 GMT",
+          "cache-control": "max-age=3600, s-maxage=3600",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=3600, s-maxage=3600",
+          "accept-ranges": "bytes",
+          "content-length": "5099",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "gd-facet-webview"
+        },
+        "responseBodyHash": "cd210c63e49f4b14ecc5b4b48f5a2121d80e612c8f0932a5a7949ac8d3550b61",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.20959899993613362
+      },
+      {
+        "url": "https://www.repstatic.it/video/photo/2024/03/03/941804/941804-thumb-full-240303_gressoney_valanga.jpg?webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 77007,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "content-type": "image/jpeg",
+          "content-length": "76419",
+          "expires": "Sun, 03 Mar 2024 21:54:46 GMT",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 20:54:47 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:54:46 GMT",
+          "cache-control": "max-age=3600, s-maxage=3600",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=3600, s-maxage=3600",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "gd-facet-webview"
+        },
+        "responseBodyHash": "1863e30fa4d290c86aa66c87a553a46d9577b48ef3c23de88e46c34c17aad1a5",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.209078999934718
+      },
+      {
+        "url": "https://www.repstatic.it/content/nazionale/img/2024/03/03/202418592-0d041651-fa4f-431b-94a0-ecf36cfc74a0.jpg?webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 34032,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "content-type": "image/webp",
+          "etag": "\"58d462ab7657c07975f5d94410608ae070ea051e\"",
+          "expires": "Mon, 04 Mar 2024 21:13:36 GMT",
+          "content-length": "33426",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 21:13:36 GMT",
+          "x-kw-expires": "Mon, 04 Mar 2024 21:13:36 GMT",
+          "cache-control": "max-age=86400,public, s-maxage=86400",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=86400,public, s-maxage=86400",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "gd-facet-webview"
+        },
+        "responseBodyHash": "42a311b66b710bd97e5bd734d75513b524e1bbbe3232872670e0ecbc94e2f769",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.20412400003988296
+      },
+      {
+        "url": "https://www.repstatic.it/video/photo/2024/03/03/941797/941797-thumb-full-240303_gdf_brescia.jpg?webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 28458,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 21:32:09 GMT",
+          "content-type": "image/jpeg",
+          "content-length": "27897",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 20:32:10 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:32:09 GMT",
+          "cache-control": "max-age=3600, s-maxage=3600",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=3600, s-maxage=3600",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "gd-facet-webview"
+        },
+        "responseBodyHash": "ac3f4d339eaafa3d0d16a639fab2e64f4de885be4e624a7b8274d533595eea19",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.2595819999696687
+      },
+      {
+        "url": "https://www.repstatic.it/video/photo/2024/03/03/941786/941786-thumb-full-030324_rose_villain.jpg?webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 18139,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "content-type": "image/jpeg",
+          "content-length": "17578",
+          "expires": "Sun, 03 Mar 2024 21:58:23 GMT",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 20:58:24 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:58:23 GMT",
+          "cache-control": "max-age=3600, s-maxage=3600",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=3600, s-maxage=3600",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "gd-facet-webview"
+        },
+        "responseBodyHash": "acee0970c641ff546186cf974bb831f4418c80a1f81c2bebec7edf71d40f7e2a",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.25982500007376075
+      },
+      {
+        "url": "https://www.repstatic.it/content/nazionale/img/2024/03/03/212155039-67f7114a-c1d6-45ec-9116-c9c40facbdaf.jpg?webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 31033,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "content-type": "image/webp",
+          "etag": "\"8a0a60f0d5a208fd07c94832323d6d78b2c3377b\"",
+          "expires": "Mon, 04 Mar 2024 20:22:29 GMT",
+          "content-length": "30436",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 20:22:29 GMT",
+          "x-kw-expires": "Mon, 04 Mar 2024 20:22:29 GMT",
+          "cache-control": "max-age=86400,public, s-maxage=86400",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=86400,public, s-maxage=86400",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:22 GMT",
+          "vary": "gd-facet-webview"
+        },
+        "responseBodyHash": "288528648e210b55a617f83e6bd4531d086e445054d21edafd357f8a26ff8615",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.2604999999748543
+      },
+      {
+        "url": "https://www.repstatic.it/video/photo/2024/02/29/941306/941306-thumb-social-play.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 73559,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 21:28:39 GMT",
+          "content-type": "image/jpeg",
+          "content-length": "72971",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 20:28:40 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:28:39 GMT",
+          "cache-control": "max-age=3600, s-maxage=3600",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=3600, s-maxage=3600",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:23 GMT",
+          "vary": "gd-facet-webview"
+        },
+        "responseBodyHash": "05ccc82313a61cd09f54f4b86392d5a5702b1e19da6a49b530310d3a75dbdeee",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.5605979999527335
+      },
+      {
+        "url": "https://cdns.eu1.gigya.com/js/gigya.js?apikey=3_1LA7c1Tgh8TOu8RyhRNltE6n6Avs4pEXj5bhyQNpnpC3KHJ60mcdJ6xOubYt6iUJ&lang=it-IT",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 173943,
+        "remoteIPAddress": "96.17.115.80",
+        "responseHeaders": {
+          "content-length": "173581",
+          "content-type": "text/javascript; charset=utf-8",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=3600, max-age=900",
+          "content-encoding": "gzip",
+          "vary": "Accept-Encoding",
+          "p3p": "CP=\"IDC COR PSA DEV ADM OUR IND ONL\"",
+          "x-error-code": "0",
+          "x-soa": "true, Gator",
+          "x-server": "us1d-nomad-t28",
+          "x-callid": "4fc79ebb348a4368abd27832de962e86",
+          "x-robots-tag": "none",
+          "date": "Sun, 03 Mar 2024 21:51:25 GMT"
+        },
+        "responseBodyHash": "138dbbb6314b73d347d35725f017f10f1cfa017db3519446f4e0c8ccca8c377e",
+        "initiators": [
+          "https://www.repstatic.it/minify/sites/repubblica/nazionale/2020-v1/config.cache.php?name=accounts_js"
+        ],
+        "time": 0.5422910000197589
+      },
+      {
+        "url": "https://www.repstatic.it/cless/common/widget/meteo/2017-v1/css/meteo-light.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 2094,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "content-encoding": "gzip",
+          "expires": "Sun, 03 Mar 2024 21:59:52 GMT",
+          "content-type": "text/css",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 21:28:52 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:59:52 GMT",
+          "cache-control": "max-age=1860, s-maxage=1860",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=1860, s-maxage=1860",
+          "accept-ranges": "bytes",
+          "content-length": "1525",
+          "date": "Sun, 03 Mar 2024 21:51:25 GMT",
+          "vary": "Accept-Encoding\ngd-facet-webview"
+        },
+        "responseBodyHash": "bc5357dde95e64c5f96b3c5feb1e9007445b2fd44fbd56976b7e4f93af5141a6",
+        "initiators": [
+          "https://www.repstatic.it/cless/common/widget/meteo/2017-v1/js/meteo-light.js"
+        ],
+        "time": 0.05818099994212389
+      },
+      {
+        "url": "https://www.repstatic.it/storage/meteo2016/previsioni/italia/json/73/7301.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1506,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 21:50:17 GMT",
+          "last-modified": "Sun, 03 Mar 2024 21:17:36 GMT",
+          "etag": "W/\"17ee-612c8236101ec\"",
+          "cache-control": "max-age=1080, s-maxage=1080",
+          "access-control-allow-origin": "*",
+          "content-type": "application/javascript",
+          "x-cacheable": "YES",
+          "content-encoding": "gzip",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-varnishpool": "kr03",
+          "x-kw-date": "Sun, 03 Mar 2024 21:27:56 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:45:56 GMT",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=1080, s-maxage=1080",
+          "accept-ranges": "bytes",
+          "content-length": "970",
+          "date": "Sun, 03 Mar 2024 21:51:25 GMT",
+          "vary": "Accept-Encoding\ngd-facet-webview"
+        },
+        "responseBodyHash": "ab3fbbbb71821df6d038553dc902af8ad7105079fc4ccd04a0fe74a11f18a605",
+        "initiators": [
+          "https://www.repstatic.it/cless/common/widget/meteo/2017-v1/js/meteo-light.js"
+        ],
+        "time": 0.055216999957337976
+      },
+      {
+        "url": "https://www.repstatic.it/cless/main/nazionale/2020-v1/img/common/icon/icon-headphones.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 811,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 21:31:20 GMT",
+          "content-encoding": "gzip",
+          "content-type": "image/svg+xml",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 20:31:20 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:31:20 GMT",
+          "cache-control": "max-age=3600, s-maxage=3600",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=3600, s-maxage=3600",
+          "accept-ranges": "bytes",
+          "content-length": "237",
+          "date": "Sun, 03 Mar 2024 21:51:25 GMT",
+          "vary": "Accept-Encoding\ngd-facet-webview"
+        },
+        "responseBodyHash": "743855afbe795f226ea7d58a43ba62e84b4b01fe63f3a1d5627b1d25a1621a79",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.036856999970041215
+      },
+      {
+        "url": "https://scripts.kataweb.it/zbanner_consorzio.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 332,
+        "remoteIPAddress": "108.157.150.8",
+        "responseHeaders": {
+          "content-length": "0",
+          "accept-ranges": "bytes",
+          "cache-control": "private, no-cache, no-store, must-revalidate, pre-check=0, post-check=0",
+          "date": "Sun, 03 Mar 2024 21:51:25 GMT",
+          "expires": "Tue, 31 Mar 1981 05:00:00 GMT",
+          "server": "Varnish",
+          "x-varnish": "46778074",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 30f010d1984e80d5dddc3ce49b5cddd6.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P2",
+          "x-amz-cf-id": "ZGZcCI454q84pdtiVqNDXUT1Gg9uznqo1rTzxONQou0r5hOPgXSt7Q=="
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.38518199999816716
+      },
+      {
+        "url": "https://www.repstatic.it/cless/common/widget/cookie-wall/2022-v1/js/cookiewall.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1584,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 21:58:56 GMT",
+          "content-type": "application/javascript",
+          "x-cacheable": "YES",
+          "content-encoding": "gzip",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 21:37:56 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:58:56 GMT",
+          "cache-control": "max-age=1260, s-maxage=1260",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=1260, s-maxage=1260",
+          "accept-ranges": "bytes",
+          "content-length": "1005",
+          "date": "Sun, 03 Mar 2024 21:51:25 GMT",
+          "vary": "Accept-Encoding\ngd-facet-webview"
+        },
+        "responseBodyHash": "5d5edfcd2cf56baee4bb0f091f9fc5a8c266c642c8ca3c94a5ea2848a116d556",
+        "initiators": [
+          "https://oasjs.kataweb.it/adsetup_cmp.js?mapnode=responsivehp"
+        ],
+        "time": 0.14620299998205155
+      },
+      {
+        "url": "https://cdn.iubenda.com/cs/tcf/stub-v2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1473,
+        "remoteIPAddress": "185.152.66.243",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:51:25 GMT",
+          "content-type": "application/javascript",
+          "server": "BunnyCDN-GA1-911",
+          "cdn-pullzone": "954456",
+          "cdn-uid": "a7bd0c3f-43db-400a-80e2-073f933f3c99",
+          "cdn-requestcountrycode": "US",
+          "vary": "Accept-Encoding",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "content-encoding": "br",
+          "etag": "\"65e1b1d8-3b8\"",
+          "last-modified": "Fri, 01 Mar 2024 10:45:44 GMT",
+          "p3p": "CP=\"DSP NOI COR\", policyref=\"http://www.iubenda.com/w3c/p3p.xml\"",
+          "cdn-proxyver": "1.04",
+          "cdn-requestpullsuccess": "True",
+          "cdn-requestpullcode": "200",
+          "cdn-cachedat": "03/03/2024 21:51:25",
+          "cdn-edgestorageid": "911",
+          "cdn-status": "200",
+          "cdn-requestid": "90458d4df16c2bfbfdcac545a9df4bbc",
+          "cdn-cache": "BYPASS"
+        },
+        "responseBodyHash": "0ad83d1350c8d3109b147dc72fefc3a4196e75126cda4372137b87d77eac393e",
+        "initiators": [
+          "https://oasjs.kataweb.it/adsetup_cmp.js?mapnode=responsivehp"
+        ],
+        "time": 0.07057800004258752
+      },
+      {
+        "url": "https://www.gedistatic.it/corporate/nielsen/nielsen_static_mapping_repubblica.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6012,
+        "remoteIPAddress": "108.157.150.66",
+        "responseHeaders": {
+          "content-type": "application/javascript",
+          "content-length": "5212",
+          "expires": "Sun, 03 Mar 2024 22:11:04 GMT",
+          "content-encoding": "gzip",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 21:50:05 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 22:11:04 GMT",
+          "cache-control": "max-age=1260, s-maxage=1260",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=1260, s-maxage=1260",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:50:09 GMT",
+          "via": "1.1 google, 1.1 9a111dbe61bee12be3ece6259502a5ba.cloudfront.net (CloudFront)",
+          "vary": "Accept-Encoding,x-lambdaedge-localauth",
+          "x-cache": "Hit from cloudfront",
+          "x-amz-cf-pop": "MCI50-P2",
+          "x-amz-cf-id": "9081wldLyl_338y2R4MkAL9AiDCLRNJlLZj-WdwErjWT3L6wy-w_1g==",
+          "age": "81"
+        },
+        "responseBodyHash": "3b7cd6f4b3f48be6fb42719500634424de847428fe83cc46d5085e647f9cff08",
+        "initiators": [
+          "https://oasjs.kataweb.it/adsetup_cmp.js?mapnode=responsivehp"
+        ],
+        "time": 0.284455000073649
+      },
+      {
+        "url": "https://gedi.tagger.opecloud.com/gedi/v2/uid",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://oasjs.kataweb.it/adsetup_cmp.js?mapnode=responsivehp"
+        ],
+        "time": 0.5717680000234395
+      },
+      {
+        "url": "https://www.repstatic.it/cless/main/nazionale/2020-v1/img/common/icon/icon-plane-newsletter.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 845,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 21:58:10 GMT",
+          "content-encoding": "gzip",
+          "content-type": "image/svg+xml",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 20:58:10 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:58:10 GMT",
+          "cache-control": "max-age=3600, s-maxage=3600",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=3600, s-maxage=3600",
+          "accept-ranges": "bytes",
+          "content-length": "272",
+          "date": "Sun, 03 Mar 2024 21:51:25 GMT",
+          "vary": "Accept-Encoding\ngd-facet-webview"
+        },
+        "responseBodyHash": "36f3bf56c92ef6b70fdd0e595f0e8eada539e55f6f58a77bc7c5793daf06886e",
+        "initiators": [
+          "https://www.repubblica.it/"
+        ],
+        "time": 0.07476999994833022
+      },
+      {
+        "url": "https://static.chartbeat.com/js/chartbeat_mab.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10308,
+        "remoteIPAddress": "108.157.156.192",
+        "responseHeaders": {
+          "content-type": "application/x-javascript",
+          "date": "Sun, 03 Mar 2024 06:29:43 GMT",
+          "server": "nginx",
+          "last-modified": "Thu, 21 Dec 2023 01:18:23 GMT",
+          "cross-origin-resource-policy": "cross-origin",
+          "expires": "Mon, 04 Mar 2024 06:29:43 GMT",
+          "cache-control": "max-age=86400",
+          "content-encoding": "gzip",
+          "etag": "W/\"6583925f-5f13\"",
+          "vary": "Accept-Encoding",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 70e229d4eacd4f08ec9e3ff9e96d427e.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P2",
+          "x-amz-cf-id": "PRcIU_tALZPPjARhqNi9Lirjjd8LxWGrauBVTz8-5sypyCwBn1x4Bg==",
+          "age": "55302"
+        },
+        "responseBodyHash": "28b614cc061632a0d8cb17953fc9342ce119ef471b3ff02c2379881a031a185b",
+        "initiators": [
+          "https://oasjs.kataweb.it/adsetup_cmp.js?mapnode=responsivehp"
+        ],
+        "time": 0.19604700000490993
+      },
+      {
+        "url": "https://eulogin.gedi.it/sdk.config.get?apiKey=3_1LA7c1Tgh8TOu8RyhRNltE6n6Avs4pEXj5bhyQNpnpC3KHJ60mcdJ6xOubYt6iUJ&httpStatusCodes=true",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 2574,
+        "remoteIPAddress": "108.157.142.40",
+        "responseHeaders": {
+          "content-type": "text/javascript; charset=utf-8",
+          "content-length": "2033",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=120, max-age=60",
+          "content-encoding": "gzip",
+          "edge-control": "!no-store,max-age=15m",
+          "edge-cache-tag": "siteid_598061811971",
+          "p3p": "CP=\"IDC COR PSA DEV ADM OUR IND ONL\"",
+          "x-error-code": "0",
+          "x-soa": "true, Gator",
+          "x-server": "eu1a-nomad-t28",
+          "x-callid": "bb93d3dc0131479e8e3defad77beb839",
+          "date": "Sun, 03 Mar 2024 21:50:23 GMT",
+          "accept-ranges": "bytes",
+          "x-robots-tag": "none",
+          "vary": "Accept-Encoding",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 6515c34704b82ee27d370c4b31de799c.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P1",
+          "x-amz-cf-id": "_VF-i3kRrrOrLWEvdeAKHLWZ4xNG618jIkluC6oKPOXQTVqjaozf7Q==",
+          "age": "63"
+        },
+        "responseBodyHash": "cc5bc8af03542bb0c103cc51e950ff3b9df942c25a03f5c995118573cdfb145a",
+        "initiators": [
+          "https://cdns.eu1.gigya.com/js/gigya.js?apikey=3_1LA7c1Tgh8TOu8RyhRNltE6n6Avs4pEXj5bhyQNpnpC3KHJ60mcdJ6xOubYt6iUJ&lang=it-IT"
+        ],
+        "time": 1.0980620000045747
+      },
+      {
+        "url": "https://www.repstatic.it/cless/common/widget/meteo/2017-v1/img/sprite-meteo.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6674,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 21:59:33 GMT",
+          "content-encoding": "gzip",
+          "content-type": "image/svg+xml",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 20:59:33 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:59:33 GMT",
+          "cache-control": "max-age=3600, s-maxage=3600",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=3600, s-maxage=3600",
+          "accept-ranges": "bytes",
+          "content-length": "6100",
+          "date": "Sun, 03 Mar 2024 21:51:26 GMT",
+          "vary": "Accept-Encoding\ngd-facet-webview"
+        },
+        "responseBodyHash": "4b06b618824c5a779d772ddc9a66defed8dd8912331e499e7048d6ae00d5ea19",
+        "initiators": [
+          "https://www.repstatic.it/cless/common/widget/meteo/2017-v1/css/meteo-light.css"
+        ],
+        "time": 0.024007999920286238
+      },
+      {
+        "url": "https://www.repstatic.it/video/photo/2024/03/03/941841/941841-thumb-full-240303_ctcf_ferragni_odio.jpg?webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 34102,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "content-type": "image/jpeg",
+          "content-length": "33532",
+          "expires": "Sun, 03 Mar 2024 22:08:26 GMT",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 21:08:27 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 22:08:26 GMT",
+          "cache-control": "max-age=3600, s-maxage=3600",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=3600, s-maxage=3600",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:26 GMT",
+          "vary": "gd-facet-webview"
+        },
+        "responseBodyHash": "80fc86c3b6cd9da2532189ed9829b5a58b04a3984b9f96580a4e6c02420e1db5",
+        "initiators": [
+          "https://www.repstatic.it/cless/common/stable/js/vendor/lazysizes/lazysizes.min-5.2.0.js",
+          "https://oasjs.kataweb.it/adsetup_cmp.js?mapnode=responsivehp"
+        ],
+        "time": 0.03907299996353686
+      },
+      {
+        "url": "https://www.repstatic.it/video/photo/2024/03/02/941708/941708-thumb-full-s24_ok.jpg?webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 29165,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "content-type": "image/jpeg",
+          "content-length": "28604",
+          "expires": "Sun, 03 Mar 2024 21:44:27 GMT",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 20:44:28 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:44:27 GMT",
+          "cache-control": "max-age=3600, s-maxage=3600",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=3600, s-maxage=3600",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:26 GMT",
+          "vary": "gd-facet-webview"
+        },
+        "responseBodyHash": "b09ab920e369ba63cb4b4398652fc715bce317a4e474ae6082709fba667841f2",
+        "initiators": [
+          "https://www.repstatic.it/cless/common/stable/js/vendor/lazysizes/lazysizes.min-5.2.0.js",
+          "https://oasjs.kataweb.it/adsetup_cmp.js?mapnode=responsivehp"
+        ],
+        "time": 0.9152319999411702
+      },
+      {
+        "url": "https://cdn-gl.imrworldwide.com/conf/P67593295-06EE-437F-9AD1-6E7B1F267613.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.gedistatic.it/corporate/nielsen/nielsen_static_mapping_repubblica.min.js"
+        ],
+        "time": 0.07888699998147786
+      },
+      {
+        "url": "https://cdn.iubenda.com/cs/stable/iubenda_cs.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 868,
+        "remoteIPAddress": "185.152.66.243",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:51:27 GMT",
+          "content-type": "application/javascript",
+          "server": "BunnyCDN-GA1-911",
+          "cdn-pullzone": "954456",
+          "cdn-uid": "a7bd0c3f-43db-400a-80e2-073f933f3c99",
+          "cdn-requestcountrycode": "US",
+          "vary": "Accept-Encoding",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=3600",
+          "content-encoding": "br",
+          "etag": "\"65e1b1d8-15e\"",
+          "last-modified": "Fri, 01 Mar 2024 10:45:44 GMT",
+          "p3p": "CP=\"DSP NOI COR\", policyref=\"http://www.iubenda.com/w3c/p3p.xml\"",
+          "cdn-proxyver": "1.04",
+          "cdn-requestpullsuccess": "True",
+          "cdn-requestpullcode": "200",
+          "cdn-cachedat": "03/03/2024 21:51:27",
+          "cdn-edgestorageid": "911",
+          "cdn-status": "200",
+          "cdn-requestid": "5672ec36781fc84bd7b609cfc9b0a073",
+          "cdn-cache": "BYPASS"
+        },
+        "responseBodyHash": "256c938de2f360adf70324923f8eb2a52d3a4f6dffd6933caf2b5aaea0224faf",
+        "initiators": [
+          "https://oasjs.kataweb.it/adsetup_cmp.js?mapnode=responsivehp"
+        ],
+        "time": 0.8647170000476763
+      },
+      {
+        "url": "https://mab.chartbeat.com/mab_strategy/headline_testing/get_strategy/?host=repubblica.it&domain=repubblica.it&path=%2F",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://static.chartbeat.com/js/chartbeat_mab.js"
+        ],
+        "time": 0.39633699995465577
+      },
+      {
+        "url": "https://www.repstatic.it/content/nazionale/img/2024/03/03/213815865-a99e6a15-c997-40a1-b618-bc20e836a71b.jpg?webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 45315,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "content-type": "image/webp",
+          "etag": "\"4e2288a19c27c9cc2c86485c95c12f0f25202ddd\"",
+          "expires": "Mon, 04 Mar 2024 20:39:01 GMT",
+          "content-length": "44710",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 20:39:01 GMT",
+          "x-kw-expires": "Mon, 04 Mar 2024 20:39:01 GMT",
+          "cache-control": "max-age=86400,public, s-maxage=86400",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=86400,public, s-maxage=86400",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:51:27 GMT",
+          "vary": "gd-facet-webview"
+        },
+        "responseBodyHash": "dcb897b29d6cae1296bfde0ed7a035ecec088af2647501af6b9d83d0db5f83be",
+        "initiators": [
+          "https://www.repstatic.it/cless/common/stable/js/vendor/lazysizes/lazysizes.min-5.2.0.js",
+          "https://oasjs.kataweb.it/adsetup_cmp.js?mapnode=responsivehp"
+        ],
+        "time": 0.5763900000602007
+      },
+      {
+        "url": "https://eulogin.gedi.it/gs/webSdk/Api.aspx?apiKey=3_1LA7c1Tgh8TOu8RyhRNltE6n6Avs4pEXj5bhyQNpnpC3KHJ60mcdJ6xOubYt6iUJ&version=latest&build=15791",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "remoteIPAddress": "108.157.142.40",
+        "responseHeaders": {
+          "content-type": "text/html; charset=utf-8",
+          "content-length": "44391",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, s-maxage=3600, max-age=900",
+          "content-encoding": "gzip",
+          "edge-control": "!no-store,max-age=15m",
+          "edge-cache-tag": "siteid_598061811971,ver_latest",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "p3p": "CP=\"IDC COR PSA DEV ADM OUR IND ONL\"",
+          "x-error-code": "0",
+          "x-soa": "true, Gator",
+          "x-server": "eu1a-nomad-t25",
+          "x-callid": "51b8440868664d2dbf4c9b5e7dee740a",
+          "date": "Sun, 03 Mar 2024 21:08:28 GMT",
+          "accept-ranges": "bytes",
+          "x-robots-tag": "none",
+          "vary": "Accept-Encoding",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 a204176092d05bded77f4d517d5968aa.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P1",
+          "x-amz-cf-id": "9q2j9urq7kNnixuZTkkLPt7eaqalPhZiF-wL3DSSzi6yTRLVFfcyKg==",
+          "age": "2579"
+        },
+        "initiators": [
+          "https://cdns.eu1.gigya.com/js/gigya.js?apikey=3_1LA7c1Tgh8TOu8RyhRNltE6n6Avs4pEXj5bhyQNpnpC3KHJ60mcdJ6xOubYt6iUJ&lang=it-IT"
+        ]
+      },
+      {
+        "url": "https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.55.1/core-it.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 93293,
+        "remoteIPAddress": "185.152.66.243",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:51:27 GMT",
+          "content-type": "application/javascript",
+          "server": "BunnyCDN-GA1-911",
+          "cdn-pullzone": "954456",
+          "cdn-uid": "a7bd0c3f-43db-400a-80e2-073f933f3c99",
+          "cdn-requestcountrycode": "US",
+          "vary": "Accept-Encoding",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "content-encoding": "br",
+          "etag": "\"65e1b1d7-169ff\"",
+          "last-modified": "Fri, 01 Mar 2024 10:45:43 GMT",
+          "p3p": "CP=\"DSP NOI COR\", policyref=\"http://www.iubenda.com/w3c/p3p.xml\"",
+          "cdn-proxyver": "1.04",
+          "cdn-requestpullsuccess": "True",
+          "cdn-requestpullcode": "200",
+          "cdn-cachedat": "03/03/2024 21:51:27",
+          "cdn-edgestorageid": "911",
+          "cdn-status": "200",
+          "cdn-requestid": "c8b73924cf16c5a196788bfdb254d1cf",
+          "cdn-cache": "BYPASS"
+        },
+        "responseBodyHash": "5f9ae7abeae4fbdbd3ea8c01c4d1220a508b29baa6b760140f0b3b20c728a0ea",
+        "initiators": [
+          "https://cdn.iubenda.com/cs/stable/iubenda_cs.js"
+        ],
+        "time": 0.1952289999462664
+      },
+      {
+        "url": "https://cs.iubenda.com/cookie-solution/confs/js/23960187.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 803,
+        "remoteIPAddress": "185.152.66.243",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:51:27 GMT",
+          "content-type": "application/javascript",
+          "vary": "Accept-Encoding\nAccept-Encoding",
+          "server": "BunnyCDN-GA1-911",
+          "cdn-pullzone": "1019485",
+          "cdn-uid": "a7bd0c3f-43db-400a-80e2-073f933f3c99",
+          "cdn-requestcountrycode": "US",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=3600",
+          "etag": "W/\"659821b8-d8\"",
+          "expires": "Fri, 05 Jan 2024 17:32:21 GMT",
+          "last-modified": "Fri, 05 Jan 2024 15:35:20 GMT",
+          "strict-transport-security": "max-age=15724800; includeSubDomains",
+          "cdn-proxyver": "1.04",
+          "cdn-requestpullsuccess": "True",
+          "cdn-requestpullcode": "200",
+          "cdn-cachedat": "01/05/2024 16:32:21",
+          "cdn-edgestorageid": "911",
+          "cdn-status": "200",
+          "cdn-requestid": "0374caf487d9b857c9436739c934d07a",
+          "cdn-cache": "HIT",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "0bc3e8d0e50b7260e39d7e8db76fd953abe8e5e4cc046cce55c1875d25648d36",
+        "initiators": [
+          "https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.55.1/core-it.js"
+        ],
+        "time": 0.19841700000688434
+      },
+      {
+        "url": "https://cdn.iubenda.com/cs/tcf/versions/tcf-v2-0.22.6.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 24138,
+        "remoteIPAddress": "185.152.66.243",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:51:27 GMT",
+          "content-type": "application/javascript",
+          "server": "BunnyCDN-GA1-911",
+          "cdn-pullzone": "954456",
+          "cdn-uid": "a7bd0c3f-43db-400a-80e2-073f933f3c99",
+          "cdn-requestcountrycode": "US",
+          "vary": "Accept-Encoding",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "content-encoding": "br",
+          "etag": "\"65e1b1d8-5c31\"",
+          "last-modified": "Fri, 01 Mar 2024 10:45:44 GMT",
+          "p3p": "CP=\"DSP NOI COR\", policyref=\"http://www.iubenda.com/w3c/p3p.xml\"",
+          "cdn-proxyver": "1.04",
+          "cdn-requestpullsuccess": "True",
+          "cdn-requestpullcode": "200",
+          "cdn-cachedat": "03/03/2024 21:51:27",
+          "cdn-edgestorageid": "911",
+          "cdn-status": "200",
+          "cdn-requestid": "1accb2a58d56a501757ee3b34aafa401",
+          "cdn-cache": "BYPASS"
+        },
+        "responseBodyHash": "80927529ad858ed16b7e0b59287128d1761026bd562526d7f3c4177a884bca4a",
+        "initiators": [
+          "https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.55.1/core-it.js"
+        ],
+        "time": 0.05475799995474517
+      },
+      {
+        "url": "https://www.repstatic.it/cless/common/widget/cookie-wall/2022-v1/css/iubenda.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 1722,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 21:40:44 GMT",
+          "content-encoding": "gzip",
+          "content-type": "text/css",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 21:09:44 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:40:44 GMT",
+          "cache-control": "max-age=1860, s-maxage=1860",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=1860, s-maxage=1860",
+          "accept-ranges": "bytes",
+          "content-length": "1153",
+          "date": "Sun, 03 Mar 2024 21:51:28 GMT",
+          "vary": "Accept-Encoding\ngd-facet-webview"
+        },
+        "responseBodyHash": "72615c53ad1c13a30357ee5e9cd7b664aa353c9273134ff4f124efc4ad305f5b",
+        "initiators": [
+          "https://oasjs.kataweb.it/adsetup_cmp.js?mapnode=responsivehp",
+          "https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.55.1/core-it.js"
+        ],
+        "time": 0.027658000006340444
+      },
+      {
+        "url": "https://cdn.iubenda.com/cs/tcf/v3-versioned/vendorlist.42.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 83162,
+        "remoteIPAddress": "185.152.66.243",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:51:28 GMT",
+          "content-type": "application/json",
+          "vary": "Accept-Encoding",
+          "server": "BunnyCDN-GA1-911",
+          "cdn-pullzone": "954456",
+          "cdn-uid": "a7bd0c3f-43db-400a-80e2-073f933f3c99",
+          "cdn-requestcountrycode": "US",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "W/\"65e1b1d8-fe0c\"",
+          "last-modified": "Fri, 01 Mar 2024 10:45:44 GMT",
+          "p3p": "CP=\"DSP NOI COR\", policyref=\"http://www.iubenda.com/w3c/p3p.xml\"",
+          "cdn-proxyver": "1.04",
+          "cdn-requestpullsuccess": "True",
+          "cdn-requestpullcode": "200",
+          "cdn-cachedat": "03/03/2024 21:51:28",
+          "cdn-edgestorageid": "911",
+          "cdn-status": "200",
+          "cdn-requestid": "9b3bd1d5bd8189d38685997af1b9cc72",
+          "cdn-cache": "BYPASS",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "086102eff562c828ea4cabe869d4a28c975a5dc6bdf0f2a14ce23d86f75190b3",
+        "initiators": [
+          "https://cdn.iubenda.com/cs/tcf/versions/tcf-v2-0.22.6.js",
+          "https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.55.1/core-it.js"
+        ],
+        "time": 0.40471900010015815
+      },
+      {
+        "url": "https://cdn.iubenda.com/cs/tcf/gac-vendors.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 16180,
+        "remoteIPAddress": "185.152.66.243",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:51:28 GMT",
+          "content-type": "application/json",
+          "vary": "Accept-Encoding",
+          "server": "BunnyCDN-GA1-911",
+          "cdn-pullzone": "954456",
+          "cdn-uid": "a7bd0c3f-43db-400a-80e2-073f933f3c99",
+          "cdn-requestcountrycode": "US",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "etag": "W/\"65e1b1d8-3811\"",
+          "last-modified": "Fri, 01 Mar 2024 10:45:44 GMT",
+          "p3p": "CP=\"DSP NOI COR\", policyref=\"http://www.iubenda.com/w3c/p3p.xml\"",
+          "cdn-proxyver": "1.04",
+          "cdn-requestpullsuccess": "True",
+          "cdn-requestpullcode": "200",
+          "cdn-cachedat": "03/03/2024 21:51:28",
+          "cdn-edgestorageid": "911",
+          "cdn-status": "200",
+          "cdn-requestid": "eaa9ce55f967ed81e6a8bfe0356c20ce",
+          "cdn-cache": "BYPASS",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "5df01b90735d57af10b975f5f3cbc06df01e143331849ab634315abf5b8757d4",
+        "initiators": [
+          "https://cdn.iubenda.com/cs/tcf/versions/tcf-v2-0.22.6.js",
+          "https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.55.1/core-it.js"
+        ],
+        "time": 0.2269060000544414
+      },
+      {
+        "url": "https://www.repstatic.it/cless/common/widget/cookie-wall/2022-v1/img/repubblica/logo.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2570,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 21:48:07 GMT",
+          "content-encoding": "gzip",
+          "content-type": "image/svg+xml",
+          "x-cacheable": "YES",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 20:48:07 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:48:07 GMT",
+          "cache-control": "max-age=3600, s-maxage=3600",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=3600, s-maxage=3600",
+          "accept-ranges": "bytes",
+          "content-length": "1996",
+          "date": "Sun, 03 Mar 2024 21:51:28 GMT",
+          "vary": "Accept-Encoding\ngd-facet-webview"
+        },
+        "responseBodyHash": "f6ab9da6fb3c5aff1fbfcfd267ea9527b75e4e293319c215cb44f337221afa50",
+        "initiators": [
+          "https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.55.1/core-it.js"
+        ],
+        "time": 0.02816400001756847
+      },
+      {
+        "url": "https://hits-i.iubenda.com/write?db=hits1",
+        "method": "POST",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.55.1/core-it.js"
+        ],
+        "time": 0.022460000007413328
+      },
+      {
+        "url": "https://www.repstatic.it/cless/common/widget/cookie-wall/2022-v1/include/repubblica/revocation.html",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1755,
+        "remoteIPAddress": "104.102.249.162",
+        "responseHeaders": {
+          "expires": "Sun, 03 Mar 2024 21:51:04 GMT",
+          "content-type": "text/html",
+          "x-cacheable": "YES",
+          "content-encoding": "gzip",
+          "access-control-allow-headers": "content-type",
+          "access-control-allow-methods": "*",
+          "access-control-max-age": "600",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "*",
+          "referrer-policy": "unsafe-url",
+          "content-security-policy-report-only": "default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'; report-uri https://logger.kataweb.it/csp/",
+          "strict-transport-security": "max-age=7200",
+          "x-robots-tag": "noarchive, max-image-preview:large",
+          "x-kw-date": "Sun, 03 Mar 2024 21:50:03 GMT",
+          "x-kw-expires": "Sun, 03 Mar 2024 21:51:04 GMT",
+          "cache-control": "max-age=61, s-maxage=61",
+          "smaxagedone": "yup",
+          "x-kw-cache-control": "max-age=61, s-maxage=61",
+          "accept-ranges": "bytes",
+          "content-length": "1182",
+          "date": "Sun, 03 Mar 2024 21:51:28 GMT",
+          "vary": "Accept-Encoding\ngd-facet-webview"
+        },
+        "responseBodyHash": "daf3f773c34c8c61e9b86a4d5490d2dbeed32309b9549961014eed1910a23152",
+        "initiators": [
+          "https://oasjs.kataweb.it/adsetup_cmp.js?mapnode=responsivehp",
+          "https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.55.1/core-it.js"
+        ],
+        "time": 0.04193700000178069
+      },
+      {
+        "url": "https://static.chartbeat.com/js/chartbeat.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 15484,
+        "remoteIPAddress": "108.157.156.192",
+        "responseHeaders": {
+          "content-type": "application/x-javascript",
+          "date": "Sun, 03 Mar 2024 17:35:20 GMT",
+          "server": "nginx",
+          "last-modified": "Thu, 21 Dec 2023 01:03:21 GMT",
+          "cross-origin-resource-policy": "cross-origin",
+          "expires": "Mon, 04 Mar 2024 17:35:20 GMT",
+          "cache-control": "max-age=86400",
+          "content-encoding": "gzip",
+          "etag": "W/\"65838ed9-9630\"",
+          "vary": "Accept-Encoding",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 70e229d4eacd4f08ec9e3ff9e96d427e.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P2",
+          "x-amz-cf-id": "IN3jk1FHU5RWuLoT9vppM_1bQ5bnsVSnhp2Sdrdp1QcXCKOPXEvAEQ==",
+          "age": "15368"
+        },
+        "responseBodyHash": "9b1aaea1148044ff331b843e9fd73a06418cfe363bbd331982a84944694f6618",
+        "initiators": [
+          "https://oasjs.kataweb.it/adsetup_cmp.js?mapnode=responsivehp",
+          "https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.55.1/core-it.js"
+        ],
+        "time": 0.07374499994330108
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WT5GJ7M",
+        "method": "GET",
+        "type": "Script",
+        "status": 307,
+        "responseHeaders": {
+          "location": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_analytics.js?secret=kvgb71",
+          "non-authoritative-reason": "WebRequest API"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_analytics.js?secret=kvgb71",
+        "initiators": [
+          "https://oasjs.kataweb.it/adsetup_cmp.js?mapnode=responsivehp",
+          "https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.55.1/core-it.js"
+        ],
+        "time": 0.13853300001937896
+      },
+      {
+        "url": "https://ping.chartbeat.net/ping?h=repubblica.it&p=%2F&u=Cjph7xD-WBXiCv2wjQ&d=repubblica.it&g=62281&g0=repubblica%2Chomepage&g1=No%20Author&g4=homepage&n=1&f=00001&c=0&x=0&m=0&y=31298&o=1423&w=812&j=45&R=1&W=0&I=0&E=0&e=0&r=&PA=https%3A%2F%2Fwww.repubblica.it%2F&b=9693&t=C4K-pfD9SZEvBnpKlqBuNeDYDanYtP&V=143&i=la%20Repubblica%20-%20News%20in%20tempo%20reale%20-%20Le%20notizie%20e%20i%20video%20di%20politica%2C%20cronaca%2C%20economia%2C%20sport&tz=360&_acct=anon&sn=1&sv=CvlIG-yIVCwC3MQLTD53QFfByWFX&sr=external&sd=1&im=067b2fff&_",
+        "method": "GET",
+        "type": "Image",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://static.chartbeat.com/js/chartbeat.js"
+        ],
+        "time": 0.007144999923184514
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_analytics.js?secret=kvgb71",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3695,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"wTqkQ1ryNce63XhVKrXix8otYW0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "6b4621868cac589a603fe1263aad242f67262ef971bdacaccc1a515cd0488466",
+        "redirectedFrom": "https://www.googletagmanager.com/gtm.js?id=GTM-WT5GJ7M",
+        "initiators": [
+          "https://oasjs.kataweb.it/adsetup_cmp.js?mapnode=responsivehp",
+          "https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.55.1/core-it.js"
+        ],
+        "time": 0.011317999917082489
+      },
+      {
+        "url": "https://static.chartbeat.com/js/subscriptions.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 11076,
+        "remoteIPAddress": "108.157.156.192",
+        "responseHeaders": {
+          "content-type": "application/x-javascript",
+          "date": "Sun, 03 Mar 2024 18:15:21 GMT",
+          "server": "nginx",
+          "last-modified": "Thu, 02 Jun 2022 02:15:58 GMT",
+          "cross-origin-resource-policy": "cross-origin",
+          "expires": "Mon, 04 Mar 2024 18:15:21 GMT",
+          "cache-control": "max-age=86400",
+          "content-encoding": "gzip",
+          "etag": "W/\"62981d5e-81f0\"",
+          "vary": "Accept-Encoding",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 70e229d4eacd4f08ec9e3ff9e96d427e.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P2",
+          "x-amz-cf-id": "YrEguWsLRZtm5ytpeVs--BpY-foB4ORAqeZb3khK02yVXodzOPZ3EA==",
+          "age": "12968"
+        },
+        "responseBodyHash": "a1c9a21ede44774a26110c312c2c5398e074132f6e243011c15b4bfd660702ab",
+        "initiators": [
+          "https://oasjs.kataweb.it/adsetup_cmp.js?mapnode=responsivehp",
+          "https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.55.1/core-it.js"
+        ],
+        "time": 0.05652500002179295
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://www.repstatic.it/cless/common/stable/js/vendor/lazysizes/lazysizes.min-5.2.0.js": {
+          "Navigator.prototype.userAgent": 1,
+          "window.innerWidth": 15,
+          "window.innerHeight": 15
+        },
+        "https://www.repstatic.it/cless/common/widget/meteo/2017-v1/js/meteo-light.js": {
+          "window.localStorage": 1,
+          "Date.prototype.getTimezoneOffset": 1
+        },
+        "https://oasjs.kataweb.it/adsetup_cmp.js?mapnode=responsivehp": {
+          "Document.cookie getter": 73,
+          "Navigator.prototype.userAgent": 7,
+          "Date.prototype.getTime": 11,
+          "Document.cookie setter": 9,
+          "window.sessionStorage": 9,
+          "Navigator.prototype.vendor": 2,
+          "Navigator.prototype.webkitTemporaryStorage": 1,
+          "Performance.prototype.memory": 3,
+          "window.localStorage": 6
+        },
+        "https://www.repstatic.it/minify/sites/repubblica/nazionale/2020-v1/config.cache.php?name=home_js": {
+          "Navigator.prototype.userAgent": 1
+        },
+        "https://cdns.eu1.gigya.com/js/gigya.js?apikey=3_1LA7c1Tgh8TOu8RyhRNltE6n6Avs4pEXj5bhyQNpnpC3KHJ60mcdJ6xOubYt6iUJ&lang=it-IT": {
+          "Document.cookie getter": 8,
+          "Document.cookie setter": 2,
+          "Navigator.prototype.userAgent": 7,
+          "Navigator.prototype.appVersion": 15,
+          "Navigator.prototype.mimeTypes": 6,
+          "window.localStorage": 7,
+          "window.sessionStorage": 5,
+          "Date.prototype.getTime": 1
+        },
+        "https://static.chartbeat.com/js/chartbeat_mab.js": {
+          "Document.cookie getter": 5,
+          "Document.cookie setter": 4,
+          "Date.prototype.getTime": 1,
+          "window.localStorage": 1
+        },
+        "https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.55.1/core-it.js": {
+          "Navigator.prototype.userAgent": 5,
+          "window.name": 1,
+          "Date.prototype.getTime": 2,
+          "Document.cookie getter": 24,
+          "Document.cookie setter": 2,
+          "window.localStorage": 8,
+          "window.innerHeight": 1,
+          "Navigator.prototype.cookieEnabled": 1
+        },
+        "https://static.chartbeat.com/js/chartbeat.js": {
+          "Document.cookie getter": 25,
+          "Document.cookie setter": 14,
+          "Date.prototype.getTime": 37,
+          "window.localStorage": 1,
+          "Navigator.prototype.userAgent": 5,
+          "Navigator.prototype.platform": 4,
+          "Date.prototype.getTimezoneOffset": 5,
+          "Screen.prototype.width": 4,
+          "Screen.prototype.height": 4,
+          "Screen.prototype.colorDepth": 4,
+          "Navigator.prototype.plugins": 4,
+          "PerformanceTiming.prototype.navigationStart": 4,
+          "window.innerHeight": 2
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://oasjs.kataweb.it/adsetup_cmp.js?mapnode=responsivehp",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "kw_1pc_enableds=true; expires=Tue, 10 Jan 2034 21:51:25 GMT; path=/; domain=.repubblica.it"
+          ]
+        },
+        {
+          "source": "https://oasjs.kataweb.it/adsetup_cmp.js?mapnode=responsivehp",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "kw_dllimio_logdebugger=true; path=/; domain=.repubblica.it"
+          ]
+        },
+        {
+          "source": "https://oasjs.kataweb.it/adsetup_cmp.js?mapnode=responsivehp",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "kw_prevUsrSts=false; expires=Mon, 03 Mar 2025 21:51:25 GMT; path=/; domain=.repubblica.it"
+          ]
+        },
+        {
+          "source": "https://oasjs.kataweb.it/adsetup_cmp.js?mapnode=responsivehp",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "kw_sntseg=off; expires=Mon, 04 Mar 2024 21:51:25 GMT; path=/; domain=.repubblica.it"
+          ]
+        },
+        {
+          "source": "https://oasjs.kataweb.it/adsetup_cmp.js?mapnode=responsivehp",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "kw_debug_1px=tlh_object_created; expires=Mon, 04 Mar 2024 21:51:25 GMT; path=/; domain=.repubblica.it"
+          ]
+        },
+        {
+          "source": "https://oasjs.kataweb.it/adsetup_cmp.js?mapnode=responsivehp",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "kw_ussr=; expires=Sat, 02 Mar 2024 21:51:25 GMT; path=/; domain=.repubblica.it"
+          ]
+        },
+        {
+          "source": "https://oasjs.kataweb.it/adsetup_cmp.js?mapnode=responsivehp",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "kw_inc=off; expires=Mon, 03 Mar 2025 21:51:25 GMT; path=/; domain=.repubblica.it"
+          ]
+        },
+        {
+          "source": "https://cdns.eu1.gigya.com/js/gigya.js?apikey=3_1LA7c1Tgh8TOu8RyhRNltE6n6Avs4pEXj5bhyQNpnpC3KHJ60mcdJ6xOubYt6iUJ&lang=it-IT",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "gig_canary=false;path=/;domain=.www.repubblica.it"
+          ]
+        },
+        {
+          "source": "https://cdns.eu1.gigya.com/js/gigya.js?apikey=3_1LA7c1Tgh8TOu8RyhRNltE6n6Avs4pEXj5bhyQNpnpC3KHJ60mcdJ6xOubYt6iUJ&lang=it-IT",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "gig_canary_ver=15791-3-28491705;path=/;domain=.www.repubblica.it"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat_mab.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cbt=_cbt; domain=repubblica.it; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat_mab.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cbt=; expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=repubblica.it; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat_mab.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cbt=_cbt; domain=repubblica.it; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat_mab.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cbt=; expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=repubblica.it; Secure"
+          ]
+        },
+        {
+          "source": "https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.55.1/core-it.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "iub_storage_available=1; expires=Sun, 01 Sep 2024 21:51:27 GMT; path=/; domain=.repubblica.it;samesite=none; secure"
+          ]
+        },
+        {
+          "source": "https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.55.1/core-it.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "iub_storage_available=; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/; domain=.repubblica.it;samesite=none; secure"
+          ]
+        },
+        {
+          "source": "https://oasjs.kataweb.it/adsetup_cmp.js?mapnode=responsivehp",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "kw_sourceRegStored=; expires=Sat, 02 Mar 2024 21:51:28 GMT; path=/; domain=.repubblica.it"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cbt=_cbt; domain=repubblica.it; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cbt=; expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=repubblica.it; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cbt=_cbt; domain=repubblica.it; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cbt=; expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=repubblica.it; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cb=Cjph7xD-WBXiCv2wjQ; expires=Wed, 02 Apr 2025 21:51:28 GMT; path=/; Secure; domain=repubblica.it"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_chartbeat2=.1709502688798.1709502688798.1.CvlIG-yIVCwC3MQLTD53QFfByWFX.1; expires=Wed, 02 Apr 2025 21:51:28 GMT; path=/; Secure; domain=repubblica.it"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cb_svref=external; expires=Sun, 03 Mar 2024 22:21:28 GMT; path=/; Secure; domain=repubblica.it"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cb_svref=; expires=Sat, 02 Mar 2024 21:51:28 GMT; path=/; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cb_svref=external; expires=Sun, 03 Mar 2024 22:21:28 GMT; path=/; Secure; domain=repubblica.it"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cbt=_cbt; domain=repubblica.it; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cbt=; expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=repubblica.it; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cb_svref=; expires=Sat, 02 Mar 2024 21:51:28 GMT; path=/; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cb_svref=; expires=Sat, 02 Mar 2024 21:51:28 GMT; path=/; Secure"
+          ]
+        },
+        {
+          "source": "https://static.chartbeat.com/js/chartbeat.js",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "_cb_svref=external; expires=Sun, 03 Mar 2024 22:21:28 GMT; path=/; Secure; domain=repubblica.it"
+          ]
+        },
+        {
+          "source": "https://oasjs.kataweb.it/adsetup_cmp.js?mapnode=responsivehp",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "kw_qr_dc=1709502685404|0|https://www.repubblica.it/|5|0|0|0||0|0|0|2|0|0|0|0|0|0|0; expires=Sun, 10 Mar 2024 21:51:30 GMT; path=/; domain=.repubblica.it"
+          ]
+        }
+      ]
+    },
+    "cookies": [
+      {
+        "name": "kw_1pc_enableds",
+        "domain": ".repubblica.it",
+        "path": "/",
+        "expires": 2020542685000,
+        "session": false
+      },
+      {
+        "name": "kw_dllimio_logdebugger",
+        "domain": ".repubblica.it",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "kw_prevUsrSts",
+        "domain": ".repubblica.it",
+        "path": "/",
+        "expires": 1741038685000,
+        "session": false
+      },
+      {
+        "name": "kw_sntseg",
+        "domain": ".repubblica.it",
+        "path": "/",
+        "expires": 1709589085000,
+        "session": false
+      },
+      {
+        "name": "kw_debug_1px",
+        "domain": ".repubblica.it",
+        "path": "/",
+        "expires": 1709589085000,
+        "session": false
+      },
+      {
+        "name": "kw_inc",
+        "domain": ".repubblica.it",
+        "path": "/",
+        "expires": 1741038685000,
+        "session": false
+      },
+      {
+        "name": "gig_canary",
+        "domain": ".www.repubblica.it",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "gig_canary_ver",
+        "domain": ".www.repubblica.it",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "_cb",
+        "domain": ".repubblica.it",
+        "path": "/",
+        "expires": 1743630688000,
+        "session": false
+      },
+      {
+        "name": "_chartbeat2",
+        "domain": ".repubblica.it",
+        "path": "/",
+        "expires": 1743630688000,
+        "session": false
+      },
+      {
+        "name": "_cb_svref",
+        "domain": ".repubblica.it",
+        "path": "/",
+        "expires": 1709504488000,
+        "session": false
+      },
+      {
+        "name": "kw_qr_dc",
+        "domain": ".repubblica.it",
+        "path": "/",
+        "expires": 1710107490000,
+        "session": false
+      }
+    ]
+  }
+}

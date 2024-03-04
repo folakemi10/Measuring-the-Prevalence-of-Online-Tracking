@@ -1,0 +1,4003 @@
+{
+  "initialUrl": "http://africa-newsroom.com/",
+  "finalUrl": "https://www.africa-newsroom.com/",
+  "timeout": false,
+  "testStarted": 1709502742020,
+  "testFinished": 1709502766122,
+  "data": {
+    "requests": [
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-common.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9146,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"aaUB+OkU2kkNMG0s29pMrD/Txpw=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "f126a5d9a1d51b6e9a69bce4c7bc5cd73d35c52f698720718bd42f55d564930d",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.025630999938584864
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 63306,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"brp35kQtS8+j/OiHcYh4IU0cb3Q=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "6e72cbe8c52b11d9b408452d7cfb3f49fe1c78c017bd8077110b357fdec328a8",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.0348620000295341
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background-ext.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 8841,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"fXf83hxHQFYzgM0DpIEbFLcQtRs=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "970661746c1bd310b52c2a4106f5628f2ec33587889f62a010055490f9da77c3",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.06215600005816668
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/commands.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5688,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"c/ILoHWOD64IpOQHtmk7EIE2XqA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "8600c9766351b29e50594db79a48a6257edd8caf7ac6e9e1f6a739e1a76cfff5",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.03875299997162074
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 64015,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"tB/CTGayMFjN4N1iH+gWkt7Ypys=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "814ca08012b5676b8f54fa9b76db8d32c7b809a8d6232f085836c8379af81dd3",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.03978799993637949
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 59170,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"8qtLS1TRlqk4NFoKeiaqWbvgnjs=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "2273d9c1354d7d76dcdf4ac1af459f83b8d5ba69fe7cf3ba9e739cbc6465469d",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.07669099990744144
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/tab.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 43055,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"bAN/KBrmF13jeLEa8CnmY/h9yJw=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "14ca611674b054d67b8ee47aaa75247c7ca714ffb56505922dd20eb8a683d117",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.07222999993246049
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/ublock.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 21360,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"s2huleUUItx8WmfIoigU2k89EI4=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "680316d3bc24a4c7075f953b804bdf386bf7006dad240d9dd82c0749e0bde7bb",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.06874000001698732
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/utils.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5732,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"ewbUChQLhbKBviAH8OkhaZR6EBY=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "53753703bb4eddbc3b10e89a971bc24af840fde30fb7895ed2664fe875f99216",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.06916299997828901
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/cachestorage.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 17413,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"BKGwCtQGOhNSwT+cpw63EvtlObc=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "037dbc3d31577989f3e77cfa4da0f37344f8d1d9d1063cf147e904fd5aef8b27",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.07612199999857694
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/contextmenu.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9458,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"KnFG3e4nOTTCC0ndfJpFbFTX1yQ=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "dda53fe9ea31d6abc64cc04453043ac5c9855c59fc5e7a11c7a79aac2f75c147",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.08007799996994436
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 37085,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"rkObEe2pVTnb8GIlR54aPZvaOuE=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "7f57c7371827dee653f88641abe00fb3576343467b131a0f81dbe05252d47df7",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.05645899998489767
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/lz4.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6476,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"Aby2z5UWZo+IfYyE5QRUC04KW7E=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "bc37731b1037f5f5beb72337a0403137be0d14f2dfe4d9b4c3489f5871337fe8",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.08051500003784895
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-ext-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6442,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"T246NPf/b38zaoR9brX77q41lqM=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "25e9546e55c911b89c60bfaae1facd64726567d1ff00efce427063f92dab782a",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.05970099999103695
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/reverselookup.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6410,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"jCMDkD1weRVOYWmj9W86+SAAOqc=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "8aafbe6baaf965e15146d7d4c86edd6eca77eebc070447170f64d6ddfdc3f26d",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.081897999974899
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-net-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 177232,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"naOuX4j11zGMRfwg1/ib5p70d9o=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "977ab6b0e22f7014a66e861483da1657f9197c0f7f5ce03cfff6b9bae03a6a21",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.16059200000017881
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/background.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12935,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"pxJDj/3NSnAwkacM0mDXjla4oKA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "617e411ff07ff690535663dceaa4b4afef54c3f72e851fb3ca95fd811352c237",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.06042300001718104
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 40690,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"2ULP7uOZN0J63JSZrWNClnpoRZ0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "d4767d32875f7d6392123143a0a90f39f578be6500d48310fa6655ac53018375",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.08263800002168864
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16231,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"5/Hviz/N4pTuWsUsdPmG+Vurg4g=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "25caf31da6b5a1226229110ef285f7ed21e1c6c7b2e67b2ebc3b3dc9f251ce3f",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.07161700003780425
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/console.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1686,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"FolHAjRVIeXDvaQ1O5ZchW1id7o=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "4c9115d407dc2d37e4947201e1cd403ce49e773cf3145c748145145152a39ba6",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.08435500005725771
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/filtering-engines.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1843,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"GJXEGjVT9sYpuBNXUfBP4hLDkPc=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "8e3f6983c16220eaf941346b35d632300fc0cd9b86020f3816eb92767cf2b622",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.0869620000012219
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7129,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"1vY+XR+TzcIhxp2BuhYVZJ65M+Y=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "e2e65720e4c6816243d811e34a3fa8773bde2fc7da683ef912246bbd4f266e3b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.06894999998621643
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/uri-utils.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5459,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"Xn67G/cKymweq4CjJ8jx85KcgH4=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "aad0fbad010ed91399e993917f329b2d745fbe4457e3d0f011662ea048a62d03",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/commands.js"
+        ],
+        "time": 0.10846400004811585
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/lib/publicsuffixlist/publicsuffixlist.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 21141,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"iila5CWHW0iw8SPgL216SoU3hYw=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "4bffa485e7f0c16134305215cb85b6ee33af08a1370484351b230f56c64fe6a4",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.08450800005812198
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/lib/punycode.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 13615,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"Cnf4OiWclUC+aPRdFWSYUnGTUnA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "329249856a82a02f69fb2d929f89e02aefa6b04cca4ef6a3b9bebfa48d6e824c",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.0854589999653399
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/cosmetic-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 33982,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"8DeaqhHs9iEDwoRUHAwyVhluLGk=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "f85390d75b092dc72cc27f559516fc3b0d9a1f473c921cde3f86cf32a0244e59",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.08710000000428408
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/html-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 13226,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"nE/MtESN4/QpDKN9nEGM5qoH4M4=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "a39efe15686694c36c84c76fef131c400199de765eccc56e4234d138eab327ad",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.08912999997846782
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/logger.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2617,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"b8Wd6PJxRPGudjfAAryIkg7il6g=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "74588f2dfea500aedfac8edd75b949e6d4aeb2070706885d3ffe9dce297658d6",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.09212799998931587
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/scriptlet-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16396,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"tzLnLKB+/ZNmrSigvMkdpANOsGg=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "9009f525e509824eb26816d85f5bba1fa05aeacd8439cdd372e1fa67fd2d691f",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.09223299997393042
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/base64-custom.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9061,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"OnBCHLjB+OUYqDx7akb0eRGnoZs=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "a0880409a82754c2e5927f5d3712dbbab280c5024ecce864b7dbec20dc19d2ea",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.09449099993798882
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-dnr-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 17406,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"DbHGb5L4hdAkjR9FLOq6UPY0mSA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "10f814879fa095d9558a96692bb261010315429e4534d98644050157c30a866f",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.09533199993893504
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/i18n.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 13319,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"sgE7pqJMnDa8VrcldJ0ilYveB9M=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "54fb40243620deba248a8e72fba23d2bdb38072bc32b30f0b8dc4b5210bb0746",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.0979939999524504
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-filtering-parser.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 164667,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"H6Vn2En40xu1GbGWyUOD8+h0LF8=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "cfdf172c8e95c947c500dea40ba5540daaa4e6e8c62230be7c60658c1cc7c114",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.1345699999947101
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/benchmarks.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14781,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"fx2USk/w9OdwKYUcesd1PiXaKso=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "7dc5738c927e44080b7cd9a134a20c9a27c4d5f16858640f417bc4c54c7f8fe7",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.05646200000774115
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/httpheader-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6352,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"SqWU30JsVe68CGl7V5IYN9Ue8ZY=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "a668fd9d938f686433d2e5e621f5175fbe3cc31a3f7f1e08e24352ecab395c90",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-ext-filtering.js"
+        ],
+        "time": 0.11029899993445724
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/filtering-context.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14378,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"yN0YEFTj9wAv0PvTGvys1uJ8kl0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "c91359d674f43f0ebdc9a355d8b0fb43735d48995df2196f67e17de92b723fce",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/background.js"
+        ],
+        "time": 0.11144899995997548
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/pagestore.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 37941,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"0pAEaDWrTcynpqbYkllrsQbu4P4=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "0d276e541f29baf81c120ed01011b79dd6314bf10d3a7ac71b9f22cc8b4020e1",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/tab.js"
+        ],
+        "time": 0.11282199993729591
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-filtering-io.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4549,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"odWmB/ijF6Od72rdmnHNjvmWt1Q=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "e0d8f3c6d0d715f2ea61ab6670e153f341e2abe07dc5e0f6bbb3532bfeedbc30",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js"
+        ],
+        "time": 0.11333500000182539
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/text-utils.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3206,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"bybrzDjowCch/sktFQYJugb+zwM=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "b1a96611d4ed6efbd6b6cd5c79175e891575c63294e45f847f05600f5cdb12ac",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js"
+        ],
+        "time": 0.1140649999724701
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-resources.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5378,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"o8OhMLJZCm7xijQh+t91hKH16vM=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "820e0173c4edd93e7dc5d4244e1d12e7129de894aef21f713ba21bf548c60ecf",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js"
+        ],
+        "time": 0.1133459999691695
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/text-encode.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12028,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"hN/C9mwwtU1t+yo3/Rg0M2yGi5k=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "850aa0a27dd5ae4a14c9e1173839ee2376849ef5590f6c82b8c34e200a2344ec",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js"
+        ],
+        "time": 0.0636909999884665
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/dynamic-net-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14929,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"gXO6tsSsmyISqWJESo/178bzc70=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "1599cd0e54d1054f513498d2d4809a39a795d82c1e23b422cc6503608600df36",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/filtering-engines.js"
+        ],
+        "time": 0.06148299993947148
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/hnswitches.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9552,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"+rKz0sjaKVuCQGW9yi4CgDBwdaQ=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "347df073a6f20be44a21ae99b8da0c14614b397658894963f24330acc553113b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/filtering-engines.js"
+        ],
+        "time": 0.06104499998036772
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/url-net-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10209,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"tieD34setz8cNEM+sZ0i6CEhpFg=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "835831a8584c0b8d7d0ea93bc8d1579ef3dc8c4611d371722a643c36f14471dc",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/filtering-engines.js"
+        ],
+        "time": 0.06277600000612438
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/tasks.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1405,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"SYHXDKUVZzLkC5tphHt3KrA4+7U=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "1c32e673ad892453685d10961246093eac5b628d4a0dfe423a6b3903a3a971b8",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-net-filtering.js"
+        ],
+        "time": 0.03767700004391372
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/biditrie.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 34955,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"AheZ6MejaiDkLljcnWjPUo842xA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "4e020d6ce6f487e50ee11a68c69808a1466dc39d91c45d7b576186fc4d333189",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-net-filtering.js"
+        ],
+        "time": 0.04557900002691895
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/hntrie.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 28060,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"Er8vVKiCQn/QLsrtE4b7i/p31bY=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "0c2d598dcfb869d73fdd210d8d4de6be01bf963fd68493aff38412a4558a6543",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-net-filtering.js"
+        ],
+        "time": 0.047458000015467405
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-ext-filtering-db.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6022,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"jqRZdGl0d4KQTEg9Iimy9jCMWE0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "fed5ab181ee1c6857ee8c7e6ef251dba74d361e7cc291b076199e2fedaca50cc",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/cosmetic-filtering.js"
+        ],
+        "time": 0.02967800002079457
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/lib/regexanalyzer/regex.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 71968,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"Zc4zMrbKNl4jIVUdCsA8BAi5Qk8=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "de0a7a04bd5349dd3ffb91fb54d66fc5ccbd930f8c4bdb41ddac4dd03e18aacb",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-filtering-parser.js"
+        ],
+        "time": 0.025495999958366156
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/lib/csstree/css-tree.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 167973,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"4WxGcJjJUcwPUMlunC7RvGLWaI4=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "ecc4507fac946cbe442962e11bb058195dbe72545cce42f34338a83726ec56e0",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-filtering-parser.js"
+        ],
+        "time": 0.08004399994388223
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16-off.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 552,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"UjtU7CjAmAcHX4DBL09uSijcYkg=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "7ea99590d4b3f5ffbd7610f8ae42a72803a0f809200f595b943d5a622eb8d9bd",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.02224800002295524
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32-off.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1114,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"nkCRpu+nneDbhSqRHQsS4ngvo0I=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "3c8bf856b1fed942ab11cfc92aeda135adcc25c7012528f4b95cc6cb0e74a2cb",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.033266999991610646
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 420,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"9uZWEEQawXEa9JeFZdVDxheK738=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "5bc0b6c5d00309f9dae2be3fb505fda1ccdfa5c4d2994e167c8fb473bf95a777",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.051712999935261905
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1278,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"e74+CjUkVkdX//K9KytM4jGb4Sg=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "2fd0f85a569e98791d39884b54e706d105e5db0dfc60a319a40e09d48fc9b878",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.05017900001257658
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 570,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"SCCY3xHCtdMdB9jfy1lKOHd91yw=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "75cfccc844e135a85d7508a5892f72bac16b510919e4d4d5801ded7b1901a5cd",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background-ext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js"
+        ],
+        "time": 0.05017800000496209
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1089,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"RmlX4Eb0Vf+9Lga44dPV6pw/juM=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "230dc98bf942ad4be6016cbff229ae0605f2f02401e406ef0d649e7b1cca37ae",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background-ext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js"
+        ],
+        "time": 0.050820000004023314
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_64-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4406,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"VxvYv0EN5oLKTZD+GqhZRU48+qM=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "d52e425f9820d4c3e27e3ba658b7d21b14e3fbda7dd43febeea5a6021809060c",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background-ext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js"
+        ],
+        "time": 0.04992899997159839
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/badlists.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 4136,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"eOiMDeKtL1q/V6TIuAFaDCVjfWY=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "109822a6b68367e225fd701e53be3419800b95c7d4becd50bf8a2d49ba22424f",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.03280699998140335
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/resources/scriptlets.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 125820,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"CgwgzxiUJT5q+w9lH7Se+5ZMoIc=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "82d47ba987d73c40c4e7363b9ab5dba77ed1527a26d77909e3cedc27a5cd3439",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.06141600001137704
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/1x1.gif?secret=t7ja5r",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 43,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"72D+/UKGYStX5er87ISTvvrF5tQ=\"",
+          "content-type": "image/gif"
+        },
+        "responseBodyHash": "6b3da89922d333d106b84fefeebd7b16bfebf4cfbd7bef37fa10a47c471ae64c",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.08779899997171015
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/2x2.png?secret=7t94rm",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 68,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"esKRo0fVKvgNoUzOaCbJcHcCR5c=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "53b14a22cd3dc973d6cb1a381d01fafafc4da1632bacbf15f7fac0014fbe70c0",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.10507499997038394
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/3x2.png?secret=t338sy",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 68,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"FE1vXRwHfZli324eMoQlsnugEho=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "c6ea854b737a88835e1c7349bcfa0730f55e19de7acf0f54f9d6ea817fcd2f20",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.10476399993058294
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/32x32.png?secret=925nap",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 83,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"67CnMiH92/CeXXcyr+80HclqFxI=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "173650f1d19d59786ce8dd44c64cd8fb4471552c2e247fb774bec92726a7ee6b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.10410400002729148
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/amazon_ads.js?secret=qiz55k",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2296,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"By+IDkPL9F/5lkH5nXfR93EB23k=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "41901805f575d9d06608682999cf588b12c318face2ed04e8566ec8cbec4c610",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.10381899995263666
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/doubleclick_instream_ad_status.js?secret=9qd7ab",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 29,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"s8ZaX7h28RDv/PN40yMhb1rRBto=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "eed0dc1fdb5d97ed188ae16fd5e1024a5bb744af47340346be2146300a6c54b9",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.10326400003395975
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/empty?secret=c1ocuo",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"w1USgRq36N3lrsNJbzqv38xCsUk=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.1030579999787733
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/fingerprint2.js?secret=j7t9ym",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1810,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"PePG6yN3ZEGZMHdAk3DkU2BtUIM=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "7db8892256cdf45ad5ca5748e136e0c241b53b38c5adaa744a42ca139f05ffb3",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.10463899991009384
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/fingerprint3.js?secret=h34j9x",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1492,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"CetrBFm7a360yitCLL/02QWkJT8=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "6fd5703f2bdd85932f18adc99f30d8736d2bf5f09b1dde6c129f4616259fc827",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.10722999996505678
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_analytics.js?secret=h4vblq",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3695,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"wTqkQ1ryNce63XhVKrXix8otYW0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "6b4621868cac589a603fe1263aad242f67262ef971bdacaccc1a515cd0488466",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.1024619999807328
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_ga.js?secret=dn2a2s",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 4810,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"FSty3AHCXVujktdhdSOgAswTJwI=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "f0546767675ac7eff724521236be831e8753a7b8c15aa1c792d8121cb5311094",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.08570599998347461
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/googlesyndication_adsbygoogle.js?secret=8m85wa",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3603,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"27D7TdoFnKSaDAxhDXZtyWlUA+0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "ba81dafd9a59c99b9d9e914ecbd5545c36d73d55b5ecb4d698ee3c49b02101c2",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.08608000003732741
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/googletagservices_gpt.js?secret=ad0cge",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 5102,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"76KRjaFvvOrwsb8JSDs4Q2jTlbo=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "3ad0442f766373b8fed1f1ba2dcd6d6cbf948b68641956135a8f552472e3e6b6",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.08224300004076213
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/nobab.js?secret=1f0xhg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2976,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"fWIMOUaEIaNtkbrEiIKDhn8PTGY=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "1bc47b0e9b642cfcf2496977df36babdb263f13d0cfd64b286eb5c4c84cc319c",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.08392400003504008
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/nobab2.js?secret=ip0uqe",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1503,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"vy1qEErrRXmXVNnibZFXADJr2NA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "3ee47f99116088a94e1c280d3cd6216a75513a9109a3876ed7926897ec7cfc96",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.0837610000744462
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noeval.js?secret=w4r1c7",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1169,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"Zm3NrZrHm1RQ8sEDNdlqPrq/x5I=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "3cdd6f7412af4317374860533434959652db9e61633bdcae4755ad9039732bc6",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.08381500001996756
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noeval-silent.js?secret=vx6upg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1046,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"uAxLt+FExKqnQoCEOy79k/qsAoI=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "bcb710ed7e64295cc8fe98b8611978e0801ffdce65107d1cb9c318339a5644d6",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.0837720000417903
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/nofab.js?secret=olv5fd",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2604,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"8C4cfBueT2MD3BS5m6yoQgPFyj0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "dd7684145ffe90180075aa4d98a7a457cbdc6b73295bea17c55bf230332cf056",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.08920599997509271
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop-0.1s.mp3?secret=8d4o28",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 813,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"2+x2uGBtVFxzOfC/ga3FuCo0a10=\"",
+          "content-type": "audio/mpeg"
+        },
+        "responseBodyHash": "3b31d6fd84b91ed8fafa0dc7d7f6dbded7fc8a9b51289991138a07d33bb7a99b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.0866489999461919
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop-1s.mp4?secret=3v81m8",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3753,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"phhjpBwH2UsBHfAauKoOtl6zzkY=\"",
+          "content-type": "video/mp4"
+        },
+        "responseBodyHash": "5fffd48ffc18ad96d910ea2d84da417974177c3c0cc12fa0ca364c6f864ea641",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.08696800004690886
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop.css?secret=hjtntr",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 6,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"KSIg5lBIqQJSknb8PjMzOeEIjSU=\"",
+          "content-type": "text/css"
+        },
+        "responseBodyHash": "cccc5e8a9a7ad608a04f242530345694bd7150bd73315513284142b6a39ba4b7",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.08226900000590831
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop.js?secret=eeppmb",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 38,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"OpoFl8Qm9JGwy6bvidLZuEeJc50=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "5592bfa25de75c18ef0116cbb9990c122178b1efe5e076f1c45049a09d935a25",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.08059699996374547
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop.txt?secret=5lyp9i",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"MEUVxJfRt7KHLk+5bpNePR0DHec=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.08209700009319931
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop-vmap1.0.xml?secret=lkn2t2",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 86,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"o91xJuRB4zgK7iE97MmCHdnqlwI=\"",
+          "content-type": "text/xml"
+        },
+        "responseBodyHash": "fcc40f36d86c8f7146d4b2f0c1273cc46282c2c236303dabc172dfacfdf86508",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.08066099998541176
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/popads.js?secret=fke4i5",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1601,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"I9T+DOFVlPUkYWimhhzIRMcfjvI=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "85700e488f782dde2eac664d8127399f7650832678188ecbde143e5482a0bf58",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.0816239999840036
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/popads-dummy.js?secret=2aoku9",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1082,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"WifQzgUPi4l7MnUILkJmjzMy6+I=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "7d9ea48fc2dbf1c680406d5335aa567f84967e91b10e823b7e2462ce531fa281",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.08212399994954467
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/prebid-ads.js?secret=8s57kg",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 990,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"zgpQ56ZBEYb7FmruMvEAtYO6iHM=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "4ef4348e32fffdfa739b160f77d0b96fc4c861c089cfae8458275e30436179b3",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.08533200004603714
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/easylist/easylist.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1561127,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"LtheFwWjs98NDuASTQh7tNDCpLI=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "fdd1f5fad30f0615b76861caec3b0385b5628839e1b0f30f08d253ae4d63ac5f",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.6002570000709966
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/easylist/easyprivacy.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 869277,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"w2nyAU5mv9ABOU6GFTURUHq4xgQ=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "a1ec9956461f447372f9c0f0658880e6d68f2137eb4caa206013027653c09e65",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.330350000062026
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/pgl.yoyo.org/as/serverlist.txt",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FILE_NOT_FOUND",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.07021700008772314
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/badware.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 111016,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"AYIE/yEnpZPkbhaGZvQlS2EcDJ8=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "61339a487f716803a4d81ea2abef7603a30a1799fedd42626671a2cd8352ce60",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.22715299995616078
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/filters.min.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1244702,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"h1LFQV4RKbAD/Dr/crybn2Q5sRM=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "40edb5e5c62e3cc3e701fda60ca76362a0401be26b96fa7da827a91ec3676695",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.791194999939762
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/privacy.min.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 25261,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"NVSCvkmHFfp2m7DKRdO/KxfEuKk=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "5e35527a7b50abc913a6bf2a4efa113a7ad3a29875679820be9f223e33e2c564",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.1951569999800995
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/quick-fixes.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 12961,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"afueNux30hW+NV4++qgmpXTa57Q=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "8da204883be6cef9a900cfeebace44bff5c1ab48f1f5b1e0934be478beed838b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.07284200005233288
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/unbreak.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 225327,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"RJFXfxbz9txDf2F9CzvtzGKrUGQ=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "0842f26631ba700715f6807ebed0b0686340385a51aef6ba56c44797f6e859f9",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.37946999992709607
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/urlhaus-filter/urlhaus-filter-online.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 62578,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"BTHdXv1lxAGsEi3GXDaj3ARryk8=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "64473d0333370e1aa9208bd5895394c4c977c3c9eccd2df53605aca3f5cf577d",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.13193899998441339
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/pgl.yoyo.org/as/serverlist",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 99702,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"cjJqLaDjMIABN/iLNntIhbyVrgY=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "e7564ecea385fef412bb736d9f715c9944ce043747c4421c6835e24cc93ace75",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.27655299997422844
+      },
+      {
+        "url": "http://africa-newsroom.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 302,
+        "remoteIPAddress": "80.247.226.228",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:52:30 GMT",
+          "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+          "cache-control": "no-store, no-cache, must-revalidate",
+          "pragma": "no-cache",
+          "set-cookie": "PHPSESSID=6irk1vijl474sthelsbrlk01ai; path=/\nlang_code=en; expires=Tue, 02-Apr-2024 21:52:30 GMT; Max-Age=2592000; path=/; domain=.africa-newsroom.com\ndefault_pyrocms=UDJRO1Y2BT1VLgFwVm0FYQZjBzwFcgcmAGULJFYmXWNXalJpBg1cPVM0VScAbwd2AzlVZAIxDWICdVNkBTNUNlYwCjAAMQJkUzgMaQQyCTBQYFExVjEFMVU3ATdWNgVmBmMHMAU2B20ANgs1VjNdbFdgUjQGN1xkU2lVJwBvB3YDOVVmAjMNYgJ1UzsFIFRZVjcKMgBnAidTZAwqBCMJI1BoUXJWOAU2VWQBOVZ1BWEGZAc0BX4HZAA2C3lWZl07VytSNgZwXG9TI1U%2FAGUHNQM5VXUCdg0rAjJTIAUPVGdWMQozAG0CIVMjDGIEIwk7UGJRM1YyBT1VdwFOVjgFKgY6B2oFPAc0AC8LYlZ7XTpXJVIvBh9cNVMzVWwAOgdxA2xVJAJrDWMCd1MbBT5UclYzCjoAIwIYU2AMOgRwCU5QAFEhVloFJ1VkATNWCAVhBmYHWQVnB3wAIAsWViVdeldpUmIGBVwxUzJVTgA9B3EDLFViAjANbwJ5U2EFZlQmVn4KHQBLAgFTTAwVBHwJIVA%2FUWhWaQViVXUBRFYyBTMGOAdpBXkHdQBDCz9WJ11lV2hSYgZ9XG1TY1UrAGQHKwM3VWICNA1vAnlTZAVjVCZWBQo3AGUCNFNzDDAEfwk0UGBRNlYsBTRVYwEhVmwFIwZpBzcFYwdvACILO1Y0XXlXcVJYBjNcN1MkVWwAIgdsA3dVLgIhDWMCPlNoBWFUMVZmCm8ANgJlUzMMbgRlCTFQaFF8; path=/; domain=.africa-newsroom.com\nSERVERID=web2; path=/",
+          "x-frame-options": "SAMEORIGIN",
+          "location": "https://www.africa-newsroom.com/",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "content-length": "0",
+          "content-type": "text/html; charset=UTF-8"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.africa-newsroom.com/",
+        "initiators": [],
+        "time": 0.9403129999991506
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 570,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"SCCY3xHCtdMdB9jfy1lKOHd91yw=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "75cfccc844e135a85d7508a5892f72bac16b510919e4d4d5801ded7b1901a5cd",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "extensions::webRequestEvent"
+        ],
+        "time": 0.21613000007346272
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1089,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"RmlX4Eb0Vf+9Lga44dPV6pw/juM=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "230dc98bf942ad4be6016cbff229ae0605f2f02401e406ef0d649e7b1cca37ae",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "extensions::webRequestEvent"
+        ],
+        "time": 0.2584510000888258
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_64-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4406,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"VxvYv0EN5oLKTZD+GqhZRU48+qM=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "d52e425f9820d4c3e27e3ba658b7d21b14e3fbda7dd43febeea5a6021809060c",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "extensions::webRequestEvent"
+        ],
+        "time": 0.2593500000657514
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 420,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"9uZWEEQawXEa9JeFZdVDxheK738=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "5bc0b6c5d00309f9dae2be3fb505fda1ccdfa5c4d2994e167c8fb473bf95a777",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.10493399994447827
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1278,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"e74+CjUkVkdX//K9KytM4jGb4Sg=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "2fd0f85a569e98791d39884b54e706d105e5db0dfc60a319a40e09d48fc9b878",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.10505699994973838
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_64.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2655,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"z1HgbWDpu8W5XjdmapJcfSGuRjA=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "5fa6baa4bed8763bc19a8f6e6d169c0ba472d3f1913b6a093f65262ebd7c1c52",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.1058750000083819
+      },
+      {
+        "url": "https://www.africa-newsroom.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 68387,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Sun, 03 Mar 2024 21:52:31 GMT",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "content-type": "text/html; charset=UTF-8",
+          "expires": "Sun, 03 Mar 2024 21:52:32 GMT",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "pragma": "no-cache",
+          "date": "Sun, 03 Mar 2024 21:52:32 GMT",
+          "transfer-encoding": "chunked",
+          "connection": "keep-alive\nTransfer-Encoding",
+          "vary": "Accept-Encoding",
+          "set-cookie": "PHPSESSID=p00sp8mjv5d7gthqcvgl71aeek; path=/\nSERVERID=web2; path=/",
+          "akamai-request-bc": "[a=104.102.249.199,b=188969058,c=g,n=US_IL_CHICAGO,o=20940],[a=80.247.226.228,c=o]"
+        },
+        "responseBodyHash": "dc01be79e6d393f2b8b82c7f288a67e573fd672af5d65a14ff3fb32e39765897",
+        "redirectedFrom": "http://africa-newsroom.com/",
+        "initiators": [],
+        "time": 1.6933460000436753
+      },
+      {
+        "url": "https://www.africa-newsroom.com/addons/shared_addons/themes/apofront/css/style.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 12648,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "content-type": "text/css;charset=UTF-8",
+          "content-length": "11663",
+          "x-origin-code": "200",
+          "x-ultrafast-origin-code": "200",
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Fri, 21 Oct 2022 11:31:35 GMT",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "x-resource-status": "ultrafast",
+          "access-control-allow-methods": "POST, GET, OPTIONS",
+          "access-control-allow-headers": "*",
+          "content-encoding": "gzip",
+          "x-cloudimg-traceid": "CiI__ci_iplb_p056_ca_ov_bhs7__20240303153352__9f2b5_q3Ok#320y",
+          "server": "Scaleflex HTTP Loadbalancer",
+          "timing-allow-origin": "*",
+          "content-security-policy": "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:",
+          "accept-ranges": "bytes",
+          "cache-control": "max-age=236518",
+          "date": "Sun, 03 Mar 2024 21:52:32 GMT",
+          "connection": "keep-alive",
+          "vary": "Accept-Encoding",
+          "akamai-request-bc": "[a=104.102.249.199,b=188970446,c=g,n=US_IL_CHICAGO,o=20940],[c=c,n=US_IL_MOUNTPROSPECT,o=20940]"
+        },
+        "responseBodyHash": "e5d242123c4cad893e9ba847bcf9d22a9462cfcee9e2c3da6d2a80c3b0474438",
+        "initiators": [
+          "https://www.africa-newsroom.com/"
+        ],
+        "time": 0.03856300003826618
+      },
+      {
+        "url": "https://www.africa-newsroom.com/assets/cache/618db16d6f7c5c05bcded71e54c813d9.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 35383,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "content-type": "text/css;charset=UTF-8",
+          "content-length": "34405",
+          "x-origin-code": "200",
+          "x-ultrafast-origin-code": "200",
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Wed, 01 Mar 2023 17:27:12 GMT",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "x-resource-status": "ultrafast",
+          "access-control-allow-methods": "POST, GET, OPTIONS",
+          "access-control-allow-headers": "*",
+          "content-encoding": "gzip",
+          "x-cloudimg-traceid": "CiI__ci_iplb_p056_ca_ov_bhs7__20240219223245__35783_Wq0E#600z",
+          "server": "Scaleflex HTTP Loadbalancer",
+          "timing-allow-origin": "*",
+          "content-security-policy": "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:",
+          "accept-ranges": "bytes",
+          "cache-control": "max-age=86077",
+          "date": "Sun, 03 Mar 2024 21:52:32 GMT",
+          "connection": "keep-alive",
+          "vary": "Accept-Encoding",
+          "akamai-request-bc": "[a=104.102.249.199,b=188970549,c=g,n=US_IL_CHICAGO,o=20940],[c=p,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "eedb004f22c0b5e6eae869bc50802ec4371467b5dd65252e3da2447db112c489",
+        "initiators": [
+          "https://www.africa-newsroom.com/"
+        ],
+        "time": 0.07012300007045269
+      },
+      {
+        "url": "https://www.africa-newsroom.com/assets/cache/d159d3c255cc2f4cec5da3c2438b4ff0.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 49433,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "content-type": "application/javascript",
+          "content-length": "48454",
+          "x-origin-code": "200",
+          "x-ultrafast-origin-code": "200",
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Wed, 01 Mar 2023 17:33:59 GMT",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "x-resource-status": "ultrafast",
+          "access-control-allow-methods": "POST, GET, OPTIONS",
+          "access-control-allow-headers": "*",
+          "content-encoding": "gzip",
+          "x-cloudimg-traceid": "CiI__ci_iplb_p060_ca_ov_bhs7__20240303085948__673a7_zIdb#600z",
+          "server": "Scaleflex HTTP Loadbalancer",
+          "timing-allow-origin": "*",
+          "content-security-policy": "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:",
+          "accept-ranges": "bytes",
+          "cache-control": "max-age=212889",
+          "date": "Sun, 03 Mar 2024 21:52:32 GMT",
+          "connection": "keep-alive",
+          "vary": "Accept-Encoding",
+          "akamai-request-bc": "[a=104.102.249.199,b=188970554,c=g,n=US_IL_CHICAGO,o=20940],[c=p,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "0d2a17238bbb28b7a4cd8d1e63f8df71b5d3a36841c1fcd3de01459dcc4d2dbc",
+        "initiators": [
+          "https://www.africa-newsroom.com/"
+        ],
+        "time": 0.08287199994083494
+      },
+      {
+        "url": "https://www.africa-newsroom.com/assets/cache/b370102605a4744ebb49253158381e92.css",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 2254,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "content-type": "text/css;charset=UTF-8",
+          "content-length": "1276",
+          "x-origin-code": "200",
+          "x-ultrafast-origin-code": "200",
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Tue, 12 Jul 2016 11:56:39 GMT",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "x-resource-status": "ultrafast",
+          "access-control-allow-methods": "POST, GET, OPTIONS",
+          "access-control-allow-headers": "*",
+          "content-encoding": "gzip",
+          "x-cloudimg-traceid": "CiI__ci_iplb_p056_ca_ov_bhs7__20240303101152__366c9_Fsx5#330y",
+          "server": "Scaleflex HTTP Loadbalancer",
+          "timing-allow-origin": "*",
+          "content-security-policy": "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:",
+          "accept-ranges": "bytes",
+          "cache-control": "max-age=217126",
+          "date": "Sun, 03 Mar 2024 21:52:32 GMT",
+          "connection": "keep-alive",
+          "vary": "Accept-Encoding",
+          "akamai-request-bc": "[a=104.102.249.199,b=188970541,c=g,n=US_IL_CHICAGO,o=20940],[c=p,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "9071d7836eec30e79a58aacafc98a74d4185a7eb3db81120ff524e7c3d979c46",
+        "initiators": [
+          "https://www.africa-newsroom.com/"
+        ],
+        "time": 0.06566999992355704
+      },
+      {
+        "url": "https://www.africa-newsroom.com/assets/cache/d2325dd164f27f9c0ac871910cec6cd2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 11709,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "content-type": "application/javascript",
+          "content-length": "10730",
+          "x-origin-code": "200",
+          "x-ultrafast-origin-code": "200",
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Tue, 21 Jun 2022 14:04:47 GMT",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "x-resource-status": "ultrafast",
+          "access-control-allow-methods": "POST, GET, OPTIONS",
+          "access-control-allow-headers": "*",
+          "content-encoding": "gzip",
+          "x-cloudimg-traceid": "CiI__ci_iplb_p060_ca_ov_bhs7__20240303143639__8f16f_hfAN#330y",
+          "server": "Scaleflex HTTP Loadbalancer",
+          "timing-allow-origin": "*",
+          "content-security-policy": "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:",
+          "accept-ranges": "bytes",
+          "cache-control": "max-age=233097",
+          "date": "Sun, 03 Mar 2024 21:52:32 GMT",
+          "connection": "keep-alive",
+          "vary": "Accept-Encoding",
+          "akamai-request-bc": "[a=104.102.249.199,b=188970568,c=g,n=US_IL_CHICAGO,o=20940],[c=c,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "d14bec29c9fef8878a1606241a7fd1894e59d230758e22d378fd969c7ed887ff",
+        "initiators": [
+          "https://www.africa-newsroom.com/"
+        ],
+        "time": 0.12116300000343472
+      },
+      {
+        "url": "https://www.africa-newsroom.com/addons/shared_addons/themes/apofront/img/logo.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 21411,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Thu, 14 May 2020 18:20:18 GMT",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "20807",
+          "content-type": "image/png",
+          "cache-control": "public, max-age=118399",
+          "expires": "Tue, 05 Mar 2024 06:45:53 GMT",
+          "date": "Sun, 03 Mar 2024 21:52:34 GMT",
+          "connection": "keep-alive",
+          "vary": "Accept-Encoding",
+          "akamai-request-bc": "[a=104.102.249.199,b=188970616,c=g,n=US_IL_CHICAGO,o=20940],[c=p,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "1cbcc506e6c741736ce43b6a177e304d62c1b86aead7f68b0d7a4dedd1122453",
+        "initiators": [
+          "https://www.africa-newsroom.com/"
+        ],
+        "time": 1.5639619999565184
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5HGK4PT",
+        "method": "GET",
+        "type": "Script",
+        "status": 307,
+        "responseHeaders": {
+          "location": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_analytics.js?secret=zt6fzq",
+          "non-authoritative-reason": "WebRequest API"
+        },
+        "responseBodyHash": "6b4621868cac589a603fe1263aad242f67262ef971bdacaccc1a515cd0488466",
+        "redirectedTo": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_analytics.js?secret=zt6fzq",
+        "initiators": [
+          "https://www.africa-newsroom.com/"
+        ],
+        "time": 1.5296119999838993
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_analytics.js?secret=zt6fzq",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3695,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"wTqkQ1ryNce63XhVKrXix8otYW0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "6b4621868cac589a603fe1263aad242f67262ef971bdacaccc1a515cd0488466",
+        "redirectedFrom": "https://www.googletagmanager.com/gtm.js?id=GTM-5HGK4PT",
+        "initiators": [
+          "https://www.africa-newsroom.com/"
+        ],
+        "time": 0.38929299998562783
+      },
+      {
+        "url": "https://www.africa-newsroom.com/addons/shared_addons/themes/apofront/fonts/proximanova-regular-webfont-webfont-webfont.woff",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 27187,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Sun, 29 Jun 2014 05:27:52 GMT",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "26579",
+          "content-type": "application/font-woff",
+          "cache-control": "max-age=121894",
+          "expires": "Tue, 05 Mar 2024 07:44:08 GMT",
+          "date": "Sun, 03 Mar 2024 21:52:34 GMT",
+          "connection": "keep-alive",
+          "vary": "Accept-Encoding",
+          "akamai-request-bc": "[a=104.102.249.199,b=188972611,c=g,n=US_IL_CHICAGO,o=20940],[c=p,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "2b32d363338d413cc9c962d6a28f5131d58967cfecb835ceeaf11c4acc4d0ea3",
+        "initiators": [
+          "https://www.africa-newsroom.com/addons/shared_addons/themes/apofront/css/style.css"
+        ],
+        "time": 0.3559479999821633
+      },
+      {
+        "url": "https://www.africa-newsroom.com/addons/shared_addons/themes/apofront/img/home-icon.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1974,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Thu, 27 Aug 2020 11:14:22 GMT",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "1371",
+          "content-type": "image/png",
+          "cache-control": "public, max-age=208291",
+          "expires": "Wed, 06 Mar 2024 07:44:05 GMT",
+          "date": "Sun, 03 Mar 2024 21:52:34 GMT",
+          "connection": "keep-alive",
+          "vary": "Accept-Encoding",
+          "akamai-request-bc": "[a=104.102.249.199,b=188972065,c=g,n=US_IL_CHICAGO,o=20940],[c=p,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "14603e5a05fff69994a30f198ace2ebce008f5353bbc089b25bad2bc0dc2619a",
+        "initiators": [
+          "https://www.africa-newsroom.com/assets/cache/618db16d6f7c5c05bcded71e54c813d9.css"
+        ],
+        "time": 0.04313100001309067
+      },
+      {
+        "url": "https://www.africa-newsroom.com/addons/shared_addons/themes/apofront/fonts/proximanova-bold-webfont-webfont-webfont.woff",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 27378,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Sun, 29 Jun 2014 05:27:40 GMT",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "26770",
+          "content-type": "application/font-woff",
+          "cache-control": "max-age=121889",
+          "expires": "Tue, 05 Mar 2024 07:44:03 GMT",
+          "date": "Sun, 03 Mar 2024 21:52:34 GMT",
+          "connection": "keep-alive",
+          "vary": "Accept-Encoding",
+          "akamai-request-bc": "[a=104.102.249.199,b=188972612,c=g,n=US_IL_CHICAGO,o=20940],[c=p,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "7db10dea326fd49ee0b7266fa62731227c7e5d3a69c2aca42a09db1151db12e0",
+        "initiators": [
+          "https://www.africa-newsroom.com/addons/shared_addons/themes/apofront/css/style.css"
+        ],
+        "time": 0.34371000004466623
+      },
+      {
+        "url": "https://www.africa-newsroom.com/files/thumb/a43d857a52fe022/200/150",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6599,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "content-type": "image/jpeg",
+          "content-length": "5702",
+          "x-origin-code": "200",
+          "x-ultrafast-origin-code": "200",
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Tue, 19 Jul 2022 06:42:44 GMT",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "x-resource-status": "ultrafast",
+          "access-control-allow-methods": "POST, GET, OPTIONS",
+          "access-control-allow-headers": "*",
+          "x-cloudimg-traceid": "CiI__ci_iplb_p060_ca_ov_bhs7__20240303153354__c9aae_6Zfw#380z",
+          "server": "Scaleflex HTTP Loadbalancer",
+          "timing-allow-origin": "*",
+          "content-security-policy": "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:",
+          "cache-control": "max-age=236411",
+          "date": "Sun, 03 Mar 2024 21:52:34 GMT",
+          "connection": "keep-alive",
+          "akamai-request-bc": "[a=104.102.249.199,b=188972340,c=g,n=US_IL_CHICAGO,o=20940],[c=p,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "6bc4a7c99f2e6973f06c8e2618d411076158992ff44a1238d24e2a3cbdb18a98",
+        "initiators": [
+          "https://www.africa-newsroom.com/"
+        ],
+        "time": 0.03871400002390146
+      },
+      {
+        "url": "https://www.africa-newsroom.com/files/thumb/1f5e72296291597/200/150",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9518,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "content-type": "image/jpeg",
+          "x-origin-code": "200",
+          "x-ultrafast-origin-code": "200",
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Tue, 28 Nov 2023 16:28:18 GMT",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "x-resource-status": "ultrafast",
+          "access-control-allow-methods": "POST, GET, OPTIONS",
+          "access-control-allow-headers": "*",
+          "x-cloudimg-traceid": "CiI__ci_iplb_p060_ca_ov_bhs7__20240303185200__08751_9PLQ#300z",
+          "server": "Scaleflex HTTP Loadbalancer",
+          "timing-allow-origin": "*",
+          "content-security-policy": "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:",
+          "content-length": "8621",
+          "cache-control": "max-age=248309",
+          "date": "Sun, 03 Mar 2024 21:52:34 GMT",
+          "connection": "keep-alive",
+          "akamai-request-bc": "[a=104.102.249.199,b=188970569,c=g,n=US_IL_CHICAGO,o=20940],[c=p,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "d6e4acb27e9fb7412e1d6093c861bff6f957ee6592827ed6d52bd7538373b4e4",
+        "initiators": [
+          "https://www.africa-newsroom.com/"
+        ],
+        "time": 0.03594999993219972
+      },
+      {
+        "url": "https://img.youtube.com/vi/gwtiOeYDvXc/0.jpg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 11346,
+        "remoteIPAddress": "142.250.191.142",
+        "responseHeaders": {
+          "accept-ranges": "bytes",
+          "cross-origin-resource-policy": "cross-origin",
+          "cross-origin-opener-policy-report-only": "same-origin; report-to=\"youtube\"",
+          "report-to": "{\"group\":\"youtube\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/youtube\"}]}",
+          "timing-allow-origin": "*",
+          "content-length": "10927",
+          "x-content-type-options": "nosniff",
+          "server": "sffe",
+          "x-xss-protection": "0",
+          "date": "Sun, 03 Mar 2024 21:52:35 GMT",
+          "expires": "Sun, 03 Mar 2024 21:57:35 GMT",
+          "cache-control": "public, max-age=300",
+          "etag": "\"0\"",
+          "content-type": "image/jpeg",
+          "vary": "Origin",
+          "age": "0",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "2e0cdd3cd18bc66c56d72e0cd17117b1545486da12d4b92b5678a5e5959dd363",
+        "initiators": [
+          "https://www.africa-newsroom.com/"
+        ],
+        "time": 0.8064620000077412
+      },
+      {
+        "url": "https://www.africa-newsroom.com/files/thumb/ffdec71838993b1/200/150",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 30871,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "content-type": "image/png",
+          "x-origin-code": "200",
+          "x-ultrafast-origin-code": "200",
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Wed, 06 Mar 2019 14:44:00 GMT",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "x-resource-status": "ultrafast",
+          "access-control-allow-methods": "POST, GET, OPTIONS",
+          "access-control-allow-headers": "*",
+          "x-cloudimg-traceid": "CiI__ci_iplb_p056_ca_ov_bhs7__20240303153354__9b2e9_BZGI#350y",
+          "server": "Scaleflex HTTP Loadbalancer",
+          "timing-allow-origin": "*",
+          "content-security-policy": "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:",
+          "content-length": "29974",
+          "cache-control": "max-age=236428",
+          "date": "Sun, 03 Mar 2024 21:52:34 GMT",
+          "connection": "keep-alive",
+          "akamai-request-bc": "[a=104.102.249.199,b=188970561,c=g,n=US_IL_CHICAGO,o=20940],[c=p,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "e55a4a5d74a6359316ea9d00e7aaccc94905055c02e4fde195401b2dbc33ce67",
+        "initiators": [
+          "https://www.africa-newsroom.com/"
+        ],
+        "time": 0.05366999993566424
+      },
+      {
+        "url": "https://www.africa-newsroom.com/files/thumb/cf6a7875e0f2eda/200/150",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5427,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "content-type": "image/jpeg",
+          "content-length": "4391",
+          "x-origin-code": "200",
+          "x-ultrafast-origin-code": "200",
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Sat, 18 Mar 2023 09:42:29 GMT",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "x-resource-status": "ultrafast",
+          "access-control-allow-methods": "POST, GET, OPTIONS",
+          "access-control-allow-headers": "*",
+          "x-cloudimg-traceid": "CiI__ci_iplb_p060_ca_ov_bhs7__20240303215234__5dd10_WxZK#370z",
+          "server": "Scaleflex HTTP Loadbalancer",
+          "timing-allow-origin": "*",
+          "content-security-policy": "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:",
+          "cache-control": "max-age=259200",
+          "date": "Sun, 03 Mar 2024 21:52:35 GMT",
+          "connection": "keep-alive",
+          "set-cookie": "lang_code=en; expires=Tue, 02-Apr-2024 21:52:34 GMT; Max-Age=2592000; path=/; domain=.africa-newsroom.com",
+          "akamai-request-bc": "[a=104.102.249.199,b=188970562,c=g,n=US_IL_CHICAGO,o=20940],[c=c,n=US_IL_CHICAGO,o=20940],[a=51.79.72.24,c=o]"
+        },
+        "responseBodyHash": "1f1fbaeaf97a3f793fccaeb4468d895c869009bde486c8c929770c7b32ab42da",
+        "initiators": [
+          "https://www.africa-newsroom.com/"
+        ],
+        "time": 0.39818899997044355
+      },
+      {
+        "url": "https://www.africa-newsroom.com/files/thumb/272b7e64d260a08/200/150",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 19737,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "content-type": "image/png",
+          "x-origin-code": "200",
+          "x-ultrafast-origin-code": "200",
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Sun, 12 Dec 2021 17:23:30 GMT",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "x-resource-status": "ultrafast",
+          "access-control-allow-methods": "POST, GET, OPTIONS",
+          "access-control-allow-headers": "*",
+          "x-cloudimg-traceid": "CiI__ci_iplb_p060_ca_ov_bhs7__20240303153354__594e1_V4Lr#380z",
+          "server": "Scaleflex HTTP Loadbalancer",
+          "timing-allow-origin": "*",
+          "content-security-policy": "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:",
+          "content-length": "18840",
+          "cache-control": "max-age=236523",
+          "date": "Sun, 03 Mar 2024 21:52:34 GMT",
+          "connection": "keep-alive",
+          "akamai-request-bc": "[a=104.102.249.199,b=188970575,c=g,n=US_IL_CHICAGO,o=20940],[c=p,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "7e64d072bef0b744812bcef993205df8c41f0c500f3ffc5fa953f5484d77ac9f",
+        "initiators": [
+          "https://www.africa-newsroom.com/"
+        ],
+        "time": 0.04749100003391504
+      },
+      {
+        "url": "https://www.africa-newsroom.com/files/thumb/5de0872b5a333cf/200/150",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7437,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "content-type": "image/jpeg",
+          "content-length": "6540",
+          "x-origin-code": "200",
+          "x-ultrafast-origin-code": "200",
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Thu, 13 Jan 2022 18:06:37 GMT",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "x-resource-status": "ultrafast",
+          "access-control-allow-methods": "POST, GET, OPTIONS",
+          "access-control-allow-headers": "*",
+          "x-cloudimg-traceid": "CiI__ci_iplb_p060_ca_ov_bhs7__20240303153355__bf5e3_6ZWa#600z",
+          "server": "Scaleflex HTTP Loadbalancer",
+          "timing-allow-origin": "*",
+          "content-security-policy": "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:",
+          "cache-control": "max-age=236354",
+          "date": "Sun, 03 Mar 2024 21:52:34 GMT",
+          "connection": "keep-alive",
+          "akamai-request-bc": "[a=104.102.249.199,b=188972554,c=g,n=US_IL_CHICAGO,o=20940],[c=p,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "e580cdcce83b548befe006553b35f16cab18dd07c8bb36168c3030858477859d",
+        "initiators": [
+          "https://www.africa-newsroom.com/"
+        ],
+        "time": 0.04124799999408424
+      },
+      {
+        "url": "https://www.africa-newsroom.com/files/thumb/0cca64479b3fda2/200/150",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 23496,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "content-type": "image/png",
+          "x-origin-code": "200",
+          "x-ultrafast-origin-code": "200",
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Mon, 21 Dec 2020 19:25:28 GMT",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "x-resource-status": "ultrafast",
+          "access-control-allow-methods": "POST, GET, OPTIONS",
+          "access-control-allow-headers": "*",
+          "x-cloudimg-traceid": "CiI__ci_iplb_p056_ca_ov_bhs7__20240303153355__e3d05_rWKd#600z",
+          "server": "Scaleflex HTTP Loadbalancer",
+          "timing-allow-origin": "*",
+          "content-security-policy": "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:",
+          "content-length": "22599",
+          "cache-control": "max-age=236498",
+          "date": "Sun, 03 Mar 2024 21:52:34 GMT",
+          "connection": "keep-alive",
+          "akamai-request-bc": "[a=104.102.249.199,b=188972555,c=g,n=US_IL_CHICAGO,o=20940],[c=p,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "c38bfcc54ef005482e0e691813aebc762626a82e2ae5bed191a2706ce5e5ed13",
+        "initiators": [
+          "https://www.africa-newsroom.com/"
+        ],
+        "time": 0.06597400002647191
+      },
+      {
+        "url": "https://www.africa-newsroom.com/files/thumb/f1e471073094380/200/150",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9961,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "content-type": "image/jpeg",
+          "x-origin-code": "200",
+          "x-ultrafast-origin-code": "200",
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Wed, 19 Sep 2018 15:08:22 GMT",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "x-resource-status": "ultrafast",
+          "access-control-allow-methods": "POST, GET, OPTIONS",
+          "access-control-allow-headers": "*",
+          "x-cloudimg-traceid": "CiI__ci_iplb_p060_ca_ov_bhs7__20240303153355__bb7d5_Q4Vt#350y",
+          "server": "Scaleflex HTTP Loadbalancer",
+          "timing-allow-origin": "*",
+          "content-security-policy": "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:",
+          "content-length": "9064",
+          "cache-control": "max-age=236514",
+          "date": "Sun, 03 Mar 2024 21:52:34 GMT",
+          "connection": "keep-alive",
+          "akamai-request-bc": "[a=104.102.249.199,b=188972599,c=g,n=US_IL_CHICAGO,o=20940],[c=p,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "c5e9a914ea6b22d18ebbd83ee16f0b5f28c505f493fbc2bd8b681a59dd8e8012",
+        "initiators": [
+          "https://www.africa-newsroom.com/"
+        ],
+        "time": 0.06474500009790063
+      },
+      {
+        "url": "https://www.africa-newsroom.com/addons/shared_addons/themes/apofront/img/loader.gif",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1163,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Wed, 25 Nov 2015 11:14:33 GMT",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "561",
+          "content-type": "image/gif",
+          "cache-control": "public, max-age=236471",
+          "expires": "Wed, 06 Mar 2024 15:33:45 GMT",
+          "date": "Sun, 03 Mar 2024 21:52:34 GMT",
+          "connection": "keep-alive",
+          "vary": "Accept-Encoding",
+          "akamai-request-bc": "[a=104.102.249.199,b=188972581,c=g,n=US_IL_CHICAGO,o=20940],[c=p,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "92deef144a9a3ff441a3f26622162d6ee3a7528dae9e1813603e7123f094b7b1",
+        "initiators": [
+          "https://www.africa-newsroom.com/"
+        ],
+        "time": 0.08355799992568791
+      },
+      {
+        "url": "https://www.africa-newsroom.com/addons/shared_addons/themes/apofront/img/newsletter-bg.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 57707,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Thu, 27 Aug 2020 11:14:23 GMT",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "content-type": "image/png",
+          "content-length": "57103",
+          "cache-control": "public, max-age=118400",
+          "expires": "Tue, 05 Mar 2024 06:45:54 GMT",
+          "date": "Sun, 03 Mar 2024 21:52:34 GMT",
+          "connection": "keep-alive",
+          "vary": "Accept-Encoding",
+          "akamai-request-bc": "[a=104.102.249.199,b=188972568,c=g,n=US_IL_CHICAGO,o=20940],[c=p,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "2befa328e7573b1942003df4db21c05611848f033a905a78334184f9c5374878",
+        "initiators": [
+          "https://www.africa-newsroom.com/"
+        ],
+        "time": 0.100726000033319
+      },
+      {
+        "url": "https://www.africa-newsroom.com/files/thumb/3dd114cd41db8d7/300/200",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 11777,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "content-type": "image/jpeg",
+          "x-origin-code": "200",
+          "x-ultrafast-origin-code": "200",
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Thu, 12 May 2022 11:37:27 GMT",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "x-resource-status": "ultrafast",
+          "access-control-allow-methods": "POST, GET, OPTIONS",
+          "access-control-allow-headers": "*",
+          "x-cloudimg-traceid": "CiI__ci_iplb_p056_ca_ov_bhs7__20240302144728__efd84_UBks#320y",
+          "server": "Scaleflex HTTP Loadbalancer",
+          "timing-allow-origin": "*",
+          "content-security-policy": "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:",
+          "content-length": "10879",
+          "cache-control": "max-age=147339",
+          "date": "Sun, 03 Mar 2024 21:52:34 GMT",
+          "connection": "keep-alive",
+          "akamai-request-bc": "[a=104.102.249.199,b=188972564,c=g,n=US_IL_CHICAGO,o=20940],[c=p,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "12ba7847991ae1970054b692002b4f41327ed7439e00fc956be3d10d06248505",
+        "initiators": [
+          "https://www.africa-newsroom.com/"
+        ],
+        "time": 0.10820400004740804
+      },
+      {
+        "url": "https://www.africa-newsroom.com/files/thumb/2414a4daf4191ab/300/200",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 22265,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "content-type": "image/png",
+          "x-origin-code": "200",
+          "x-ultrafast-origin-code": "200",
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Tue, 01 Aug 2023 09:06:12 GMT",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "x-resource-status": "ultrafast",
+          "access-control-allow-methods": "POST, GET, OPTIONS",
+          "access-control-allow-headers": "*",
+          "x-cloudimg-traceid": "CiI__ci_iplb_p056_ca_ov_bhs7__20240303185201__b95d7_lT8Q#777z",
+          "server": "Scaleflex HTTP Loadbalancer",
+          "timing-allow-origin": "*",
+          "content-security-policy": "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:",
+          "content-length": "21368",
+          "cache-control": "max-age=248360",
+          "date": "Sun, 03 Mar 2024 21:52:34 GMT",
+          "connection": "keep-alive",
+          "akamai-request-bc": "[a=104.102.249.199,b=188972638,c=g,n=US_IL_CHICAGO,o=20940],[c=p,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "b0e17a0d499e6b1dde2a330fcbecd3455bae21091afa9cea4a16448c592cf79d",
+        "initiators": [
+          "https://www.africa-newsroom.com/"
+        ],
+        "time": 0.11444400006439537
+      },
+      {
+        "url": "https://www.africa-newsroom.com/files/thumb/bc97bda5e3bfa79/300/200",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 16015,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "content-type": "image/jpeg",
+          "x-origin-code": "200",
+          "x-ultrafast-origin-code": "200",
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Wed, 23 Jun 2021 12:53:23 GMT",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "x-resource-status": "ultrafast",
+          "access-control-allow-methods": "POST, GET, OPTIONS",
+          "access-control-allow-headers": "*",
+          "x-cloudimg-traceid": "CiI__ci_iplb_p056_ca_ov_bhs7__20240229122411__42a4c_w82e#600z",
+          "server": "Scaleflex HTTP Loadbalancer",
+          "timing-allow-origin": "*",
+          "content-security-policy": "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:",
+          "content-length": "15117",
+          "cache-control": "max-age=236503",
+          "date": "Sun, 03 Mar 2024 21:52:34 GMT",
+          "connection": "keep-alive",
+          "akamai-request-bc": "[a=104.102.249.199,b=188972621,c=g,n=US_IL_CHICAGO,o=20940],[c=c,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "54c0390932d8221e92552682db4204838222828850aeecd3a3256f74d7deb99b",
+        "initiators": [
+          "https://www.africa-newsroom.com/"
+        ],
+        "time": 0.2146279999287799
+      },
+      {
+        "url": "https://www.africa-newsroom.com/files/thumb/9656035ad96d3c6/300/200",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 21788,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "content-type": "image/png",
+          "x-origin-code": "200",
+          "x-ultrafast-origin-code": "200",
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Thu, 29 Feb 2024 17:12:16 GMT",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "x-resource-status": "ultrafast",
+          "access-control-allow-methods": "POST, GET, OPTIONS",
+          "access-control-allow-headers": "*",
+          "x-cloudimg-traceid": "CiI__ci_iplb_p056_ca_ov_bhs7__20240303153356__8cbc5_yfWh#330y",
+          "server": "Scaleflex HTTP Loadbalancer",
+          "timing-allow-origin": "*",
+          "content-security-policy": "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:",
+          "content-length": "20885",
+          "cache-control": "max-age=236500",
+          "date": "Sun, 03 Mar 2024 21:52:34 GMT",
+          "connection": "keep-alive",
+          "akamai-request-bc": "[a=104.102.249.199,b=188972637,c=g,n=US_IL_CHICAGO,o=20940],[c=c,n=US_IL_MOUNTPROSPECT,o=20940]"
+        },
+        "responseBodyHash": "d9525d991ed60a9531f783f486e91a0e88d668ed169fb85e9b64c0a29d5048c6",
+        "initiators": [
+          "https://www.africa-newsroom.com/"
+        ],
+        "time": 0.3223560000769794
+      },
+      {
+        "url": "https://www.africa-newsroom.com/files/thumb/272b7e64d260a08/300/200",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 29474,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "content-type": "image/png",
+          "x-origin-code": "200",
+          "x-ultrafast-origin-code": "200",
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Sun, 12 Dec 2021 17:22:39 GMT",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "x-resource-status": "ultrafast",
+          "access-control-allow-methods": "POST, GET, OPTIONS",
+          "access-control-allow-headers": "*",
+          "x-cloudimg-traceid": "CiI__ci_iplb_p056_ca_ov_bhs7__20240303153355__7a4e0_O0SN#350y",
+          "server": "Scaleflex HTTP Loadbalancer",
+          "timing-allow-origin": "*",
+          "content-security-policy": "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:",
+          "content-length": "28577",
+          "cache-control": "max-age=236477",
+          "date": "Sun, 03 Mar 2024 21:52:34 GMT",
+          "connection": "keep-alive",
+          "akamai-request-bc": "[a=104.102.249.199,b=188972648,c=g,n=US_IL_CHICAGO,o=20940],[c=c,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "3f0963abc1e054e545a84cecb7e118f159856c1049d6b6da3a1f99a038b573b0",
+        "initiators": [
+          "https://www.africa-newsroom.com/"
+        ],
+        "time": 0.15426599991042167
+      },
+      {
+        "url": "https://www.africa-newsroom.com/files/thumb/5de0872b5a333cf/300/200",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 12155,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "content-type": "image/jpeg",
+          "x-origin-code": "200",
+          "x-ultrafast-origin-code": "200",
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Thu, 13 Jan 2022 20:05:26 GMT",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "x-resource-status": "ultrafast",
+          "access-control-allow-methods": "POST, GET, OPTIONS",
+          "access-control-allow-headers": "*",
+          "x-cloudimg-traceid": "CiI__ci_iplb_p056_ca_ov_bhs7__20240303153355__6173d_ByxX#350y",
+          "server": "Scaleflex HTTP Loadbalancer",
+          "timing-allow-origin": "*",
+          "content-security-policy": "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:",
+          "content-length": "11257",
+          "cache-control": "max-age=236448",
+          "date": "Sun, 03 Mar 2024 21:52:34 GMT",
+          "connection": "keep-alive",
+          "akamai-request-bc": "[a=104.102.249.199,b=188972692,c=g,n=US_IL_CHICAGO,o=20940],[c=c,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "01a445e3eba22261329f93440cec5b5e66bcbd0a6fe29f8d53acaeaaf92fcf51",
+        "initiators": [
+          "https://www.africa-newsroom.com/"
+        ],
+        "time": 0.14371299999766052
+      },
+      {
+        "url": "https://www.africa-newsroom.com/files/thumb/0cca64479b3fda2/300/200",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 38596,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "content-type": "image/png",
+          "x-origin-code": "200",
+          "x-ultrafast-origin-code": "200",
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Mon, 21 Dec 2020 19:26:15 GMT",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "x-resource-status": "ultrafast",
+          "access-control-allow-methods": "POST, GET, OPTIONS",
+          "access-control-allow-headers": "*",
+          "x-cloudimg-traceid": "CiI__ci_iplb_p060_ca_ov_bhs7__20240303153355__d4e01_k9o6#777z",
+          "server": "Scaleflex HTTP Loadbalancer",
+          "timing-allow-origin": "*",
+          "content-security-policy": "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:",
+          "content-length": "37693",
+          "cache-control": "max-age=236508",
+          "date": "Sun, 03 Mar 2024 21:52:34 GMT",
+          "connection": "keep-alive",
+          "akamai-request-bc": "[a=104.102.249.199,b=188972695,c=g,n=US_IL_CHICAGO,o=20940],[c=c,n=US_IL_MOUNTPROSPECT,o=20940]"
+        },
+        "responseBodyHash": "2d0129edee7b91c9c9044604893db891f4212ebef89539346778eb5936f1a772",
+        "initiators": [
+          "https://www.africa-newsroom.com/"
+        ],
+        "time": 0.17607799998950213
+      },
+      {
+        "url": "https://www.africa-newsroom.com/files/thumb/f1e471073094380/300/200",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 15099,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "content-type": "image/jpeg",
+          "x-origin-code": "200",
+          "x-ultrafast-origin-code": "200",
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Tue, 12 Jul 2016 12:44:50 GMT",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "x-resource-status": "ultrafast",
+          "access-control-allow-methods": "POST, GET, OPTIONS",
+          "access-control-allow-headers": "*",
+          "x-cloudimg-traceid": "CiI__ci_iplb_p060_ca_ov_bhs7__20240303154238__a57f1_lcaX#330y",
+          "server": "Scaleflex HTTP Loadbalancer",
+          "timing-allow-origin": "*",
+          "content-security-policy": "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:",
+          "content-length": "14201",
+          "cache-control": "max-age=237031",
+          "date": "Sun, 03 Mar 2024 21:52:35 GMT",
+          "connection": "keep-alive",
+          "akamai-request-bc": "[a=104.102.249.199,b=188972724,c=g,n=US_IL_CHICAGO,o=20940],[c=c,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "d86246ad18100b375b19e3ed76cb44e06af41fa77dd752c3da5df1997064a3e5",
+        "initiators": [
+          "https://www.africa-newsroom.com/"
+        ],
+        "time": 0.7674549999646842
+      },
+      {
+        "url": "https://www.africa-newsroom.com/files/thumb/2f0ec75f3cfdb58/300/200",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 15940,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "content-type": "image/png",
+          "x-origin-code": "200",
+          "x-ultrafast-origin-code": "200",
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Sun, 30 Jan 2022 11:26:37 GMT",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "x-resource-status": "ultrafast",
+          "access-control-allow-methods": "POST, GET, OPTIONS",
+          "access-control-allow-headers": "*",
+          "x-cloudimg-traceid": "CiI__ci_iplb_p060_ca_ov_bhs7__20240303153356__d06ab_MpTc#320y",
+          "server": "Scaleflex HTTP Loadbalancer",
+          "timing-allow-origin": "*",
+          "content-security-policy": "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:",
+          "content-length": "15043",
+          "cache-control": "max-age=236444",
+          "date": "Sun, 03 Mar 2024 21:52:35 GMT",
+          "connection": "keep-alive",
+          "akamai-request-bc": "[a=104.102.249.199,b=188972736,c=g,n=US_IL_CHICAGO,o=20940],[c=c,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "8a69c6a23db61111140152e9d7a909547bbd91e0610e4bfc2c9fa1548e271321",
+        "initiators": [
+          "https://www.africa-newsroom.com/"
+        ],
+        "time": 0.40419600007589906
+      },
+      {
+        "url": "https://www.africa-newsroom.com/assets/cache/42e3abc4f13d12d60b2eaed9414d6b72.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 131064,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "content-type": "application/javascript",
+          "x-origin-code": "200",
+          "x-ultrafast-origin-code": "200",
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Thu, 02 Mar 2023 17:38:01 GMT",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "x-resource-status": "ultrafast",
+          "access-control-allow-methods": "POST, GET, OPTIONS",
+          "access-control-allow-headers": "*",
+          "content-encoding": "gzip",
+          "x-cloudimg-traceid": "CiI__ci_iplb_p060_ca_ov_bhs7__20240303102438__36fc3_oPop#600z",
+          "server": "Scaleflex HTTP Loadbalancer",
+          "timing-allow-origin": "*",
+          "content-security-policy": "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:",
+          "content-length": "130106",
+          "cache-control": "max-age=218010",
+          "date": "Sun, 03 Mar 2024 21:52:34 GMT",
+          "connection": "keep-alive",
+          "vary": "Accept-Encoding",
+          "akamai-request-bc": "[a=104.102.249.199,b=188972643,c=g,n=US_IL_CHICAGO,o=20940],[c=c,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "9fb46acba95b5d3d2c8b4dde38d8e0129b3c1f1d3bf209a492bb92f731af2061",
+        "initiators": [
+          "https://www.africa-newsroom.com/"
+        ],
+        "time": 0.11871599999722093
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1158,
+        "remoteIPAddress": "142.250.191.132",
+        "responseHeaders": {
+          "content-type": "text/javascript; charset=utf-8",
+          "expires": "Sun, 03 Mar 2024 21:52:34 GMT",
+          "date": "Sun, 03 Mar 2024 21:52:34 GMT",
+          "cache-control": "private, max-age=300",
+          "cross-origin-resource-policy": "cross-origin",
+          "content-encoding": "gzip",
+          "x-content-type-options": "nosniff",
+          "x-frame-options": "SAMEORIGIN",
+          "content-security-policy": "frame-ancestors 'self'",
+          "x-xss-protection": "1; mode=block",
+          "server": "GSE",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "793414a5c29820d33c9a6a7120fdbbf4fdbabaf3f3cc0176a53336cc5bb4da5c",
+        "initiators": [
+          "https://www.africa-newsroom.com/"
+        ],
+        "time": 0.12904000002890825
+      },
+      {
+        "url": "https://www.africa-newsroom.com/addons/shared_addons/themes/apofront/img/announcement-sep.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 836,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Wed, 25 Nov 2015 11:14:16 GMT",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "192",
+          "content-type": "image/png",
+          "cache-control": "public, max-age=248345",
+          "expires": "Wed, 06 Mar 2024 18:51:39 GMT",
+          "date": "Sun, 03 Mar 2024 21:52:34 GMT",
+          "connection": "keep-alive",
+          "vary": "Accept-Encoding",
+          "akamai-request-bc": "[a=104.102.249.199,b=188972759,c=g,n=US_IL_CHICAGO,o=20940],[c=c,n=US_IL_MOUNTPROSPECT,o=20940],[c=p,n=US_IL_MOUNTPROSPECT,o=20940]"
+        },
+        "responseBodyHash": "59020039c70519ea8a7816639380e208e85da72a789a3395d07632f2e78572ca",
+        "initiators": [
+          "https://www.africa-newsroom.com/assets/cache/618db16d6f7c5c05bcded71e54c813d9.css"
+        ],
+        "time": 0.16741700004786253
+      },
+      {
+        "url": "https://www.africa-newsroom.com/addons/shared_addons/themes/apofront/img/announcement-shadow.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3032,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Wed, 25 Nov 2015 11:14:17 GMT",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "2429",
+          "content-type": "image/png",
+          "cache-control": "public, max-age=208343",
+          "expires": "Wed, 06 Mar 2024 07:44:57 GMT",
+          "date": "Sun, 03 Mar 2024 21:52:34 GMT",
+          "connection": "keep-alive",
+          "vary": "Accept-Encoding",
+          "akamai-request-bc": "[a=104.102.249.199,b=188972801,c=g,n=US_IL_CHICAGO,o=20940],[c=p,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "cb99e33f58f594687470744d5c8b0b6035cf7cd15fb7b42944135ea22d9f65e6",
+        "initiators": [
+          "https://www.africa-newsroom.com/assets/cache/618db16d6f7c5c05bcded71e54c813d9.css"
+        ],
+        "time": 0.16453199996612966
+      },
+      {
+        "url": "https://www.africa-newsroom.com/addons/shared_addons/themes/apofront/img/play-btn.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2593,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Wed, 25 Nov 2015 11:14:42 GMT",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "1990",
+          "content-type": "image/png",
+          "cache-control": "public, max-age=208210",
+          "expires": "Wed, 06 Mar 2024 07:42:45 GMT",
+          "date": "Sun, 03 Mar 2024 21:52:35 GMT",
+          "connection": "keep-alive",
+          "vary": "Accept-Encoding",
+          "akamai-request-bc": "[a=104.102.249.199,b=188972832,c=g,n=US_IL_CHICAGO,o=20940],[c=c,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "6ffd11ec364a27ee14b01ef1c293b9bbe2e82bda9c000efd2bdfbea43cf7f45e",
+        "initiators": [
+          "https://www.africa-newsroom.com/assets/cache/618db16d6f7c5c05bcded71e54c813d9.css"
+        ],
+        "time": 0.590440999949351
+      },
+      {
+        "url": "https://www.africa-newsroom.com/addons/shared_addons/themes/apofront/fonts/fontawesome-webfont.woff?v=4.1.0",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 84372,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Thu, 07 Aug 2014 08:40:30 GMT",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "content-type": "application/font-woff",
+          "content-length": "83756",
+          "cache-control": "public, max-age=208340",
+          "expires": "Wed, 06 Mar 2024 07:44:55 GMT",
+          "date": "Sun, 03 Mar 2024 21:52:35 GMT",
+          "connection": "keep-alive",
+          "vary": "Accept-Encoding",
+          "akamai-request-bc": "[a=104.102.249.199,b=188972947,c=g,n=US_IL_CHICAGO,o=20940],[c=p,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "7a1d9a7fdb9f6de569ac49bbaafa22ad4dbd395d58bd166ea1b3689113de7f0b",
+        "initiators": [
+          "https://www.africa-newsroom.com/assets/cache/618db16d6f7c5c05bcded71e54c813d9.css"
+        ],
+        "time": 0.2970630000345409
+      },
+      {
+        "url": "https://www.africa-newsroom.com/addons/shared_addons/themes/apofront/fonts/proximanova-regit-webfont.woff",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 29177,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Sun, 29 Jun 2014 05:27:45 GMT",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "28568",
+          "content-type": "application/font-woff",
+          "cache-control": "public, max-age=259200",
+          "expires": "Wed, 06 Mar 2024 21:52:35 GMT",
+          "date": "Sun, 03 Mar 2024 21:52:35 GMT",
+          "connection": "keep-alive",
+          "vary": "Accept-Encoding",
+          "akamai-request-bc": "[a=104.102.249.199,b=188972903,c=g,n=US_IL_CHICAGO,o=20940],[a=80.247.226.228,c=o]"
+        },
+        "responseBodyHash": "7da06bbb1b49680dd62952b3957fae61ee652c9466a43ad6c35aa0b737d4f5ee",
+        "initiators": [
+          "https://www.africa-newsroom.com/addons/shared_addons/themes/apofront/css/style.css"
+        ],
+        "time": 0.6129620000720024
+      },
+      {
+        "url": "https://www.africa-newsroom.com/addons/shared_addons/themes/apofront/fonts/proximanova-sboldit-webfont.woff",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 28938,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Sun, 29 Jun 2014 05:28:00 GMT",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "28322",
+          "content-type": "application/font-woff",
+          "cache-control": "public, max-age=236391",
+          "expires": "Wed, 06 Mar 2024 15:32:26 GMT",
+          "date": "Sun, 03 Mar 2024 21:52:35 GMT",
+          "connection": "keep-alive",
+          "vary": "Accept-Encoding",
+          "akamai-request-bc": "[a=104.102.249.199,b=188972831,c=g,n=US_IL_CHICAGO,o=20940],[c=c,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "cdd1e6bba0613fe4ea863e2e2a4f8460ac370a29aeb163895d8a482950dfb550",
+        "initiators": [
+          "https://www.africa-newsroom.com/addons/shared_addons/themes/apofront/css/style.css"
+        ],
+        "time": 0.316497000050731
+      },
+      {
+        "url": "https://www.africa-newsroom.com/addons/shared_addons/themes/apofront/fonts/proximanova-semibold-webfont-webfont-webfont.woff",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 27312,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Sun, 29 Jun 2014 05:28:05 GMT",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "26690",
+          "content-type": "application/font-woff",
+          "cache-control": "public, max-age=208297",
+          "expires": "Wed, 06 Mar 2024 07:44:12 GMT",
+          "date": "Sun, 03 Mar 2024 21:52:35 GMT",
+          "connection": "keep-alive",
+          "vary": "Accept-Encoding",
+          "akamai-request-bc": "[a=104.102.249.199,b=188972979,c=g,n=US_IL_CHICAGO,o=20940],[c=c,n=US_IL_MOUNTPROSPECT,o=20940]"
+        },
+        "responseBodyHash": "d166755aeb62615996a8f57f740f57b7f8fb3c2cdb41fb0f9a577d7354a02cc1",
+        "initiators": [
+          "https://www.africa-newsroom.com/addons/shared_addons/themes/apofront/css/style.css"
+        ],
+        "time": 0.32599499996285886
+      },
+      {
+        "url": "https://www.africa-newsroom.com/addons/shared_addons/themes/apofront/img/twitter-icon.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 949,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Wed, 25 Nov 2015 11:14:53 GMT",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "347",
+          "content-type": "image/png",
+          "cache-control": "public, max-age=137965",
+          "expires": "Tue, 05 Mar 2024 12:12:00 GMT",
+          "date": "Sun, 03 Mar 2024 21:52:35 GMT",
+          "connection": "keep-alive",
+          "vary": "Accept-Encoding",
+          "akamai-request-bc": "[a=104.102.249.199,b=188972992,c=g,n=US_IL_CHICAGO,o=20940],[c=p,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "3a3388510656671899e3814dd543fb119135940366195af90290d63c277de267",
+        "initiators": [
+          "https://www.africa-newsroom.com/assets/cache/618db16d6f7c5c05bcded71e54c813d9.css"
+        ],
+        "time": 0.05116000003181398
+      },
+      {
+        "url": "https://www.africa-newsroom.com/addons/shared_addons/themes/apofront/img/twt-follow-bg.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 824,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Wed, 25 Nov 2015 11:14:54 GMT",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "222",
+          "content-type": "image/png",
+          "cache-control": "public, max-age=208369",
+          "expires": "Wed, 06 Mar 2024 07:45:24 GMT",
+          "date": "Sun, 03 Mar 2024 21:52:35 GMT",
+          "connection": "keep-alive",
+          "vary": "Accept-Encoding",
+          "akamai-request-bc": "[a=104.102.249.199,b=188973017,c=g,n=US_IL_CHICAGO,o=20940],[c=p,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "0059ace64697c0993fd4a763bb444f8f6965b6eaca0ac64e9b6c8eaa48ad7d3c",
+        "initiators": [
+          "https://www.africa-newsroom.com/assets/cache/618db16d6f7c5c05bcded71e54c813d9.css"
+        ],
+        "time": 0.059120999998413026
+      },
+      {
+        "url": "https://www.africa-newsroom.com/addons/shared_addons/themes/apofront/img/user-plus-icon.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1059,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Wed, 25 Nov 2015 11:14:55 GMT",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "457",
+          "content-type": "image/png",
+          "cache-control": "public, max-age=213915",
+          "expires": "Wed, 06 Mar 2024 09:17:50 GMT",
+          "date": "Sun, 03 Mar 2024 21:52:35 GMT",
+          "connection": "keep-alive",
+          "vary": "Accept-Encoding",
+          "akamai-request-bc": "[a=104.102.249.199,b=188973022,c=g,n=US_IL_CHICAGO,o=20940],[c=c,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "5eb2b86bd7b3a2dcfed5cc4d8713d3ed2600d10bc0ee9ce2e7cad8a898ef955a",
+        "initiators": [
+          "https://www.africa-newsroom.com/assets/cache/618db16d6f7c5c05bcded71e54c813d9.css"
+        ],
+        "time": 0.0835120000410825
+      },
+      {
+        "url": "https://www.africa-newsroom.com/addons/shared_addons/themes/apofront/img/rss_bg.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 32893,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Thu, 27 Aug 2020 11:14:23 GMT",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "32289",
+          "content-type": "image/png",
+          "cache-control": "public, max-age=236481",
+          "expires": "Wed, 06 Mar 2024 15:33:56 GMT",
+          "date": "Sun, 03 Mar 2024 21:52:35 GMT",
+          "connection": "keep-alive",
+          "vary": "Accept-Encoding",
+          "akamai-request-bc": "[a=104.102.249.199,b=188973032,c=g,n=US_IL_CHICAGO,o=20940],[c=c,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "1d75c1fc5ae5a34a338dbdea5edc412b8afb1f687380a3d4804f73be0fc3f5e6",
+        "initiators": [
+          "https://www.africa-newsroom.com/assets/cache/618db16d6f7c5c05bcded71e54c813d9.css"
+        ],
+        "time": 0.08613299997523427
+      },
+      {
+        "url": "https://www.africa-newsroom.com/addons/shared_addons/themes/apofront/img/subscribe_bg.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 24309,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Thu, 27 Aug 2020 11:14:30 GMT",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "23705",
+          "content-type": "image/png",
+          "cache-control": "public, max-age=208368",
+          "expires": "Wed, 06 Mar 2024 07:45:23 GMT",
+          "date": "Sun, 03 Mar 2024 21:52:35 GMT",
+          "connection": "keep-alive",
+          "vary": "Accept-Encoding",
+          "akamai-request-bc": "[a=104.102.249.199,b=188973048,c=g,n=US_IL_CHICAGO,o=20940],[c=p,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "3eab85a22c4433322bd1cee1d5e76dc060495ca56e39305501eb5b56b3bb39a9",
+        "initiators": [
+          "https://www.africa-newsroom.com/assets/cache/618db16d6f7c5c05bcded71e54c813d9.css"
+        ],
+        "time": 0.092075000051409
+      },
+      {
+        "url": "https://www.africa-newsroom.com/addons/shared_addons/themes/apofront/img/back-top.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1859,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Thu, 27 Aug 2020 11:17:47 GMT",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "1256",
+          "content-type": "image/png",
+          "cache-control": "public, max-age=208237",
+          "expires": "Wed, 06 Mar 2024 07:43:12 GMT",
+          "date": "Sun, 03 Mar 2024 21:52:35 GMT",
+          "connection": "keep-alive",
+          "vary": "Accept-Encoding",
+          "akamai-request-bc": "[a=104.102.249.199,b=188973077,c=g,n=US_IL_CHICAGO,o=20940],[c=p,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "8cd1ef631bd420c11494fe53135204f36813d8f9c5d3ff16e3fbb57d0ceb56e0",
+        "initiators": [
+          "https://www.africa-newsroom.com/assets/cache/618db16d6f7c5c05bcded71e54c813d9.css"
+        ],
+        "time": 0.09446199994999915
+      },
+      {
+        "url": "https://www.africa-newsroom.com/addons/shared_addons/themes/apofront/img/chosen-sprite.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2409,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Thu, 27 Aug 2020 11:14:10 GMT",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "1806",
+          "content-type": "image/png",
+          "cache-control": "public, max-age=233661",
+          "expires": "Wed, 06 Mar 2024 14:47:01 GMT",
+          "date": "Sun, 03 Mar 2024 21:52:40 GMT",
+          "connection": "keep-alive",
+          "vary": "Accept-Encoding",
+          "akamai-request-bc": "[a=104.102.249.199,b=188973332,c=g,n=US_IL_CHICAGO,o=20940],[c=p,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "a3475f570e0b84aa2ca7ab91d2291e7dfdb6a799e51698c038f60de2cefe9cc8",
+        "initiators": [
+          "https://www.africa-newsroom.com/assets/cache/618db16d6f7c5c05bcded71e54c813d9.css"
+        ],
+        "time": 0.048365000053308904
+      },
+      {
+        "url": "https://www.africa-newsroom.com/addons/shared_addons/themes/apofront/img/xs-arrow.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1815,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Thu, 27 Aug 2020 11:28:41 GMT",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "1212",
+          "content-type": "image/png",
+          "cache-control": "public, max-age=208249",
+          "expires": "Wed, 06 Mar 2024 07:43:29 GMT",
+          "date": "Sun, 03 Mar 2024 21:52:40 GMT",
+          "connection": "keep-alive",
+          "vary": "Accept-Encoding",
+          "akamai-request-bc": "[a=104.102.249.199,b=188978855,c=g,n=US_IL_CHICAGO,o=20940],[c=p,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "8821ff3ab86c8ee3c3dca66a1d9b0d8a56840f35a88e8ed53ad4fd7fe1df1233",
+        "initiators": [
+          "https://www.africa-newsroom.com/assets/cache/618db16d6f7c5c05bcded71e54c813d9.css"
+        ],
+        "time": 0.022739999927580357
+      },
+      {
+        "url": "https://www.africa-newsroom.com/addons/shared_addons/themes/apofront/img/announce-next-prev.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1961,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Thu, 27 Aug 2020 11:14:04 GMT",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "1358",
+          "content-type": "image/png",
+          "cache-control": "public, max-age=118337",
+          "expires": "Tue, 05 Mar 2024 06:44:58 GMT",
+          "date": "Sun, 03 Mar 2024 21:52:41 GMT",
+          "connection": "keep-alive",
+          "vary": "Accept-Encoding",
+          "akamai-request-bc": "[a=104.102.249.199,b=188978931,c=g,n=US_IL_CHICAGO,o=20940],[c=p,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "3a83ec7d1f9912de927db0a9b085469f57d08f6f0e482144d8ae2153ef44ee8c",
+        "initiators": [
+          "https://www.africa-newsroom.com/assets/cache/618db16d6f7c5c05bcded71e54c813d9.css"
+        ],
+        "time": 0.02420200000051409
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/vj7hFxe2iNgbe-u95xTozOXW/recaptcha__en.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 200475,
+        "remoteIPAddress": "142.250.190.67",
+        "responseHeaders": {
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/recaptcha",
+          "cross-origin-resource-policy": "cross-origin",
+          "cross-origin-opener-policy": "same-origin-allow-popups; report-to=\"recaptcha\"",
+          "report-to": "{\"group\":\"recaptcha\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/recaptcha\"}]}",
+          "content-length": "199830",
+          "x-content-type-options": "nosniff",
+          "server": "sffe",
+          "x-xss-protection": "0",
+          "date": "Sun, 03 Mar 2024 21:51:39 GMT",
+          "expires": "Mon, 03 Mar 2025 21:51:39 GMT",
+          "cache-control": "public, max-age=31536000",
+          "last-modified": "Mon, 26 Feb 2024 03:01:13 GMT",
+          "content-type": "text/javascript",
+          "vary": "Accept-Encoding",
+          "age": "62",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "2c6a3425cec9ba0cbcfcf1dbba2120a72ac369674a6d02e06bd3b0c16efbdcf7",
+        "initiators": [
+          "https://www.google.com/recaptcha/api.js"
+        ],
+        "time": 0.16181800002232194
+      },
+      {
+        "url": "https://www.africa-newsroom.com/addons/shared_addons/themes/apofront/img/dropdown-caret.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 820,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Wed, 13 Oct 2021 16:07:00 GMT",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "218",
+          "content-type": "image/png",
+          "cache-control": "public, max-age=208213",
+          "expires": "Wed, 06 Mar 2024 07:42:54 GMT",
+          "date": "Sun, 03 Mar 2024 21:52:41 GMT",
+          "connection": "keep-alive",
+          "vary": "Accept-Encoding",
+          "akamai-request-bc": "[a=104.102.249.199,b=188979105,c=g,n=US_IL_CHICAGO,o=20940],[c=p,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "d31b515328323a0b85fff4ef9cb52213d5b8c50eb0f6c3df8e8f2e99064049bd",
+        "initiators": [
+          "https://www.africa-newsroom.com/assets/cache/618db16d6f7c5c05bcded71e54c813d9.css"
+        ],
+        "time": 0.031180999940261245
+      },
+      {
+        "url": "https://www.africa-newsroom.com/addons/shared_addons/themes/apofront/img/calander.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 843,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Wed, 25 Nov 2015 11:14:20 GMT",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "241",
+          "content-type": "image/png",
+          "cache-control": "public, max-age=248306",
+          "expires": "Wed, 06 Mar 2024 18:51:07 GMT",
+          "date": "Sun, 03 Mar 2024 21:52:41 GMT",
+          "connection": "keep-alive",
+          "vary": "Accept-Encoding",
+          "akamai-request-bc": "[a=104.102.249.199,b=188973309,c=g,n=US_IL_CHICAGO,o=20940],[c=p,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "435ec8973bc0ad7d884e9b4d1fdf9c17bee4575f1c14b78646d814b25b5a0da3",
+        "initiators": [
+          "https://www.africa-newsroom.com/assets/cache/618db16d6f7c5c05bcded71e54c813d9.css"
+        ],
+        "time": 0.039588000043295324
+      },
+      {
+        "url": "https://www.africa-newsroom.com/addons/shared_addons/themes/apofront/img/radio-btn.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1316,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Wed, 25 Nov 2015 11:14:44 GMT",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "714",
+          "content-type": "image/png",
+          "cache-control": "public, max-age=208247",
+          "expires": "Wed, 06 Mar 2024 07:43:28 GMT",
+          "date": "Sun, 03 Mar 2024 21:52:41 GMT",
+          "connection": "keep-alive",
+          "vary": "Accept-Encoding",
+          "akamai-request-bc": "[a=104.102.249.199,b=188973267,c=g,n=US_IL_CHICAGO,o=20940],[c=p,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "619726a866d6c7223852a795d71cd19d003b73d3d76797f9d433a53268fbac5a",
+        "initiators": [
+          "https://www.africa-newsroom.com/assets/cache/618db16d6f7c5c05bcded71e54c813d9.css"
+        ],
+        "time": 0.032392999972216785
+      },
+      {
+        "url": "https://www.africa-newsroom.com/addons/shared_addons/themes/apofront/img/search-icon.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1356,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "x-frame-options": "SAMEORIGIN",
+          "last-modified": "Wed, 25 Nov 2015 11:14:47 GMT",
+          "accept-ranges": "bytes",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "754",
+          "content-type": "image/png",
+          "cache-control": "public, max-age=208220",
+          "expires": "Wed, 06 Mar 2024 07:43:01 GMT",
+          "date": "Sun, 03 Mar 2024 21:52:41 GMT",
+          "connection": "keep-alive",
+          "vary": "Accept-Encoding",
+          "akamai-request-bc": "[a=104.102.249.199,b=188973107,c=g,n=US_IL_CHICAGO,o=20940],[c=p,n=US_IL_CHICAGO,o=20940]"
+        },
+        "responseBodyHash": "003434b602a3011e2eb73cc5edbafdb23421e227c063912a88526398366b73eb",
+        "initiators": [
+          "https://www.africa-newsroom.com/assets/cache/618db16d6f7c5c05bcded71e54c813d9.css"
+        ],
+        "time": 0.030389999970793724
+      },
+      {
+        "url": "https://www.africa-newsroom.com/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 5029,
+        "remoteIPAddress": "104.102.249.203",
+        "responseHeaders": {
+          "x-frame-options": "SAMEORIGIN",
+          "content-encoding": "gzip",
+          "access-control-allow-origin": "*",
+          "x-xss-protection": "1; mode=block",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000",
+          "content-length": "4473",
+          "content-type": "image/x-icon",
+          "expires": "Sun, 03 Mar 2024 21:52:42 GMT",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "pragma": "no-cache",
+          "date": "Sun, 03 Mar 2024 21:52:42 GMT",
+          "connection": "keep-alive",
+          "vary": "Accept-Encoding",
+          "akamai-request-bc": "[a=104.102.249.199,b=188979406,c=g,n=US_IL_CHICAGO,o=20940],[a=80.247.226.228,c=o]"
+        },
+        "responseBodyHash": "63630fc45be84b706f2843f41027a04d015bddec6f8dc299322404b10946c65e",
+        "initiators": [],
+        "time": 0.19657599995844066
+      },
+      {
+        "url": "https://cdn.statically.io/gh/gorhill/uBlock/master/assets/assets.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 6427,
+        "remoteIPAddress": "151.101.129.91",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:52:45 GMT",
+          "content-encoding": "br",
+          "x-content-type-options": "nosniff",
+          "age": "25340",
+          "x-cache": "HIT, HIT",
+          "alt-svc": "h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":443\";ma=86400",
+          "content-length": "6031",
+          "x-served-by": "cache-sjc10027-SJC, cache-chi-kigq8000157-CHI",
+          "server": "statically",
+          "etag": "W/\"668dc0ec71b151dbdb3784f6d83eb0f1278ba92c712f79c58e18dd43ebe2adea\"",
+          "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+          "content-type": "application/json; charset=utf-8",
+          "access-control-allow-origin": "*",
+          "vary": "Accept-Encoding",
+          "cache-control": "public, max-age=86400",
+          "timing-allow-origin": "*",
+          "access-control-expose-headers": "*"
+        },
+        "responseBodyHash": "9b205a23751f501f3c867bf25fcbe583a923125cf233e222606583c9521dcbc2",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-common.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.14050499990116805
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://www.africa-newsroom.com/assets/cache/d2325dd164f27f9c0ac871910cec6cd2.js": {
+          "Navigator.prototype.userAgent": 1
+        },
+        "https://www.africa-newsroom.com/assets/cache/42e3abc4f13d12d60b2eaed9414d6b72.js": {
+          "Navigator.prototype.userAgent": 1,
+          "Date.prototype.getTime": 35,
+          "HTMLCanvasElement.prototype.toDataURL": 1,
+          "window.devicePixelRatio": 1,
+          "Navigator.prototype.appName": 2,
+          "Document.cookie getter": 2
+        },
+        "https://www.gstatic.com/recaptcha/releases/vj7hFxe2iNgbe-u95xTozOXW/recaptcha__en.js": {
+          "Navigator.prototype.userAgent": 27
+        },
+        "https://www.africa-newsroom.com/assets/cache/d159d3c255cc2f4cec5da3c2438b4ff0.js": {
+          "Event.prototype.timeStamp": 2
+        }
+      },
+      "savedCalls": []
+    },
+    "cookies": [
+      {
+        "name": "PHPSESSID",
+        "domain": "africa-newsroom.com",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "lang_code",
+        "domain": ".africa-newsroom.com",
+        "path": "/",
+        "expires": 1712094754780,
+        "session": false
+      },
+      {
+        "name": "default_pyrocms",
+        "domain": ".africa-newsroom.com",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "SERVERID",
+        "domain": "africa-newsroom.com",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "PHPSESSID",
+        "domain": "www.africa-newsroom.com",
+        "path": "/",
+        "session": true
+      },
+      {
+        "name": "SERVERID",
+        "domain": "www.africa-newsroom.com",
+        "path": "/",
+        "session": true
+      }
+    ]
+  }
+}

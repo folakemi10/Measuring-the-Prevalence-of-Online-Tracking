@@ -1,0 +1,4287 @@
+{
+  "initialUrl": "http://usatoday.com/",
+  "finalUrl": "https://www.usatoday.com/",
+  "timeout": false,
+  "testStarted": 1709502502957,
+  "testFinished": 1709502538539,
+  "data": {
+    "requests": [
+      {
+        "url": "http://usatoday.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "146.75.78.62",
+        "responseHeaders": {
+          "connection": "close",
+          "content-length": "0",
+          "retry-after": "0",
+          "location": "https://usatoday.com/",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:48:31 GMT",
+          "nel": "{\"report_to\":\"default\",\"max_age\":31557600,\"include_subdomains\":true,\"success_fraction\":0.005}",
+          "report-to": "{\"max_age\":31557600,\"include_subdomains\":true,\"endpoints\":[{\"url\":\"https://reporting-api.gannettinnovation.com\"}]}",
+          "x-cache": "HIT",
+          "vary": "User-Agent",
+          "content-security-policy": "upgrade-insecure-requests",
+          "cache-control": "max-age=300,private"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://usatoday.com/",
+        "initiators": [],
+        "time": 0.2449339999584481
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-common.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9146,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"aaUB+OkU2kkNMG0s29pMrD/Txpw=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "f126a5d9a1d51b6e9a69bce4c7bc5cd73d35c52f698720718bd42f55d564930d",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.33887700003106147
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 63306,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"brp35kQtS8+j/OiHcYh4IU0cb3Q=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "6e72cbe8c52b11d9b408452d7cfb3f49fe1c78c017bd8077110b357fdec328a8",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.339555999962613
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background-ext.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 8841,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"fXf83hxHQFYzgM0DpIEbFLcQtRs=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "970661746c1bd310b52c2a4106f5628f2ec33587889f62a010055490f9da77c3",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.3424250000389293
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/commands.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5688,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"c/ILoHWOD64IpOQHtmk7EIE2XqA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "8600c9766351b29e50594db79a48a6257edd8caf7ac6e9e1f6a739e1a76cfff5",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.35121900006197393
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 64015,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"tB/CTGayMFjN4N1iH+gWkt7Ypys=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "814ca08012b5676b8f54fa9b76db8d32c7b809a8d6232f085836c8379af81dd3",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.34252800000831485
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 59170,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"8qtLS1TRlqk4NFoKeiaqWbvgnjs=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "2273d9c1354d7d76dcdf4ac1af459f83b8d5ba69fe7cf3ba9e739cbc6465469d",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.3512059999629855
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/tab.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 43055,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"bAN/KBrmF13jeLEa8CnmY/h9yJw=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "14ca611674b054d67b8ee47aaa75247c7ca714ffb56505922dd20eb8a683d117",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.3471759998938069
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/ublock.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 21360,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"s2huleUUItx8WmfIoigU2k89EI4=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "680316d3bc24a4c7075f953b804bdf386bf7006dad240d9dd82c0749e0bde7bb",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.32629200001247227
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/utils.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5732,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"ewbUChQLhbKBviAH8OkhaZR6EBY=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "53753703bb4eddbc3b10e89a971bc24af840fde30fb7895ed2664fe875f99216",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.3189649999840185
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/cachestorage.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 17413,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"BKGwCtQGOhNSwT+cpw63EvtlObc=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "037dbc3d31577989f3e77cfa4da0f37344f8d1d9d1063cf147e904fd5aef8b27",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.32304399996064603
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/contextmenu.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9458,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"KnFG3e4nOTTCC0ndfJpFbFTX1yQ=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "dda53fe9ea31d6abc64cc04453043ac5c9855c59fc5e7a11c7a79aac2f75c147",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.33001999999396503
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 37085,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"rkObEe2pVTnb8GIlR54aPZvaOuE=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "7f57c7371827dee653f88641abe00fb3576343467b131a0f81dbe05252d47df7",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.3429290000349283
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/lz4.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6476,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"Aby2z5UWZo+IfYyE5QRUC04KW7E=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "bc37731b1037f5f5beb72337a0403137be0d14f2dfe4d9b4c3489f5871337fe8",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.3162109999684617
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-ext-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6442,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"T246NPf/b38zaoR9brX77q41lqM=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "25e9546e55c911b89c60bfaae1facd64726567d1ff00efce427063f92dab782a",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.3178480000933632
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/reverselookup.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6410,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"jCMDkD1weRVOYWmj9W86+SAAOqc=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "8aafbe6baaf965e15146d7d4c86edd6eca77eebc070447170f64d6ddfdc3f26d",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.31866500002797693
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-net-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 177232,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"naOuX4j11zGMRfwg1/ib5p70d9o=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "977ab6b0e22f7014a66e861483da1657f9197c0f7f5ce03cfff6b9bae03a6a21",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.37353999994229525
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/background.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12935,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"pxJDj/3NSnAwkacM0mDXjla4oKA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "617e411ff07ff690535663dceaa4b4afef54c3f72e851fb3ca95fd811352c237",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.32415000000037253
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 40690,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"2ULP7uOZN0J63JSZrWNClnpoRZ0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "d4767d32875f7d6392123143a0a90f39f578be6500d48310fa6655ac53018375",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.3290169999236241
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16231,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"5/Hviz/N4pTuWsUsdPmG+Vurg4g=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "25caf31da6b5a1226229110ef285f7ed21e1c6c7b2e67b2ebc3b3dc9f251ce3f",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.3246250000083819
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/console.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1686,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"FolHAjRVIeXDvaQ1O5ZchW1id7o=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "4c9115d407dc2d37e4947201e1cd403ce49e773cf3145c748145145152a39ba6",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.31818999990355223
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/filtering-engines.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1843,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"GJXEGjVT9sYpuBNXUfBP4hLDkPc=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "8e3f6983c16220eaf941346b35d632300fc0cd9b86020f3816eb92767cf2b622",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.32493100001011044
+      },
+      {
+        "url": "https://usatoday.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "146.75.78.62",
+        "responseHeaders": {
+          "retry-after": "0",
+          "location": "https://www.usatoday.com/",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:48:31 GMT",
+          "nel": "{\"report_to\":\"default\",\"max_age\":31557600,\"include_subdomains\":true,\"success_fraction\":0.005}",
+          "report-to": "{\"max_age\":31557600,\"include_subdomains\":true,\"endpoints\":[{\"url\":\"https://reporting-api.gannettinnovation.com\"}]}",
+          "x-cache": "HIT",
+          "vary": "User-Agent",
+          "content-security-policy": "upgrade-insecure-requests",
+          "strict-transport-security": "max-age=63072000",
+          "cache-control": "max-age=300,private",
+          "content-length": "0"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://www.usatoday.com/",
+        "redirectedFrom": "http://usatoday.com/",
+        "initiators": [],
+        "time": 0.08787400007713586
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/cosmetic-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 33982,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"8DeaqhHs9iEDwoRUHAwyVhluLGk=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "f85390d75b092dc72cc27f559516fc3b0d9a1f473c921cde3f86cf32a0244e59",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-ext-filtering.js"
+        ],
+        "time": 0.03334100008942187
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/html-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 13226,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"nE/MtESN4/QpDKN9nEGM5qoH4M4=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "a39efe15686694c36c84c76fef131c400199de765eccc56e4234d138eab327ad",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-ext-filtering.js"
+        ],
+        "time": 0.03627699997741729
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/httpheader-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6352,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"SqWU30JsVe68CGl7V5IYN9Ue8ZY=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "a668fd9d938f686433d2e5e621f5175fbe3cc31a3f7f1e08e24352ecab395c90",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-ext-filtering.js"
+        ],
+        "time": 0.03722499997820705
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/logger.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2617,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"b8Wd6PJxRPGudjfAAryIkg7il6g=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "74588f2dfea500aedfac8edd75b949e6d4aeb2070706885d3ffe9dce297658d6",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-ext-filtering.js"
+        ],
+        "time": 0.03778100002091378
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/scriptlet-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16396,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"tzLnLKB+/ZNmrSigvMkdpANOsGg=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "9009f525e509824eb26816d85f5bba1fa05aeacd8439cdd372e1fa67fd2d691f",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-ext-filtering.js"
+        ],
+        "time": 0.03894100000616163
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-filtering-io.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4549,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"odWmB/ijF6Od72rdmnHNjvmWt1Q=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "e0d8f3c6d0d715f2ea61ab6670e153f341e2abe07dc5e0f6bbb3532bfeedbc30",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/reverselookup.js"
+        ],
+        "time": 0.037143000052310526
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/i18n.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 13319,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"sgE7pqJMnDa8VrcldJ0ilYveB9M=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "54fb40243620deba248a8e72fba23d2bdb38072bc32b30f0b8dc4b5210bb0746",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/reverselookup.js"
+        ],
+        "time": 0.03882600006181747
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-filtering-parser.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 164667,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"H6Vn2En40xu1GbGWyUOD8+h0LF8=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "cfdf172c8e95c947c500dea40ba5540daaa4e6e8c62230be7c60658c1cc7c114",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/reverselookup.js"
+        ],
+        "time": 0.0649059999268502
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/uri-utils.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5459,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"Xn67G/cKymweq4CjJ8jx85KcgH4=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "aad0fbad010ed91399e993917f329b2d745fbe4457e3d0f011662ea048a62d03",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/reverselookup.js"
+        ],
+        "time": 0.04207500000484288
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7129,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"1vY+XR+TzcIhxp2BuhYVZJ65M+Y=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "e2e65720e4c6816243d811e34a3fa8773bde2fc7da683ef912246bbd4f266e3b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/cachestorage.js"
+        ],
+        "time": 0.03872499999124557
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/filtering-context.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14378,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"yN0YEFTj9wAv0PvTGvys1uJ8kl0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "c91359d674f43f0ebdc9a355d8b0fb43735d48995df2196f67e17de92b723fce",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/background.js"
+        ],
+        "time": 0.04234899999573827
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-resources.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5378,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"o8OhMLJZCm7xijQh+t91hKH16vM=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "820e0173c4edd93e7dc5d4244e1d12e7129de894aef21f713ba21bf548c60ecf",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js"
+        ],
+        "time": 0.04319300001952797
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/text-utils.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3206,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"bybrzDjowCch/sktFQYJugb+zwM=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "b1a96611d4ed6efbd6b6cd5c79175e891575c63294e45f847f05600f5cdb12ac",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js"
+        ],
+        "time": 0.04393399995751679
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/dynamic-net-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14929,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"gXO6tsSsmyISqWJESo/178bzc70=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "1599cd0e54d1054f513498d2d4809a39a795d82c1e23b422cc6503608600df36",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/filtering-engines.js"
+        ],
+        "time": 0.04425000003539026
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/hnswitches.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9552,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"+rKz0sjaKVuCQGW9yi4CgDBwdaQ=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "347df073a6f20be44a21ae99b8da0c14614b397658894963f24330acc553113b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/filtering-engines.js"
+        ],
+        "time": 0.04557600000407547
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/url-net-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10209,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"tieD34setz8cNEM+sZ0i6CEhpFg=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "835831a8584c0b8d7d0ea93bc8d1579ef3dc8c4611d371722a643c36f14471dc",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/filtering-engines.js"
+        ],
+        "time": 0.0462169999955222
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/text-encode.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12028,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"hN/C9mwwtU1t+yo3/Rg0M2yGi5k=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "850aa0a27dd5ae4a14c9e1173839ee2376849ef5590f6c82b8c34e200a2344ec",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js"
+        ],
+        "time": 0.05068400001619011
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/lib/publicsuffixlist/publicsuffixlist.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 21141,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"iila5CWHW0iw8SPgL216SoU3hYw=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "4bffa485e7f0c16134305215cb85b6ee33af08a1370484351b230f56c64fe6a4",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.051454000058583915
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/lib/punycode.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 13615,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"Cnf4OiWclUC+aPRdFWSYUnGTUnA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "329249856a82a02f69fb2d929f89e02aefa6b04cca4ef6a3b9bebfa48d6e824c",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.05246699997223914
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/base64-custom.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9061,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"OnBCHLjB+OUYqDx7akb0eRGnoZs=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "a0880409a82754c2e5927f5d3712dbbab280c5024ecce864b7dbec20dc19d2ea",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.05330399994272739
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-dnr-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 17406,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"DbHGb5L4hdAkjR9FLOq6UPY0mSA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "10f814879fa095d9558a96692bb261010315429e4534d98644050157c30a866f",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.05354200000874698
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/benchmarks.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14781,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"fx2USk/w9OdwKYUcesd1PiXaKso=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "7dc5738c927e44080b7cd9a134a20c9a27c4d5f16858640f417bc4c54c7f8fe7",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.053939999896101654
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/pagestore.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 37941,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"0pAEaDWrTcynpqbYkllrsQbu4P4=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "0d276e541f29baf81c120ed01011b79dd6314bf10d3a7ac71b9f22cc8b4020e1",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/tab.js"
+        ],
+        "time": 0.054345999960787594
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/tasks.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1405,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"SYHXDKUVZzLkC5tphHt3KrA4+7U=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "1c32e673ad892453685d10961246093eac5b628d4a0dfe423a6b3903a3a971b8",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-net-filtering.js"
+        ],
+        "time": 0.026263999985530972
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/biditrie.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 34955,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"AheZ6MejaiDkLljcnWjPUo842xA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "4e020d6ce6f487e50ee11a68c69808a1466dc39d91c45d7b576186fc4d333189",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-net-filtering.js"
+        ],
+        "time": 0.026773000019602478
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/hntrie.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 28060,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"Er8vVKiCQn/QLsrtE4b7i/p31bY=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "0c2d598dcfb869d73fdd210d8d4de6be01bf963fd68493aff38412a4558a6543",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-net-filtering.js"
+        ],
+        "time": 0.028721999959088862
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-ext-filtering-db.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6022,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"jqRZdGl0d4KQTEg9Iimy9jCMWE0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "fed5ab181ee1c6857ee8c7e6ef251dba74d361e7cc291b076199e2fedaca50cc",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/cosmetic-filtering.js"
+        ],
+        "time": 0.029326000018045306
+      },
+      {
+        "url": "https://www.usatoday.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 68117,
+        "remoteIPAddress": "151.101.130.62",
+        "responseHeaders": {
+          "content-type": "text/html; charset=utf-8",
+          "etag": "W/\"3c5af-ZhzkOamlkdgoBOwbOWt2GAbw+Dk\"",
+          "x-content-type-options": "nosniff",
+          "x-frame-options": "deny",
+          "x-xss-protection": "1; mode=block",
+          "feature-policy": "camera 'none';display-capture 'none';geolocation 'none';microphone 'none';payment 'none';usb 'none';xr-spatial-tracking 'none'",
+          "permissions-policy": "camera=(),display-capture=(),geolocation=(),microphone=(),payment=(),usb=(),xr-spatial-tracking=()",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "content-security-policy-report-only": "script-src https: blob: 'unsafe-inline' 'unsafe-eval' 'self';base-uri 'self';report-uri https://reporting-api.gannettinnovation.com;report-to default",
+          "content-security-policy": "upgrade-insecure-requests;frame-ancestors 'none';object-src 'none'",
+          "cross-origin-opener-policy": "same-origin",
+          "cross-origin-resource-policy": "same-origin",
+          "origin-agent-cluster": "?1",
+          "content-encoding": "br",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:48:31 GMT",
+          "age": "19",
+          "set-cookie": "gup_anonid=67995769-ccb0-45a9-92dd-19b3c0800ed4; Domain=.usatoday.com; Max-Age=31536000; Path=/; SameSite=Lax; Secure; Priority=High\ngup_clientid=ad945cd8-ace0-4f87-bd21-6585386e6b19; Domain=.usatoday.com; Max-Age=31536000; Path=/; SameSite=Lax; Secure; Priority=High\ngnt_ub=65; domain=.usatoday.com; path=/; secure; samesite=lax; max-age=31536000; priority=high;\ngnt_sb=13; domain=.usatoday.com; path=/; secure; samesite=lax; max-age=31536000; priority=high;\ngnt_eid=control:13;domain=.usatoday.com;path=/;secure;samesite=lax;max-age=5184000;priority=high;\ngnt_w=72~1-q1a2z32cb0f2f2~Sunny;domain=www.usatoday.com;path=/;samesite=lax;secure;priority=high;\ngnt_i=43093410920542178819*2552*US~MO~st%20louis~63130;domain=.usatoday.com;path=/;samesite=lax;secure;priority=high;",
+          "cache-control": "no-store",
+          "x-abvariant": "HP4U_B",
+          "link": "<https://user.usatoday.com/USAT-GUP/user/>;rel=preload;as=fetch;crossorigin=use-credentials;nopush,<https://www.usatoday.com/tangstatic/svg/weather/1-q1a2z32cb0f2f2.svg>;rel=preload;as=image;nopush",
+          "nel": "{\"report_to\":\"default\",\"max_age\":31557600,\"include_subdomains\":true,\"success_fraction\":0.005}",
+          "report-to": "{\"max_age\":31557600,\"include_subdomains\":true,\"endpoints\":[{\"url\":\"https://reporting-api.gannettinnovation.com\"}]}",
+          "x-cache": "HIT, HIT",
+          "x-timer": "S1709502512.820899,VS0,VE4",
+          "vary": "Accept-Encoding,User-Agent",
+          "strict-transport-security": "max-age=63072000",
+          "server-timing": "gnt_i;desc=\"43093410920542178819*2552*US~MO~st%20louis~63130\"",
+          "content-length": "66297"
+        },
+        "responseBodyHash": "30707fa3925ab766ab8b8c6fce84fc08da662204a3b8534e56aa02c6f795292e",
+        "redirectedFrom": "https://usatoday.com/",
+        "initiators": [],
+        "time": 0.13198499998543411
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/lib/regexanalyzer/regex.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 71968,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"Zc4zMrbKNl4jIVUdCsA8BAi5Qk8=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "de0a7a04bd5349dd3ffb91fb54d66fc5ccbd930f8c4bdb41ddac4dd03e18aacb",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-filtering-parser.js"
+        ],
+        "time": 0.031076000072062016
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/lib/csstree/css-tree.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 167973,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"4WxGcJjJUcwPUMlunC7RvGLWaI4=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "ecc4507fac946cbe442962e11bb058195dbe72545cce42f34338a83726ec56e0",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-filtering-parser.js"
+        ],
+        "time": 0.04200500005390495
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16-off.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 552,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"UjtU7CjAmAcHX4DBL09uSijcYkg=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "7ea99590d4b3f5ffbd7610f8ae42a72803a0f809200f595b943d5a622eb8d9bd",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.48250499996356666
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32-off.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1114,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"nkCRpu+nneDbhSqRHQsS4ngvo0I=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "3c8bf856b1fed942ab11cfc92aeda135adcc25c7012528f4b95cc6cb0e74a2cb",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.4991019999142736
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 420,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"9uZWEEQawXEa9JeFZdVDxheK738=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "5bc0b6c5d00309f9dae2be3fb505fda1ccdfa5c4d2994e167c8fb473bf95a777",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.4997050000820309
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1278,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"e74+CjUkVkdX//K9KytM4jGb4Sg=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "2fd0f85a569e98791d39884b54e706d105e5db0dfc60a319a40e09d48fc9b878",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.4998550000600517
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 570,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"SCCY3xHCtdMdB9jfy1lKOHd91yw=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "75cfccc844e135a85d7508a5892f72bac16b510919e4d4d5801ded7b1901a5cd",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background-ext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js"
+        ],
+        "time": 0.500088999979198
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1089,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"RmlX4Eb0Vf+9Lga44dPV6pw/juM=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "230dc98bf942ad4be6016cbff229ae0605f2f02401e406ef0d649e7b1cca37ae",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background-ext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js"
+        ],
+        "time": 0.6084419999970123
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_64-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4406,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"VxvYv0EN5oLKTZD+GqhZRU48+qM=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "d52e425f9820d4c3e27e3ba658b7d21b14e3fbda7dd43febeea5a6021809060c",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background-ext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js"
+        ],
+        "time": 0.6089739999733865
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 570,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"SCCY3xHCtdMdB9jfy1lKOHd91yw=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "75cfccc844e135a85d7508a5892f72bac16b510919e4d4d5801ded7b1901a5cd",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "extensions::webRequestEvent"
+        ],
+        "time": 0.301181000075303
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1089,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"RmlX4Eb0Vf+9Lga44dPV6pw/juM=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "230dc98bf942ad4be6016cbff229ae0605f2f02401e406ef0d649e7b1cca37ae",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "extensions::webRequestEvent"
+        ],
+        "time": 0.3009590000147
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_64-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4406,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"VxvYv0EN5oLKTZD+GqhZRU48+qM=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "d52e425f9820d4c3e27e3ba658b7d21b14e3fbda7dd43febeea5a6021809060c",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "extensions::webRequestEvent"
+        ],
+        "time": 0.30096700007561594
+      },
+      {
+        "url": "https://user.usatoday.com/USAT-GUP/user/",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 2122,
+        "remoteIPAddress": "151.101.130.62",
+        "responseHeaders": {
+          "server": "nginx",
+          "content-type": "application/json",
+          "expires": "Sun, 03 Mar 2024 21:48:32 GMT",
+          "cache-control": "max-age=0, no-cache, no-store, must-revalidate, private",
+          "x-content-type-options": "nosniff",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "content-security-policy": "frame-ancestors https://login.usatoday.com/",
+          "x-frame-options": "ALLOW-FROM https://login.usatoday.com/",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "https://www.usatoday.com",
+          "gup-request-id": "2eda5d451e5f49618057770972bd2ef0",
+          "set-cookie": "gup_lng=%7B%22ret-usr%22%3A%20false%2C%20%22ret-sub%22%3A%20false%2C%20%22auth%22%3A%20false%2C%20%22name%22%3A%20%22%22%2C%20%22hma%22%3A%20false%2C%20%22lic%22%3A%20%22none%22%2C%20%22lpf%22%3A%20false%2C%20%22updated%22%3A%201709502512%2C%20%223PID%22%3A%20null%2C%20%22ips%22%3A%20false%7D; Domain=.usatoday.com; expires=Mon, 03 Mar 2025 21:48:32 GMT; Max-Age=31536000; Path=/; Priority=high; SameSite=Lax; Secure\ngup_clientid=ad945cd8-ace0-4f87-bd21-6585386e6b19; Domain=.usatoday.com; expires=Mon, 03 Mar 2025 21:48:32 GMT; Max-Age=31536000; Path=/; Priority=high; SameSite=Lax; Secure",
+          "x-clacks-overhead": "GNU Terry Pratchett",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:48:32 GMT",
+          "via": "1.1 varnish",
+          "x-served-by": "cache-chi-kigq8000167-CHI",
+          "x-cache": "MISS",
+          "x-cache-hits": "0",
+          "vary": "Origin",
+          "nel": "{\"report_to\":\"default\",\"max_age\":31557600,\"include_subdomains\":true,\"success_fraction\":0.005}",
+          "report-to": "{\"max_age\":31557600,\"include_subdomains\":true,\"endpoints\":[{\"url\":\"https://reporting-api.gannettinnovation.com\"}]}",
+          "content-length": "1080"
+        },
+        "responseBodyHash": "7a2a7b1a80a0bdd92893fe8bb10cb94afc2b97a6d89e3fc63be9b828275ae9f3",
+        "initiators": [],
+        "time": 0.7388910000445321
+      },
+      {
+        "url": "https://www.usatoday.com/tangstatic/svg/weather/1-q1a2z32cb0f2f2.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 505,
+        "remoteIPAddress": "151.101.130.62",
+        "responseHeaders": {
+          "content-type": "image/svg+xml",
+          "last-modified": "Thu, 22 Feb 2024 05:07:32 GMT",
+          "content-encoding": "br",
+          "cache-control": "public, immutable, max-age=315360000",
+          "content-security-policy": "upgrade-insecure-requests",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:48:32 GMT",
+          "age": "922717",
+          "nel": "{\"report_to\":\"default\",\"max_age\":31557600,\"include_subdomains\":true,\"success_fraction\":0.005}",
+          "report-to": "{\"max_age\":31557600,\"include_subdomains\":true,\"endpoints\":[{\"url\":\"https://reporting-api.gannettinnovation.com\"}]}",
+          "x-cache": "HIT, HIT",
+          "x-timer": "S1709502512.471260,VS0,VE0",
+          "vary": "Accept-Encoding",
+          "strict-transport-security": "max-age=63072000",
+          "content-length": "305"
+        },
+        "responseBodyHash": "6c2def03796d0323a19c12afbc7e4793b3c6a6c90a47267fc7e9052fc6d80fc6",
+        "initiators": [],
+        "time": 0.6021480000345036
+      },
+      {
+        "url": "https://www.usatoday.com/tangstatic/js/pbjsandwich-q1a2z35eda84ca.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 79620,
+        "remoteIPAddress": "151.101.130.62",
+        "responseHeaders": {
+          "content-type": "application/javascript",
+          "last-modified": "Tue, 13 Feb 2024 16:45:55 GMT",
+          "content-encoding": "br",
+          "cache-control": "public, immutable, max-age=315360000",
+          "x-content-type-options": "nosniff",
+          "content-security-policy": "upgrade-insecure-requests",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:48:32 GMT",
+          "age": "1659672",
+          "nel": "{\"report_to\":\"default\",\"max_age\":31557600,\"include_subdomains\":true,\"success_fraction\":0.005}",
+          "report-to": "{\"max_age\":31557600,\"include_subdomains\":true,\"endpoints\":[{\"url\":\"https://reporting-api.gannettinnovation.com\"}]}",
+          "x-cache": "HIT, HIT",
+          "x-timer": "S1709502513.655140,VS0,VE1",
+          "vary": "Accept-Encoding",
+          "strict-transport-security": "max-age=63072000",
+          "content-length": "79451"
+        },
+        "responseBodyHash": "73883b6f86cc3e04f7ede00a78f4d43dea3983e23b856ce95610853fbbff5798",
+        "initiators": [
+          "https://www.usatoday.com/"
+        ],
+        "time": 0.23438500007614493
+      },
+      {
+        "url": "https://c.amazon-adsystem.com/aax2/apstag.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 75851,
+        "remoteIPAddress": "108.157.151.146",
+        "responseHeaders": {
+          "content-type": "application/javascript",
+          "date": "Sun, 03 Mar 2024 21:05:21 GMT",
+          "last-modified": "Thu, 29 Feb 2024 20:11:28 GMT",
+          "x-amz-server-side-encryption": "AES256",
+          "cache-control": "max-age=3600",
+          "server": "AmazonS3",
+          "content-encoding": "gzip",
+          "via": "1.1 1a0321b462d1730a2a1deb795b7efdd2.cloudfront.net (CloudFront), 1.1 c8027aca1fb4d6f5e5ddf4023fcf8a34.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "CMH68-P5\nMCI50-P2",
+          "etag": "W/\"e5fd776c96ab2b62f9243467d80f8a10\"",
+          "vary": "Accept-Encoding",
+          "x-cache": "Hit from cloudfront",
+          "x-amz-cf-id": "qkQIZ9ZYVCS32TntTG966NTHXmzMSnVlBeN6PEwWiUTO53Tmmi2k3w==",
+          "age": "2592"
+        },
+        "responseBodyHash": "19ad31119f7229d7e9bbdbaea96288801cda5c88d6d1a9877955ef28ee6d6c5c",
+        "initiators": [
+          "https://www.usatoday.com/"
+        ],
+        "time": 0.4019059999845922
+      },
+      {
+        "url": "https://static.adsafeprotected.com/iasPET.1.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6730,
+        "remoteIPAddress": "108.157.142.72",
+        "responseHeaders": {
+          "content-type": "application/javascript",
+          "x-amz-replication-status": "COMPLETED",
+          "last-modified": "Tue, 01 Jun 2021 13:42:44 GMT",
+          "x-amz-server-side-encryption": "AES256",
+          "x-amz-version-id": "UWTIHcIBCTlOhfqinKDA9NwqhFA8.Ocb",
+          "server": "AmazonS3",
+          "content-encoding": "gzip",
+          "date": "Sun, 03 Mar 2024 15:05:22 GMT",
+          "cache-control": "max-age=604800",
+          "etag": "W/\"51636de3ce868a2172f9e6996c2934e0\"",
+          "vary": "Accept-Encoding",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 b03258d55b5c8ca0da16ae8a522bce9c.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P1",
+          "x-amz-cf-id": "YblT_N_AFRrcmxPisFjd7DfYOSpnvZ9ftkpIvOi2V9mvho4_7U859g==",
+          "age": "24192"
+        },
+        "responseBodyHash": "2afcabe2eb6314148dfd9dfdec1333b973d97d0780cc08fddab8501afbb013e9",
+        "initiators": [
+          "https://www.usatoday.com/"
+        ],
+        "time": 1.110581999993883
+      },
+      {
+        "url": "https://cdn.brandmetrics.com/tag/f5e47f5ae82e4c48bbc1a7f9281ed95b/gannett_net.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2444,
+        "remoteIPAddress": "104.26.13.18",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:48:32 GMT",
+          "content-type": "text/javascript;charset=utf-8",
+          "cache-control": "public, max-age=3600",
+          "cf-bgj": "minify",
+          "cf-polished": "origSize=4560",
+          "request-context": "appId=cid-v1:5c986aee-9723-4541-b38e-d4ac73c46937",
+          "cf-cache-status": "HIT",
+          "age": "2513",
+          "last-modified": "Sun, 03 Mar 2024 21:06:39 GMT",
+          "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=ZZlj04mDMlcj9%2BIgB7DT%2B3zJIG2tZQ3mHu8pos07gxRklTHIHXN5gLAx81FOs44vIq6sUBLTOpupvi7DbkogPpzuv%2FxM5%2BQ7BnpokddV%2BC0D5YDdc53EPfo3o1bkVCCw%2FlyEJbjq\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+          "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "85ecd4d1ea568134-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "6fb37ffa2abe5e1cca0b3c714ba389d4d07a864e447a79dad791bb304a97fbfc",
+        "initiators": [
+          "https://www.usatoday.com/"
+        ],
+        "time": 0.43710199999623
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 29499,
+        "remoteIPAddress": "142.250.191.226",
+        "responseHeaders": {
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "timing-allow-origin": "*",
+          "cross-origin-resource-policy": "cross-origin",
+          "vary": "Accept-Encoding",
+          "date": "Sun, 03 Mar 2024 21:48:32 GMT",
+          "expires": "Sun, 03 Mar 2024 21:48:32 GMT",
+          "cache-control": "private, max-age=900, stale-while-revalidate=3600",
+          "content-type": "text/javascript; charset=UTF-8",
+          "etag": "542 / 19785 / m202402220101 / config-hash: 7305879754805612343",
+          "access-control-allow-origin": "*",
+          "x-content-type-options": "nosniff",
+          "content-disposition": "attachment; filename=\"f.txt\"",
+          "content-encoding": "br",
+          "server": "cafe",
+          "content-length": "28983",
+          "x-xss-protection": "0",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "157affb4fb00916d757d5afafb2463f2fc5c99ddb52f015c05a2d8b4e78e87ea",
+        "initiators": [
+          "https://www.usatoday.com/"
+        ],
+        "time": 0.2249779999256134
+      },
+      {
+        "url": "https://www.usatoday.com/tangstatic/js/main-q1a2z351c6b1a4.min.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 29176,
+        "remoteIPAddress": "151.101.130.62",
+        "responseHeaders": {
+          "content-type": "application/javascript",
+          "last-modified": "Wed, 21 Feb 2024 16:20:43 GMT",
+          "content-encoding": "br",
+          "cache-control": "public, immutable, max-age=315360000",
+          "x-content-type-options": "nosniff",
+          "content-security-policy": "upgrade-insecure-requests",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:48:32 GMT",
+          "age": "969981",
+          "nel": "{\"report_to\":\"default\",\"max_age\":31557600,\"include_subdomains\":true,\"success_fraction\":0.005}",
+          "report-to": "{\"max_age\":31557600,\"include_subdomains\":true,\"endpoints\":[{\"url\":\"https://reporting-api.gannettinnovation.com\"}]}",
+          "x-cache": "HIT, HIT",
+          "x-timer": "S1709502513.656670,VS0,VE0",
+          "vary": "Accept-Encoding",
+          "strict-transport-security": "max-age=63072000",
+          "content-length": "29066"
+        },
+        "responseBodyHash": "92d953a2181519a6863d82e13f64962c9307cc0bd1e7123d9fc2772347d941c0",
+        "initiators": [
+          "https://www.usatoday.com/"
+        ],
+        "time": 0.1914829999441281
+      },
+      {
+        "url": "https://cdn.taboola.com/libtrc/usatodaydemo/loader.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 87764,
+        "remoteIPAddress": "151.101.193.44",
+        "responseHeaders": {
+          "x-amz-id-2": "TMwNjqJllFiTK9jLH0o1y+nWTi/DnWBDiN3YXPE87HbdEPrF0DY3BUIwDwcSh8ywaOj1yHKi+GU=",
+          "x-amz-request-id": "82CMXW08GGANQ7XY",
+          "x-amz-replication-status": "PENDING",
+          "last-modified": "Sun, 03 Mar 2024 20:02:34 GMT",
+          "etag": "\"5f763e80e58a32a9b62270d2089f3760\"",
+          "x-amz-server-side-encryption": "AES256",
+          "x-amz-version-id": "XzaZD5.wR87qN52HJqSHhhJNrRLvpalN",
+          "content-type": "application/javascript; charset=utf-8",
+          "server": "AmazonS3",
+          "content-encoding": "gzip",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:48:32 GMT",
+          "via": "1.1 varnish",
+          "age": "6351",
+          "x-served-by": "cache-chi-kigq8000158-CHI",
+          "x-cache": "HIT",
+          "x-cache-hits": "175",
+          "x-timer": "S1709502513.877758,VS0,VE0",
+          "cache-control": "private,max-age=14401",
+          "vary": "Accept-Encoding",
+          "abp": "52",
+          "access-control-allow-origin": "*",
+          "content-length": "87230"
+        },
+        "responseBodyHash": "f3c0d3146f5d64b534957a221ffa15844e254d65d3b78e9f1be3a169adc17830",
+        "initiators": [
+          "https://www.usatoday.com/"
+        ],
+        "time": 5.569308000034653
+      },
+      {
+        "url": "https://c2.taboola.com/nr/usatodaydemo/newsroom.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 18799,
+        "remoteIPAddress": "151.101.1.44",
+        "responseHeaders": {
+          "x-amz-id-2": "r7RkUQ1yfpqiygx6BaMlVrYtBDGRhuJWeZVxOlK49a+Gg0FLeOA1ejaJc+ZOqZmkVs3QI8wcNH4=",
+          "x-amz-request-id": "2GQ1874RGSKE6FKS",
+          "last-modified": "Mon, 12 Feb 2024 23:25:31 GMT",
+          "etag": "\"59535293309bb936be0e03b836157b73\"",
+          "x-amz-server-side-encryption": "AES256",
+          "x-amz-version-id": "null",
+          "content-type": "application/javascript",
+          "server": "AmazonS3",
+          "cache-control": "max-age=14400",
+          "content-encoding": "gzip",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:48:33 GMT",
+          "via": "1.1 varnish",
+          "age": "2",
+          "x-served-by": "cache-chi-kigq8000162-CHI",
+          "x-cache": "HIT",
+          "x-cache-hits": "1",
+          "x-timer": "S1709502513.297346,VS0,VE2",
+          "access-control-allow-methods": "GET,POST,PUT",
+          "vary": "Accept-Encoding,Origin",
+          "access-control-allow-origin": "*",
+          "content-length": "18341"
+        },
+        "responseBodyHash": "0472428f92b856b16ed34d35ecd5ac87263cc602f52becd80a77967c62645c51",
+        "initiators": [
+          "https://www.usatoday.com/"
+        ],
+        "time": 0.8104899999452755
+      },
+      {
+        "url": "https://cdn.confiant-integrations.net/r5TdgVvkbv-PeaJCKaQfCh5Xsto/gpt_and_prebid/config.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 49680,
+        "remoteIPAddress": "104.18.43.90",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:48:32 GMT",
+          "content-type": "text/javascript",
+          "x-amz-id-2": "6PTH78LG3H2jVT5gsxpl8vns+lc6hEx6yzNSSDtb4xLvrEJCb5MfKEVl8e8PW0EaIIzzAz0/Or0=",
+          "x-amz-request-id": "M4RNCBFRD96FTCYH",
+          "last-modified": "Sun, 03 Mar 2024 21:16:17 GMT",
+          "etag": "W/\"c21d462a176b4a4511ffafb70ad38b64\"",
+          "x-amz-server-side-encryption": "AES256",
+          "cache-control": "public, max-age=900, stale-while-revalidate=3600",
+          "cf-cache-status": "HIT",
+          "age": "847",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "85ecd4d0881a299e-ORD",
+          "content-encoding": "br",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "73b727401d1f229e826f1ee21910497f8f48cf961735f8d075d642c8cc81580e",
+        "initiators": [
+          "https://www.usatoday.com/"
+        ],
+        "time": 0.2850510000716895
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/badlists.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 4136,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"eOiMDeKtL1q/V6TIuAFaDCVjfWY=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "109822a6b68367e225fd701e53be3419800b95c7d4becd50bf8a2d49ba22424f",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.061114000040106475
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/resources/scriptlets.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 125820,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"CgwgzxiUJT5q+w9lH7Se+5ZMoIc=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "82d47ba987d73c40c4e7363b9ab5dba77ed1527a26d77909e3cedc27a5cd3439",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.4143129999283701
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/1x1.gif?secret=u2sf46",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 43,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"72D+/UKGYStX5er87ISTvvrF5tQ=\"",
+          "content-type": "image/gif"
+        },
+        "responseBodyHash": "6b3da89922d333d106b84fefeebd7b16bfebf4cfbd7bef37fa10a47c471ae64c",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.11317900009453297
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/2x2.png?secret=zw0jbd",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 68,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"esKRo0fVKvgNoUzOaCbJcHcCR5c=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "53b14a22cd3dc973d6cb1a381d01fafafc4da1632bacbf15f7fac0014fbe70c0",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.11460199998691678
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/3x2.png?secret=dp3xg8",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 68,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"FE1vXRwHfZli324eMoQlsnugEho=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "c6ea854b737a88835e1c7349bcfa0730f55e19de7acf0f54f9d6ea817fcd2f20",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.7347630000440404
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/32x32.png?secret=cgjnlv",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 83,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"67CnMiH92/CeXXcyr+80HclqFxI=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "173650f1d19d59786ce8dd44c64cd8fb4471552c2e247fb774bec92726a7ee6b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.8157239999854937
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/amazon_ads.js?secret=uzf9mj",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2296,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"By+IDkPL9F/5lkH5nXfR93EB23k=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "41901805f575d9d06608682999cf588b12c318face2ed04e8566ec8cbec4c610",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.7711070000659674
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/doubleclick_instream_ad_status.js?secret=lqv2cu",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 29,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"s8ZaX7h28RDv/PN40yMhb1rRBto=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "eed0dc1fdb5d97ed188ae16fd5e1024a5bb744af47340346be2146300a6c54b9",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.7692540000425652
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/empty?secret=k14tgi",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"w1USgRq36N3lrsNJbzqv38xCsUk=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.764337999979034
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/fingerprint2.js?secret=5hyqt7",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1810,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"PePG6yN3ZEGZMHdAk3DkU2BtUIM=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "7db8892256cdf45ad5ca5748e136e0c241b53b38c5adaa744a42ca139f05ffb3",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.7592729999450967
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/fingerprint3.js?secret=tchxlw",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1492,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"CetrBFm7a360yitCLL/02QWkJT8=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "6fd5703f2bdd85932f18adc99f30d8736d2bf5f09b1dde6c129f4616259fc827",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.7613800000399351
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_analytics.js?secret=qic8fz",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3695,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"wTqkQ1ryNce63XhVKrXix8otYW0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "6b4621868cac589a603fe1263aad242f67262ef971bdacaccc1a515cd0488466",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.762036000029184
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_ga.js?secret=hbmylu",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 4810,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"FSty3AHCXVujktdhdSOgAswTJwI=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "f0546767675ac7eff724521236be831e8753a7b8c15aa1c792d8121cb5311094",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.7595809999620542
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/googlesyndication_adsbygoogle.js?secret=oofkbt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3603,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"27D7TdoFnKSaDAxhDXZtyWlUA+0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "ba81dafd9a59c99b9d9e914ecbd5545c36d73d55b5ecb4d698ee3c49b02101c2",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.830002999980934
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/googletagservices_gpt.js?secret=nat0zu",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 5102,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"76KRjaFvvOrwsb8JSDs4Q2jTlbo=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "3ad0442f766373b8fed1f1ba2dcd6d6cbf948b68641956135a8f552472e3e6b6",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.828992999973707
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/nobab.js?secret=6aers3",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2976,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"fWIMOUaEIaNtkbrEiIKDhn8PTGY=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "1bc47b0e9b642cfcf2496977df36babdb263f13d0cfd64b286eb5c4c84cc319c",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.8870710000628605
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/nobab2.js?secret=kz8mks",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1503,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"vy1qEErrRXmXVNnibZFXADJr2NA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "3ee47f99116088a94e1c280d3cd6216a75513a9109a3876ed7926897ec7cfc96",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.8890239999163896
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noeval.js?secret=0kzemc",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1169,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"Zm3NrZrHm1RQ8sEDNdlqPrq/x5I=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "3cdd6f7412af4317374860533434959652db9e61633bdcae4755ad9039732bc6",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.9201180000090972
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noeval-silent.js?secret=0vewu5",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1046,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"uAxLt+FExKqnQoCEOy79k/qsAoI=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "bcb710ed7e64295cc8fe98b8611978e0801ffdce65107d1cb9c318339a5644d6",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.9199200000148267
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/nofab.js?secret=fzyr71",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2604,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"8C4cfBueT2MD3BS5m6yoQgPFyj0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "dd7684145ffe90180075aa4d98a7a457cbdc6b73295bea17c55bf230332cf056",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.925349000026472
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop-0.1s.mp3?secret=o8y6zj",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 813,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"2+x2uGBtVFxzOfC/ga3FuCo0a10=\"",
+          "content-type": "audio/mpeg"
+        },
+        "responseBodyHash": "3b31d6fd84b91ed8fafa0dc7d7f6dbded7fc8a9b51289991138a07d33bb7a99b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.920401000068523
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop-1s.mp4?secret=2aoe0g",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3753,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"phhjpBwH2UsBHfAauKoOtl6zzkY=\"",
+          "content-type": "video/mp4"
+        },
+        "responseBodyHash": "5fffd48ffc18ad96d910ea2d84da417974177c3c0cc12fa0ca364c6f864ea641",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.9175739999627694
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop.css?secret=wscuml",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 6,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"KSIg5lBIqQJSknb8PjMzOeEIjSU=\"",
+          "content-type": "text/css"
+        },
+        "responseBodyHash": "cccc5e8a9a7ad608a04f242530345694bd7150bd73315513284142b6a39ba4b7",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.9202969999751076
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop.js?secret=0veaaj",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 38,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"OpoFl8Qm9JGwy6bvidLZuEeJc50=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "5592bfa25de75c18ef0116cbb9990c122178b1efe5e076f1c45049a09d935a25",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.917466999962926
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop.txt?secret=b4hciq",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"MEUVxJfRt7KHLk+5bpNePR0DHec=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.91142299992498
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop-vmap1.0.xml?secret=w1aeq8",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 86,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"o91xJuRB4zgK7iE97MmCHdnqlwI=\"",
+          "content-type": "text/xml"
+        },
+        "responseBodyHash": "fcc40f36d86c8f7146d4b2f0c1273cc46282c2c236303dabc172dfacfdf86508",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.9119779999600723
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/popads.js?secret=jpnmcl",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1601,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"I9T+DOFVlPUkYWimhhzIRMcfjvI=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "85700e488f782dde2eac664d8127399f7650832678188ecbde143e5482a0bf58",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.9109900000039488
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/popads-dummy.js?secret=bsqchm",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1082,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"WifQzgUPi4l7MnUILkJmjzMy6+I=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "7d9ea48fc2dbf1c680406d5335aa567f84967e91b10e823b7e2462ce531fa281",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.911327000008896
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/prebid-ads.js?secret=izx267",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 990,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"zgpQ56ZBEYb7FmruMvEAtYO6iHM=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "4ef4348e32fffdfa739b160f77d0b96fc4c861c089cfae8458275e30436179b3",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.908536999952048
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/easylist/easylist.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1561127,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"LtheFwWjs98NDuASTQh7tNDCpLI=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "fdd1f5fad30f0615b76861caec3b0385b5628839e1b0f30f08d253ae4d63ac5f",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 6.395821999991313
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/easylist/easyprivacy.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 869277,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"w2nyAU5mv9ABOU6GFTURUHq4xgQ=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "a1ec9956461f447372f9c0f0658880e6d68f2137eb4caa206013027653c09e65",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 2.3830120000056922
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/pgl.yoyo.org/as/serverlist.txt",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FILE_NOT_FOUND",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.632748999982141
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/badware.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 111016,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"AYIE/yEnpZPkbhaGZvQlS2EcDJ8=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "61339a487f716803a4d81ea2abef7603a30a1799fedd42626671a2cd8352ce60",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.082206999999471
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/filters.min.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1244702,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"h1LFQV4RKbAD/Dr/crybn2Q5sRM=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "40edb5e5c62e3cc3e701fda60ca76362a0401be26b96fa7da827a91ec3676695",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 3.259415000095032
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/privacy.min.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 25261,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"NVSCvkmHFfp2m7DKRdO/KxfEuKk=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "5e35527a7b50abc913a6bf2a4efa113a7ad3a29875679820be9f223e33e2c564",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.6286620000610128
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/quick-fixes.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 12961,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"afueNux30hW+NV4++qgmpXTa57Q=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "8da204883be6cef9a900cfeebace44bff5c1ab48f1f5b1e0934be478beed838b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.8233149999286979
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/unbreak.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 225327,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"RJFXfxbz9txDf2F9CzvtzGKrUGQ=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "0842f26631ba700715f6807ebed0b0686340385a51aef6ba56c44797f6e859f9",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.6863560000201687
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/urlhaus-filter/urlhaus-filter-online.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 62578,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"BTHdXv1lxAGsEi3GXDaj3ARryk8=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "64473d0333370e1aa9208bd5895394c4c977c3c9eccd2df53605aca3f5cf577d",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.9483059999765828
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/pgl.yoyo.org/as/serverlist",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 99702,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"cjJqLaDjMIABN/iLNntIhbyVrgY=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "e7564ecea385fef412bb736d9f715c9944ce043747c4421c6835e24cc93ace75",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.7204859999474138
+      },
+      {
+        "url": "https://www.usatoday.com/gcdn/authoring/authoring-images/2024/02/28/USAT/72778211007-afp-afp-1-la-16-q.JPG?crop=4499,2531,x0,y234&width=210&height=118&format=pjpg&auto=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4877,
+        "remoteIPAddress": "151.101.130.62",
+        "responseHeaders": {
+          "content-type": "image/webp",
+          "etag": "\"WarWD8iDzts/+v6rVJvPXvCdaEN3q44O3opLPTK3Nvs\"",
+          "fastly-io-served-by": "vpop-kiad7010229",
+          "fastly-stats": "io=1",
+          "x-amz-checksum-crc32c": "uVpFHg==",
+          "cache-control": "max-age=2592000",
+          "accept-ranges": "bytes",
+          "age": "20875",
+          "timing-allow-origin": "*",
+          "access-control-allow-origin": "*",
+          "date": "Sun, 03 Mar 2024 21:48:44 GMT",
+          "nel": "{\"report_to\":\"default\",\"max_age\":31557600,\"include_subdomains\":true,\"success_fraction\":0.005}",
+          "report-to": "{\"max_age\":31557600,\"include_subdomains\":true,\"endpoints\":[{\"url\":\"https://reporting-api.gannettinnovation.com\"}]}",
+          "x-cache": "MISS, HIT, HIT, MISS",
+          "vary": "Accept",
+          "content-security-policy": "upgrade-insecure-requests",
+          "strict-transport-security": "max-age=63072000",
+          "content-length": "4758"
+        },
+        "responseBodyHash": "c76793d98031c8ea5e37e245699ae015ae567512028f88091166d04ca8982ae6",
+        "initiators": [
+          "https://www.usatoday.com/"
+        ],
+        "time": 7.585248999996111
+      },
+      {
+        "url": "https://www.usatoday.com/gcdn/authoring/authoring-images/2024/03/03/USAT/72832376007-gty-2049055773.jpg?crop=1843,1037,x920,y66&width=210&height=118&format=pjpg&auto=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6416,
+        "remoteIPAddress": "151.101.130.62",
+        "responseHeaders": {
+          "content-type": "image/webp",
+          "etag": "\"u1YM6Wfijp8PKCbuixG8zd5xYP98Di6haimMIPyKDGQ\"",
+          "fastly-io-served-by": "vpop-haf2300704",
+          "fastly-stats": "io=1",
+          "x-amz-checksum-crc32c": "cNA8/g==",
+          "cache-control": "max-age=2592000",
+          "accept-ranges": "bytes",
+          "age": "3855",
+          "timing-allow-origin": "*",
+          "access-control-allow-origin": "*",
+          "date": "Sun, 03 Mar 2024 21:48:44 GMT",
+          "nel": "{\"report_to\":\"default\",\"max_age\":31557600,\"include_subdomains\":true,\"success_fraction\":0.005}",
+          "report-to": "{\"max_age\":31557600,\"include_subdomains\":true,\"endpoints\":[{\"url\":\"https://reporting-api.gannettinnovation.com\"}]}",
+          "x-cache": "MISS, HIT, HIT, MISS",
+          "vary": "Accept",
+          "content-security-policy": "upgrade-insecure-requests",
+          "strict-transport-security": "max-age=63072000",
+          "content-length": "6310"
+        },
+        "responseBodyHash": "af2002077e3467e3062ae7e50b0a0b2f19a8474506d5a0c15756fb9c738cb4be",
+        "initiators": [
+          "https://www.usatoday.com/"
+        ],
+        "time": 7.31065200001467
+      },
+      {
+        "url": "https://www.usatoday.com/gcdn/authoring/authoring-images/2024/03/02/USAT/72813762007-20240301-usat-haley-charlotte-nc-mks-6.jpg?crop=1332,749,x0,y625&width=210&height=118&format=pjpg&auto=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3187,
+        "remoteIPAddress": "151.101.130.62",
+        "responseHeaders": {
+          "content-type": "image/webp",
+          "etag": "\"UvbqC3+QPrXaKfy+UxFBO3q9F1JdPt1quw1u6OEYuv0\"",
+          "fastly-io-served-by": "img11-europe-west2",
+          "fastly-stats": "io=1",
+          "x-amz-checksum-crc32c": "d57eMA==",
+          "cache-control": "max-age=2592000",
+          "accept-ranges": "bytes",
+          "age": "156878",
+          "timing-allow-origin": "*",
+          "access-control-allow-origin": "*",
+          "date": "Sun, 03 Mar 2024 21:48:44 GMT",
+          "nel": "{\"report_to\":\"default\",\"max_age\":31557600,\"include_subdomains\":true,\"success_fraction\":0.005}",
+          "report-to": "{\"max_age\":31557600,\"include_subdomains\":true,\"endpoints\":[{\"url\":\"https://reporting-api.gannettinnovation.com\"}]}",
+          "x-cache": "MISS, HIT, HIT, MISS",
+          "vary": "Accept",
+          "content-security-policy": "upgrade-insecure-requests",
+          "strict-transport-security": "max-age=63072000",
+          "content-length": "2704"
+        },
+        "responseBodyHash": "45ad68be4a1925be09afcc976d19903a51d6b72bbb679c5ddfade6c786881499",
+        "initiators": [
+          "https://www.usatoday.com/"
+        ],
+        "time": 7.309332999982871
+      },
+      {
+        "url": "https://www.usatoday.com/gcdn/authoring/authoring-images/2024/03/03/USAT/72830959007-afp-2048585802.jpg?crop=5673,3192,x0,y295&width=430&height=242&format=pjpg&auto=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 33797,
+        "remoteIPAddress": "151.101.130.62",
+        "responseHeaders": {
+          "content-type": "image/webp",
+          "etag": "\"aiUSz3GV9GGs6mlXUE76x1+CC0jI7SPUPB3GYZ+eCO4\"",
+          "fastly-io-served-by": "img05-europe-west2",
+          "fastly-stats": "io=1",
+          "x-amz-checksum-crc32c": "nBkh1w==",
+          "cache-control": "max-age=2592000",
+          "accept-ranges": "bytes",
+          "age": "15869",
+          "timing-allow-origin": "*",
+          "access-control-allow-origin": "*",
+          "date": "Sun, 03 Mar 2024 21:48:44 GMT",
+          "nel": "{\"report_to\":\"default\",\"max_age\":31557600,\"include_subdomains\":true,\"success_fraction\":0.005}",
+          "report-to": "{\"max_age\":31557600,\"include_subdomains\":true,\"endpoints\":[{\"url\":\"https://reporting-api.gannettinnovation.com\"}]}",
+          "x-cache": "MISS, HIT, HIT, MISS",
+          "vary": "Accept",
+          "content-security-policy": "upgrade-insecure-requests",
+          "strict-transport-security": "max-age=63072000",
+          "content-length": "33666"
+        },
+        "responseBodyHash": "74be0626e6f6ddd90e967311d3a343645c1a4f02ce6b871ba53aefaea991c59b",
+        "initiators": [
+          "https://www.usatoday.com/"
+        ],
+        "time": 7.309448000043631
+      },
+      {
+        "url": "https://www.usatoday.com/gcdn/authoring/authoring-images/2024/03/03/USAT/72830561007-ap-california-blizzard.jpg?crop=5464,5463,x0,y0&width=130&height=130&format=pjpg&auto=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3328,
+        "remoteIPAddress": "151.101.130.62",
+        "responseHeaders": {
+          "content-type": "image/webp",
+          "etag": "\"jVjmyrcKNUEwzQaR2GySoQrAYs9fPEZzupr2swjJDlA\"",
+          "fastly-io-served-by": "vpop-kiad7010217",
+          "fastly-stats": "io=1",
+          "x-amz-checksum-crc32c": "QiAIcQ==",
+          "cache-control": "max-age=2592000",
+          "accept-ranges": "bytes",
+          "age": "22507",
+          "timing-allow-origin": "*",
+          "access-control-allow-origin": "*",
+          "date": "Sun, 03 Mar 2024 21:48:44 GMT",
+          "nel": "{\"report_to\":\"default\",\"max_age\":31557600,\"include_subdomains\":true,\"success_fraction\":0.005}",
+          "report-to": "{\"max_age\":31557600,\"include_subdomains\":true,\"endpoints\":[{\"url\":\"https://reporting-api.gannettinnovation.com\"}]}",
+          "x-cache": "MISS, HIT, HIT, MISS",
+          "vary": "Accept",
+          "content-security-policy": "upgrade-insecure-requests",
+          "strict-transport-security": "max-age=63072000",
+          "content-length": "3218"
+        },
+        "responseBodyHash": "bc0b032186ae266caf0522cd13d2912c3c9409b25042012ab0fbbdb62fecd2ae",
+        "initiators": [
+          "https://www.usatoday.com/"
+        ],
+        "time": 7.309442999889143
+      },
+      {
+        "url": "https://www.usatoday.com/gcdn/authoring/authoring-images/2024/02/28/PPHX/72776907007-getty-images-1438210731.jpg?crop=1414,1413,x318,y0&width=130&height=130&format=pjpg&auto=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3904,
+        "remoteIPAddress": "151.101.130.62",
+        "responseHeaders": {
+          "content-type": "image/webp",
+          "etag": "\"DupNiaL1d46KXKGvnzV9AcyzGRBPM7/PM4/Ms/byRvk\"",
+          "fastly-io-served-by": "vpop-haf2300710",
+          "fastly-stats": "io=1",
+          "x-amz-checksum-crc32c": "9O1MOA==",
+          "cache-control": "max-age=2592000",
+          "accept-ranges": "bytes",
+          "age": "20898",
+          "timing-allow-origin": "*",
+          "access-control-allow-origin": "*",
+          "date": "Sun, 03 Mar 2024 21:48:44 GMT",
+          "nel": "{\"report_to\":\"default\",\"max_age\":31557600,\"include_subdomains\":true,\"success_fraction\":0.005}",
+          "report-to": "{\"max_age\":31557600,\"include_subdomains\":true,\"endpoints\":[{\"url\":\"https://reporting-api.gannettinnovation.com\"}]}",
+          "x-cache": "MISS, HIT, HIT, MISS",
+          "vary": "Accept",
+          "content-security-policy": "upgrade-insecure-requests",
+          "strict-transport-security": "max-age=63072000",
+          "content-length": "3786"
+        },
+        "responseBodyHash": "1e1a23463a61028ae5004823bd1c9ca6cb4ec9110c4f846e1cd4e1f707d0ec65",
+        "initiators": [
+          "https://www.usatoday.com/"
+        ],
+        "time": 7.309464000049047
+      },
+      {
+        "url": "https://www.usatoday.com/gcdn/presto/2022/04/04/USAT/93575f5c-b8e0-4bd1-81a3-f688e610b5dc-EEAAO_10406_R.jpg?crop=1404,1404,x1432,y418&width=130&height=130&format=pjpg&auto=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4482,
+        "remoteIPAddress": "151.101.130.62",
+        "responseHeaders": {
+          "content-type": "image/webp",
+          "etag": "\"rTYed10UPWSRhACt/CJhnwxOcL+ofYvHfLMRfQwBcuU\"",
+          "fastly-io-served-by": "img03-us-central1",
+          "fastly-stats": "io=1",
+          "x-amz-checksum-crc32c": "DdQjNQ==",
+          "cache-control": "max-age=2592000",
+          "accept-ranges": "bytes",
+          "age": "79913",
+          "timing-allow-origin": "*",
+          "access-control-allow-origin": "*",
+          "date": "Sun, 03 Mar 2024 21:48:44 GMT",
+          "nel": "{\"report_to\":\"default\",\"max_age\":31557600,\"include_subdomains\":true,\"success_fraction\":0.005}",
+          "report-to": "{\"max_age\":31557600,\"include_subdomains\":true,\"endpoints\":[{\"url\":\"https://reporting-api.gannettinnovation.com\"}]}",
+          "x-cache": "MISS, HIT, HIT, MISS",
+          "vary": "Accept",
+          "content-security-policy": "upgrade-insecure-requests",
+          "strict-transport-security": "max-age=63072000",
+          "content-length": "4030"
+        },
+        "responseBodyHash": "330fe91aafb6a360dc7cfa13cac91dc3785defd168c6ac814c04f102deb16cd6",
+        "initiators": [
+          "https://www.usatoday.com/"
+        ],
+        "time": 7.310031999950297
+      },
+      {
+        "url": "https://www.usatoday.com/gcdn/authoring/authoring-images/2024/03/01/USAT/72811606007-clean.jpg?crop=1919,1079,x0,y0&width=660&height=371&format=pjpg&auto=webp&quality=40",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 14618,
+        "remoteIPAddress": "151.101.130.62",
+        "responseHeaders": {
+          "content-type": "image/webp",
+          "etag": "\"nz9+hVT7oBzQNjOJsvAbsl+D9xiqxIFz+xentbqFbDA\"",
+          "fastly-io-served-by": "img03-europe-west3",
+          "fastly-stats": "io=1",
+          "x-amz-checksum-crc32c": "U0q4JQ==",
+          "cache-control": "max-age=2592000",
+          "accept-ranges": "bytes",
+          "age": "168863",
+          "timing-allow-origin": "*",
+          "access-control-allow-origin": "*",
+          "date": "Sun, 03 Mar 2024 21:48:44 GMT",
+          "nel": "{\"report_to\":\"default\",\"max_age\":31557600,\"include_subdomains\":true,\"success_fraction\":0.005}",
+          "report-to": "{\"max_age\":31557600,\"include_subdomains\":true,\"endpoints\":[{\"url\":\"https://reporting-api.gannettinnovation.com\"}]}",
+          "x-cache": "MISS, HIT, HIT, MISS",
+          "vary": "Accept",
+          "content-security-policy": "upgrade-insecure-requests",
+          "strict-transport-security": "max-age=63072000",
+          "content-length": "14504"
+        },
+        "responseBodyHash": "688cef36e0c192631f915c70976aea2605b3fa62c8e7ac646ceeb0e1eccf3500",
+        "initiators": [
+          "https://www.usatoday.com/"
+        ],
+        "time": 7.310231999959797
+      },
+      {
+        "url": "https://www.usatoday.com/global-q1a2z3RxYhHAWVUdZOMQazw8jv81o68Y.min.json",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 4237,
+        "remoteIPAddress": "151.101.130.62",
+        "responseHeaders": {
+          "content-type": "application/json; charset=utf-8",
+          "etag": "W/\"RxYhHAWVUdZOMQazw8jv81o68Y\"",
+          "cache-control": "public,immutable,max-age=315360000",
+          "x-content-type-options": "nosniff",
+          "x-frame-options": "deny",
+          "x-xss-protection": "1; mode=block",
+          "feature-policy": "camera 'none';display-capture 'none';geolocation 'none';microphone 'none';payment 'none';usb 'none';xr-spatial-tracking 'none'",
+          "permissions-policy": "camera=(),display-capture=(),geolocation=(),microphone=(),payment=(),usb=(),xr-spatial-tracking=()",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "content-security-policy-report-only": "script-src https: blob: 'unsafe-inline' 'unsafe-eval' 'self';base-uri 'self';report-uri https://reporting-api.gannettinnovation.com;report-to default",
+          "content-security-policy": "upgrade-insecure-requests;frame-ancestors 'none';object-src 'none'",
+          "cross-origin-opener-policy": "same-origin",
+          "cross-origin-resource-policy": "same-origin",
+          "origin-agent-cluster": "?1",
+          "content-encoding": "br",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:48:45 GMT",
+          "age": "726281",
+          "nel": "{\"report_to\":\"default\",\"max_age\":31557600,\"include_subdomains\":true,\"success_fraction\":0.005}",
+          "report-to": "{\"max_age\":31557600,\"include_subdomains\":true,\"endpoints\":[{\"url\":\"https://reporting-api.gannettinnovation.com\"}]}",
+          "x-cache": "HIT, HIT",
+          "x-timer": "S1709502525.079157,VS0,VE1",
+          "vary": "Accept-Encoding",
+          "strict-transport-security": "max-age=63072000",
+          "content-length": "3321"
+        },
+        "responseBodyHash": "954b9f18f5a63b7f24ccc50486c6ec02b647542518b0a42296c0533bf7f44e23",
+        "initiators": [
+          "https://www.usatoday.com/"
+        ],
+        "time": 2.70919900003355
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/gampad/adx?t=position%3Dnative-front_tile&iu=7103%2Fusatoday%2Fnative-front_tile%2Fhomepage&sz=2x3&cust_params=utm_props%3D%7C%7C%26navigationtype%3Ddirect%26cst_section%3Dhomepage%26pageType%3Dhome-front%26property%3DUSAT%26sitepage%3DUSAT%2Fhome%26ssts_section%3Dhome%26aam_props%3Dtangent-desktop%7Cdesktop%7Chomefront%26build%3Dtangent-desktop%26gnt_sb%3D13%26gnt_ub%3D65%26variant%3DHP4U_B&tfcd=0&c=797788557468183",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 2501,
+        "remoteIPAddress": "142.250.191.226",
+        "responseHeaders": {
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "timing-allow-origin": "*",
+          "cross-origin-resource-policy": "cross-origin",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "https://www.usatoday.com",
+          "google-lineitem-id": "4914395741",
+          "google-creative-id": "138369805562",
+          "google-mediationgroup-id": "-2",
+          "google-mediationtag-id": "-2",
+          "date": "Sun, 03 Mar 2024 21:48:45 GMT",
+          "pragma": "no-cache",
+          "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+          "cache-control": "no-cache, must-revalidate",
+          "content-type": "text/html; charset=UTF-8",
+          "x-content-type-options": "nosniff",
+          "content-encoding": "br",
+          "server": "cafe",
+          "content-length": "2471",
+          "x-xss-protection": "0",
+          "set-cookie": "test_cookie=CheckForPermission; expires=Sun, 03-Mar-2024 22:03:45 GMT; path=/; domain=.doubleclick.net; Secure; HttpOnly; SameSite=none",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "726972d6e3b6559ca6c408068485dd1f714a1aa378f42d3372f997bfa50cb63d",
+        "initiators": [
+          "https://www.usatoday.com/"
+        ],
+        "time": 2.6201740000396967
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202402220101/pubads_impl.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 137709,
+        "remoteIPAddress": "142.250.191.226",
+        "responseHeaders": {
+          "p3p": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+          "timing-allow-origin": "*",
+          "cross-origin-resource-policy": "cross-origin",
+          "access-control-allow-origin": "*",
+          "x-content-type-options": "nosniff",
+          "content-disposition": "attachment; filename=\"f.txt\"",
+          "content-encoding": "br",
+          "server": "cafe",
+          "content-length": "137662",
+          "x-xss-protection": "0",
+          "date": "Sun, 03 Mar 2024 21:48:25 GMT",
+          "expires": "Mon, 03 Mar 2025 21:48:25 GMT",
+          "cache-control": "public, immutable, max-age=31536000",
+          "etag": "2919427224111863329",
+          "content-type": "text/javascript; charset=UTF-8",
+          "vary": "Accept-Encoding",
+          "age": "20",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "responseBodyHash": "e518d28fc305914d99970e7793785ff5143eb03b1ff3eaf90f980d3e28758cdd",
+        "initiators": [
+          "https://www.usatoday.com/",
+          "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+        ],
+        "time": 2.5059589999727905
+      },
+      {
+        "url": "https://www.usatoday.com/pbd/cookie_sync",
+        "method": "POST",
+        "type": "Fetch",
+        "responseHeaders": {
+          "content-type": "application/json; charset=utf-8",
+          "strict-transport-security": "max-age=15724800",
+          "content-encoding": "br",
+          "accept-ranges": "bytes",
+          "nel": "{\"report_to\":\"default\",\"max_age\":31557600,\"include_subdomains\":true,\"success_fraction\":0.005}",
+          "report-to": "{\"max_age\":31557600,\"include_subdomains\":true,\"endpoints\":[{\"url\":\"https://reporting-api.gannettinnovation.com\"}]}",
+          "x-timer": "S1709502525.047272,VS0,VE14",
+          "vary": "accept-encoding",
+          "content-security-policy": "upgrade-insecure-requests;frame-ancestors 'none';default-src 'none'",
+          "cache-control": "no-store",
+          "timing-allow-origin": "*",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1;mode=block",
+          "fastly-debug-path": "(F cache-chi-kigq8000165-CHI 1709502525)",
+          "date": "Sun, 03 Mar 2024 21:48:45 GMT"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.usatoday.com/tangstatic/js/pbjsandwich-q1a2z35eda84ca.min.js",
+          "https://www.usatoday.com/"
+        ],
+        "time": 3.0476009999401867
+      },
+      {
+        "url": "https://www.usatoday.com/pbd/openrtb2/auction",
+        "method": "POST",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.usatoday.com/tangstatic/js/pbjsandwich-q1a2z35eda84ca.min.js",
+          "https://www.usatoday.com/"
+        ],
+        "time": 1.6883459999226034
+      },
+      {
+        "url": "https://a.teads.tv/hb/bid-request",
+        "method": "POST",
+        "type": "Fetch",
+        "responseHeaders": {
+          "content-type": "application/json",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "https://www.usatoday.com",
+          "accept-ch": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA, Sec-CH-UA-Full-Version-List, Sec-CH-UA-WoW64",
+          "content-encoding": "gzip",
+          "content-length": "42",
+          "vary": "Accept-Encoding",
+          "expires": "Sun, 03 Mar 2024 21:48:45 GMT",
+          "cache-control": "max-age=0, no-cache, no-store",
+          "pragma": "no-cache",
+          "date": "Sun, 03 Mar 2024 21:48:45 GMT",
+          "set-cookie": "tt_viewer=b8b67748-3968-47ca-a418-8ad1c7c419ea; Expires=Sun, 02 Mar 2025 21:48:45 GMT; Max-Age=31449600; Domain=.teads.tv; Path=/; Secure; SameSite=None\nreceive-cookie-deprecation=1; Expires=Sun, 02 Mar 2025 21:48:45 GMT; Max-Age=31449600; Domain=.teads.tv; Path=/; Secure; HttpOnly; Partitioned; SameSite=None"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.usatoday.com/tangstatic/js/pbjsandwich-q1a2z35eda84ca.min.js",
+          "https://www.usatoday.com/"
+        ],
+        "time": 1.6817210000008345
+      },
+      {
+        "url": "https://bidder.criteo.com/cdb?ptv=141&profileId=185&av=36&wv=8.10.0&cb=69645633991",
+        "method": "POST",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.usatoday.com/tangstatic/js/pbjsandwich-q1a2z35eda84ca.min.js",
+          "https://www.usatoday.com/"
+        ],
+        "time": 1.649915000074543
+      },
+      {
+        "url": "https://display.bidder.taboola.com/OpenRTB/TaboolaHB/auction/1468240",
+        "method": "POST",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.usatoday.com/tangstatic/js/pbjsandwich-q1a2z35eda84ca.min.js",
+          "https://www.usatoday.com/"
+        ],
+        "time": 1.6381359999068081
+      },
+      {
+        "url": "https://www.usatoday.com/pbd/openrtb2/auction",
+        "method": "POST",
+        "type": "Fetch",
+        "responseHeaders": {
+          "content-type": "application/json",
+          "strict-transport-security": "max-age=15724800",
+          "content-encoding": "br",
+          "accept-ranges": "bytes",
+          "nel": "{\"report_to\":\"default\",\"max_age\":31557600,\"include_subdomains\":true,\"success_fraction\":0.005}",
+          "report-to": "{\"max_age\":31557600,\"include_subdomains\":true,\"endpoints\":[{\"url\":\"https://reporting-api.gannettinnovation.com\"}]}",
+          "x-timer": "S1709502525.052648,VS0,VE205",
+          "vary": "accept-encoding",
+          "content-security-policy": "upgrade-insecure-requests;frame-ancestors 'none';default-src 'none'",
+          "cache-control": "no-store",
+          "timing-allow-origin": "*",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1;mode=block",
+          "fastly-debug-path": "(F cache-chi-kigq8000165-CHI 1709502525)",
+          "date": "Sun, 03 Mar 2024 21:48:45 GMT"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.usatoday.com/tangstatic/js/pbjsandwich-q1a2z35eda84ca.min.js",
+          "https://www.usatoday.com/"
+        ],
+        "time": 1.62439400004223
+      },
+      {
+        "url": "https://c.amazon-adsystem.com/bao-csm/aps-comm/aps_csm.js",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3143,
+        "remoteIPAddress": "108.157.151.146",
+        "responseHeaders": {
+          "content-type": "application/javascript",
+          "access-control-allow-origin": "*",
+          "access-control-allow-methods": "GET",
+          "access-control-max-age": "3000",
+          "last-modified": "Thu, 29 Feb 2024 02:13:08 GMT",
+          "x-amz-server-side-encryption": "AES256",
+          "x-amz-version-id": "r5.lR.LJ66XEXzxUUVo7iMemjL_F_GoE",
+          "server": "AmazonS3",
+          "content-encoding": "gzip",
+          "date": "Sun, 03 Mar 2024 10:39:00 GMT",
+          "cache-control": "public, max-age=86400",
+          "etag": "W/\"a4d296427fc806b21335359e398c025c\"",
+          "vary": "Accept-Encoding,Origin",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 bc15e8dbc42fcbff100003afa74edaa8.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P2",
+          "x-amz-cf-id": "9CATKD4eMmSmBvH2Hoa9asIkg-q0i1iYDIOQd_7Na2V42yidKrjNXg==",
+          "age": "40186"
+        },
+        "responseBodyHash": "06b99248a163333e36980a6cfb756f1a7de60fa49517162b87b1a44d5d48f844",
+        "initiators": [
+          "https://c.amazon-adsystem.com/aax2/apstag.js"
+        ],
+        "time": 1.9831840000115335
+      },
+      {
+        "url": "https://config.aps.amazon-adsystem.com/configs/3062",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 796,
+        "remoteIPAddress": "108.157.150.116",
+        "responseHeaders": {
+          "content-type": "application/javascript",
+          "content-length": "531",
+          "server": "CloudFront",
+          "date": "Sun, 03 Mar 2024 21:36:45 GMT",
+          "cache-control": "max-age=3600",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 084aee51c27f761149c5fc97f2b483ca.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P2",
+          "x-amz-cf-id": "9KrfMILD97Lvdayp6pPsv33GWL_VBYPxqsiPtivVolod05poPqMsQA==",
+          "age": "722"
+        },
+        "responseBodyHash": "929b739be2542d64621ab4b9ce2587d27b3afadaf4ad3eba248394674379f273",
+        "initiators": [
+          "https://www.usatoday.com/",
+          "https://c.amazon-adsystem.com/aax2/apstag.js"
+        ],
+        "time": 4.211475000018254
+      },
+      {
+        "url": "https://c.amazon-adsystem.com/cdn/prod/config?src=3062&u=https%3A%2F%2Fwww.usatoday.com",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 991,
+        "remoteIPAddress": "108.157.151.146",
+        "responseHeaders": {
+          "content-type": "application/json;charset=UTF-8",
+          "content-length": "641",
+          "access-control-allow-origin": "https://www.usatoday.com",
+          "access-control-allow-credentials": "true",
+          "cache-control": "max-age=21550, s-maxage=21600",
+          "date": "Sun, 03 Mar 2024 20:58:39 GMT",
+          "server": "Server",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 7a6cd17961a8b43d701599034d203d88.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P2",
+          "x-amz-cf-id": "5ZksA1PSjGch5D3v8vma0QM7O0GH9YbWDQMtvTYbW-u6hWjAs_KjFw==",
+          "age": "3005"
+        },
+        "responseBodyHash": "f3e3353bd01e767ff59da7875dc275115913898a536f5542349fcce15b66a48b",
+        "initiators": [
+          "https://c.amazon-adsystem.com/aax2/apstag.js",
+          "https://www.usatoday.com/"
+        ],
+        "time": 1.928912999923341
+      },
+      {
+        "url": "https://aax.amazon-adsystem.com/e/dtb/bid?src=3062&u=https%3A%2F%2Fwww.usatoday.com%2F&pid=6VXvaRDWleiYT&cb=0&ws=1440x812&v=24.228.2235&t=1500&slots=%5B%7B%22sd%22%3A%22ad-slot-7103-usatoday-high_impact-homepage-1%22%2C%22s%22%3A%5B%22970x250%22%2C%22728x90%22%5D%2C%22sn%22%3A%22%2F7103%2Fusatoday%2Fhigh_impact%2Fhomepage%231%22%7D%2C%7B%22id%22%3A%22videoSlot1%22%2C%22mt%22%3A%22v%22%7D%2C%7B%22sd%22%3A%22ad-slot-7103-usatoday-poster_front-homepage-2%22%2C%22s%22%3A%5B%22300x250%22%2C%22300x600%22%5D%2C%22sn%22%3A%22%2F7103%2Fusatoday%2Fposter_front%2Fhomepage%231%22%7D%2C%7B%22sd%22%3A%22ad-slot-7103-usatoday-poster_scroll_front-homepage-3%22%2C%22s%22%3A%5B%22300x250%22%2C%22300x600%22%2C%22300x1050%22%5D%2C%22sn%22%3A%22%2F7103%2Fusatoday%2Fposter_scroll_front%2Fhomepage%231%22%7D%2C%7B%22sd%22%3A%22ad-slot-7103-usatoday-leaderboard_btf-homepage-7%22%2C%22s%22%3A%5B%22728x90%22%5D%2C%22sn%22%3A%22%2F7103%2Fusatoday%2Fleaderboard_btf%2Fhomepage%231%22%7D%5D&pj=%7B%22device%22%3A%7B%22sua%22%3A%7B%22mobile%22%3A0%2C%22source%22%3A1%2C%22platform%22%3A%7B%22brand%22%3A%22%22%7D%2C%22browsers%22%3A%5B%5D%7D%7D%7D&sm=bfa8cec5-817a-4e4a-8b0a-2a4fb5b4c834&gdprl=%7B%22status%22%3A%22no-cmp%22%7D",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1034,
+        "remoteIPAddress": "108.157.148.124",
+        "responseHeaders": {
+          "content-type": "text/javascript;charset=UTF-8",
+          "content-length": "699",
+          "access-control-allow-origin": "https://www.usatoday.com",
+          "access-control-allow-credentials": "true",
+          "timing-allow-origin": "*",
+          "date": "Sun, 03 Mar 2024 21:48:44 GMT",
+          "server": "Server",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 f7f9f3d588a38a4cee083e9af044ddb0.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P2",
+          "x-amz-cf-id": "l8kP1hZI589g2MPXt-s5t3UHcS7HF8oYmoGWGmDXqcPOp1M-af3onQ=="
+        },
+        "responseBodyHash": "8d5a21cc4344eb34924e61d11dac3e0a095d83d20fc08f83e8c83dc8d2d4f88b",
+        "initiators": [
+          "https://c.amazon-adsystem.com/aax2/apstag.js",
+          "https://www.usatoday.com/"
+        ],
+        "time": 2.257403999916278
+      },
+      {
+        "url": "https://pixel.adsafeprotected.com/services/pub?anId=922805&slot=%7Bid:ad-slot-7103-usatoday-high_impact-homepage-1,s:1000.250,p:7103/usatoday/high_impact/homepage,t:display%7D&slot=%7Bid:ad-slot-7103-usatoday-poster_front-homepage-2,s:300.250,p:7103/usatoday/poster_front/homepage,t:display%7D&slot=%7Bid:ad-slot-7103-usatoday-poster_scroll_front-homepage-3,s:300.250,p:7103/usatoday/poster_scroll_front/homepage,t:display%7D&slot=%7Bid:ad-slot-7103-usatoday-leaderboard_btf-homepage-7,s:728.90,p:7103/usatoday/leaderboard_btf/homepage,t:display%7D&wr=1440.812&sr=1707.1067&sessionId=f396da56-f65f-55c2-97e4-dafd429a2535&url=https%253A%252F%252Fwww.usatoday.com%252F",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1024,
+        "remoteIPAddress": "3.223.75.165",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:48:45 GMT",
+          "content-type": "application/json;charset=UTF-8",
+          "server": "nginx",
+          "access-control-allow-origin": "https://www.usatoday.com",
+          "access-control-allow-credentials": "true",
+          "access-control-expose-headers": "X-Server-Name",
+          "timing-allow-origin": "*",
+          "x-server-name": "app23.va.303net.net"
+        },
+        "responseBodyHash": "1efafd289f7a23783b57dd184b9e8a29e187b9e121c030230d24f6188131f4bf",
+        "initiators": [
+          "https://static.adsafeprotected.com/iasPET.1.js",
+          "https://www.usatoday.com/"
+        ],
+        "time": 1.8842850000364706
+      },
+      {
+        "url": "https://static.adsafeprotected.com/iasADX.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4622,
+        "remoteIPAddress": "108.157.142.72",
+        "responseHeaders": {
+          "content-type": "application/javascript",
+          "x-amz-replication-status": "COMPLETED",
+          "last-modified": "Mon, 14 Feb 2022 12:59:56 GMT",
+          "x-amz-server-side-encryption": "AES256",
+          "x-amz-version-id": "S08nbEMSQBiWsSqdAKl6yaGPRyD0riRA",
+          "server": "AmazonS3",
+          "content-encoding": "gzip",
+          "date": "Sat, 02 Mar 2024 13:00:29 GMT",
+          "cache-control": "max-age=604800",
+          "etag": "W/\"c700d1e14608af0f21adaf6e08ac2cf5\"",
+          "vary": "Accept-Encoding",
+          "x-cache": "Hit from cloudfront",
+          "via": "1.1 b03258d55b5c8ca0da16ae8a522bce9c.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "MCI50-P1",
+          "x-amz-cf-id": "CynGFGZaFCqBH2seC8AUCfsXhjcN7M9HfGf16ZS6TjtIjddRtbhKBw==",
+          "age": "118096"
+        },
+        "responseBodyHash": "123bb290d7e535508dc84350e2152c6a561dcda94f4c5bbf1fcc1f50fd89b63b",
+        "initiators": [
+          "https://www.usatoday.com/",
+          "https://static.adsafeprotected.com/iasPET.1.js"
+        ],
+        "time": 1.8068220000714064
+      },
+      {
+        "url": "https://pixel.adsafeprotected.com/jsdiagnostic?code:pet_m&anid:922805&sessionId:f396da56-f65f-55c2-97e4-dafd429a2535",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 217,
+        "remoteIPAddress": "3.223.75.165",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:48:45 GMT",
+          "content-type": "image/gif",
+          "content-length": "43",
+          "server": "nginx",
+          "p3p": "CP=\"COM NAV INT STA NID OUR IND NOI\"",
+          "pragma": "no-cache",
+          "cache-control": "no-cache",
+          "x-server-name": "app75.va.303net.net"
+        },
+        "responseBodyHash": "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f",
+        "initiators": [
+          "https://static.adsafeprotected.com/iasPET.1.js"
+        ],
+        "time": 1.8774969999212772
+      },
+      {
+        "url": "https://cdn.confiant-integrations.net/gptprebidnative/202402080930/wrap.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 94838,
+        "remoteIPAddress": "104.18.43.90",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:48:45 GMT",
+          "content-type": "application/javascript; charset=utf-8",
+          "x-amz-id-2": "t7oob1a2LK7ty50BDFc6TiMDJoT2/MopkFOZkW8EpSfIMHJYsOmTxF1MFR6qimldooQfP0fyyWM=",
+          "x-amz-request-id": "JY0VE8XEXHHX0TK4",
+          "last-modified": "Thu, 08 Feb 2024 14:31:21 GMT",
+          "etag": "W/\"8e28b21ff25dd26d00b95dfa641ab910\"",
+          "x-amz-server-side-encryption": "AES256",
+          "cache-control": "public, max-age=31536000",
+          "cf-cache-status": "HIT",
+          "age": "2084945",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "85ecd51fff2522f7-ORD",
+          "content-encoding": "br",
+          "alt-svc": "h3=\":443\"; ma=86400"
+        },
+        "responseBodyHash": "aded1096d3e8af430f97e9402097f9d4e9eee726f3ee8533c8979ba79b7807e9",
+        "initiators": [
+          "https://cdn.confiant-integrations.net/r5TdgVvkbv-PeaJCKaQfCh5Xsto/gpt_and_prebid/config.js"
+        ],
+        "time": 2.1965860000345856
+      },
+      {
+        "url": "https://cdn.brandmetrics.com/scripts/bundle/65568.js?sid=6384de98-7e2a-4671-b441-6ea4cb092952&toploc=www.usatoday.com",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 18478,
+        "remoteIPAddress": "104.26.13.18",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:48:45 GMT",
+          "content-type": "text/javascript;charset=utf-8",
+          "cache-control": "public, max-age=3600",
+          "cf-bgj": "minify",
+          "cf-polished": "origSize=58288",
+          "request-context": "appId=cid-v1:5c986aee-9723-4541-b38e-d4ac73c46937",
+          "cf-cache-status": "HIT",
+          "age": "2510",
+          "last-modified": "Sun, 03 Mar 2024 21:06:55 GMT",
+          "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=Tjfg5BnNqTSbCg5K%2FF2lUeFrDER%2BOmHYBs5YlHNwthsqa1djGcfB8dGbOgs4lbAISlL55OCPjnHVHVB8nsgYTfiwajCtCI8Ki5qZzFALGJl%2FEgVz89iaBJ9%2Fji0SEOrDDGV%2F00S8\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+          "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+          "vary": "Accept-Encoding",
+          "server": "cloudflare",
+          "cf-ray": "85ecd51e1b7d61e7-ORD",
+          "content-encoding": "br"
+        },
+        "responseBodyHash": "22ec7c7c49079fbdef8a2d48d057806f8b2972f01abd2c862478ac495d1918ef",
+        "initiators": [
+          "https://cdn.brandmetrics.com/tag/f5e47f5ae82e4c48bbc1a7f9281ed95b/gannett_net.js"
+        ],
+        "time": 1.771500000031665
+      },
+      {
+        "url": "https://www.usatoday.com/gcdn/dcjs/prod/main.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 21548,
+        "remoteIPAddress": "151.101.130.62",
+        "responseHeaders": {
+          "x-amz-meta-goog-reserved-file-mtime": "1709222663",
+          "last-modified": "Thu, 29 Feb 2024 16:05:00 GMT",
+          "etag": "\"e7714ad2712f8e0079d8d3312cc0ce26\"",
+          "x-amz-checksum-crc32c": "Wb7HNQ==",
+          "content-encoding": "br",
+          "content-type": "application/javascript",
+          "accept-ranges": "bytes",
+          "age": "279823",
+          "timing-allow-origin": "*",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3600",
+          "date": "Sun, 03 Mar 2024 21:48:45 GMT",
+          "nel": "{\"report_to\":\"default\",\"max_age\":31557600,\"include_subdomains\":true,\"success_fraction\":0.005}",
+          "report-to": "{\"max_age\":31557600,\"include_subdomains\":true,\"endpoints\":[{\"url\":\"https://reporting-api.gannettinnovation.com\"}]}",
+          "x-cache": "MISS, HIT, HIT, MISS",
+          "vary": "Accept,Accept-Encoding",
+          "content-security-policy": "upgrade-insecure-requests",
+          "strict-transport-security": "max-age=63072000",
+          "content-length": "21254"
+        },
+        "responseBodyHash": "163b8883504604c5d55543715b7bceb3b96be89b6363338f4926f02fcc58b6af",
+        "initiators": [
+          "https://www.usatoday.com/",
+          "https://www.usatoday.com/tangstatic/js/main-q1a2z351c6b1a4.min.js"
+        ],
+        "time": 1.6495969999814406
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 420,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"9uZWEEQawXEa9JeFZdVDxheK738=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "5bc0b6c5d00309f9dae2be3fb505fda1ccdfa5c4d2994e167c8fb473bf95a777",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 2.8894579999614507
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1278,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"e74+CjUkVkdX//K9KytM4jGb4Sg=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "2fd0f85a569e98791d39884b54e706d105e5db0dfc60a319a40e09d48fc9b878",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 3.1611540000885725
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_64.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2655,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"z1HgbWDpu8W5XjdmapJcfSGuRjA=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "5fa6baa4bed8763bc19a8f6e6d169c0ba472d3f1913b6a093f65262ebd7c1c52",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 3.258083999971859
+      },
+      {
+        "url": "https://cdn.taboola.com/libtrc/impl.20240303-6-RELEASE.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://cdn.taboola.com/libtrc/usatodaydemo/loader.js"
+        ],
+        "time": 1.2493569999933243
+      },
+      {
+        "url": "https://pm-widget.taboola.com/usatodaydemo/load.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://cdn.taboola.com/libtrc/usatodaydemo/loader.js",
+          "https://www.usatoday.com/tangstatic/js/main-q1a2z351c6b1a4.min.js",
+          "https://www.usatoday.com/"
+        ],
+        "time": 1.8795510000782087
+      },
+      {
+        "url": "https://nr-events.taboola.com/newsroom/1.0/usatodaydemo/get-action?page.url=https%3A%2F%2Fwww.usatoday.com%2F&view.id=123556262192024443&page.template=home&page.dashboard=home",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://c2.taboola.com/nr/usatodaydemo/newsroom.js"
+        ],
+        "time": 1.8865509999450296
+      },
+      {
+        "url": "https://traxex.gannettdigital.com/prebid-event",
+        "method": "POST",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.usatoday.com/tangstatic/js/pbjsandwich-q1a2z35eda84ca.min.js",
+          "https://www.usatoday.com/"
+        ],
+        "time": 1.9196259999880567
+      },
+      {
+        "url": "https://bidder.criteo.com/csm/events",
+        "method": "POST",
+        "type": "Ping",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.usatoday.com/tangstatic/js/pbjsandwich-q1a2z35eda84ca.min.js",
+          "https://www.usatoday.com/"
+        ],
+        "time": 1.912730999989435
+      },
+      {
+        "url": "https://nr-events.taboola.com/newsroom/1.0/usatodaydemo/notify-impression?page.url=https%3A%2F%2Fwww.usatoday.com%2F&view.id=123556262192024443&page.template=home&page.dashboard=home",
+        "method": "GET",
+        "type": "Image",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://c2.taboola.com/nr/usatodaydemo/newsroom.js"
+        ],
+        "time": 1.9121719999238849
+      },
+      {
+        "url": "https://traxex.gannettdigital.com/prebid-event",
+        "method": "POST",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.usatoday.com/tangstatic/js/pbjsandwich-q1a2z35eda84ca.min.js",
+          "https://www.usatoday.com/"
+        ],
+        "time": 1.761826999951154
+      },
+      {
+        "url": "https://pixel.adsafeprotected.com/jsdiagnostic?code:pet_longreq&anid:922805&sessionId:f396da56-f65f-55c2-97e4-dafd429a2535&err:threshold%3A2000",
+        "method": "GET",
+        "type": "Image",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://static.adsafeprotected.com/iasPET.1.js",
+          "https://www.usatoday.com/"
+        ],
+        "time": 1.90334099996835
+      },
+      {
+        "url": "https://static.criteo.net/images/pixel.gif?ch=1",
+        "method": "GET",
+        "type": "Image",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.usatoday.com/tangstatic/js/pbjsandwich-q1a2z35eda84ca.min.js",
+          "https://www.usatoday.com/"
+        ],
+        "time": 2.197423000005074
+      },
+      {
+        "url": "https://static.criteo.net/images/pixel.gif?ch=2",
+        "method": "GET",
+        "type": "Image",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.usatoday.com/tangstatic/js/pbjsandwich-q1a2z35eda84ca.min.js",
+          "https://www.usatoday.com/"
+        ],
+        "time": 2.1976830000057817
+      },
+      {
+        "url": "https://nr-events.taboola.com/newsroom/1.0/usatodaydemo/notify-log?level=0&message=newsroom%20-%3E%2015%3A48%3A46.159%20-%3E%20%2CError%20while%20sending%20%27%2F%2Fnr-events.taboola.com%2Fnewsroom%2F1.0%2Fusatodaydemo%2Fget-action%3Fpage.url%3Dhttps%253A%252F%252Fwww.usatoday.com%252F%26view.id%3D123556262192024443%26page.template%3Dhome%26page.dashboard%3Dhome%27&page.url=https%3A%2F%2Fwww.usatoday.com%2F&view.id=123556262192024443&page.template=home",
+        "method": "GET",
+        "type": "Image",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://c2.taboola.com/nr/usatodaydemo/newsroom.js"
+        ],
+        "time": 1.4591469999868423
+      },
+      {
+        "url": "https://www.usatoday.com/tangfrag/elections/elections-results/?prm-date=2024-03-03&prm-state=DC&prm-party=R&prm-level=state&prm-office=presidential&prm-embedded",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 11646,
+        "remoteIPAddress": "151.101.130.62",
+        "responseHeaders": {
+          "content-type": "text/html; charset=utf-8",
+          "etag": "W/\"4d80-VLzgBhFg4r4H1kJce+sXmEGaRys\"",
+          "x-content-type-options": "nosniff",
+          "x-xss-protection": "1; mode=block",
+          "feature-policy": "autoplay 'none';camera 'none';display-capture 'none';document-domain 'none';encrypted-media 'none';geolocation 'none';microphone 'none';midi 'none';payment 'none';picture-in-picture 'none';publickey-credentials-get 'none';sync-xhr 'none';usb 'none';xr-spatial-tracking 'none'",
+          "permissions-policy": "autoplay=(),camera=(),display-capture=(),document-domain=(),encrypted-media=(),geolocation=(),microphone=(),midi=(),payment=(),picture-in-picture=(),publickey-credentials-get=(),usb=(),xr-spatial-tracking=()",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "content-security-policy": "upgrade-insecure-requests;default-src 'none';script-src 'unsafe-inline';style-src 'unsafe-inline';style-src-elem 'unsafe-inline';base-uri 'self';connect-src https://reporting-api.gannettinnovation.com;font-src data:;img-src *;prefetch-src *;sandbox allow-scripts allow-popups allow-popups-to-escape-sandbox allow-forms;report-uri https://reporting-api.gannettinnovation.com;report-to default",
+          "origin-agent-cluster": "?1",
+          "timing-allow-origin": "*",
+          "x-robots-tag": "noindex,follow",
+          "content-encoding": "br",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:48:47 GMT",
+          "age": "12607",
+          "nel": "{\"report_to\":\"default\",\"max_age\":31557600,\"include_subdomains\":true,\"success_fraction\":0.005}",
+          "report-to": "{\"max_age\":31557600,\"include_subdomains\":true,\"endpoints\":[{\"url\":\"https://reporting-api.gannettinnovation.com\"}]}",
+          "x-cache": "MISS, HIT",
+          "x-timer": "S1709502528.935634,VS0,VE1",
+          "vary": "Accept-Encoding,User-Agent",
+          "strict-transport-security": "max-age=63072000",
+          "content-length": "10406"
+        },
+        "responseBodyHash": "4caee7ec151f80055d108d96fdb20f31b8b3e1ac5c76c2f6aaf1701e150134f8",
+        "initiators": [
+          "https://www.usatoday.com/"
+        ],
+        "time": 0.4310220000334084
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/js/rum.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202402220101/pubads_impl.js"
+        ],
+        "time": 0.5863060000119731
+      },
+      {
+        "url": "https://9093e30698a620ad3bf203824440f10f.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html",
+        "method": "GET",
+        "type": "Document",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202402220101/pubads_impl.js"
+        ],
+        "time": 1.858500000089407
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/gampad/ads?pvsid=2281478243478324&correlator=137183828040500&eid=31079956%2C31061691%2C31061693&output=ldjh&gdfp_req=1&vrg=202402220101&ptt=17&impl=fifs&tfcd=0&iu_parts=7103%2Cusatoday%2Chigh_impact%2Chomepage%2Cposter_front%2Cposter_scroll_front%2Cleaderboard_btf&enc_prev_ius=0%2F1%2F2%2F3%2C0%2F1%2F4%2F3%2C0%2F1%2F5%2F3%2C0%2F1%2F6%2F3&prev_iu_szs=320x50%7C1000x250%7C970x250%7C970x90%7C970x66%7C728x90%7C2x4%7C1x2%7C2560x1440%2C300x250%7C300x600%2C300x250%7C300x600%7C300x1050%2C728x90&fluid=height%2C0%2C0%2C0&ifi=1&sfv=1-0-40&eri=1&sc=1&cookie_enabled=1&abxe=1&dt=1709502527525&lmt=1709502527&adxs=-12245933%2C-12245933%2C-9%2C-12245933&adys=-12245933%2C-12245933%2C-9%2C-12245933&biw=1423&bih=812&scr_x=0&scr_y=0&btvi=-1%7C-1%7C-1%7C-1&ucis=1%7C2%7C3%7C4&oid=2&u_his=2&u_h=1067&u_w=1707&u_ah=1067&u_aw=1707&u_cd=24&u_sd=1&u_tz=-360&dmc=8&bc=31&nvt=1&uach=WyIiLCIiLCIiLCIiLCIiLG51bGwsMCxudWxsLCIiLG51bGwsMF0.&url=https%3A%2F%2Fwww.usatoday.com%2F&rumc=2281478243478324&rume=1&vis=1&psz=0x0%7C0x0%7C0x-1%7C0x0&msz=0x0%7C0x0%7C0x-1%7C0x0&fws=132%2C644%2C2%2C132&ohw=1423%2C1423%2C0%2C1423&ga_vid=272432903.1709502528&ga_sid=1709502528&ga_hid=329727398&ga_fc=false&dlt=1709502511672&idt=15475&ppid=67995769-ccb0-45a9-92dd-19b3c0800ed4&prev_scp=position%3Dhigh_impact%26adCount%3D1%26nsf%3Dparamount%2Cparamount-high_impact%2Cmomentum%7Cposition%3Dposter_front%26adCount%3D1%7Cposition%3Dposter_scroll_front%26adCount%3D1%7Cposition%3Dleaderboard_btf%26adCount%3D1&cust_params=aam_props%3Dtangent-desktop%257Cdesktop%257Chomefront%26alerttype%3D%26build%3Dtangent-desktop%26cst_section%3Dhomepage%26features%3Dnoautoplay%252CheavyAds%26gnt_sb%3D13%26gnt_ub%3D65%26hls%3Dhttps%253A%252F%252Fwww.usatoday.com%252Fgcdn%252Fgannett-web%252Fapps%252Fteal%252Fdist%252Fvendor%252Fhls%252Fhls.1.2.8.min.js%26navigationtype%3Ddirect%26pageType%3Dhome-front%26privacy%3DNA%26property%3DUSAT%26sitepage%3DUSAT%252Fhome%26ssts_section%3Dhome%26pid%3D1709502517115_274363517%26userguid%3D67995769-ccb0-45a9-92dd-19b3c0800ed4%26utm_props%3D%257C%257C%26variant%3DHP4U_B%252Cdisabletrustx%252Cst95%26variant_p%3DHP4U_B%26ss%3Dnon%252Ca%26swgt%3Dna%26dolookalike%3DNA%26user_traits%3Dcontrol%253A13%252Ccdl_none&adks=3395925604%2C4137453105%2C2162033904%2C3046041323&frm=20",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 307,
+        "responseHeaders": {
+          "location": "data:text/plain;base64,Cg==",
+          "non-authoritative-reason": "WebRequest API"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "data:text/plain;base64,Cg==",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202402220101/pubads_impl.js",
+          "https://www.usatoday.com/tangstatic/js/main-q1a2z351c6b1a4.min.js"
+        ],
+        "time": 2.440076000057161
+      },
+      {
+        "url": "https://secure.cdn.fastclick.net/js/pubcid/latest/pubcid.min.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.usatoday.com/",
+          "https://c.amazon-adsystem.com/aax2/apstag.js"
+        ],
+        "time": 3.3908330000704154
+      },
+      {
+        "url": "https://trc.taboola.com/sg/prebidJS/1/cm",
+        "method": "GET",
+        "type": "Image",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.usatoday.com/tangstatic/js/pbjsandwich-q1a2z35eda84ca.min.js",
+          "https://www.usatoday.com/"
+        ],
+        "time": 2.2721369999926537
+      },
+      {
+        "url": "https://www.usatoday.com/gcdn/dcc/prod/USAT-TEALIUM-TANGENT.json",
+        "method": "GET",
+        "type": "Fetch",
+        "status": 200,
+        "size": 5884,
+        "remoteIPAddress": "151.101.130.62",
+        "responseHeaders": {
+          "x-amz-meta-goog-reserved-file-mtime": "1709306534",
+          "last-modified": "Fri, 01 Mar 2024 15:28:59 GMT",
+          "etag": "\"0867bd6f66baa03332a3149bc6e5cf79\"",
+          "x-amz-checksum-crc32c": "pw+NWA==",
+          "content-encoding": "br",
+          "content-type": "application/json",
+          "accept-ranges": "bytes",
+          "age": "195587",
+          "timing-allow-origin": "*",
+          "access-control-allow-origin": "*",
+          "cache-control": "max-age=3600",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "nel": "{\"report_to\":\"default\",\"max_age\":31557600,\"include_subdomains\":true,\"success_fraction\":0.005}",
+          "report-to": "{\"max_age\":31557600,\"include_subdomains\":true,\"endpoints\":[{\"url\":\"https://reporting-api.gannettinnovation.com\"}]}",
+          "x-cache": "MISS, HIT, HIT, MISS",
+          "vary": "Accept,Accept-Encoding",
+          "content-security-policy": "upgrade-insecure-requests",
+          "strict-transport-security": "max-age=63072000",
+          "content-length": "5600"
+        },
+        "responseBodyHash": "e502329f0d5460191658bd7b1168de38e616e37fce161fb355b5e466dbaaabff",
+        "initiators": [
+          "https://www.usatoday.com/gcdn/dcjs/prod/main.js"
+        ],
+        "time": 0.7045439999783412
+      },
+      {
+        "url": "https://polarcdn-terrax.com/nativeads/v1.4.0/json/creative/promofeed/6c66285475e1470ba820f010b1272247?fragment=9",
+        "method": "GET",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.usatoday.com/"
+        ],
+        "time": 3.3314759999047965
+      },
+      {
+        "url": "https://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t&dl=n-smaato_n-index_n-sharethrough_rbd_ppt_n-vmg_n-MediaNet_ox-db5_an-db5_3lift",
+        "method": "GET",
+        "type": "Document",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://c.amazon-adsystem.com/aax2/apstag.js"
+        ],
+        "time": 1.7558509999653324
+      },
+      {
+        "url": "https://collector.brandmetrics.com/c.js?siteid=6384de98-7e2a-4671-b441-6ea4cb092952&toploc=www.usatoday.com&rnd=9991464&json",
+        "method": "GET",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://cdn.brandmetrics.com/scripts/bundle/65568.js?sid=6384de98-7e2a-4671-b441-6ea4cb092952&toploc=www.usatoday.com",
+          "https://cdn.brandmetrics.com/tag/f5e47f5ae82e4c48bbc1a7f9281ed95b/gannett_net.js"
+        ],
+        "time": 3.2917479999596253
+      },
+      {
+        "url": "https://reporting-api.gannettinnovation.com/client-logs",
+        "method": "POST",
+        "type": "Ping",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.usatoday.com/tangstatic/js/main-q1a2z351c6b1a4.min.js",
+          "https://www.usatoday.com/",
+          "https://static.adsafeprotected.com/iasPET.1.js"
+        ],
+        "time": 2.1917019999818876
+      },
+      {
+        "url": "https://polarcdn-pentos.com/wt?d=www.usatoday.com&n=-1&p=NA-USAT-11238597&w=tangent-0.4101.0&cu=eaeed30dacd1269c1893de860c94a7e7&l=Key-tangent-tile%20AdUnit-%2F7103%2Fusatoday%2Fnative-front_tile%2F*%20%5BTangent%20Desktop%20Tile%5D&padau=366604248&padav=4444902375&pado=2152401825&padli=4914395741&padc=138369805562&padpm=false&pas=dfp&c=6c66285475e1470ba820f010b1272247&pag2=%2F7103%2Fusatoday%2Fnative-front_tile%2Fhomepage&t=arx&pvhref=https%3A%2F%2Fwww.usatoday.com%2F",
+        "method": "GET",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.usatoday.com/",
+          "https://www.usatoday.com/tangstatic/js/main-q1a2z351c6b1a4.min.js"
+        ],
+        "time": 1.0905139999231324
+      },
+      {
+        "url": "https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjst0FxOqKv1FsnsNxRgMlVFn6l0X4MncmtT6iggA2_JIdLwt4mhLkYu4KOh1raYIJsoSUjWkOsOkl05rgM_ecqyZxXMwhSbdU8SPNc60WaO2lb5f__buuaTeT2BoN9SdO1V2i7eKjM8WnMp_XUeQpqhiUhS0cff7lr_RW7WV95mW22sH23KAzbgWiDutW-4pcRAYFuAPgge923SbAcnrTHFqjdE6UjWDXsNzVDIMnvoCO8yYnnlxn06jXcQAgvjfW1RF8RMfvrEpYZe2SXBBp04_8riNBHGnnT_QZ1ZewjlI4xE-sCJo3rra07-UIYjce4rBuAHlkpUsmehubITMGg2jOjI8MLTovBRfetv67mP2_jJ4mE-8MtnNIoezJQ&sai=AMfl-YQzOGMwDBDjcDPCj-vim8wr2mHEnzN8FXMPHPTVOXF9pe8jN3pnb6EG5C8CbVC9BFU2AQ1PfZ-ZFxzxofY&sig=Cg0ArKJSzDs3egM4wHoIEAE&uach_m=%5BUACH%5D&urlfix=1&adurl=",
+        "method": "GET",
+        "type": "Image",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.usatoday.com/",
+          "https://www.usatoday.com/tangstatic/js/main-q1a2z351c6b1a4.min.js"
+        ],
+        "time": 1.0922119999304414
+      },
+      {
+        "url": "blob:https://www.usatoday.com/0620ff5b-34aa-433e-a0f3-8f97a29a8173",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {
+          "content-length": "2196",
+          "content-type": "text/javascript; charset=utf-8"
+        },
+        "responseBodyHash": "3016cc97a09afc936ce7a3581bc5b47365d61c6e15252392d6e225455eba1eaa",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/contentscript.js",
+          "https://cdn.confiant-integrations.net/gptprebidnative/202402080930/wrap.js"
+        ],
+        "time": 1.954892999958247
+      },
+      {
+        "url": "https://polarcdn-pentos.com/wt?d=www.usatoday.com&n=-1&p=NA-USAT-11238597&w=tangent-0.4101.0&cu=eaeed30dacd1269c1893de860c94a7e7&l=Key-tangent-tile%20AdUnit-%2F7103%2Fusatoday%2Fnative-front_tile%2F*%20%5BTangent%20Desktop%20Tile%5D&padau=366604248&padav=4444902375&pado=2152401825&padli=4914395741&padc=138369805562&padpm=false&pas=asa-web&par=e&t=f&pax=u&pvhref=https%3A%2F%2Fwww.usatoday.com%2F",
+        "method": "GET",
+        "type": "Fetch",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.usatoday.com/"
+        ],
+        "time": 2.005226999986917
+      },
+      {
+        "url": "https://www.gannett-cdn.com/presto/2023/07/07/USAT/215ba713-4e96-4806-bd6a-f5d49527bcfe-GettyImages_1484969074_1.jpeg?fit=crop&width=210&height=118&format=pjpg&auto=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4243,
+        "remoteIPAddress": "151.101.130.62",
+        "responseHeaders": {
+          "content-type": "image/webp",
+          "etag": "\"NHlVt7DU5yWIUVC18BdzKEOegoX42rNrElO1Hfn95JI\"",
+          "fastly-io-served-by": "vpop-mnz1300715",
+          "fastly-stats": "io=1",
+          "x-amz-checksum-crc32c": "L5aeMA==",
+          "cache-control": "max-age=2592000",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:48:54 GMT",
+          "age": "920883",
+          "timing-allow-origin": "*",
+          "access-control-allow-origin": "*",
+          "nel": "{\"report_to\":\"default\",\"max_age\":31557600,\"include_subdomains\":true,\"success_fraction\":0.005}",
+          "report-to": "{\"max_age\":31557600,\"include_subdomains\":true,\"endpoints\":[{\"url\":\"https://reporting-api.gannettinnovation.com\"}]}",
+          "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+          "x-cache": "HIT, HIT",
+          "x-cache-hits": "13655, 1",
+          "vary": "Accept",
+          "content-length": "3774"
+        },
+        "responseBodyHash": "fcfcf611c665ef010a54fc042bf97515130e35d09a6d260d9968e75d432ea68d",
+        "initiators": [
+          "https://www.usatoday.com/"
+        ],
+        "time": 3.031141999992542
+      },
+      {
+        "url": "https://www.usatoday.com/gcdn/elections/prod/voter-guide/candidates/images/binkley-ryan.png?width=40&height=40&fit=crop&format=pjpg&auto=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1085,
+        "remoteIPAddress": "151.101.130.62",
+        "responseHeaders": {
+          "content-type": "image/webp",
+          "etag": "\"E/eggzSCXhKX5BYMj5J3LTO6YbkZMDZEbpQNv15iOs4\"",
+          "fastly-io-served-by": "img03-europe-west2",
+          "fastly-stats": "io=1",
+          "x-amz-checksum-crc32c": "v9M5Gg==",
+          "cache-control": "max-age=2592000",
+          "accept-ranges": "bytes",
+          "age": "190269",
+          "timing-allow-origin": "*",
+          "access-control-allow-origin": "*",
+          "date": "Sun, 03 Mar 2024 21:48:54 GMT",
+          "nel": "{\"report_to\":\"default\",\"max_age\":31557600,\"include_subdomains\":true,\"success_fraction\":0.005}",
+          "report-to": "{\"max_age\":31557600,\"include_subdomains\":true,\"endpoints\":[{\"url\":\"https://reporting-api.gannettinnovation.com\"}]}",
+          "x-cache": "MISS, HIT, HIT, MISS",
+          "vary": "Accept",
+          "content-security-policy": "upgrade-insecure-requests",
+          "strict-transport-security": "max-age=63072000",
+          "content-length": "974"
+        },
+        "responseBodyHash": "e98c250dc8e454369f0450acf6fb9206f7779c15eaea218e4085671b6e13349c",
+        "initiators": [
+          "https://www.usatoday.com/tangfrag/elections/elections-results/?prm-date=2024-03-03&prm-state=DC&prm-party=R&prm-level=state&prm-office=presidential&prm-embedded"
+        ],
+        "time": 1.4426519999979064
+      },
+      {
+        "url": "https://www.usatoday.com/gcdn/elections/prod/voter-guide/candidates/images/christie-chris.png?width=40&height=40&fit=crop&format=pjpg&auto=webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1503,
+        "remoteIPAddress": "151.101.130.62",
+        "responseHeaders": {
+          "content-type": "image/webp",
+          "etag": "\"wPIFx1EntIH1a7iEem1Q9I3olFMXDXyueetLaI/hFI4\"",
+          "fastly-io-served-by": "vpop-kiad7010215",
+          "fastly-stats": "io=1",
+          "x-amz-checksum-crc32c": "wQTC6w==",
+          "cache-control": "max-age=2592000",
+          "accept-ranges": "bytes",
+          "age": "186177",
+          "timing-allow-origin": "*",
+          "access-control-allow-origin": "*",
+          "date": "Sun, 03 Mar 2024 21:48:54 GMT",
+          "nel": "{\"report_to\":\"default\",\"max_age\":31557600,\"include_subdomains\":true,\"success_fraction\":0.005}",
+          "report-to": "{\"max_age\":31557600,\"include_subdomains\":true,\"endpoints\":[{\"url\":\"https://reporting-api.gannettinnovation.com\"}]}",
+          "x-cache": "MISS, HIT, HIT, MISS",
+          "vary": "Accept",
+          "content-security-policy": "upgrade-insecure-requests",
+          "strict-transport-security": "max-age=63072000",
+          "content-length": "1022"
+        },
+        "responseBodyHash": "cf728f07eb4f44764d813234774c9ea35bc3f355ffefc3154eb15984ebafbca4",
+        "initiators": [
+          "https://www.usatoday.com/tangfrag/elections/elections-results/?prm-date=2024-03-03&prm-state=DC&prm-party=R&prm-level=state&prm-office=presidential&prm-embedded"
+        ],
+        "time": 1.4414450000040233
+      },
+      {
+        "url": "https://sb.scorecardresearch.com/cs/6035223/beacon.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.usatoday.com/gcdn/dcjs/prod/main.js",
+          "https://www.usatoday.com/tangstatic/js/main-q1a2z351c6b1a4.min.js"
+        ],
+        "time": 0.5946780000813305
+      },
+      {
+        "url": "https://www.usatoday.com/gciaf/prod/USAT-GCIAF-STANDARD",
+        "method": "POST",
+        "type": "Fetch",
+        "status": 204,
+        "remoteIPAddress": "151.101.130.62",
+        "responseHeaders": {
+          "content-type": "application/json; charset=utf-8",
+          "cache-control": "no-store",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:48:53 GMT",
+          "access-control-allow-origin": "https://www.usatoday.com",
+          "access-control-allow-credentials": "true",
+          "x-frame-options": "DENY",
+          "x-xss-protection": "1;mode=block",
+          "x-content-type-options": "nosniff",
+          "feature-policy": "autoplay 'none';camera 'none';display-capture 'none';encrypted-media 'none';fullscreen 'none';geolocation 'none';microphone 'none';midi 'none';payment 'none';picture-in-picture 'none';publickey-credentials-get 'none';sync-xhr 'none';usb 'none';xr-spatial-tracking 'none'",
+          "permissions-policy": "autoplay=(),camera=(),display-capture=(),encrypted-media=(),fullscreen=(),geolocation=(),microphone=(),midi=(),payment=(),picture-in-picture=(),publickey-credentials-get=(),usb=(),xr-spatial-tracking=()",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "cross-origin-opener-policy": "same-origin",
+          "origin-agent-cluster": "?1",
+          "timing-allow-origin": "*",
+          "nel": "{\"report_to\":\"default\",\"max_age\":31557600,\"include_subdomains\":true,\"success_fraction\":0.005}",
+          "report-to": "{\"max_age\":31557600,\"include_subdomains\":true,\"endpoints\":[{\"url\":\"https://reporting-api.gannettinnovation.com\"}]}",
+          "x-cache": "MISS",
+          "vary": "Origin,Referer",
+          "content-security-policy": "upgrade-insecure-requests",
+          "strict-transport-security": "max-age=63072000"
+        },
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_ABORTED",
+        "initiators": [
+          "https://www.usatoday.com/gcdn/dcjs/prod/main.js",
+          "https://www.usatoday.com/tangstatic/js/main-q1a2z351c6b1a4.min.js"
+        ],
+        "time": 0.6470279999775812
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 307,
+        "responseHeaders": {
+          "location": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_analytics.js?secret=r7fm4x",
+          "non-authoritative-reason": "WebRequest API"
+        },
+        "responseBodyHash": "6b4621868cac589a603fe1263aad242f67262ef971bdacaccc1a515cd0488466",
+        "redirectedTo": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_analytics.js?secret=r7fm4x",
+        "initiators": [
+          "https://www.usatoday.com/",
+          "https://www.usatoday.com/gcdn/dcjs/prod/main.js",
+          "https://www.usatoday.com/tangstatic/js/main-q1a2z351c6b1a4.min.js"
+        ],
+        "time": 0.5878269999520853
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-QQ6YP2J211",
+        "method": "GET",
+        "type": "Script",
+        "status": 307,
+        "responseHeaders": {
+          "location": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_analytics.js?secret=18rfh1",
+          "non-authoritative-reason": "WebRequest API"
+        },
+        "responseBodyHash": "6b4621868cac589a603fe1263aad242f67262ef971bdacaccc1a515cd0488466",
+        "redirectedTo": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_analytics.js?secret=18rfh1",
+        "initiators": [
+          "https://www.usatoday.com/",
+          "https://www.usatoday.com/gcdn/dcjs/prod/main.js",
+          "https://www.usatoday.com/tangstatic/js/main-q1a2z351c6b1a4.min.js"
+        ],
+        "time": 0.5894580000312999
+      },
+      {
+        "url": "https://cdn.parsely.com/keys/usatoday.com/p.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.usatoday.com/gcdn/dcjs/prod/main.js",
+          "https://www.usatoday.com/tangstatic/js/main-q1a2z351c6b1a4.min.js"
+        ],
+        "time": 0.587987000006251
+      },
+      {
+        "url": "https://www.googleadservices.com/pagead/conversion_async.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.usatoday.com/",
+          "https://www.usatoday.com/gcdn/dcjs/prod/main.js",
+          "https://www.usatoday.com/tangstatic/js/main-q1a2z351c6b1a4.min.js"
+        ],
+        "time": 0.5866439999081194
+      },
+      {
+        "url": "https://b-code.liadm.com/a-01aa.min.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.usatoday.com/gcdn/dcjs/prod/main.js",
+          "https://www.usatoday.com/tangstatic/js/main-q1a2z351c6b1a4.min.js"
+        ],
+        "time": 0.5857059999834746
+      },
+      {
+        "url": "https://cdn.taboola.com/libtrc/unip/1168/tfa.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.usatoday.com/",
+          "https://www.usatoday.com/gcdn/dcjs/prod/main.js",
+          "https://www.usatoday.com/tangstatic/js/main-q1a2z351c6b1a4.min.js"
+        ],
+        "time": 0.583928000065498
+      },
+      {
+        "url": "https://js.adsrvr.org/up_loader.1.1.0.js",
+        "method": "GET",
+        "type": "Script",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.usatoday.com/",
+          "https://www.usatoday.com/gcdn/dcjs/prod/main.js",
+          "https://www.usatoday.com/tangstatic/js/main-q1a2z351c6b1a4.min.js"
+        ],
+        "time": 0.582713000010699
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_analytics.js?secret=r7fm4x",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3695,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"wTqkQ1ryNce63XhVKrXix8otYW0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "6b4621868cac589a603fe1263aad242f67262ef971bdacaccc1a515cd0488466",
+        "redirectedFrom": "https://www.google-analytics.com/analytics.js",
+        "initiators": [
+          "https://www.usatoday.com/",
+          "https://www.usatoday.com/gcdn/dcjs/prod/main.js",
+          "https://www.usatoday.com/tangstatic/js/main-q1a2z351c6b1a4.min.js"
+        ],
+        "time": 0.05521400005090982
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_analytics.js?secret=18rfh1",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3695,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"wTqkQ1ryNce63XhVKrXix8otYW0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "6b4621868cac589a603fe1263aad242f67262ef971bdacaccc1a515cd0488466",
+        "redirectedFrom": "https://www.googletagmanager.com/gtag/js?id=G-QQ6YP2J211",
+        "initiators": [
+          "https://www.usatoday.com/",
+          "https://www.usatoday.com/gcdn/dcjs/prod/main.js",
+          "https://www.usatoday.com/tangstatic/js/main-q1a2z351c6b1a4.min.js"
+        ],
+        "time": 0.05349800002295524
+      },
+      {
+        "url": "https://reporting-api.gannettinnovation.com/client-logs",
+        "method": "POST",
+        "type": "Ping",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.usatoday.com/tangstatic/js/main-q1a2z351c6b1a4.min.js",
+          "https://www.usatoday.com/"
+        ],
+        "time": 0.11088499997276813
+      },
+      {
+        "url": "https://gum.criteo.com/syncframe?origin=publishertag&topUrl=www.usatoday.com",
+        "method": "GET",
+        "type": "Document",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://www.usatoday.com/tangstatic/js/pbjsandwich-q1a2z35eda84ca.min.js",
+          "https://www.usatoday.com/"
+        ],
+        "time": 0.013816000078804791
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/getconfig/sodar?sv=200&tid=gpt&tv=m202402220101&st=env",
+        "method": "GET",
+        "type": "XHR",
+        "status": 307,
+        "responseHeaders": {
+          "location": "data:text/javascript;base64,KGZ1bmN0aW9uKCkgewogICAgJ3VzZSBzdHJpY3QnOwp9KSgpOwo=",
+          "non-authoritative-reason": "WebRequest API"
+        },
+        "responseBodyHash": "5592bfa25de75c18ef0116cbb9990c122178b1efe5e076f1c45049a09d935a25",
+        "redirectedTo": "data:text/javascript;base64,KGZ1bmN0aW9uKCkgewogICAgJ3VzZSBzdHJpY3QnOwp9KSgpOwo=",
+        "initiators": [
+          "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202402220101/pubads_impl.js",
+          "https://www.usatoday.com/",
+          "https://www.usatoday.com/tangstatic/js/main-q1a2z351c6b1a4.min.js"
+        ],
+        "time": 0.07574800006113946
+      },
+      {
+        "url": "https://www.usatoday.com/favicon.ico",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 663,
+        "remoteIPAddress": "151.101.130.62",
+        "responseHeaders": {
+          "content-type": "image/x-icon",
+          "last-modified": "Wed, 01 Nov 2023 07:05:00 GMT",
+          "etag": "\"6541f89c-1c3\"",
+          "content-encoding": "br",
+          "cache-control": "public, max-age=864000, stale-while-revalidate=31536000",
+          "content-security-policy": "upgrade-insecure-requests",
+          "accept-ranges": "bytes",
+          "date": "Sun, 03 Mar 2024 21:48:54 GMT",
+          "age": "10678274",
+          "nel": "{\"report_to\":\"default\",\"max_age\":31557600,\"include_subdomains\":true,\"success_fraction\":0.005}",
+          "report-to": "{\"max_age\":31557600,\"include_subdomains\":true,\"endpoints\":[{\"url\":\"https://reporting-api.gannettinnovation.com\"}]}",
+          "x-cache": "HIT, HIT",
+          "x-timer": "S1709502535.942785,VS0,VE1",
+          "vary": "Accept-Encoding",
+          "strict-transport-security": "max-age=63072000",
+          "content-length": "451"
+        },
+        "responseBodyHash": "46a10e58e68a871d0ef24979502b70cca007bc759745fb852e714b81471330e8",
+        "initiators": [],
+        "time": 0.1712050000205636
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://www.usatoday.com/": {
+          "Navigator.prototype.userAgent": 1,
+          "Navigator.prototype.cookieEnabled": 2,
+          "Screen.prototype.orientation": 9,
+          "Document.cookie getter": 18,
+          "Navigator.prototype.connection": 4,
+          "window.devicePixelRatio": 4,
+          "Navigator.prototype.onLine": 4,
+          "Screen.prototype.height": 4,
+          "Screen.prototype.width": 4,
+          "CookieStore.prototype.set": 1,
+          "Document.cookie setter": 7
+        },
+        "https://securepubads.g.doubleclick.net/tag/js/gpt.js": {
+          "Navigator.prototype.userAgent": 9
+        },
+        "https://www.usatoday.com/tangstatic/js/pbjsandwich-q1a2z35eda84ca.min.js": {
+          "Date.prototype.getTime": 18,
+          "Navigator.prototype.userAgent": 4,
+          "window.localStorage": 2,
+          "window.sessionStorage": 1,
+          "Navigator.prototype.connection": 3,
+          "Screen.prototype.width": 2,
+          "Navigator.prototype.language": 2,
+          "Screen.prototype.orientation": 1,
+          "Screen.prototype.height": 1,
+          "Navigator.prototype.cookieEnabled": 2
+        },
+        "https://c.amazon-adsystem.com/aax2/apstag.js": {
+          "Event.prototype.timeStamp": 138,
+          "window.localStorage": 40,
+          "PerformanceTiming.prototype.navigationStart": 1,
+          "NavigatorUAData.prototype.brands": 3,
+          "NavigatorUAData.prototype.platform": 2,
+          "window.innerWidth": 1,
+          "window.innerHeight": 1
+        },
+        "https://static.adsafeprotected.com/iasPET.1.js": {
+          "window.innerWidth": 2,
+          "window.innerHeight": 2,
+          "Screen.prototype.width": 2,
+          "Screen.prototype.height": 2,
+          "Date.prototype.getTime": 2
+        },
+        "https://cdn.brandmetrics.com/tag/f5e47f5ae82e4c48bbc1a7f9281ed95b/gannett_net.js": {
+          "window.localStorage": 3
+        },
+        "https://www.usatoday.com/tangstatic/js/main-q1a2z351c6b1a4.min.js": {
+          "window.sessionStorage": 1,
+          "Navigator.prototype.storage": 1,
+          "Navigator.prototype.permissions": 1,
+          "Navigator.prototype.deviceMemory": 2,
+          "HTMLMediaElement.prototype.canPlayType": 1,
+          "Navigator.prototype.language": 1,
+          "Navigator.prototype.maxTouchPoints": 1,
+          "Navigator.prototype.platform": 1,
+          "Navigator.prototype.connection": 1,
+          "window.matchMedia(\"prefers-color-scheme\")": 1
+        },
+        "https://c2.taboola.com/nr/usatodaydemo/newsroom.js": {
+          "Date.prototype.getTime": 6,
+          "Navigator.prototype.cookieEnabled": 2,
+          "window.localStorage": 1,
+          "Navigator.prototype.appName": 1
+        },
+        "https://cdn.taboola.com/libtrc/usatodaydemo/loader.js": {
+          "Navigator.prototype.userAgent": 6,
+          "Date.prototype.getTime": 15,
+          "NavigatorUAData.prototype.getHighEntropyValues": 1,
+          "window.innerWidth": 1
+        },
+        "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202402220101/pubads_impl.js": {
+          "Navigator.prototype.userAgent": 37,
+          "PerformanceTiming.prototype.navigationStart": 2,
+          "window.localStorage": 3,
+          "window.innerWidth": 4,
+          "Date.prototype.getTime": 2,
+          "Element.prototype.getClientRects": 6,
+          "Screen.prototype.height": 2,
+          "Screen.prototype.width": 2,
+          "Screen.prototype.availHeight": 1,
+          "Screen.prototype.availWidth": 1,
+          "Screen.prototype.colorDepth": 2,
+          "window.devicePixelRatio": 1,
+          "Date.prototype.getTimezoneOffset": 1,
+          "Navigator.prototype.deviceMemory": 1,
+          "Navigator.prototype.appName": 1,
+          "Navigator.prototype.language": 2,
+          "Navigator.prototype.platform": 1,
+          "Navigator.prototype.javaEnabled": 1
+        },
+        "https://cdn.brandmetrics.com/scripts/bundle/65568.js?sid=6384de98-7e2a-4671-b441-6ea4cb092952&toploc=www.usatoday.com": {
+          "window.localStorage": 3,
+          "window.sessionStorage": 1
+        },
+        "http://usatoday.com/null": {
+          "Navigator.prototype.userAgent": 4,
+          "window.devicePixelRatio": 1
+        },
+        "https://www.usatoday.com/gcdn/dcjs/prod/main.js": {
+          "Navigator.prototype.cookieEnabled": 1,
+          "window.devicePixelRatio": 1,
+          "Date.prototype.getTimezoneOffset": 4,
+          "Navigator.prototype.language": 1,
+          "Screen.prototype.height": 1,
+          "Screen.prototype.width": 1,
+          "Date.prototype.getTime": 4,
+          "Navigator.prototype.userAgent": 2,
+          "window.localStorage": 2,
+          "CookieStore.prototype.set": 1
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://www.usatoday.com/",
+          "description": "CookieStore.prototype.set",
+          "arguments": [
+            "[object Object]"
+          ]
+        },
+        {
+          "source": "https://www.usatoday.com/",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "GoogleAdServingTest=Good;secure"
+          ]
+        },
+        {
+          "source": "https://www.usatoday.com/",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "GoogleAdServingTest=;expires=Sun, 01 Feb 1970 06:00:00 GMT;secure"
+          ]
+        },
+        {
+          "source": "https://www.usatoday.com/",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "GoogleAdServingTest=Good;secure"
+          ]
+        },
+        {
+          "source": "https://www.usatoday.com/",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "GoogleAdServingTest=;expires=Sun, 01 Feb 1970 06:00:00 GMT;secure"
+          ]
+        },
+        {
+          "source": "https://www.usatoday.com/gcdn/dcjs/prod/main.js",
+          "description": "CookieStore.prototype.set",
+          "arguments": [
+            "[object Object]"
+          ]
+        },
+        {
+          "source": "https://www.usatoday.com/",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cto_pub_test_tld=test;expires=Sun, 03 Mar 2024 22:48:54 GMT;domain=.usatoday.com;path=/;secure"
+          ]
+        },
+        {
+          "source": "https://www.usatoday.com/",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cto_pub_test_tld=;expires=Sun, 03 Mar 2024 21:48:54 GMT;domain=.usatoday.com;path=/;secure"
+          ]
+        },
+        {
+          "source": "https://www.usatoday.com/",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "cto_pub_test_tld=;expires=Sun, 03 Mar 2024 21:48:54 GMT;domain=.www.usatoday.com;path=/;secure"
+          ]
+        }
+      ]
+    },
+    "cookies": [
+      {
+        "name": "gup_anonid",
+        "domain": ".usatoday.com",
+        "path": "/",
+        "expires": 1741038511555,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "gup_clientid",
+        "domain": ".usatoday.com",
+        "path": "/",
+        "expires": 1741038512423,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "gnt_ub",
+        "domain": ".usatoday.com",
+        "path": "/",
+        "expires": 1741038511555,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "gnt_sb",
+        "domain": ".usatoday.com",
+        "path": "/",
+        "expires": 1741038511555,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "gnt_eid",
+        "domain": ".usatoday.com",
+        "path": "/",
+        "expires": 1714686511555,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "gnt_w",
+        "domain": ".www.usatoday.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "gnt_i",
+        "domain": ".usatoday.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "gup_lng",
+        "domain": ".usatoday.com",
+        "path": "/",
+        "expires": 1741038512423,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "gnt_vp",
+        "domain": ".usatoday.com",
+        "path": "/",
+        "expires": 1719896400445,
+        "session": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "test_cookie",
+        "domain": ".doubleclick.net",
+        "path": "/",
+        "expires": 1709503424842,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "tt_viewer",
+        "domain": ".teads.tv",
+        "path": "/",
+        "expires": 1740952124932,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "receive-cookie-deprecation",
+        "domain": ".teads.tv",
+        "path": "/",
+        "expires": 1740952124932,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "last_front",
+        "domain": "www.usatoday.com",
+        "path": "/",
+        "session": true,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "_ga",
+        "domain": ".usatoday.com",
+        "path": "/",
+        "expires": 1741038532562,
+        "session": false,
+        "sameSite": "Lax"
+      }
+    ]
+  }
+}

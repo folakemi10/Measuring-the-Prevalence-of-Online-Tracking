@@ -1,0 +1,4625 @@
+{
+  "initialUrl": "http://sputniknews.com/",
+  "finalUrl": "https://sputnikglobe.com/",
+  "timeout": true,
+  "testStarted": 1709502503185,
+  "testFinished": 1709502561557,
+  "data": {
+    "requests": [
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-common.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9146,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"aaUB+OkU2kkNMG0s29pMrD/Txpw=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "f126a5d9a1d51b6e9a69bce4c7bc5cd73d35c52f698720718bd42f55d564930d",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.010500999982468784
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 63306,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"brp35kQtS8+j/OiHcYh4IU0cb3Q=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "6e72cbe8c52b11d9b408452d7cfb3f49fe1c78c017bd8077110b357fdec328a8",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.016373999998904765
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background-ext.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 8841,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"fXf83hxHQFYzgM0DpIEbFLcQtRs=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "970661746c1bd310b52c2a4106f5628f2ec33587889f62a010055490f9da77c3",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.02118100004736334
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/commands.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5688,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"c/ILoHWOD64IpOQHtmk7EIE2XqA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "8600c9766351b29e50594db79a48a6257edd8caf7ac6e9e1f6a739e1a76cfff5",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.022337000002153218
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 64015,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"tB/CTGayMFjN4N1iH+gWkt7Ypys=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "814ca08012b5676b8f54fa9b76db8d32c7b809a8d6232f085836c8379af81dd3",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.04210799990687519
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 59170,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"8qtLS1TRlqk4NFoKeiaqWbvgnjs=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "2273d9c1354d7d76dcdf4ac1af459f83b8d5ba69fe7cf3ba9e739cbc6465469d",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.035814000060781837
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/tab.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 43055,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"bAN/KBrmF13jeLEa8CnmY/h9yJw=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "14ca611674b054d67b8ee47aaa75247c7ca714ffb56505922dd20eb8a683d117",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.023495999979786575
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/ublock.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 21360,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"s2huleUUItx8WmfIoigU2k89EI4=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "680316d3bc24a4c7075f953b804bdf386bf7006dad240d9dd82c0749e0bde7bb",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.025203999946825206
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/utils.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5732,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"ewbUChQLhbKBviAH8OkhaZR6EBY=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "53753703bb4eddbc3b10e89a971bc24af840fde30fb7895ed2664fe875f99216",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.022071000072173774
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/cachestorage.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 17413,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"BKGwCtQGOhNSwT+cpw63EvtlObc=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "037dbc3d31577989f3e77cfa4da0f37344f8d1d9d1063cf147e904fd5aef8b27",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.03305299999192357
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/contextmenu.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9458,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"KnFG3e4nOTTCC0ndfJpFbFTX1yQ=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "dda53fe9ea31d6abc64cc04453043ac5c9855c59fc5e7a11c7a79aac2f75c147",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.03877899993676692
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 37085,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"rkObEe2pVTnb8GIlR54aPZvaOuE=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "7f57c7371827dee653f88641abe00fb3576343467b131a0f81dbe05252d47df7",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.04527900007087737
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/lz4.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6476,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"Aby2z5UWZo+IfYyE5QRUC04KW7E=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "bc37731b1037f5f5beb72337a0403137be0d14f2dfe4d9b4c3489f5871337fe8",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.08137399994302541
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-ext-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6442,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"T246NPf/b38zaoR9brX77q41lqM=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "25e9546e55c911b89c60bfaae1facd64726567d1ff00efce427063f92dab782a",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.0488990000449121
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/reverselookup.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6410,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"jCMDkD1weRVOYWmj9W86+SAAOqc=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "8aafbe6baaf965e15146d7d4c86edd6eca77eebc070447170f64d6ddfdc3f26d",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.05463599995709956
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-net-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 177232,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"naOuX4j11zGMRfwg1/ib5p70d9o=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "977ab6b0e22f7014a66e861483da1657f9197c0f7f5ce03cfff6b9bae03a6a21",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.13309999997727573
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/background.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12935,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"pxJDj/3NSnAwkacM0mDXjla4oKA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "617e411ff07ff690535663dceaa4b4afef54c3f72e851fb3ca95fd811352c237",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.05587999999988824
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 40690,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"2ULP7uOZN0J63JSZrWNClnpoRZ0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "d4767d32875f7d6392123143a0a90f39f578be6500d48310fa6655ac53018375",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.0693629999877885
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16231,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"5/Hviz/N4pTuWsUsdPmG+Vurg4g=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "25caf31da6b5a1226229110ef285f7ed21e1c6c7b2e67b2ebc3b3dc9f251ce3f",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.06121499999426305
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/console.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1686,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"FolHAjRVIeXDvaQ1O5ZchW1id7o=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "4c9115d407dc2d37e4947201e1cd403ce49e773cf3145c748145145152a39ba6",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.08071600005496293
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/filtering-engines.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1843,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"GJXEGjVT9sYpuBNXUfBP4hLDkPc=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "8e3f6983c16220eaf941346b35d632300fc0cd9b86020f3816eb92767cf2b622",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.06436700001358986
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 7129,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"1vY+XR+TzcIhxp2BuhYVZJ65M+Y=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "e2e65720e4c6816243d811e34a3fa8773bde2fc7da683ef912246bbd4f266e3b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.06494599999859929
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/uri-utils.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5459,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"Xn67G/cKymweq4CjJ8jx85KcgH4=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "aad0fbad010ed91399e993917f329b2d745fbe4457e3d0f011662ea048a62d03",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/commands.js"
+        ],
+        "time": 0.06476499990094453
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/logger.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 2617,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"b8Wd6PJxRPGudjfAAryIkg7il6g=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "74588f2dfea500aedfac8edd75b949e6d4aeb2070706885d3ffe9dce297658d6",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/tab.js"
+        ],
+        "time": 0.059588000061921775
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/scriptlet-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 16396,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"tzLnLKB+/ZNmrSigvMkdpANOsGg=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "9009f525e509824eb26816d85f5bba1fa05aeacd8439cdd372e1fa67fd2d691f",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/tab.js"
+        ],
+        "time": 0.09902900003362447
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/pagestore.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 37941,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"0pAEaDWrTcynpqbYkllrsQbu4P4=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "0d276e541f29baf81c120ed01011b79dd6314bf10d3a7ac71b9f22cc8b4020e1",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/tab.js"
+        ],
+        "time": 0.14335100003518164
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/i18n.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 13319,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"sgE7pqJMnDa8VrcldJ0ilYveB9M=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "54fb40243620deba248a8e72fba23d2bdb38072bc32b30f0b8dc4b5210bb0746",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/tab.js"
+        ],
+        "time": 0.09727699996437877
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/cosmetic-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 33982,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"8DeaqhHs9iEDwoRUHAwyVhluLGk=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "f85390d75b092dc72cc27f559516fc3b0d9a1f473c921cde3f86cf32a0244e59",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/ublock.js"
+        ],
+        "time": 0.15073400002438575
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/lib/publicsuffixlist/publicsuffixlist.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 21141,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"iila5CWHW0iw8SPgL216SoU3hYw=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "4bffa485e7f0c16134305215cb85b6ee33af08a1370484351b230f56c64fe6a4",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js"
+        ],
+        "time": 0.09298700001090765
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/lib/punycode.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 13615,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"Cnf4OiWclUC+aPRdFWSYUnGTUnA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "329249856a82a02f69fb2d929f89e02aefa6b04cca4ef6a3b9bebfa48d6e824c",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js"
+        ],
+        "time": 0.09440399997401983
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/base64-custom.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9061,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"OnBCHLjB+OUYqDx7akb0eRGnoZs=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "a0880409a82754c2e5927f5d3712dbbab280c5024ecce864b7dbec20dc19d2ea",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js"
+        ],
+        "time": 0.08907400001771748
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-filtering-parser.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 164667,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"H6Vn2En40xu1GbGWyUOD8+h0LF8=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "cfdf172c8e95c947c500dea40ba5540daaa4e6e8c62230be7c60658c1cc7c114",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js"
+        ],
+        "time": 0.15799900004640222
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-filtering-io.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4549,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"odWmB/ijF6Od72rdmnHNjvmWt1Q=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "e0d8f3c6d0d715f2ea61ab6670e153f341e2abe07dc5e0f6bbb3532bfeedbc30",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js"
+        ],
+        "time": 0.09392699995078146
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/text-utils.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3206,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"bybrzDjowCch/sktFQYJugb+zwM=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "b1a96611d4ed6efbd6b6cd5c79175e891575c63294e45f847f05600f5cdb12ac",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js"
+        ],
+        "time": 0.13457300001755357
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/html-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 13226,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"nE/MtESN4/QpDKN9nEGM5qoH4M4=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "a39efe15686694c36c84c76fef131c400199de765eccc56e4234d138eab327ad",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.14003499993123114
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-dnr-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 17406,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"DbHGb5L4hdAkjR9FLOq6UPY0mSA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "10f814879fa095d9558a96692bb261010315429e4534d98644050157c30a866f",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.12748599995393306
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/benchmarks.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14781,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"fx2USk/w9OdwKYUcesd1PiXaKso=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "7dc5738c927e44080b7cd9a134a20c9a27c4d5f16858640f417bc4c54c7f8fe7",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/messaging.js"
+        ],
+        "time": 0.07815299998037517
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/httpheader-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6352,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"SqWU30JsVe68CGl7V5IYN9Ue8ZY=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "a668fd9d938f686433d2e5e621f5175fbe3cc31a3f7f1e08e24352ecab395c90",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-ext-filtering.js"
+        ],
+        "time": 0.13159500004258007
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/filtering-context.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14378,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"yN0YEFTj9wAv0PvTGvys1uJ8kl0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "c91359d674f43f0ebdc9a355d8b0fb43735d48995df2196f67e17de92b723fce",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/background.js"
+        ],
+        "time": 0.15916899999137968
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-resources.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 5378,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"o8OhMLJZCm7xijQh+t91hKH16vM=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "820e0173c4edd93e7dc5d4244e1d12e7129de894aef21f713ba21bf548c60ecf",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js"
+        ],
+        "time": 0.1379070000257343
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/dynamic-net-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 14929,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"gXO6tsSsmyISqWJESo/178bzc70=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "1599cd0e54d1054f513498d2d4809a39a795d82c1e23b422cc6503608600df36",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/filtering-engines.js"
+        ],
+        "time": 0.1357599999755621
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/hnswitches.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 9552,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"+rKz0sjaKVuCQGW9yi4CgDBwdaQ=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "347df073a6f20be44a21ae99b8da0c14614b397658894963f24330acc553113b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/filtering-engines.js"
+        ],
+        "time": 0.13766200002282858
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/url-net-filtering.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 10209,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"tieD34setz8cNEM+sZ0i6CEhpFg=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "835831a8584c0b8d7d0ea93bc8d1579ef3dc8c4611d371722a643c36f14471dc",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/filtering-engines.js"
+        ],
+        "time": 0.13983500003814697
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/text-encode.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 12028,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"hN/C9mwwtU1t+yo3/Rg0M2yGi5k=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "850aa0a27dd5ae4a14c9e1173839ee2376849ef5590f6c82b8c34e200a2344ec",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js"
+        ],
+        "time": 0.14050400000996888
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/tasks.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1405,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"SYHXDKUVZzLkC5tphHt3KrA4+7U=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "1c32e673ad892453685d10961246093eac5b628d4a0dfe423a6b3903a3a971b8",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-net-filtering.js"
+        ],
+        "time": 0.15796900005079806
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/biditrie.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 34955,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"AheZ6MejaiDkLljcnWjPUo842xA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "4e020d6ce6f487e50ee11a68c69808a1466dc39d91c45d7b576186fc4d333189",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-net-filtering.js"
+        ],
+        "time": 0.17398199997842312
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/hntrie.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 28060,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"Er8vVKiCQn/QLsrtE4b7i/p31bY=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "0c2d598dcfb869d73fdd210d8d4de6be01bf963fd68493aff38412a4558a6543",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-net-filtering.js"
+        ],
+        "time": 0.19684899994172156
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-ext-filtering-db.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6022,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"jqRZdGl0d4KQTEg9Iimy9jCMWE0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "fed5ab181ee1c6857ee8c7e6ef251dba74d361e7cc291b076199e2fedaca50cc",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/scriptlet-filtering.js"
+        ],
+        "time": 0.1581849999492988
+      },
+      {
+        "url": "http://sputniknews.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "194.190.139.3",
+        "responseHeaders": {
+          "server": "QRATOR",
+          "date": "Sun, 03 Mar 2024 21:48:32 GMT",
+          "content-length": "0",
+          "connection": "keep-alive",
+          "keep-alive": "timeout=15",
+          "location": "https://sputniknews.com/"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://sputniknews.com/",
+        "initiators": [],
+        "time": 0.49767299997620285
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/lib/regexanalyzer/regex.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 71968,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"Zc4zMrbKNl4jIVUdCsA8BAi5Qk8=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "de0a7a04bd5349dd3ffb91fb54d66fc5ccbd930f8c4bdb41ddac4dd03e18aacb",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-filtering-parser.js"
+        ],
+        "time": 0.3233939999481663
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/lib/csstree/css-tree.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 167973,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"4WxGcJjJUcwPUMlunC7RvGLWaI4=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "ecc4507fac946cbe442962e11bb058195dbe72545cce42f34338a83726ec56e0",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/static-filtering-parser.js"
+        ],
+        "time": 0.3369620000012219
+      },
+      {
+        "url": "https://sputniknews.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 301,
+        "remoteIPAddress": "194.190.139.3",
+        "responseHeaders": {
+          "server": "QRATOR",
+          "date": "Sun, 03 Mar 2024 21:48:32 GMT",
+          "content-type": "text/html",
+          "content-length": "170",
+          "connection": "keep-alive",
+          "keep-alive": "timeout=15",
+          "location": "https://sputnikglobe.com/"
+        },
+        "responseBodyHash": null,
+        "redirectedTo": "https://sputnikglobe.com/",
+        "redirectedFrom": "http://sputniknews.com/",
+        "initiators": [],
+        "time": 0.9813889999641106
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16-off.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 552,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"UjtU7CjAmAcHX4DBL09uSijcYkg=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "7ea99590d4b3f5ffbd7610f8ae42a72803a0f809200f595b943d5a622eb8d9bd",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.5636299999896437
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32-off.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1114,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"nkCRpu+nneDbhSqRHQsS4ngvo0I=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "3c8bf856b1fed942ab11cfc92aeda135adcc25c7012528f4b95cc6cb0e74a2cb",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.6226540000643581
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 420,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"9uZWEEQawXEa9JeFZdVDxheK738=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "5bc0b6c5d00309f9dae2be3fb505fda1ccdfa5c4d2994e167c8fb473bf95a777",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.6224890000885352
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1278,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"e74+CjUkVkdX//K9KytM4jGb4Sg=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "2fd0f85a569e98791d39884b54e706d105e5db0dfc60a319a40e09d48fc9b878",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js"
+        ],
+        "time": 0.6228950000368059
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 570,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"SCCY3xHCtdMdB9jfy1lKOHd91yw=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "75cfccc844e135a85d7508a5892f72bac16b510919e4d4d5801ded7b1901a5cd",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background-ext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js"
+        ],
+        "time": 0.6228189999237657
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1089,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"RmlX4Eb0Vf+9Lga44dPV6pw/juM=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "230dc98bf942ad4be6016cbff229ae0605f2f02401e406ef0d649e7b1cca37ae",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background-ext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js"
+        ],
+        "time": 0.7474519999232143
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_64-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4406,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"VxvYv0EN5oLKTZD+GqhZRU48+qM=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "d52e425f9820d4c3e27e3ba658b7d21b14e3fbda7dd43febeea5a6021809060c",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background-ext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js"
+        ],
+        "time": 0.7596520000370219
+      },
+      {
+        "url": "https://sputnikglobe.com/",
+        "method": "GET",
+        "type": "Document",
+        "status": 200,
+        "size": 47719,
+        "remoteIPAddress": "194.190.139.3",
+        "responseHeaders": {
+          "server": "QRATOR",
+          "date": "Sun, 03 Mar 2024 21:48:34 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "transfer-encoding": "chunked",
+          "connection": "keep-alive",
+          "keep-alive": "timeout=15",
+          "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+          "cache-control": "public",
+          "pragma": "no-cache",
+          "content-encoding": "gzip"
+        },
+        "responseBodyHash": "52ee67b6326a468c0f3d17a5b7f4f956b11f2bc222e9a4080871749103dbe2f5",
+        "redirectedFrom": "https://sputniknews.com/",
+        "initiators": [],
+        "time": 1.2229600000428036
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 570,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"SCCY3xHCtdMdB9jfy1lKOHd91yw=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "75cfccc844e135a85d7508a5892f72bac16b510919e4d4d5801ded7b1901a5cd",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "extensions::webRequestEvent"
+        ],
+        "time": 0.4027260000584647
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1089,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"RmlX4Eb0Vf+9Lga44dPV6pw/juM=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "230dc98bf942ad4be6016cbff229ae0605f2f02401e406ef0d649e7b1cca37ae",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "extensions::webRequestEvent"
+        ],
+        "time": 0.4326460000593215
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_64-loading.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4406,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"VxvYv0EN5oLKTZD+GqhZRU48+qM=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "d52e425f9820d4c3e27e3ba658b7d21b14e3fbda7dd43febeea5a6021809060c",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "extensions::webRequestEvent"
+        ],
+        "time": 1.0618419999955222
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/badlists.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 4136,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"eOiMDeKtL1q/V6TIuAFaDCVjfWY=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "109822a6b68367e225fd701e53be3419800b95c7d4becd50bf8a2d49ba22424f",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.9820339999860153
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/resources/scriptlets.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 125820,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"CgwgzxiUJT5q+w9lH7Se+5ZMoIc=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "82d47ba987d73c40c4e7363b9ab5dba77ed1527a26d77909e3cedc27a5cd3439",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.4598609999520704
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/1x1.gif?secret=3vyj25",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 43,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"72D+/UKGYStX5er87ISTvvrF5tQ=\"",
+          "content-type": "image/gif"
+        },
+        "responseBodyHash": "6b3da89922d333d106b84fefeebd7b16bfebf4cfbd7bef37fa10a47c471ae64c",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.4503679999615997
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/2x2.png?secret=ca5vne",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 68,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"esKRo0fVKvgNoUzOaCbJcHcCR5c=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "53b14a22cd3dc973d6cb1a381d01fafafc4da1632bacbf15f7fac0014fbe70c0",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.462275999947451
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/3x2.png?secret=12dtrk",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 68,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"FE1vXRwHfZli324eMoQlsnugEho=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "c6ea854b737a88835e1c7349bcfa0730f55e19de7acf0f54f9d6ea817fcd2f20",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.5283739999867976
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/32x32.png?secret=zdjzix",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 83,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"67CnMiH92/CeXXcyr+80HclqFxI=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "173650f1d19d59786ce8dd44c64cd8fb4471552c2e247fb774bec92726a7ee6b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.5346240000799298
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/amazon_ads.js?secret=fov0sf",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2296,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"By+IDkPL9F/5lkH5nXfR93EB23k=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "41901805f575d9d06608682999cf588b12c318face2ed04e8566ec8cbec4c610",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.552239999989979
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/doubleclick_instream_ad_status.js?secret=5o5sdh",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 29,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"s8ZaX7h28RDv/PN40yMhb1rRBto=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "eed0dc1fdb5d97ed188ae16fd5e1024a5bb744af47340346be2146300a6c54b9",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.6072079999139532
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/empty?secret=hp6h89",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 0,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"w1USgRq36N3lrsNJbzqv38xCsUk=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.603015000000596
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/fingerprint2.js?secret=zk3ohs",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1810,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"PePG6yN3ZEGZMHdAk3DkU2BtUIM=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "7db8892256cdf45ad5ca5748e136e0c241b53b38c5adaa744a42ca139f05ffb3",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.6049599999096245
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/fingerprint3.js?secret=iwyozm",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1492,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"CetrBFm7a360yitCLL/02QWkJT8=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "6fd5703f2bdd85932f18adc99f30d8736d2bf5f09b1dde6c129f4616259fc827",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.6060160000342876
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_analytics.js?secret=7rqik4",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3695,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"wTqkQ1ryNce63XhVKrXix8otYW0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "6b4621868cac589a603fe1263aad242f67262ef971bdacaccc1a515cd0488466",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.5945129999890924
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/google-analytics_ga.js?secret=0vob1k",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 4810,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"FSty3AHCXVujktdhdSOgAswTJwI=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "f0546767675ac7eff724521236be831e8753a7b8c15aa1c792d8121cb5311094",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.6019450000021607
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/googlesyndication_adsbygoogle.js?secret=0vccgh",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3603,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"27D7TdoFnKSaDAxhDXZtyWlUA+0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "ba81dafd9a59c99b9d9e914ecbd5545c36d73d55b5ecb4d698ee3c49b02101c2",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.873823000001721
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/googletagservices_gpt.js?secret=ph1ytr",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 5102,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"76KRjaFvvOrwsb8JSDs4Q2jTlbo=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "3ad0442f766373b8fed1f1ba2dcd6d6cbf948b68641956135a8f552472e3e6b6",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.8695960000623018
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/nobab.js?secret=bn4x1g",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2976,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"fWIMOUaEIaNtkbrEiIKDhn8PTGY=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "1bc47b0e9b642cfcf2496977df36babdb263f13d0cfd64b286eb5c4c84cc319c",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.8678620000137016
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/nobab2.js?secret=4pqyvr",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1503,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"vy1qEErrRXmXVNnibZFXADJr2NA=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "3ee47f99116088a94e1c280d3cd6216a75513a9109a3876ed7926897ec7cfc96",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.866874000057578
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noeval.js?secret=unvk3l",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1169,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"Zm3NrZrHm1RQ8sEDNdlqPrq/x5I=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "3cdd6f7412af4317374860533434959652db9e61633bdcae4755ad9039732bc6",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.8646189999999478
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noeval-silent.js?secret=estfjr",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1046,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"uAxLt+FExKqnQoCEOy79k/qsAoI=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "bcb710ed7e64295cc8fe98b8611978e0801ffdce65107d1cb9c318339a5644d6",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.8649140000343323
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/nofab.js?secret=x2xwi2",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 2604,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"8C4cfBueT2MD3BS5m6yoQgPFyj0=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "dd7684145ffe90180075aa4d98a7a457cbdc6b73295bea17c55bf230332cf056",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.863630999927409
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop-0.1s.mp3?secret=ahqbao",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 813,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"2+x2uGBtVFxzOfC/ga3FuCo0a10=\"",
+          "content-type": "audio/mpeg"
+        },
+        "responseBodyHash": "3b31d6fd84b91ed8fafa0dc7d7f6dbded7fc8a9b51289991138a07d33bb7a99b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.8633859999245033
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop-1s.mp4?secret=s0bss4",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3753,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"phhjpBwH2UsBHfAauKoOtl6zzkY=\"",
+          "content-type": "video/mp4"
+        },
+        "responseBodyHash": "5fffd48ffc18ad96d910ea2d84da417974177c3c0cc12fa0ca364c6f864ea641",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.861674000043422
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop.css?secret=nxsycr",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 6,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"KSIg5lBIqQJSknb8PjMzOeEIjSU=\"",
+          "content-type": "text/css"
+        },
+        "responseBodyHash": "cccc5e8a9a7ad608a04f242530345694bd7150bd73315513284142b6a39ba4b7",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.9053889999631792
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop.js?secret=al3z3y",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 38,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"OpoFl8Qm9JGwy6bvidLZuEeJc50=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "5592bfa25de75c18ef0116cbb9990c122178b1efe5e076f1c45049a09d935a25",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.900931999902241
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop.txt?secret=u433vs",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"MEUVxJfRt7KHLk+5bpNePR0DHec=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.906552999978885
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/noop-vmap1.0.xml?secret=npl6r8",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 86,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"o91xJuRB4zgK7iE97MmCHdnqlwI=\"",
+          "content-type": "text/xml"
+        },
+        "responseBodyHash": "fcc40f36d86c8f7146d4b2f0c1273cc46282c2c236303dabc172dfacfdf86508",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.8986880000447854
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/popads.js?secret=7blzzi",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1601,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"I9T+DOFVlPUkYWimhhzIRMcfjvI=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "85700e488f782dde2eac664d8127399f7650832678188ecbde143e5482a0bf58",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.8894020000007004
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/popads-dummy.js?secret=xem5zh",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1082,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"WifQzgUPi4l7MnUILkJmjzMy6+I=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "7d9ea48fc2dbf1c680406d5335aa567f84967e91b10e823b7e2462ce531fa281",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.8963399999774992
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/web_accessible_resources/prebid-ads.js?secret=7q4w59",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 990,
+        "responseHeaders": {
+          "access-control-allow-origin": "*",
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "cross-origin-resource-policy": "cross-origin",
+          "etag": "\"zgpQ56ZBEYb7FmruMvEAtYO6iHM=\"",
+          "content-type": "text/javascript"
+        },
+        "responseBodyHash": "4ef4348e32fffdfa739b160f77d0b96fc4c861c089cfae8458275e30436179b3",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/redirect-engine.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 1.8841940000420436
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/easylist/easylist.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1561127,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"LtheFwWjs98NDuASTQh7tNDCpLI=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "fdd1f5fad30f0615b76861caec3b0385b5628839e1b0f30f08d253ae4d63ac5f",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 5.176546000060625
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/easylist/easyprivacy.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 869277,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"w2nyAU5mv9ABOU6GFTURUHq4xgQ=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "a1ec9956461f447372f9c0f0658880e6d68f2137eb4caa206013027653c09e65",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 4.412491000024602
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/pgl.yoyo.org/as/serverlist.txt",
+        "method": "GET",
+        "type": "XHR",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_FILE_NOT_FOUND",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 2.181686000083573
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/badware.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 111016,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"AYIE/yEnpZPkbhaGZvQlS2EcDJ8=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "61339a487f716803a4d81ea2abef7603a30a1799fedd42626671a2cd8352ce60",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 3.2028590000700206
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/filters.min.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 1244702,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"h1LFQV4RKbAD/Dr/crybn2Q5sRM=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "40edb5e5c62e3cc3e701fda60ca76362a0401be26b96fa7da827a91ec3676695",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 6.921753000002354
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/privacy.min.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 25261,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"NVSCvkmHFfp2m7DKRdO/KxfEuKk=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "5e35527a7b50abc913a6bf2a4efa113a7ad3a29875679820be9f223e33e2c564",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 2.1425189999863505
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/quick-fixes.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 12961,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"afueNux30hW+NV4++qgmpXTa57Q=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "8da204883be6cef9a900cfeebace44bff5c1ab48f1f5b1e0934be478beed838b",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 2.4384790000040084
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/ublock/unbreak.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 225327,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"RJFXfxbz9txDf2F9CzvtzGKrUGQ=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "0842f26631ba700715f6807ebed0b0686340385a51aef6ba56c44797f6e859f9",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 3.552576999994926
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/urlhaus-filter/urlhaus-filter-online.txt",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 62578,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"BTHdXv1lxAGsEi3GXDaj3ARryk8=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "64473d0333370e1aa9208bd5895394c4c977c3c9eccd2df53605aca3f5cf577d",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 2.586321000009775
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/assets/thirdparties/pgl.yoyo.org/as/serverlist",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 99702,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"cjJqLaDjMIABN/iLNntIhbyVrgY=\"",
+          "content-type": "text/plain"
+        },
+        "responseBodyHash": "e7564ecea385fef412bb736d9f715c9944ce043747c4421c6835e24cc93ace75",
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 8.548767999978736
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/css/libs/fonts.min.css?911eb65935",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 599,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:43 GMT",
+          "content-type": "text/css",
+          "last-modified": "Tue, 03 Oct 2023 05:58:35 GMT",
+          "etag": "W/\"651bad8b-9b8\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "cache-control": "max-age=315360000",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "content-encoding": "gzip",
+          "cache": "HIT",
+          "x-cached-since": "2023-10-03T05:58:49+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "9482cb794ec2199e3f3b492c25a37285f8f8cfabc08a209a4d4fb03946d94321",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 3.886250999988988
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/css/common.min.css?99c793eb3",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 52311,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:47 GMT",
+          "content-type": "text/css",
+          "last-modified": "Wed, 28 Feb 2024 09:53:22 GMT",
+          "etag": "W/\"65df0292-41554\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "cache-control": "max-age=315360000",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "content-encoding": "gzip",
+          "cache": "HIT",
+          "x-cached-since": "2024-02-28T09:53:29+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "09264a9e14cd6bafcf13781ff3974043e81481e617310191d1be84f7abff3185",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 8.456821999978274
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/css/article.min.css?9a72ffc4f999",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 25205,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:47 GMT",
+          "content-type": "text/css",
+          "last-modified": "Wed, 28 Feb 2024 09:53:22 GMT",
+          "etag": "W/\"65df0292-229ee\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "cache-control": "max-age=315360000",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "content-encoding": "gzip",
+          "cache": "HIT",
+          "x-cached-since": "2024-02-29T09:00:10+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "965fb4fd066078d0d719d27d83fd46e14285d780877f47504e4dac021ea8f12c",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 8.492971000028774
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/css/floor.min.css?9613a66b7",
+        "method": "GET",
+        "type": "Stylesheet",
+        "status": 200,
+        "size": 37205,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:47 GMT",
+          "content-type": "text/css",
+          "last-modified": "Wed, 28 Feb 2024 09:53:23 GMT",
+          "etag": "W/\"65df0293-46a4e\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "cache-control": "max-age=315360000",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "content-encoding": "gzip",
+          "cache": "HIT",
+          "x-cached-since": "2024-02-28T09:54:26+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "20b4509fc3b7b329d4c9337f92f618f6fec25ec299787f4a329855b9577bd851",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 8.535906000062823
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/min/js/dist/head.js?9c9052ef3",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 41154,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:47 GMT",
+          "content-type": "application/javascript",
+          "last-modified": "Thu, 17 Aug 2023 08:11:36 GMT",
+          "etag": "W/\"64ddd638-18d47\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "cache-control": "max-age=315360000",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "content-encoding": "gzip",
+          "cache": "HIT",
+          "x-cached-since": "2023-09-26T07:12:25+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "7a95c461d61029f5b5c133ddc680a1fae5c511c5d5e48574f74841cbf322067d",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 8.533357999986038
+      },
+      {
+        "url": "https://cdn.iubenda.com/cs/tcf/stub-v2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1472,
+        "remoteIPAddress": "185.152.66.243",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:48:47 GMT",
+          "content-type": "application/javascript",
+          "server": "BunnyCDN-GA1-911",
+          "cdn-pullzone": "954456",
+          "cdn-uid": "a7bd0c3f-43db-400a-80e2-073f933f3c99",
+          "cdn-requestcountrycode": "US",
+          "vary": "Accept-Encoding",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "content-encoding": "br",
+          "etag": "\"65e1b1d8-3b8\"",
+          "last-modified": "Fri, 01 Mar 2024 10:45:44 GMT",
+          "p3p": "CP=\"DSP NOI COR\", policyref=\"http://www.iubenda.com/w3c/p3p.xml\"",
+          "cdn-proxyver": "1.04",
+          "cdn-requestpullsuccess": "True",
+          "cdn-requestpullcode": "200",
+          "cdn-cachedat": "03/03/2024 21:48:47",
+          "cdn-edgestorageid": "911",
+          "cdn-status": "200",
+          "cdn-requestid": "8a1037c3410fdfe1bb9937e7eb202dab",
+          "cdn-cache": "BYPASS"
+        },
+        "responseBodyHash": "0ad83d1350c8d3109b147dc72fefc3a4196e75126cda4372137b87d77eac393e",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 8.761593999923207
+      },
+      {
+        "url": "https://cdn.iubenda.com/cs/tcf/safe-tcf-v2.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 42857,
+        "remoteIPAddress": "185.152.66.243",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:48:47 GMT",
+          "content-type": "application/javascript",
+          "server": "BunnyCDN-GA1-911",
+          "cdn-pullzone": "954456",
+          "cdn-uid": "a7bd0c3f-43db-400a-80e2-073f933f3c99",
+          "cdn-requestcountrycode": "US",
+          "vary": "Accept-Encoding",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=86400",
+          "content-encoding": "br",
+          "etag": "\"65e1b1d8-a534\"",
+          "last-modified": "Fri, 01 Mar 2024 10:45:44 GMT",
+          "p3p": "CP=\"DSP NOI COR\", policyref=\"http://www.iubenda.com/w3c/p3p.xml\"",
+          "cdn-proxyver": "1.04",
+          "cdn-requestpullsuccess": "True",
+          "cdn-requestpullcode": "200",
+          "cdn-cachedat": "03/03/2024 21:48:47",
+          "cdn-edgestorageid": "911",
+          "cdn-status": "200",
+          "cdn-requestid": "e08c182004c874e5174511189ecfbf81",
+          "cdn-cache": "BYPASS"
+        },
+        "responseBodyHash": "57466d0bfdd896c53e07dd2a2f8a628258ea383d4522c454c138802d1cf84e34",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 8.78652699990198
+      },
+      {
+        "url": "https://cdn.iubenda.com/cs/iubenda_cs.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 868,
+        "remoteIPAddress": "185.152.66.243",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "application/javascript",
+          "server": "BunnyCDN-GA1-911",
+          "cdn-pullzone": "954456",
+          "cdn-uid": "a7bd0c3f-43db-400a-80e2-073f933f3c99",
+          "cdn-requestcountrycode": "US",
+          "vary": "Accept-Encoding",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=3600",
+          "content-encoding": "br",
+          "etag": "\"65e1b1d8-15e\"",
+          "last-modified": "Fri, 01 Mar 2024 10:45:44 GMT",
+          "p3p": "CP=\"DSP NOI COR\", policyref=\"http://www.iubenda.com/w3c/p3p.xml\"",
+          "cdn-proxyver": "1.04",
+          "cdn-requestpullsuccess": "True",
+          "cdn-requestpullcode": "200",
+          "cdn-cachedat": "03/03/2024 21:48:48",
+          "cdn-edgestorageid": "911",
+          "cdn-status": "200",
+          "cdn-requestid": "d163a743843ee7b8de30e03f1426065b",
+          "cdn-cache": "BYPASS"
+        },
+        "responseBodyHash": "7604923bbbda4a31a3366e0369c4a3c93d021346b50e96f52f923005ae6dde8e",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 9.430245000054128
+      },
+      {
+        "url": "https://cdn.iubenda.com/cons/iubenda_cons.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 649,
+        "remoteIPAddress": "185.152.66.243",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "application/javascript",
+          "server": "BunnyCDN-GA1-911",
+          "cdn-pullzone": "954456",
+          "cdn-uid": "a7bd0c3f-43db-400a-80e2-073f933f3c99",
+          "cdn-requestcountrycode": "US",
+          "vary": "Accept-Encoding",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=3600",
+          "content-encoding": "br",
+          "etag": "\"65e1b1d6-83\"",
+          "last-modified": "Fri, 01 Mar 2024 10:45:42 GMT",
+          "p3p": "CP=\"DSP NOI COR\", policyref=\"http://www.iubenda.com/w3c/p3p.xml\"",
+          "cdn-proxyver": "1.04",
+          "cdn-requestpullsuccess": "True",
+          "cdn-requestpullcode": "200",
+          "cdn-cachedat": "03/03/2024 21:48:48",
+          "cdn-edgestorageid": "911",
+          "cdn-status": "200",
+          "cdn-requestid": "c02770c35324e5b6597a7eb1e262d2fe",
+          "cdn-cache": "BYPASS"
+        },
+        "responseBodyHash": "e259d98d40ae247d8c1f7a77627a2a4957edb1e171d642b5fb65d33341d4ebde",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 9.461005000048317
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/min/js/libs/banners/adfx.loader.bind.js?98d724fe2",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1018,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:47 GMT",
+          "content-type": "application/javascript",
+          "last-modified": "Fri, 01 Dec 2023 11:35:12 GMT",
+          "etag": "W/\"6569c4f0-e69\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "cache-control": "max-age=315360000",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "content-encoding": "gzip",
+          "cache": "HIT",
+          "x-cached-since": "2023-12-01T11:35:48+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "c8754ccf016683d9e962c4a2af309c2e501732a63636c0196b6db9489eb11327",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 8.490363000077195
+      },
+      {
+        "url": "https://yandex.ru/ads/system/context.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 103390,
+        "remoteIPAddress": "5.255.255.77",
+        "responseHeaders": {
+          "timing-allow-origin": "*",
+          "nel": "{\"report_to\": \"network-errors\", \"max_age\": 100, \"success_fraction\": 0.001, \"failure_fraction\": 0.1}",
+          "x-content-type-options": "nosniff",
+          "access-control-allow-origin": "*",
+          "set-cookie": "i=0cfhqgxVsVOyYRN/DPBVT7qHnFtUBsrzUt9dY7kpblXlCEG91z4/YvgZvnRuvMGJmkOp7qd7mFDPT6x3DMtkQl8M4XU=; Expires=Tue, 03-Mar-2026 21:48:49 GMT; Domain=.yandex.ru; Path=/; Secure; HttpOnly; SameSite=None\nyandexuid=6074308121709502529; Expires=Tue, 03-Mar-2026 21:48:49 GMT; Domain=.yandex.ru; Path=/; Secure; SameSite=None\nyashr=4665331611709502529; Path=/; Domain=.yandex.ru; Expires=Mon, 03 Mar 2025 21:48:49 GMT; SameSite=None; Secure; HttpOnly\nreceive-cookie-deprecation=1; Path=/; Domain=.yandex.ru; Expires=Mon, 03 Mar 2025 21:48:49 GMT; SameSite=None; Secure; HttpOnly; Partitioned",
+          "expires": "Sun, 03 Mar 2024 22:48:49 GMT",
+          "x-yandex-req-id": "1709502529649013-15979360825407430812-balancer-l7leveler-kubr-yp-vla-249-BAL",
+          "accept-ch": "Sec-CH-UA-Platform-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA, Sec-CH-UA-Full-Version-List, Sec-CH-UA-WoW64, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Platform, Sec-CH-UA-Full-Version, Viewport-Width, DPR, Device-Memory, RTT, Downlink, ECT",
+          "report-to": "{ \"group\": \"network-errors\", \"max_age\": 100, \"endpoints\": [{\"url\": \"https://dr.yandex.net/nel\", \"priority\": 1}, {\"url\": \"https://dr2.yandex.net/nel\", \"priority\": 2}]}",
+          "cache-control": "private, max-age=3600",
+          "content-encoding": "br",
+          "content-type": "text/javascript; charset=utf-8",
+          "x-robots-tag": "noindex, noarchive, nofollow"
+        },
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 19.094456000020728
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/07e8/02/16/1116923259_60:0:648:441_650x0_80_0_0_6fd88360d436ef809521d3ab8d93230d.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 94156,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sat, 02 Mar 2024 16:34:30 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2024-03-03T18:52:18+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "0c60137e2977eea814b66c1a7d59b032211c0e342ff5d8bde022d2d4ce041435",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 9.540403999970295
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/07e8/03/03/1117114400_37:0:988:634_480x0_80_0_0_9aa93b584ec994640dbf2e8a34f939a0.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 24420,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sun, 03 Mar 2024 18:16:39 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2024-03-03T18:47:27+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "b16549285d0b117bbc6f681076ec9d3ef323ce3bb4e0b10613ef00b9ed73919f",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 9.535564000019804
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/07e7/04/13/1109673104_0:0:3072:2048_480x0_80_0_0_9107fcaddcd97e2b5246ca4dac23a4ce.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 13594,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sun, 03 Mar 2024 17:10:10 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2024-03-03T17:13:41+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "3ce6e146ec2b99762f0a6ba98d04a89a44377d7d5c40312ab98b298b6cd3b126",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 9.535632999963127
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/07e8/03/03/1117106052_0:0:3072:2048_480x0_80_0_0_e95d53e139af32136d62b6530e38fb29.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 21911,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sun, 03 Mar 2024 16:00:56 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2024-03-03T16:00:56+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "2a006986403ca9787fb7545283b9b64762d849c91deb86fb6dfc387c587f89b5",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 9.53558000002522
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/07e8/03/03/1117101631_0:115:2730:1935_480x0_80_0_0_664708399a63c1ea36417adf2087d60c.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 46084,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sun, 03 Mar 2024 15:45:15 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2024-03-03T15:45:49+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "3dd68a3b170fd7ec152ec1cbb164ee9d2fae2c2fc0fae432baf5286a085ad06b",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 9.540083999978378
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/07e7/04/14/1109693583_0:19:769:595_640x0_80_0_0_9e457807fb581165b8120ba57508d5a0.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 691,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sun, 17 Sep 2023 13:46:07 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2023-09-26T07:12:21+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "3215a71ad0dff0e0406f3e27904567c9159283cca2aa3266b17824f5c88654ba",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 9.438604000024498
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/105631/06/1056310683_0:18:5269:3531_230x0_80_0_0_ad05f0a1bb1ab6f63f3335b73bab05ff.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 7757,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sun, 03 Mar 2024 18:16:32 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2024-03-03T18:16:32+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "1b044342af21e66d3e0aac2150e05f56974625ba04b35a60600003f1272cccec",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 9.438640999956988
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/07e8/03/03/1117100040_0:0:3071:2047_230x0_80_0_0_41c4bece66570bb8392577dfefc9bc17.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3623,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sun, 03 Mar 2024 16:05:37 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2024-03-03T16:05:50+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "f1a0dfe67e11512fe2e5673f6adb03229115ac78385c1bc2b730692e7c1f523a",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 9.441281000035815
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/07e8/03/03/1117102465_49:0:591:361_230x0_80_0_0_43487f48582b2ad08b122f0c6317f20d.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6211,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sun, 03 Mar 2024 18:43:28 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2024-03-03T18:43:53+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "db9f5aed1982a2906f584e653e49240da1224e4ac100f745294a29ec2e68587a",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 9.441568000009283
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/07e8/03/03/1117099286_197:0:1234:691_230x0_80_0_0_b20b39f0530ea249ed31a83e25f5d48e.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6075,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sun, 03 Mar 2024 14:09:33 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2024-03-03T14:10:09+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "24fa8623a991ecc68de694189171aab44d75e3a4d7add2562f178a8a45f9bf5e",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 9.441685000085272
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/07e8/02/14/1116887331_0:0:3036:2024_230x0_80_0_0_c0e1f36802ce3f252daa8b2695a034b4.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 8795,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Wed, 28 Feb 2024 12:21:05 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2024-02-28T12:21:05+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "4d645c0e499e96cfe24664fcdd6eef03df8a832b57d4afbc7295c81af5ce784f",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 9.44165900000371
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/07e8/03/03/1117100630_178:0:1230:701_230x0_80_0_0_1f38addc6072ee4766de523fa04ba8a8.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9837,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sun, 03 Mar 2024 16:05:39 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2024-03-03T16:05:50+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "2afdaa22f1022f030c2e8d8af2a1fe7e96555a8b5852731e7520118c7a425972",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 9.441733000101522
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/07e8/03/03/1117095760_65:0:784:479_230x0_80_0_0_ce3ed5821aa399c97ebfa3bc6f56d9f0.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9060,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sun, 03 Mar 2024 10:55:40 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2024-03-03T10:55:41+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "9bfd7cc143fc88d077e3efa4ba152a781dfedd1f2f688926174e3f3b681bd9eb",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 9.441760999965481
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/07e6/0c/10/1105523835_113:0:1328:810_480x0_80_0_0_9b58061c708a9215570a112548157e12.png.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 9396,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Thu, 14 Sep 2023 20:56:25 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2023-09-26T07:12:22+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "d8c85c540c7f97478dce08a2815cf560fdfc5b78a6c9adec247626adb18660c1",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 9.575786000001244
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/104502/67/1045026706_369:0:2631:1508_480x0_80_0_0_8971627a3719ed476ff270b0f8b83da8.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 10540,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sun, 17 Sep 2023 14:13:31 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2023-09-26T07:12:22+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "0d94c1367423be3f4f1b3194bb0d1d66bd07a5625bf89402f753f2fd510230cc",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 16.77124599996023
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/07e6/01/0d/1092235033_0:95:2791:1955_480x0_80_0_0_29bd86b73efd67024cd5f0197503b10b.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 10461,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sun, 17 Sep 2023 15:26:13 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2023-09-26T07:12:21+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "1059466124e225d37325d5ba57b9161124ad440d6517b2f3567af684444b1b64",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 16.77115699998103
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/07e8/02/18/1116953537_829:0:2876:2047_425x0_80_0_0_a1f0a8fe229bdba852d48a539de8319c.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5486,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sun, 03 Mar 2024 07:40:16 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2024-03-03T07:40:51+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "97edec89e02d66e2c0a4587d0ee0c53c913c3b8c44ccef19d5da4402aac2d23e",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 16.76959399995394
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/07e8/02/02/1116553146_512:0:2560:2048_150x0_80_0_0_9cf05a3a3f693a0b1b206e692a35e4d7.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3962,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sun, 03 Mar 2024 06:13:22 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2024-03-03T06:13:22+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "25087d6d208953f13c01258e592fd23c91ca02ef8fe99b9da1683cb9fc8931e0",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 17.14983300003223
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/07e8/03/03/1117095223_0:0:2048:2048_150x0_80_0_0_45a862b61b45f2cb237584a1c74c0ead.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4137,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sun, 03 Mar 2024 05:54:39 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2024-03-03T05:55:18+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "a113536dea3580ae815298ed2cb6719fcaa52da93feb3999cbace619e0fef839",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 17.15005499997642
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/07e6/01/07/1092099019_518:0:2566:2048_150x0_80_0_0_893787f5e3684cb247298af35c2504b4.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4367,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sun, 03 Mar 2024 16:06:55 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2024-03-03T16:07:06+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "beaa4dacd4f3586ae455e4ec19095f115af2831cbf5f7082b598f236c379337c",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 17.150152000016533
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/07e8/01/0f/1116169362_512:0:2560:2048_150x0_80_0_0_da7e0441625ab1f6d877ba0dc9db01a9.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6900,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sat, 02 Mar 2024 10:27:58 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2024-03-02T10:28:02+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "9d685863c36e86a831abdd4242c8dcf81065f4cdc451f952c690cde1cd0cccfa",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 17.150748999905773
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/107820/19/1078201903_0:393:1920:1033_925x0_80_0_0_43537c12a252261e2a3e7799458d8c6e.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 130262,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sun, 03 Mar 2024 19:05:01 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2024-03-03T19:05:06+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "8c631ebc0fe117aad10c911fb928e9023a318cd667e312570127ffda548c67c0",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 16.993236999958754
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/07e8/03/03/1117103941_0:0:3072:2048_480x0_80_0_0_4cc41e2b664ba44a053d0848a7051de4.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 30291,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sun, 03 Mar 2024 16:05:12 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2024-03-03T16:05:32+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "137b91ea8e850f170731bea4b284c3efae90e1240a462492616bbb4617f8b267",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 16.973567999899387
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/07e8/03/03/1117101194_0:0:3071:2048_480x0_80_0_0_1d81781aa0328ef04dab4fb69f8d06de.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 17552,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sun, 03 Mar 2024 14:26:39 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2024-03-03T14:26:49+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "66490108cadf56e157ba8cc776480bc140f74ac5c9cb76a4cd75c5002853466f",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 16.97365900001023
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/07e6/0a/03/1101473452_0:124:770:381_925x0_80_0_0_aaf3b1fea861bf83d09e42b60dab3129.png.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 21416,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sun, 03 Mar 2024 18:22:55 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2024-03-03T18:22:55+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "62b8c6ea78c72f8e7471b5877f8e5e5929f1a3703f9fc6421f0289f9c621ee81",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 16.973624999984168
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/07e8/03/02/1117089119_4:0:2214:1473_295x0_80_0_0_d1799d6d4b81d4b63a02cc1dba7002ad.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 6580,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sat, 02 Mar 2024 12:59:10 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2024-03-02T12:59:11+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "e46dfc47091b406e5831fffcef63705ee7192ccc78451e8dfe27d724bd4bffcd",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 16.971122999908403
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/07e8/03/02/1117092647_80:0:3151:2047_295x0_80_0_0_90af9ae845280e3378b9b3c92b7d3200.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 15089,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sat, 02 Mar 2024 18:54:32 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2024-03-02T20:53:18+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "78018cf3f0a229a18cc033a2df92062a97a4b4ae490d232f1abca6f2618d7b5d",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 16.970485000056215
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/07e7/0b/1b/1115228558_67:0:3138:2047_295x0_80_0_0_99f1b813442db2bcb6c2c77ab2b31afb.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 12577,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sat, 02 Mar 2024 13:49:23 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2024-03-02T13:49:29+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "8e8cde7db991467202f4c3caf0a9fa45df9ea9997869083d6e9a7df38a80704f",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 16.970649000024423
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/107819/15/1078191592_85:0:1964:1879_425x0_80_0_0_d8f05d8f6a22830a7548fb6a115900ac.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 19194,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sun, 03 Mar 2024 18:23:40 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2024-03-03T18:23:48+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "acd5a5d46844d1a4de8fd7246f2a00cc11cbb32afe48bb9358adb40c9909f3c1",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 16.97105399996508
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/107268/32/1072683262_126:0:2459:2333_150x0_80_0_0_18b0a58266e1fdeacdba1059420d2f74.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 3787,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sun, 03 Mar 2024 18:23:24 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2024-03-03T18:23:48+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "abd50fb222d8d957af086e84df83a893aec8868f7438500e0d35efc3e9c10666",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 16.970393999945372
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/07e7/0b/07/1114803853_0:0:2048:2048_150x0_80_0_0_acee2b56024745f340119959ecce9fc7.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5861,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sun, 03 Mar 2024 18:23:06 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2024-03-03T18:23:06+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "baad059cb2a51f34716ca9364766012e5cdca7331aa669cd6fceb0340e97c903",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 16.97592400002759
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/07e8/03/03/1117094749_129:0:830:701_150x0_80_0_0_fee71e595ab1897b16ec5a15494dd358.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5767,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sun, 03 Mar 2024 17:17:34 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2024-03-03T17:17:44+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "8290f3e587bba4d6cc9576643b466780d520848cc888ca7ad0239533287e3088",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 16.970867000054568
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/07e8/02/1c/1117035315_510:0:2557:2047_150x0_80_0_0_88c509accd28ec14fece294f683d3cd6.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5085,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sun, 03 Mar 2024 16:06:17 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2024-03-03T16:06:23+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "163af78d8938b8ad3b0b1d05ce4be14653f93d2c2c690d4afd744239d6594e16",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 16.97037800005637
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/07e8/03/01/1117082408_600:0:1320:1080_768x0_80_0_0_acfb222547ab20530f3e907a34db3ff2.png.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 36647,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sat, 02 Mar 2024 11:02:26 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2024-03-02T11:02:44+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "e7a777f73963a9089c492f60c3137e00c293004b074cd9e576545bed1c417a97",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 16.970558000029996
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/07e8/03/01/1117079611_600:0:1320:1080_768x0_80_0_0_d2e1ed574f9977efa28b356022a60f45.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 51906,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sat, 02 Mar 2024 11:02:26 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2024-03-02T11:02:44+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "ff8b3160e163b1682a1906be1a1df2a754b28ea98e3d3413511339fd594f0f93",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 16.973597000003792
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/07e8/03/02/1117083115_600:0:1320:1080_768x0_80_0_0_232772bfc3ae8112602b175455149bc0.png.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 35560,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sat, 02 Mar 2024 11:02:26 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2024-03-02T11:02:44+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "f09b38df5a7f0476a91038dd3d7f2ba3e45f04e6acf00e0da2d9bef4a9ba9a90",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 16.970116000040434
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/07e7/04/14/1109697067_108:0:708:900_768x0_80_0_0_db217d3dc0700ce834e3e7d95aa403fa.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 21649,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sun, 17 Sep 2023 13:46:07 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2023-09-26T07:12:21+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "a1529e2e5dcf88db183ab3ef98e96138425319b946c99751e292e32f517053a6",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 16.971681999973953
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/07e8/02/1c/1117036366_82:0:2813:2048_650x0_80_0_0_5a56f99341a5fcaaf1a553cb32da6f2f.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 52338,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sat, 02 Mar 2024 10:16:24 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2024-03-02T10:16:25+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "18055f087073382aad3d81e523354759b8ab7aca7d5683734883c3c9e27a6dae",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 16.971105000004172
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/07e8/03/01/1117066368_0:146:1280:573_925x0_80_0_0_9e53c50f4b32ef650438907cb698762f.png.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 12988,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Sat, 02 Mar 2024 10:26:54 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2024-03-02T10:26:54+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "a87accd8a248c362edda6469ffafa6782c325ef92a5ce39328d018f342b166e1",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 16.96619899990037
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/img/07e8/03/01/1117064877_0:421:2000:1088_925x0_80_0_0_9a33e61c4ee467f7446992a93e5135a9.jpg.webp",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 68308,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/webp",
+          "cache-control": "max-age=315360000",
+          "last-modified": "Fri, 01 Mar 2024 04:53:38 GMT",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2024-03-01T04:54:11+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "3f8ddaf455698f1c1af9d8ec5a10e7abfac94d4f17fd1343ff44f1d80331a98f",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 17.352544000023045
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/i/logo/logo.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1036,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/svg+xml",
+          "last-modified": "Thu, 03 Feb 2022 10:50:13 GMT",
+          "etag": "W/\"61fbb365-788\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "cache-control": "max-age=315360000",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "content-encoding": "gzip",
+          "cache": "HIT",
+          "x-cached-since": "2023-09-26T07:12:22+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "9c4f9d05db76391a7c3166f981c284fad0218b69555919cc0e73d982b1be9372",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 16.96727100003045
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/i/apps/apple-apps-int.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 4556,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/svg+xml",
+          "last-modified": "Thu, 03 Feb 2022 10:50:13 GMT",
+          "etag": "W/\"61fbb365-2b82\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "cache-control": "max-age=315360000",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "content-encoding": "gzip",
+          "cache": "HIT",
+          "x-cached-since": "2023-09-26T07:12:22+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "723ece13fa55e2276a2b6c806f09b179daced028e548cc0b50648e6bb32e81a8",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 16.96661700005643
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/i/apps/google-apps-int.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2390,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/svg+xml",
+          "last-modified": "Thu, 03 Feb 2022 10:50:12 GMT",
+          "etag": "W/\"61fbb364-164d\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "cache-control": "max-age=315360000",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "content-encoding": "gzip",
+          "cache": "HIT",
+          "x-cached-since": "2023-09-26T07:12:22+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "50fdd6c2812086fcbbdb0cb068f7f941134d996a7ffb4231f8bc05b516cfc3fa",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 16.963088000076823
+      },
+      {
+        "url": "https://sputnikglobe.com/i/apps/android_apk.svg",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 5888,
+        "remoteIPAddress": "194.190.139.3",
+        "responseHeaders": {
+          "server": "QRATOR",
+          "date": "Sun, 03 Mar 2024 21:48:49 GMT",
+          "content-type": "image/svg+xml",
+          "content-length": "5626",
+          "connection": "keep-alive",
+          "keep-alive": "timeout=15",
+          "last-modified": "Tue, 09 Jan 2024 08:03:57 GMT",
+          "etag": "\"659cfded-15fa\"",
+          "accept-ranges": "bytes"
+        },
+        "responseBodyHash": "07bbb4f446ceb07f37bbe6cf1e7946c5ef91b1b0f2cacab0188fb1338688c593",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 18.35540499992203
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/min/js/dist/footer.js?9351b35b7",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 249246,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "application/javascript",
+          "last-modified": "Tue, 26 Dec 2023 11:24:12 GMT",
+          "etag": "W/\"658ab7dc-c435e\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "cache-control": "max-age=315360000",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "content-encoding": "gzip",
+          "cache": "HIT",
+          "x-cached-since": "2024-02-05T09:02:13+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "04f18a9f36e9ff52534a3492a38a8bccd631dd4098d807b4437437a191b514c0",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 18.353286999976262
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/min/js/dist/lk.js?951c41194",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 8995,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "application/javascript",
+          "last-modified": "Tue, 18 Oct 2022 09:54:04 GMT",
+          "etag": "W/\"634e77bc-722a\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "cache-control": "max-age=315360000",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "content-encoding": "gzip",
+          "cache": "HIT",
+          "x-cached-since": "2023-09-26T07:12:25+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "2e4fff61c41725bc6a711cbdfd703700c2de29e9181a1171a6a326191c1e63ce",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 16.961971000069752
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/min/js/libs/locale/int.js?9368eb6d5",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 797,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "application/javascript",
+          "last-modified": "Wed, 02 Feb 2022 14:59:10 GMT",
+          "etag": "W/\"61fa9c3e-502\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "cache-control": "max-age=315360000",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "content-encoding": "gzip",
+          "cache": "HIT",
+          "x-cached-since": "2023-09-26T07:12:25+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "960e66fa4a2cff3a549077b345991d0d545a9da009944df80d14201962b9eae5",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 16.96356599999126
+      },
+      {
+        "url": "https://sputnikglobe.com/project_data/firebase-config.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 634,
+        "remoteIPAddress": "194.190.139.3",
+        "responseHeaders": {
+          "server": "QRATOR",
+          "date": "Sun, 03 Mar 2024 21:48:49 GMT",
+          "content-type": "application/x-javascript",
+          "transfer-encoding": "chunked",
+          "connection": "keep-alive",
+          "keep-alive": "timeout=15",
+          "last-modified": "Mon, 06 Sep 2021 14:45:57 GMT",
+          "etag": "W/\"613629a5-1f8\"",
+          "content-encoding": "gzip"
+        },
+        "responseBodyHash": "b619d6241ee31e9b335401077804c5dc985785a330a77604e236e6328aa724b3",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 18.309511000057682
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/min/js/dist/firebase.js?9ff581753",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 18332,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "application/javascript",
+          "last-modified": "Tue, 23 May 2023 09:23:07 GMT",
+          "etag": "W/\"646c85fb-e14b\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "cache-control": "max-age=315360000",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "content-encoding": "gzip",
+          "cache": "HIT",
+          "x-cached-since": "2023-09-26T07:12:25+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "37446973471d136c76567a6b117f89944fe0ad6fd585ad5464713a5824dcf8b5",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 9.140716000110842
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/min/js/firebase/fbcheck2.min.js?91c4671af",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 1987,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "application/javascript",
+          "last-modified": "Thu, 28 Jul 2022 09:37:55 GMT",
+          "etag": "W/\"62e258f3-1503\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "cache-control": "max-age=315360000",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "content-encoding": "gzip",
+          "cache": "HIT",
+          "x-cached-since": "2023-09-26T07:12:25+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "bc4f2bbd643434c03b0dcda66bc733f63c9912e304fa1cc49a7b3470f351913f",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 9.140648999949917
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/min/js/libs/textstream.js?9a86f1aa8",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 4509,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "application/javascript",
+          "last-modified": "Wed, 10 Aug 2022 09:01:10 GMT",
+          "etag": "W/\"62f373d6-394c\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "cache-control": "max-age=315360000",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "content-encoding": "gzip",
+          "cache": "HIT",
+          "x-cached-since": "2023-09-26T07:12:25+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "a4a7b0526c1036b4b2f146ab0f166edf1be4717e534df67a5d5c76d1c6b9d1f7",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 9.140343999955803
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/min/js/pages/ria.cells.js?95ee5e2b6",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 3029,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "application/javascript",
+          "last-modified": "Thu, 01 Dec 2022 09:26:18 GMT",
+          "etag": "W/\"6388733a-1d29\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "cache-control": "max-age=315360000",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "content-encoding": "gzip",
+          "cache": "HIT",
+          "x-cached-since": "2023-09-26T07:12:25+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "590651ca6f85066e9cd4cf1bb343b405c1e9f11329d555f3c0ede9b541711352",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 9.142449999926612
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/i/loader.svg?",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 506,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:48 GMT",
+          "content-type": "image/svg+xml",
+          "last-modified": "Mon, 06 Sep 2021 14:42:57 GMT",
+          "etag": "W/\"613628f1-526\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "cache-control": "max-age=315360000",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "content-encoding": "gzip",
+          "cache": "HIT",
+          "x-cached-since": "2023-09-26T07:12:32+00:00",
+          "x-node": "dc5-up-gc28"
+        },
+        "responseBodyHash": "706301dd42c0be1c2b0a9827cc95fea323c1a978b59af722ec85aaceaae4970e",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 18.280155000044033
+      },
+      {
+        "url": "https://a.sputniknews.com/js/sputnik.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 18877,
+        "remoteIPAddress": "185.169.155.123",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:49 GMT",
+          "content-type": "application/javascript; charset=UTF-8",
+          "transfer-encoding": "chunked",
+          "connection": "keep-alive",
+          "keep-alive": "timeout=15",
+          "set-cookie": "spid=1709502529546_1d36e9ca1f285d3c9126e832f0883324_ds6ncrqfvekr5erw; Expires=Tue, 19 Jan 2038 03:14:07 GMT; Path=/; Secure; SameSite=None",
+          "accept-ranges": "bytes",
+          "cache-control": "public, max-age=0",
+          "etag": "W/\"da08-18def792cbe\"",
+          "vary": "Accept-Encoding",
+          "content-encoding": "gzip",
+          "x-sp-crid": "480589838:1"
+        },
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 9.697500000009313
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PNTW78",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 83922,
+        "remoteIPAddress": "142.250.191.104",
+        "responseHeaders": {
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-origin": "*",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-headers": "Cache-Control",
+          "content-encoding": "br",
+          "vary": "Accept-Encoding",
+          "date": "Sun, 03 Mar 2024 21:48:49 GMT",
+          "expires": "Sun, 03 Mar 2024 21:48:49 GMT",
+          "cache-control": "private, max-age=900",
+          "last-modified": "Sun, 03 Mar 2024 21:00:00 GMT",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cross-origin-resource-policy": "cross-origin",
+          "server": "Google Tag Manager",
+          "content-length": "83804",
+          "x-xss-protection": "0",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 9.95732200006023
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-W55XXNG",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 81668,
+        "remoteIPAddress": "142.250.191.104",
+        "responseHeaders": {
+          "content-type": "application/javascript; charset=UTF-8",
+          "access-control-allow-origin": "*",
+          "access-control-allow-credentials": "true",
+          "access-control-allow-headers": "Cache-Control",
+          "content-encoding": "br",
+          "vary": "Accept-Encoding",
+          "date": "Sun, 03 Mar 2024 21:48:49 GMT",
+          "expires": "Sun, 03 Mar 2024 21:48:49 GMT",
+          "cache-control": "private, max-age=900",
+          "last-modified": "Sun, 03 Mar 2024 21:00:00 GMT",
+          "strict-transport-security": "max-age=31536000; includeSubDomains",
+          "cross-origin-resource-policy": "cross-origin",
+          "server": "Google Tag Manager",
+          "content-length": "81251",
+          "x-xss-protection": "0",
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+        },
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 9.838555000023916
+      },
+      {
+        "url": "https://mc.yandex.ru/metrika/tag.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 72933,
+        "remoteIPAddress": "87.250.251.119",
+        "responseHeaders": {
+          "content-length": "71982",
+          "timing-allow-origin": "*",
+          "date": "Sun, 03 Mar 2024 21:48:49 GMT",
+          "access-control-allow-origin": "*",
+          "set-cookie": "_yasc=TDM5VnoQ2fSVwUCCH6Idezs7g86OeRKTpRZ5tmnrD5u0jhxqCEeSBGCYGQof7iSE; domain=.yandex.ru; path=/; expires=Wed, 01 Mar 2034 21:48:49 GMT; secure\ni=hi5PBtW58qt178Z4NIOQpc8d0QdahWXyInluKDAg2RgZqsSQPBysC0nicap0UAcT2/zjBI7JxAr3VaXsufFMnXluTJA=; Expires=Tue, 03-Mar-2026 21:48:49 GMT; Domain=.yandex.ru; Path=/; Secure; HttpOnly; SameSite=None\nyandexuid=9167342511709502529; Expires=Tue, 03-Mar-2026 21:48:49 GMT; Domain=.yandex.ru; Path=/; Secure; SameSite=None",
+          "etag": "\"65e1be04-1192e\"",
+          "expires": "Sun, 03 Mar 2024 22:48:49 GMT",
+          "last-modified": "Fri, 01 Mar 2024 11:37:40 GMT",
+          "accept-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
+          "cache-control": "max-age=3600",
+          "content-type": "application/javascript",
+          "content-encoding": "br",
+          "strict-transport-security": "max-age=31536000"
+        },
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 9.947273000027053
+      },
+      {
+        "url": "https://sputnikglobe.com/i/sprites/package/inline.svg?63",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 89663,
+        "remoteIPAddress": "194.190.139.3",
+        "responseHeaders": {
+          "server": "QRATOR",
+          "date": "Sun, 03 Mar 2024 21:48:49 GMT",
+          "content-type": "image/svg+xml",
+          "content-length": "89399",
+          "connection": "keep-alive",
+          "keep-alive": "timeout=15",
+          "last-modified": "Thu, 16 Nov 2023 13:53:52 GMT",
+          "etag": "\"65561ef0-15d37\"",
+          "accept-ranges": "bytes"
+        },
+        "responseBodyHash": "d3c3ccd26765d644e2d0a598dd31f286f669e8ec087fe8e7ff3bd60675c442f6",
+        "initiators": [
+          "https://sputnikglobe.com/"
+        ],
+        "time": 9.512712000054307
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/css/fonts/Sputnik_Display/SputnikDisplayV2.0-Bold.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 55693,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:56 GMT",
+          "content-type": "application/octet-stream",
+          "content-length": "55392",
+          "last-modified": "Tue, 03 Oct 2023 05:58:36 GMT",
+          "etag": "\"651bad8c-d860\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "cache-control": "max-age=315360000",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2023-10-03T05:58:50+00:00",
+          "x-node": "dc5-up-gc28",
+          "accept-ranges": "bytes"
+        },
+        "responseBodyHash": "a2bcb69ae23a432426d6be6916118801fdedad63cc691d181623b4b521f8d816",
+        "initiators": [
+          "https://cdn1.img.sputnikglobe.com/css/libs/fonts.min.css?911eb65935"
+        ],
+        "time": 9.504054000019096
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/css/fonts/PT_Root_UI_Regular/PT_Root_UI_Regular.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 52009,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:58 GMT",
+          "content-type": "application/octet-stream",
+          "content-length": "51708",
+          "last-modified": "Mon, 06 Sep 2021 14:42:48 GMT",
+          "etag": "\"613628e8-c9fc\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "cache-control": "max-age=315360000",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2023-09-26T07:12:28+00:00",
+          "x-node": "dc5-up-gc28",
+          "accept-ranges": "bytes"
+        },
+        "initiators": [
+          "https://cdn1.img.sputnikglobe.com/css/libs/fonts.min.css?911eb65935"
+        ],
+        "time": 9.751362999901175
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/css/fonts/PT_Root_UI_Bold/PT_Root_UI_Bold.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 52625,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:58 GMT",
+          "content-type": "application/octet-stream",
+          "content-length": "52488",
+          "last-modified": "Mon, 06 Sep 2021 14:42:49 GMT",
+          "etag": "\"613628e9-cd08\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "cache-control": "max-age=315360000",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2023-09-26T07:12:28+00:00",
+          "x-node": "dc5-up-gc28",
+          "accept-ranges": "bytes"
+        },
+        "initiators": [
+          "https://cdn1.img.sputnikglobe.com/css/libs/fonts.min.css?911eb65935"
+        ],
+        "time": 9.640972000081092
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_16.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 420,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"9uZWEEQawXEa9JeFZdVDxheK738=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "5bc0b6c5d00309f9dae2be3fb505fda1ccdfa5c4d2994e167c8fb473bf95a777",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.4802549999440089
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_32.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 1278,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"e74+CjUkVkdX//K9KytM4jGb4Sg=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "2fd0f85a569e98791d39884b54e706d105e5db0dfc60a319a40e09d48fc9b878",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.48708499991334975
+      },
+      {
+        "url": "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/img/icon_64.png",
+        "method": "GET",
+        "type": "Image",
+        "status": 200,
+        "size": 2655,
+        "responseHeaders": {
+          "content-security-policy": "script-src 'self'; object-src 'self';",
+          "cache-control": "no-cache",
+          "etag": "\"z1HgbWDpu8W5XjdmapJcfSGuRjA=\"",
+          "content-type": "image/png"
+        },
+        "responseBodyHash": "5fa6baa4bed8763bc19a8f6e6d169c0ba472d3f1913b6a093f65262ebd7c1c52",
+        "initiators": [
+          "extensions::setIcon",
+          "extensions::browserAction",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/webext.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-background.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/traffic.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.48707599996123463
+      },
+      {
+        "url": "https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.56.0/core-en.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 90935,
+        "remoteIPAddress": "185.152.66.243",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:48:57 GMT",
+          "content-type": "application/javascript",
+          "server": "BunnyCDN-GA1-911",
+          "cdn-pullzone": "954456",
+          "cdn-uid": "a7bd0c3f-43db-400a-80e2-073f933f3c99",
+          "cdn-requestcountrycode": "US",
+          "vary": "Accept-Encoding",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "content-encoding": "br",
+          "etag": "\"65e1b1d7-160c9\"",
+          "last-modified": "Fri, 01 Mar 2024 10:45:43 GMT",
+          "p3p": "CP=\"DSP NOI COR\", policyref=\"http://www.iubenda.com/w3c/p3p.xml\"",
+          "cdn-proxyver": "1.04",
+          "cdn-requestpullsuccess": "True",
+          "cdn-requestpullcode": "200",
+          "cdn-cachedat": "03/03/2024 21:48:57",
+          "cdn-edgestorageid": "911",
+          "cdn-status": "200",
+          "cdn-requestid": "faa7663cdf0b95817f677910ca421900",
+          "cdn-cache": "BYPASS"
+        },
+        "initiators": [
+          "https://cdn.iubenda.com/cs/iubenda_cs.js"
+        ],
+        "time": 7.940857999958098
+      },
+      {
+        "url": "https://cdn.iubenda.com/cons/iubenda_cons/core-8fdcb29dc2a89f2172df78c5f7cb048f.js",
+        "method": "GET",
+        "type": "Script",
+        "status": 200,
+        "size": 6759,
+        "remoteIPAddress": "185.152.66.243",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:48:56 GMT",
+          "content-type": "application/javascript",
+          "server": "BunnyCDN-GA1-911",
+          "cdn-pullzone": "954456",
+          "cdn-uid": "a7bd0c3f-43db-400a-80e2-073f933f3c99",
+          "cdn-requestcountrycode": "US",
+          "vary": "Accept-Encoding",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=31536000",
+          "content-encoding": "br",
+          "etag": "\"65e1b1d6-185c\"",
+          "last-modified": "Fri, 01 Mar 2024 10:45:42 GMT",
+          "p3p": "CP=\"DSP NOI COR\", policyref=\"http://www.iubenda.com/w3c/p3p.xml\"",
+          "cdn-proxyver": "1.04",
+          "cdn-requestpullsuccess": "True",
+          "cdn-requestpullcode": "200",
+          "cdn-cachedat": "03/03/2024 21:48:56",
+          "cdn-edgestorageid": "911",
+          "cdn-status": "200",
+          "cdn-requestid": "81e8b2a7e010d2db4c0889b9b16d6bf1",
+          "cdn-cache": "BYPASS"
+        },
+        "initiators": [
+          "https://cdn.iubenda.com/cons/iubenda_cons.js"
+        ],
+        "time": 7.500067999935709
+      },
+      {
+        "url": "https://cdn1.img.sputnikglobe.com/css/fonts/Sputnik_Display/SputnikDisplayV2.0-Regular.woff2",
+        "method": "GET",
+        "type": "Font",
+        "status": 200,
+        "size": 55468,
+        "remoteIPAddress": "98.158.98.226",
+        "responseHeaders": {
+          "server": "nginx",
+          "date": "Sun, 03 Mar 2024 21:48:58 GMT",
+          "content-type": "application/octet-stream",
+          "content-length": "55292",
+          "last-modified": "Tue, 03 Oct 2023 05:58:36 GMT",
+          "etag": "\"651bad8c-d7fc\"",
+          "expires": "Thu, 31 Dec 2037 23:55:55 GMT",
+          "cache-control": "max-age=315360000",
+          "access-control-allow-origin": "*",
+          "timing-allow-origin": "*",
+          "cache": "HIT",
+          "x-cached-since": "2023-10-03T05:58:50+00:00",
+          "x-node": "dc5-up-gc28",
+          "accept-ranges": "bytes"
+        },
+        "initiators": [
+          "https://cdn1.img.sputnikglobe.com/css/libs/fonts.min.css?911eb65935"
+        ],
+        "time": 4.134273000061512
+      },
+      {
+        "url": "https://sputnikglobe.com/services/widget/lenta/",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "remoteIPAddress": "194.190.139.3",
+        "responseHeaders": {
+          "server": "QRATOR",
+          "date": "Sun, 03 Mar 2024 21:48:58 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "transfer-encoding": "chunked",
+          "connection": "keep-alive",
+          "keep-alive": "timeout=15",
+          "set-cookie": "sputnik_en=65e4f04ad5b304dfc0e32075; expires=Wed, 03-Mar-2027 21:48:58 GMT; path=/; domain=.sputnikglobe.com; HttpOnly\nab_subscriber=b; expires=Mon, 03-Mar-2025 21:48:58 GMT; path=/; domain=.sputnikglobe.com",
+          "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+          "cache-control": "private",
+          "pragma": "no-cache",
+          "content-encoding": "gzip"
+        },
+        "initiators": [
+          "https://cdn1.img.sputnikglobe.com/min/js/dist/head.js?9c9052ef3",
+          "https://cdn1.img.sputnikglobe.com/min/js/dist/footer.js?9351b35b7"
+        ]
+      },
+      {
+        "url": "https://sputnikglobe.com/firebase-messaging-sw.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "194.190.139.3",
+        "responseHeaders": {
+          "server": "QRATOR",
+          "date": "Sun, 03 Mar 2024 21:48:58 GMT",
+          "content-type": "application/x-javascript",
+          "transfer-encoding": "chunked",
+          "connection": "keep-alive",
+          "keep-alive": "timeout=15",
+          "last-modified": "Fri, 23 Jun 2023 10:21:09 GMT",
+          "etag": "W/\"64957215-62e\"",
+          "content-encoding": "gzip"
+        },
+        "responseBodyHash": "45728f2fc593e54bd69099bdb13e66d4aa1f636d4d7037660e66e581ba9b2cbe",
+        "initiators": [],
+        "time": 0.3498789999866858
+      },
+      {
+        "url": "https://sputnikglobe.com/project_data/firebase-config.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "194.190.139.3",
+        "responseHeaders": {
+          "server": "QRATOR",
+          "date": "Sun, 03 Mar 2024 21:48:59 GMT",
+          "content-type": "application/x-javascript",
+          "transfer-encoding": "chunked",
+          "connection": "keep-alive",
+          "keep-alive": "timeout=15",
+          "last-modified": "Mon, 06 Sep 2021 14:45:32 GMT",
+          "etag": "W/\"6136298c-1f8\"",
+          "content-encoding": "gzip"
+        },
+        "responseBodyHash": "b619d6241ee31e9b335401077804c5dc985785a330a77604e236e6328aa724b3",
+        "initiators": [
+          "https://sputnikglobe.com/firebase-messaging-sw.js"
+        ],
+        "time": 0.29952300002332777
+      },
+      {
+        "url": "https://sputnikglobe.com/project_data/vars.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "194.190.139.3",
+        "responseHeaders": {
+          "server": "QRATOR",
+          "date": "Sun, 03 Mar 2024 21:48:59 GMT",
+          "content-type": "application/x-javascript",
+          "transfer-encoding": "chunked",
+          "connection": "keep-alive",
+          "keep-alive": "timeout=15",
+          "last-modified": "Fri, 23 Jun 2023 10:20:50 GMT",
+          "etag": "W/\"64957202-7d\"",
+          "content-encoding": "gzip"
+        },
+        "responseBodyHash": "24f08562b5b71a083eb25678e91bff4fb037dd9e658a638922eedd37c2213ba5",
+        "initiators": [
+          "https://sputnikglobe.com/firebase-messaging-sw.js"
+        ],
+        "time": 0.2913420000113547
+      },
+      {
+        "url": "https://sputnikglobe.com/js/firebase/firebase-app.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "194.190.139.3",
+        "responseHeaders": {
+          "server": "QRATOR",
+          "date": "Sun, 03 Mar 2024 21:48:59 GMT",
+          "content-type": "application/x-javascript",
+          "transfer-encoding": "chunked",
+          "connection": "keep-alive",
+          "keep-alive": "timeout=15",
+          "last-modified": "Mon, 06 Sep 2021 14:45:20 GMT",
+          "etag": "W/\"61362980-4804\"",
+          "content-encoding": "gzip"
+        },
+        "responseBodyHash": "aa9ad22f2b42acd57aa113c5f6cef2bb78afaf7f5e4e7cab47484ecce2526722",
+        "initiators": [
+          "https://sputnikglobe.com/firebase-messaging-sw.js"
+        ],
+        "time": 0.2227590000256896
+      },
+      {
+        "url": "https://sputnikglobe.com/js/firebase/firebase-messaging.js",
+        "method": "GET",
+        "type": "Other",
+        "status": 200,
+        "size": 0,
+        "remoteIPAddress": "194.190.139.3",
+        "responseHeaders": {
+          "server": "QRATOR",
+          "date": "Sun, 03 Mar 2024 21:48:59 GMT",
+          "content-type": "application/x-javascript",
+          "transfer-encoding": "chunked",
+          "connection": "keep-alive",
+          "keep-alive": "timeout=15",
+          "last-modified": "Mon, 06 Sep 2021 14:45:23 GMT",
+          "etag": "W/\"61362983-9946\"",
+          "content-encoding": "gzip"
+        },
+        "responseBodyHash": "df56798be9fd95976bab9598bbd6d186a0f3a35f0bbf8255b5b217f8d1cd959f",
+        "initiators": [
+          "https://sputnikglobe.com/firebase-messaging-sw.js"
+        ],
+        "time": 0.21623699995689094
+      },
+      {
+        "url": "https://sputnikglobe.com/js/sw/analytics.js",
+        "method": "GET",
+        "type": "Other",
+        "responseBodyHash": null,
+        "failureReason": "net::ERR_BLOCKED_BY_CLIENT",
+        "initiators": [
+          "https://sputnikglobe.com/firebase-messaging-sw.js"
+        ],
+        "time": 0.008633999968878925
+      },
+      {
+        "url": "https://sputnikglobe.com/services/dynamics/views.json",
+        "method": "GET",
+        "type": "XHR",
+        "responseHeaders": {
+          "server": "QRATOR",
+          "date": "Sun, 03 Mar 2024 21:49:00 GMT",
+          "content-type": "application/json; charset=utf-8",
+          "transfer-encoding": "chunked",
+          "connection": "keep-alive",
+          "keep-alive": "timeout=15",
+          "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+          "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+          "pragma": "no-cache",
+          "content-encoding": "gzip"
+        },
+        "initiators": [
+          "https://cdn1.img.sputnikglobe.com/min/js/dist/head.js?9c9052ef3",
+          "https://cdn1.img.sputnikglobe.com/min/js/pages/ria.cells.js?95ee5e2b6",
+          "https://cdn1.img.sputnikglobe.com/min/js/dist/footer.js?9351b35b7"
+        ]
+      },
+      {
+        "url": "https://sputnikglobe.com/services/popups.html",
+        "method": "GET",
+        "type": "XHR",
+        "responseHeaders": {
+          "server": "QRATOR",
+          "date": "Sun, 03 Mar 2024 21:49:02 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "transfer-encoding": "chunked",
+          "connection": "keep-alive",
+          "keep-alive": "timeout=15",
+          "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+          "cache-control": "private",
+          "pragma": "no-cache",
+          "content-encoding": "gzip"
+        },
+        "initiators": [
+          "https://cdn1.img.sputnikglobe.com/min/js/dist/head.js?9c9052ef3",
+          "https://cdn1.img.sputnikglobe.com/min/js/dist/footer.js?9351b35b7"
+        ]
+      },
+      {
+        "url": "https://sputnikglobe.com/services/templates/",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 3850,
+        "remoteIPAddress": "194.190.139.3",
+        "responseHeaders": {
+          "server": "QRATOR",
+          "date": "Sun, 03 Mar 2024 21:49:02 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "transfer-encoding": "chunked",
+          "connection": "keep-alive",
+          "keep-alive": "timeout=15",
+          "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+          "cache-control": "private",
+          "pragma": "no-cache",
+          "content-encoding": "gzip"
+        },
+        "initiators": [
+          "https://cdn1.img.sputnikglobe.com/min/js/dist/head.js?9c9052ef3",
+          "https://cdn1.img.sputnikglobe.com/min/js/dist/lk.js?951c41194"
+        ],
+        "time": 0.3800760000012815
+      },
+      {
+        "url": "https://sputnikglobe.com/services/chat/get_rooms/",
+        "method": "GET",
+        "type": "XHR",
+        "responseHeaders": {
+          "server": "QRATOR",
+          "date": "Sun, 03 Mar 2024 21:49:02 GMT",
+          "content-type": "text/html; charset=utf-8",
+          "transfer-encoding": "chunked",
+          "connection": "keep-alive",
+          "keep-alive": "timeout=15",
+          "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+          "cache-control": "private",
+          "pragma": "no-cache",
+          "content-encoding": "gzip"
+        },
+        "initiators": [
+          "https://cdn1.img.sputnikglobe.com/min/js/dist/head.js?9c9052ef3",
+          "https://cdn1.img.sputnikglobe.com/min/js/dist/lk.js?951c41194"
+        ]
+      },
+      {
+        "url": "https://cm.sputniknews.com/chat/info?t=1709502542573",
+        "method": "GET",
+        "type": "XHR",
+        "responseHeaders": {
+          "access-control-allow-credentials": "true",
+          "access-control-allow-origin": "https://sputnikglobe.com",
+          "vary": "Origin",
+          "cache-control": "no-store, no-cache, no-transform, must-revalidate, max-age=0",
+          "content-type": "application/json; charset=UTF-8",
+          "date": "Sun, 03 Mar 2024 21:49:04 GMT",
+          "transfer-encoding": "chunked",
+          "connection": "close"
+        },
+        "initiators": [
+          "https://cdn1.img.sputnikglobe.com/min/js/dist/footer.js?9351b35b7"
+        ]
+      },
+      {
+        "url": "https://ublockorigin.pages.dev/ublock/assets.json",
+        "method": "GET",
+        "type": "XHR",
+        "status": 200,
+        "size": 5951,
+        "remoteIPAddress": "172.66.44.77",
+        "responseHeaders": {
+          "date": "Sun, 03 Mar 2024 21:49:04 GMT",
+          "content-encoding": "br",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+          "server": "cloudflare",
+          "etag": "W/\"12e2b6fc3598e3db55ba261170cbbe60\"",
+          "vary": "Accept-Encoding",
+          "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=7HEBzw1OwmUseEhweyzLkwpw9ZV441tBHvzFj%2Bi5DWqi7FFkrCRDnoQQDRczTqrXTJXdvnnBaSMNNHECNj4%2F3eYMDeUm%2BEzf%2BwOLF1nZB1YM50Tgi1CxsgfdiBmaBhQx%2F9DeiPXsgYgf\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+          "content-type": "application/json",
+          "access-control-allow-origin": "*",
+          "cache-control": "public, max-age=0, must-revalidate",
+          "cf-ray": "85ecd596a8cf61f1-ORD",
+          "alt-svc": "h3=\":443\"; ma=86400",
+          "x-content-type-options": "nosniff"
+        },
+        "initiators": [
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/assets.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/storage.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/vapi-common.js",
+          "chrome-extension://caanpikbejkkbhlmibjeojieedhmnjlf/js/start.js"
+        ],
+        "time": 0.4383039999520406
+      },
+      {
+        "url": "https://sputnikglobe.com/i/sprites/colors/inline.svg?62",
+        "method": "GET",
+        "type": "Other",
+        "responseHeaders": {
+          "server": "QRATOR",
+          "date": "Sun, 03 Mar 2024 21:49:04 GMT",
+          "content-type": "image/svg+xml",
+          "content-length": "11384",
+          "connection": "keep-alive",
+          "keep-alive": "timeout=15",
+          "last-modified": "Tue, 08 Feb 2022 11:27:28 GMT",
+          "etag": "\"620253a0-2c78\"",
+          "accept-ranges": "bytes"
+        },
+        "initiators": [
+          "https://cdn1.img.sputnikglobe.com/min/js/dist/head.js?9c9052ef3",
+          "https://cdn1.img.sputnikglobe.com/min/js/dist/footer.js?9351b35b7"
+        ]
+      }
+    ],
+    "apis": {
+      "callStats": {
+        "https://cdn.iubenda.com/cs/tcf/safe-tcf-v2.js": {
+          "Navigator.prototype.userAgent": 1,
+          "Document.cookie getter": 5
+        },
+        "https://sputnikglobe.com/": {
+          "Date.prototype.getTime": 2
+        },
+        "https://cdn1.img.sputnikglobe.com/min/js/dist/footer.js?9351b35b7": {
+          "Navigator.prototype.userAgent": 17,
+          "Navigator.prototype.platform": 1,
+          "window.innerWidth": 15,
+          "window.innerHeight": 2,
+          "Date.prototype.getTime": 1574,
+          "Date.prototype.getTimezoneOffset": 603,
+          "Intl.DateTimeFormat.prototype.resolvedOptions": 1
+        },
+        "https://cdn1.img.sputnikglobe.com/min/js/firebase/fbcheck2.min.js?91c4671af": {
+          "Notification.permission": 3,
+          "Document.cookie getter": 1,
+          "Date.prototype.getTime": 1,
+          "Document.cookie setter": 1
+        },
+        "https://cdn1.img.sputnikglobe.com/min/js/dist/firebase.js?9ff581753": {
+          "window.indexedDB": 1,
+          "Navigator.prototype.cookieEnabled": 1
+        },
+        "https://cdn1.img.sputnikglobe.com/min/js/dist/head.js?9c9052ef3": {
+          "Date.prototype.getTime": 1,
+          "Document.cookie setter": 1,
+          "Element.prototype.getClientRects": 78,
+          "Document.cookie getter": 1,
+          "window.localStorage": 6
+        }
+      },
+      "savedCalls": [
+        {
+          "source": "https://cdn1.img.sputnikglobe.com/min/js/firebase/fbcheck2.min.js?91c4671af",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "fb_check3=1;expires=Tue, 02 Apr 2024 21:48:57 GMT;path=/"
+          ]
+        },
+        {
+          "source": "https://cdn1.img.sputnikglobe.com/min/js/dist/head.js?9c9052ef3",
+          "description": "Document.cookie setter",
+          "arguments": [
+            "ab_emoji_test=c;expires=Tue, 02 Apr 2024 21:48:58 GMT;path=/"
+          ]
+        }
+      ]
+    },
+    "cookies": [
+      {
+        "name": "yashr",
+        "domain": ".yandex.ru",
+        "path": "/",
+        "expires": 1741038529000,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "receive-cookie-deprecation",
+        "domain": ".yandex.ru",
+        "path": "/",
+        "expires": 1741038529000,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "spid",
+        "domain": "a.sputniknews.com",
+        "path": "/",
+        "expires": 2147483655680,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "i",
+        "domain": ".yandex.ru",
+        "path": "/",
+        "expires": 1772574537681,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "yandexuid",
+        "domain": ".yandex.ru",
+        "path": "/",
+        "expires": 1772574537681,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "fb_check3",
+        "domain": "sputnikglobe.com",
+        "path": "/",
+        "expires": 1712094537000,
+        "session": false
+      },
+      {
+        "name": "ab_emoji_test",
+        "domain": "sputnikglobe.com",
+        "path": "/",
+        "expires": 1712094538000,
+        "session": false
+      },
+      {
+        "name": "sputnik_en",
+        "domain": ".sputnikglobe.com",
+        "path": "/",
+        "expires": 1804110538500,
+        "session": false
+      },
+      {
+        "name": "ab_subscriber",
+        "domain": ".sputnikglobe.com",
+        "path": "/",
+        "expires": 1741038538500,
+        "session": false
+      },
+      {
+        "name": "_pk_id.sputnik_inter_en.ea17",
+        "domain": "sputnikglobe.com",
+        "path": "/",
+        "expires": 1743457745000,
+        "session": false
+      },
+      {
+        "name": "_pk_ses.sputnik_inter_en.ea17",
+        "domain": "sputnikglobe.com",
+        "path": "/",
+        "expires": 1709504345000,
+        "session": false
+      },
+      {
+        "name": "_ym_uid",
+        "domain": ".sputnikglobe.com",
+        "path": "/",
+        "expires": 1741038545000,
+        "session": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "_ym_d",
+        "domain": ".sputnikglobe.com",
+        "path": "/",
+        "expires": 1741038545000,
+        "session": false,
+        "sameSite": "None"
+      }
+    ]
+  }
+}
