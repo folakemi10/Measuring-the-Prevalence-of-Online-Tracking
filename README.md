@@ -10,6 +10,6 @@ Open Tracker_Parser.ipynb using Jupyter notebook
 ### Step 2:
 Run the first cell and you will see all the plots for both the vanilla and adblock mode for all the tasks
 
-### s=Step 3:
+### Step 3:
 Run the Second cell and you will see the top 10 domains for each task along with the frequencies associated with them
 
